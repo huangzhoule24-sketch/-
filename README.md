@@ -1,11 +1,15 @@
-# 山海食肆物语 · 开张篇 Demo
+# 山海食肆物语 v1.3 · Windows 试玩
 
-[点击下载 Windows 试玩包](https://github.com/huangzhoule24-sketch/-/raw/refs/heads/demo-download-20261013/downloads/shanhai-demo-windows.zip)
+[下载 Windows ZIP](downloads/shanhai-v1.3-windows.zip?raw=true)
 
-文件约 46 MB。下载后解压整个 ZIP，打开文件夹，双击「山海食肆物语.exe」，选择「开始开张篇」。无需安装 Godot。
+将整个 ZIP 解压，双击 shanhai-v1.3.exe，保留同目录的 PCK。无需安装 Godot。欢迎页选择“开始经营”，先跟随白泽引导；更多菜单提供主线、升级、库存和后期经营入口。
 
-本章包含招聘、研发、装修、事件、部分神通与羁绊，以及还债升级的八个目标。网页整章通关与存档恢复已验证；Windows 程序已导出，尚未在 Windows 实机运行。
+按 v1.3 策划开发，包含阶段0–4、26位员工、23道设计菜、事件羁绊、会员外卖、连锁/中央厨房、探索和大赛。继续使用占位美术；包内 CustomAssets/ 和美术接入说明.md 供开发者后续替换。榜单为本地模拟。
 
-Windows 10/11 x86-64，显卡需支持 OpenGL 3.3。压缩包内包含游戏、运行说明、字体和 Godot 许可。
+15组自动检查共2,513项通过；Chromium中26次操作、10项检查通过。Windows导出与包完整性已核验，尚未在Windows原生机器试玩，也未完成从新档到大赛终局的自然完整通关验收。
 
-SHA256：`6f815abe9d4240f6c1eee88e1cb6a10bc7fd4420facb8c72c9bd781f25cdda89`
+ZIP字节数：46359090
+
+SHA-256：2d113763fc14643f0abff6312aa64cb50d93f44e932d61ec54b4035b3489112b
+
+本分支只发布运行包与下载说明。旧开张篇保留在 demo-download-20261013 分支。
