@@ -1,17 +1,21 @@
-# 山海食肆物语 v1.3 完整单机版（占位美术）
+# 山海食肆物语 v1.3 文化图鉴更新（2026-10-17）
 
-[下载 Windows ZIP](https://github.com/huangzhoule24-sketch/-/raw/refs/heads/game-v1.3-20261017/downloads/shanhai-v1.3-windows.zip)
+[下载 Windows 完整单机版](https://github.com/huangzhoule24-sketch/-/raw/refs/heads/game-v1.3-culture-20261017/downloads/shanhai-v1.3-windows.zip)
 
-全部解压后运行 `shanhai-v1.3.exe`，欢迎页选择“开始经营”。请保留同目录的 PCK、CustomAssets 和 licenses。
+将ZIP全部解压，运行 shanhai-v1.3.exe；保留同目录PCK、CustomAssets和licenses。欢迎页可开始经营或继续已有存档。
 
-游戏包括六条主线、26位伙伴、23道设计菜、连锁与中央厨房、探索、觉醒和厨神大赛。榜单为12家NPC企业的30日赛季，没有真人在线排行。美术暂用简易图标与程序绘图，四类 CustomAssets 目录供后续替换。
+本次新增26位员工、23道设计菜及1道隐藏菜的文化简介：从“图鉴→员工/菜品→文化简介”阅读。分开说明原典、后世传说、饮食背景与本作改编，附拼音、短引和来源。未招募或研发也可阅读，不改变解锁。
 
-正常新档经营已达到全部六主线与26收集、23菜解锁；回归与实际浏览器操作证据随可编辑工程保存。Windows程序完成导出及结构、包校验，Windows原生机器及手机实机尚未测试。
+资料实际核验27个固定版本文件、44条来源记录和37处短引；不是古版书影校勘或对所有民俗的定论。原典使用公开古籍电子录文，饮食词义使用机构词典公开镜像及明确标注的当代社区食谱。
 
-这是2026年10月17日版本；此前开张篇和10月16日开发包保留为历史版本。本分支只包含运行包和下载说明。
+图片继续为占位。开发者可放入CustomAssets/Characters/<id>_lore.png或Dishes/<id>_lore.png，程序美术入口也可选全部50槽导入；专图独立于动作与菜单图。字体支持拼音声调和原典异体字，许可证随包。
 
-字节数：46414991
+原有完整经营、六主线、招聘培养、研发、分店、中央厨房、探索、觉醒和大赛保留。榜单为单机NPC，不是真人联网排行；Windows本机和手机实机仍未验收。
 
-SHA-256：`2d65dfc3535ab6bff2f65cef4cde35ade1993544fb08627db404cc4d3a7596e7`
+本分支只有运行包与说明，可编辑源码留在项目工作区和Source包；前一版本下载分支保留历史身份。
 
-游戏源码指纹：`433d498e3805caaa84a0dd8d825c52ef2721142aabe8a12fe4b6a5f38560dc0a`
+字节数：46904589
+
+SHA-256：`84fc729033cf01d2a22f8dfbaa0d61180f135b5d3c0056c1e3a128069578cfa2`
+
+游戏源指纹：`5dde643cfb41fefec2966b451dda03c7a8280facb7c5db3c456b6dbce47f9081`
