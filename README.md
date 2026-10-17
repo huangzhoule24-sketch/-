@@ -1,15 +1,17 @@
-# 山海食肆物语 v1.3 · Windows 试玩
+# 山海食肆物语 v1.3 完整单机版（占位美术）
 
-[下载 Windows ZIP](downloads/shanhai-v1.3-windows.zip?raw=true)
+[下载 Windows ZIP](https://github.com/huangzhoule24-sketch/-/raw/refs/heads/game-v1.3-20261017/downloads/shanhai-v1.3-windows.zip)
 
-将整个 ZIP 解压，双击 shanhai-v1.3.exe，保留同目录的 PCK。无需安装 Godot。欢迎页选择“开始经营”，先跟随白泽引导；更多菜单提供主线、升级、库存和后期经营入口。
+全部解压后运行 `shanhai-v1.3.exe`，欢迎页选择“开始经营”。请保留同目录的 PCK、CustomAssets 和 licenses。
 
-按 v1.3 策划开发，包含阶段0–4、26位员工、23道设计菜、事件羁绊、会员外卖、连锁/中央厨房、探索和大赛。继续使用占位美术；包内 CustomAssets/ 和美术接入说明.md 供开发者后续替换。榜单为本地模拟。
+游戏包括六条主线、26位伙伴、23道设计菜、连锁与中央厨房、探索、觉醒和厨神大赛。榜单为12家NPC企业的30日赛季，没有真人在线排行。美术暂用简易图标与程序绘图，四类 CustomAssets 目录供后续替换。
 
-15组自动检查共2,513项通过；Chromium中26次操作、10项检查通过。Windows导出与包完整性已核验，尚未在Windows原生机器试玩，也未完成从新档到大赛终局的自然完整通关验收。
+正常新档经营已达到全部六主线与26收集、23菜解锁；回归与实际浏览器操作证据随可编辑工程保存。Windows程序完成导出及结构、包校验，Windows原生机器及手机实机尚未测试。
 
-ZIP字节数：46359090
+这是2026年10月17日版本；此前开张篇和10月16日开发包保留为历史版本。本分支只包含运行包和下载说明。
 
-SHA-256：2d113763fc14643f0abff6312aa64cb50d93f44e932d61ec54b4035b3489112b
+字节数：46414991
 
-本分支只发布运行包与下载说明。旧开张篇保留在 demo-download-20261013 分支。
+SHA-256：`2d65dfc3535ab6bff2f65cef4cde35ade1993544fb08627db404cc4d3a7596e7`
+
+游戏源码指纹：`433d498e3805caaa84a0dd8d825c52ef2721142aabe8a12fe4b6a5f38560dc0a`
