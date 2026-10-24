@@ -1,0 +1,2 @@
+dc62295a56335db43714581ac30796675ded3ca323bc541d0c06e3ce4a74eb31  shanhai-v1.9.5-windows.zip
+04ca329f4ea4b79e1f0b0e6e0d47c229b48cb810aa82fc9d02b9666faaed0cb3  shanhai-v1.9.5-source.zip
