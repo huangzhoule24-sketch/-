@@ -1,0 +1,2 @@
+b9a71abfcfc7974feb5d4e2eea01e1c9501262cdcf83ad08e60a4fd5417836d6  shanhai-v1.9.5-art-seatfix-windows.zip
+bef05c1917f04236fefe62987867c8f64924431d1107b16ccf2476341aadf8f3  shanhai-v1.9.5-art-seatfix-source.zip
