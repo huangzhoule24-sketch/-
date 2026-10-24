@@ -1,0 +1,3 @@
+770bd9766c2abf9ac154ae536a627d198743ef5cf6bbf4740e3ce6d4a2f63fcc  shanhai-v1.9.5-art-windows.zip
+23575bf3f1dc39e74381c8214daa5c26ae3eeb873e2ac79513b9f97b04828754  shanhai-v1.9.5-art-source.zip
+00fdeb6531a91b1ed1d1dbf1cf6db130121701d22c205a0817663a2e105803af  shanhai-v1.9.5-art-assets.zip
