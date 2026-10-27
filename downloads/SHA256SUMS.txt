@@ -1,0 +1,3 @@
+74a069169b1320fae59cfff23c72750b93447aa0df95bae38b86f82a776093c4  shanhai-v1.9.5-culture-reading-windows.zip
+1de583fb2836475f7b01202c09fb653e0ad138c7a2b3525c20ff8dd5a3639848  shanhai-v1.9.5-culture-reading-source.zip
+a24c929dc3f0d547994162e8d4aff13942b0f2408b9b76c483bc1ef7a78a8d9f  shanhai-culture-reading-zh-en.zip
