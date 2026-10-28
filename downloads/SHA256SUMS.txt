@@ -1,0 +1,2 @@
+bdd0be16374c42b1459257555e41ff1795308759c2b62bc0c04251b57b1e1d63  shanhai-v1.9.5-clarity-fix-windows.zip
+eb3187496fa82298571a01a0e533d7c58b2b7268216841f7b7c4b3b55e7a9fa5  shanhai-v1.9.5-clarity-fix-source.zip
