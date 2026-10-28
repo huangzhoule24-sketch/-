@@ -1,0 +1,2 @@
+421499d95331493ff8a16a4ccccf5ccc1acecf4eff3eb88ec6277240054329a1  shanhai-v1.9.5-pixel-refresh-windows.zip
+76250971ace4237c0c206595af5f4e66b748facd5913082b4148002140ebb9c2  shanhai-v1.9.5-pixel-refresh-source.zip
