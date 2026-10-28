@@ -1,0 +1,43 @@
+{
+  "creator": "Meta Platforms, Inc.",
+  "collection": "Meta Piano",
+  "license": "CC0-1.0",
+  "commit": "251c0be57d5d1b3242b91f53e0cde62ab1cb42d9",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/LICENSE",
+      "status": 200,
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "systems/instruments/meta-piano/ogg/INSPiano_Vel02_C3_01.ogg",
+      "url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/systems/instruments/meta-piano/ogg/INSPiano_Vel02_C3_01.ogg",
+      "status": 200,
+      "bytes": 156423,
+      "sha256": "8587080a16be4c8760e85a68abb1a08e2e87044168e3419374de179b1dd9fe6c"
+    },
+    {
+      "path": "systems/instruments/meta-piano/ogg/INSPiano_Vel02_C4_01.ogg",
+      "url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/systems/instruments/meta-piano/ogg/INSPiano_Vel02_C4_01.ogg",
+      "status": 200,
+      "bytes": 150476,
+      "sha256": "363dafd1c915cb2ba205af685740d14e4c5e002b4870abf167e63297782a2a06"
+    },
+    {
+      "path": "systems/instruments/meta-piano/ogg/INSPiano_Vel02_C5_01.ogg",
+      "url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/systems/instruments/meta-piano/ogg/INSPiano_Vel02_C5_01.ogg",
+      "status": 200,
+      "bytes": 132295,
+      "sha256": "aade89fe74167e5b761b2c7216bbebd397fe849e7342776b5b2326624b095a72"
+    },
+    {
+      "path": "systems/instruments/meta-piano/ogg/INSPiano_Vel02_C6_01.ogg",
+      "url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/systems/instruments/meta-piano/ogg/INSPiano_Vel02_C6_01.ogg",
+      "status": 200,
+      "bytes": 92110,
+      "sha256": "79c08ebd1197c0c5a418158be251fcfe499ba7f3edd681c0e3b714c0afbf82fa"
+    }
+  ]
+}
