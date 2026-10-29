@@ -1,0 +1,3 @@
+b29ead01f063211686fc65cb1f7dbf99c76e93823c95e92ad6ec19a342b1b328  shanhai-v1.9.5-culture-literary-windows.zip
+6518a17557f956321d8ac28380bc7268ce82f2f178c7c6425994ffa938965d70  shanhai-v1.9.5-culture-literary-source.zip
+6ba4e5380ce478e5784b0f6a90884ed32fb94966822b3c3d406c7de1b7bd4cc6  shanhai-culture-literary-reading.zip
