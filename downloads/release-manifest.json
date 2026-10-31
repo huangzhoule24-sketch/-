@@ -1,0 +1,30 @@
+{
+  "version": "SH-CULTURE-R1",
+  "game_source": {
+    "sha256": "f32ea24be53c87f544802a09619608f06b83ce3a71bd815f83f8f0ebbf303fec",
+    "files": 822,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifacts": {
+    "web": {
+      "file": "shanhai-v1.9.5-culture-r1-web.zip",
+      "bytes": 39187836,
+      "sha256": "6bb061a683516e83e50a235434155c0b124eb8a6723a895ff7453b4310a14ce1"
+    },
+    "windows": {
+      "file": "shanhai-v1.9.5-culture-r1-windows.zip",
+      "bytes": 65724728,
+      "sha256": "b16973f99147ad979a91759608063836e880a5cbf1b289f43cb2c2ee2b0c0a84"
+    },
+    "source": {
+      "file": "shanhai-v1.9.5-culture-r1-source.zip",
+      "bytes": 58249736,
+      "sha256": "3f1037d046983f9420ea116c0cfed27f0f8b2b9c0f459f50291e3f2d823dcbe6"
+    },
+    "art-masters": {
+      "file": "shanhai-v1.9.5-culture-r1-art-masters.zip",
+      "bytes": 57485385,
+      "sha256": "314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69"
+    }
+  }
+}
