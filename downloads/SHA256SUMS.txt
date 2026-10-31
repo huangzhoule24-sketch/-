@@ -1,0 +1,3 @@
+de94fa81b213daa1d474fd75125bf264b25ac74e7692a80c521282dcd45464f8  shanhai-v1.9.5-culture-origins-resources.zip
+e4b1e266253826422f58d003f2f65ae0409212ae16d3aaf7a37ed87d92b6dffd  shanhai-v1.9.5-culture-origins-web.zip
+88e54e70f667e2310efe2a308e048840db0c00afbeabbdf253937c9c9dffa179  shanhai-v1.9.5-culture-origins-windows.zip
