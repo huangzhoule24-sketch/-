@@ -2,9 +2,9 @@
   "format": 1,
   "platform": "web",
   "godot": "4.6.3.stable",
-  "exported_utc": "2026-11-01T11:48:34+00:00",
+  "exported_utc": "2026-11-01T12:12:21+00:00",
   "game_source": {
-    "sha256": "882c7aee14ae3e76964fba0fb93ed0a0825aba06164de94a7e7bb748d35c5c4d",
+    "sha256": "5efe60a5fee2feaa64d75eb637ce96d6ec79fae1bafdace1b9bb402e56de6ec2",
     "files": 832,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
@@ -115,7 +115,7 @@
     },
     "index.html": {
       "bytes": 7196,
-      "sha256": "310de311e469698557302701cf81eff88cd11e6a707d06e83041beeb62520b21"
+      "sha256": "a07dc9607059fbfbcbdb5c4693c92db9bf179fc174cedb73ca9867dd6530be9a"
     },
     "index.icon.png": {
       "bytes": 2622,
@@ -126,8 +126,8 @@
       "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
     },
     "index.pck": {
-      "bytes": 33470796,
-      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394"
+      "bytes": 33471628,
+      "sha256": "9d92690d0a6b79ee5116fde10c0278be87cb9fc1cc22f74afd4d2d4339dc4b63"
     },
     "index.png": {
       "bytes": 21443,
@@ -278,11 +278,11 @@
       "sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
     },
     "index.pck.gz": {
-      "bytes": 30488265,
-      "sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
+      "bytes": 30488847,
+      "sha256": "6b426c2448b7f44887ad335285f7cae605a68bdb3bffd8a60aeca6c918ac329c"
     }
   },
-  "original_export_receipt_sha256": "f66f33607cc46d157f4e2935b173470b1f69b6a79f24ae471051c9018d548cff",
-  "web_shell": "SH-WEB-R2",
-  "site_shell_updated_utc": "2026-11-01T11:48:38+00:00"
+  "original_export_receipt_sha256": "ae6c88ff0ffd3b07d6d1555c25672f65384a02817dee0ff95a34283c6753580b",
+  "web_shell": "SH-WEB-R3",
+  "site_shell_updated_utc": "2026-11-01T12:12:45+00:00"
 }

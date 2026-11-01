@@ -1,8 +1,8 @@
 {
-  "version": "SH-WEB-R2",
-  "created_utc": "2026-11-01T11:48:38+00:00",
+  "version": "SH-WEB-R3",
+  "created_utc": "2026-11-01T12:12:45+00:00",
   "game_source": {
-    "sha256": "882c7aee14ae3e76964fba0fb93ed0a0825aba06164de94a7e7bb748d35c5c4d",
+    "sha256": "5efe60a5fee2feaa64d75eb637ce96d6ec79fae1bafdace1b9bb402e56de6ec2",
     "files": 832,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
@@ -14,10 +14,10 @@
       "gzip_sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
     },
     "index.pck": {
-      "original_bytes": 33470796,
-      "gzip_bytes": 30488265,
-      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394",
-      "gzip_sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
+      "original_bytes": 33471628,
+      "gzip_bytes": 30488847,
+      "sha256": "9d92690d0a6b79ee5116fde10c0278be87cb9fc1cc22f74afd4d2d4339dc4b63",
+      "gzip_sha256": "6b426c2448b7f44887ad335285f7cae605a68bdb3bffd8a60aeca6c918ac329c"
     }
   },
   "files": {
@@ -26,8 +26,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 2795,
-      "sha256": "ecdabacd94bc8e2d4265839ba926b4fe9be8f50b253812bae865901d67eaaab0"
+      "bytes": 3236,
+      "sha256": "99a470dd01c58a5e1f671a1db764e78e6eab8d30857e24bcdf7cc19a639a080d"
     },
     "Start-Web.cmd": {
       "bytes": 381,
@@ -44,6 +44,18 @@
     "assets/title.png": {
       "bytes": 715387,
       "sha256": "90f87460511ee2acb6ae548c64f796a1ce047e0ce738f19073b711ae92791367"
+    },
+    "deploy/README.md": {
+      "bytes": 5870,
+      "sha256": "d3b5bb259c5b1633bd4aa275c380dbae4071829ff1fd7adcf3151e588b19921d"
+    },
+    "deploy/nginx-http.conf": {
+      "bytes": 945,
+      "sha256": "060c6c6a5ef10883fd1099d26c2aa52a2732aaa1501bef09c706da84cbf6681f"
+    },
+    "deploy/verify-hosted-site.py": {
+      "bytes": 2749,
+      "sha256": "1c869db454510c7ab40035dc68ca69edb0f217cf719aa62b721c7c367b1698cc"
     },
     "game/CustomAssets/Backgrounds/.gitkeep": {
       "bytes": 1,
@@ -139,7 +151,7 @@
     },
     "game/export-receipt.json": {
       "bytes": 10408,
-      "sha256": "f73929abdf90a7cdf99d333d614319e30b2098bbbc3a149115ca5e938762fb9b"
+      "sha256": "611e398625a7626941cc1747a37a4ad10042ff79e9e76a1e21e6e15bf5b82abe"
     },
     "game/fast-loader.js": {
       "bytes": 2078,
@@ -159,7 +171,7 @@
     },
     "game/index.html": {
       "bytes": 7196,
-      "sha256": "310de311e469698557302701cf81eff88cd11e6a707d06e83041beeb62520b21"
+      "sha256": "a07dc9607059fbfbcbdb5c4693c92db9bf179fc174cedb73ca9867dd6530be9a"
     },
     "game/index.icon.png": {
       "bytes": 2622,
@@ -170,12 +182,12 @@
       "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
     },
     "game/index.pck": {
-      "bytes": 33470796,
-      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394"
+      "bytes": 33471628,
+      "sha256": "9d92690d0a6b79ee5116fde10c0278be87cb9fc1cc22f74afd4d2d4339dc4b63"
     },
     "game/index.pck.gz": {
-      "bytes": 30488265,
-      "sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
+      "bytes": 30488847,
+      "sha256": "6b426c2448b7f44887ad335285f7cae605a68bdb3bffd8a60aeca6c918ac329c"
     },
     "game/index.png": {
       "bytes": 21443,
@@ -323,7 +335,7 @@
     },
     "index.html": {
       "bytes": 5860,
-      "sha256": "ffbf83ce47f49199c3e2ea8cca5211232725cfb6e3a000c78a827e70b65189a1"
+      "sha256": "70706fac9fc4286d6090f19f6d09f0cf114dfbb1ba171d45c31972d23fc188ba"
     },
     "serve.py": {
       "bytes": 1461,
