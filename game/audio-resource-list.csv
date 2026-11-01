@@ -1,0 +1,36 @@
+﻿音频ID,名称,通道,推荐文件路径,触发方式,单次增益dB,最短间隔秒
+music.title,标题·山海有间,Music,music/title.ogg,欢迎页,0,0.2
+music.day,日常营业,Music,music/business_day.ogg,早市、午市、下午茶、晚市,0,0.2
+music.night,夜市与休息,Music,music/business_night.ogg,夜市、休息、闭店,0,0.2
+music.explore,山海探索,Music,music/exploration.ogg,打开山海探索页面,0,0.2
+music.contest,厨神大赛,Music,music/contest.ogg,打开厨神大赛页面,0,0.2
+ambience.dining,食肆环境,Ambience,ambience/restaurant.ogg,随营业时段切换；经营暂停时暂停,-6,0.2
+ambience.night,夜间庭院,Ambience,ambience/courtyard_night.ogg,随营业时段切换；经营暂停时暂停,-6,0.2
+ui.click,按钮点击,SFX,ui/click.wav; ui/click_02.wav,通用按钮确认,-4,0.06
+ui.back,返回页面,SFX,ui/back.wav,返回、关闭,-4,0.12
+ui.error,条件不足,SFX,ui/error.wav,条件提示框,-3,0.4
+action.order,记录点单,SFX,actions/order.wav,员工真实到站后点单,-5,1
+action.cook,锅灶烹饪,SFX,actions/cook.wav; actions/cook_02.wav; actions/cook_03.wav,真实烹饪动作，工作中定期轻触发,-8,2
+action.serve,端盘上菜,SFX,actions/serve.wav; actions/serve_02.wav,真实传菜动作,-6,1.2
+action.cashier,收银动作,SFX,actions/cashier.wav; actions/cashier_02.wav,真实收银动作,-6,1.5
+action.clean,擦桌清洁,SFX,actions/clean.wav; actions/clean_02.wav,真实清洁动作,-8,2
+action.build,装修施工,SFX,actions/build.wav; actions/build_02.wav,到工地后的真实施工动作,-8,2.5
+action.promote,门前招徕,SFX,actions/promote.wav,真实宣传动作,-10,8
+move.walk,地面脚步,SFX,actions/walk.wav; actions/walk_02.wav; actions/walk_03.wav; actions/walk_04.wav,地面员工行走,-14,0.55
+move.fly,振翅轻响,SFX,actions/fly.wav; actions/fly_02.wav,飞行员工移动,-15,1.4
+move.crawl,爬行摩擦,SFX,actions/crawl.wav; actions/crawl_02.wav,爬行员工移动,-15,1.2
+guest.sit,顾客入座,SFX,actions/guest_sit.wav,顾客实际走到座位,-8,1.4
+guest.eat,顾客进食,SFX,actions/guest_eat.wav,就餐状态中定期轻触发,-13,4
+guest.special,特殊顾客到访,SFX,events/special_guest.wav,特殊顾客到访，仅一次,-4,6
+event.checkout,订单成交,SFX,events/checkout.wav,实际完成收银，非单纯现金上涨,-9,1
+event.settlement,每日结算,SFX,events/settlement.wav,新增每日账单,-3,3
+event.stage,经营升级,SFX,events/stage_up.wav,实际升级阶段,-2,3
+event.research,研发完成,SFX,events/research_complete.wav,研发成果新增,-3,3
+event.recruit,伙伴加入,SFX,events/recruit.wav,在职人数增加,-3,2
+event.quest,任务奖励,SFX,events/quest_complete.wav,成功领取任务奖励,-3,2
+event.random,随机事件提示,SFX,events/random_event.wav,新随机事件弹出,-4,4
+event.success,操作完成,SFX,events/success.wav,新厨神大赛/美食节结果：获胜,-5,0.8
+event.failure,挑战失败,SFX,events/failure.wav,新厨神大赛/美食节结果：未获胜,-4,2
+event.pickup,拾取物品,SFX,events/pickup.wav,成功手动拾取现金或灵石,-6,0.25
+guest.happy,顾客满意,SFX,events/guest_happy.wav,本日新增好评；与成交反馈合并限频,-8,8
+guest.unhappy,顾客不满,SFX,events/guest_unhappy.wav,本日新增差评；与其他反馈合并限频,-8,8

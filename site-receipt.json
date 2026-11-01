@@ -1,0 +1,341 @@
+{
+  "version": "SH-WEB-R1",
+  "created_utc": "2026-11-01T11:07:52+00:00",
+  "game_source": {
+    "sha256": "c4bee03a00192630932d4d5ac1ce509db81b9219aa3156e7a44f8eb4e33cd51a",
+    "files": 830,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "compression": {
+    "index.wasm": {
+      "original_bytes": 37700666,
+      "gzip_bytes": 9382282,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6",
+      "gzip_sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
+    },
+    "index.pck": {
+      "original_bytes": 33469808,
+      "gzip_bytes": 30485345,
+      "sha256": "adbf1615f598f40e87f41b6ec625b5769089b64926880d5dcd4cbb362a5108c8",
+      "gzip_sha256": "d8654b30cfa4976df43905ca71b85fd7e1be2596b18c5628fab5c29192718e92"
+    }
+  },
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "README.md": {
+      "bytes": 2756,
+      "sha256": "6b511dbdf579ec08625e92ab23a9fcedac0a8bc5548669c6237953115128d958"
+    },
+    "Start-Web.cmd": {
+      "bytes": 381,
+      "sha256": "5b508b830b518ff364c0aa3899f2dc976ab40ab8b98c6fb86d9eeda9be56e2d7"
+    },
+    "_headers": {
+      "bytes": 99,
+      "sha256": "1fb3d29368d1d5f895e53611304658e7b6d7de26c22fc94ed84dc4b55b8ba5f4"
+    },
+    "assets/logo.png": {
+      "bytes": 4124,
+      "sha256": "29925b6e275b4f3790983eab5e1a514a617961ffb28f3f999415cea1738759e3"
+    },
+    "assets/title.png": {
+      "bytes": 715387,
+      "sha256": "90f87460511ee2acb6ae548c64f796a1ce047e0ce738f19073b711ae92791367"
+    },
+    "game/CustomAssets/Backgrounds/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "game/CustomAssets/Characters/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "game/CustomAssets/Dishes/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "game/CustomAssets/FX/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/Items/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/Map/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/Portraits/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/README.md": {
+      "bytes": 2409,
+      "sha256": "3308adb87da10f345410833538e000abc8d825cbf169c9c7fe0907d1f2a18845"
+    },
+    "game/CustomAssets/Sprites/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/Sprites/customer/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAssets/UI/.gitkeep": {
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "game/CustomAssets/manifest.json": {
+      "bytes": 188553,
+      "sha256": "bb0d5746fd8b420253e071ae43bf582b2f98c8f8ad4606350759befd93c2359a"
+    },
+    "game/CustomAudio/README.md": {
+      "bytes": 651,
+      "sha256": "aa5e94cb000b560634223679ed109407439e234957d6900fb90b7424239159bd"
+    },
+    "game/CustomAudio/actions/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAudio/ambience/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAudio/events/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAudio/music/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/CustomAudio/ui/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "game/English-Guide.md": {
+      "bytes": 5033,
+      "sha256": "ed9b33492574ce2ae24eb60e3038b50ccc0785ae60e7565fc2e246de80aa3fdf"
+    },
+    "game/Menu-Review-Guide.md": {
+      "bytes": 2094,
+      "sha256": "d795577fe0ddfa84826abb811e31a64847bc92ae71b499e62db4846947b290df"
+    },
+    "game/Music-Guide.md": {
+      "bytes": 2127,
+      "sha256": "08a85c331de97c4b62cb5d7be31ee0064936f9b82638dda2a2196a348ca5a75e"
+    },
+    "game/art-resource-list-v1.9.3.csv": {
+      "bytes": 164646,
+      "sha256": "83319c88809bd677098f87c0d23bb386aa919383cf89b0a3fea57fe231c01dee"
+    },
+    "game/audio-resource-list.csv": {
+      "bytes": 3324,
+      "sha256": "cb8f2d1d708e88b96a8f12278eb788aee4a4a6d35b79f9588fb05ba94605c245"
+    },
+    "game/export-receipt.json": {
+      "bytes": 10462,
+      "sha256": "45691c234132273c57c202e617c2a2a50ad90f0a52a20bb9340b6f693dd6f73f"
+    },
+    "game/fast-loader.js": {
+      "bytes": 1701,
+      "sha256": "34dc4c30dbf0d51170162bfadc5e7a9185118a90f8fb448b817379afb3693ec3"
+    },
+    "game/index.apple-touch-icon.png": {
+      "bytes": 10548,
+      "sha256": "69747465aea4d4281aad7a5012ad74b0a94a355a193c0a0951f0341d2c392ace"
+    },
+    "game/index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "game/index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "game/index.html": {
+      "bytes": 7049,
+      "sha256": "f1cbf6cc1f888e40ebfa549b71312c78cb093af00815c0df94c20f6646835c16"
+    },
+    "game/index.icon.png": {
+      "bytes": 2622,
+      "sha256": "53ecb5de25cf5001af40b8ed3188cabcfd8342d28d77958fbb8ecf6405d40c1a"
+    },
+    "game/index.js": {
+      "bytes": 315759,
+      "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
+    },
+    "game/index.pck": {
+      "bytes": 33469808,
+      "sha256": "adbf1615f598f40e87f41b6ec625b5769089b64926880d5dcd4cbb362a5108c8"
+    },
+    "game/index.pck.gz": {
+      "bytes": 30485345,
+      "sha256": "d8654b30cfa4976df43905ca71b85fd7e1be2596b18c5628fab5c29192718e92"
+    },
+    "game/index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "game/index.wasm": {
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
+    },
+    "game/index.wasm.gz": {
+      "bytes": 9382282,
+      "sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
+    },
+    "game/licenses/ArkPixel-OFL.txt": {
+      "bytes": 4412,
+      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    "game/licenses/DejaVuSans-LICENSE.txt": {
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    "game/licenses/Godot-COPYRIGHT.txt": {
+      "bytes": 99790,
+      "sha256": "b3330849267d56ddd3d62a513817506606c2195034411fe05859f0140bff9d8a"
+    },
+    "game/licenses/Godot-LICENSE.txt": {
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    "game/licenses/NOTICE.txt": {
+      "bytes": 1644,
+      "sha256": "1cd73b772a8c58aaf2710d40557d2e7807b59b25a2d1480f0d87ebf81f59dee6"
+    },
+    "game/licenses/NotoCJKSupplement-LICENSE.txt": {
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    "game/licenses/NotoSansSC-LICENSE.txt": {
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    "game/licenses/audio/CREDITS.md": {
+      "bytes": 2300,
+      "sha256": "08e5fe6bc33233dafaaef66d2869535fb2fa116dd9216972babb1aab283215bd"
+    },
+    "game/licenses/audio/kenney-impact-sounds-original.txt": {
+      "bytes": 608,
+      "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db"
+    },
+    "game/licenses/audio/kenney-impact.txt": {
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "game/licenses/audio/kenney-rpg-audio-original.txt": {
+      "bytes": 458,
+      "sha256": "842c42cc1942963f6fcdc18fe57e9e0631e8a4936f9803688e8152e830088eb9"
+    },
+    "game/licenses/audio/kenney-rpg.txt": {
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    "game/licenses/audio/kenney-ui.txt": {
+      "bytes": 479,
+      "sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073"
+    },
+    "game/licenses/audio/oculus.txt": {
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94"
+    },
+    "game/licenses/audio/selection.json": {
+      "bytes": 28181,
+      "sha256": "a3351b393b3e62aa40fdb4a68f7373f6225a81696e647bb4298d1c06708d7d8e"
+    },
+    "game/licenses/audio/sources.json": {
+      "bytes": 5491,
+      "sha256": "5c732ab0640f96465e540fe157be126382259a7fd928bbaee3108318ad58a420"
+    },
+    "game/licenses/audio/wyzowl.txt": {
+      "bytes": 7049,
+      "sha256": "7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309"
+    },
+    "game/music-track.json": {
+      "bytes": 1445,
+      "sha256": "3e89fdd1497b6a27492d2aa7407fcb44478e3aeaf4806853676dc71e6a18397d"
+    },
+    "game/serve.py": {
+      "bytes": 1790,
+      "sha256": "b6cce500e5f57921eadb02053393dab0cea2f08cd771820c4f06f1cd1630f1dd"
+    },
+    "game/translation-sources.json": {
+      "bytes": 2532,
+      "sha256": "59949f54e32135623bf7416247957431cebc5b03eccf4ae974353d2d6648d8a9"
+    },
+    "game/人物与字体修订说明.md": {
+      "bytes": 2020,
+      "sha256": "ca560bd34034444437904d165d5e1f03cfa071fafb22ea24f58aa895b9f87bc9"
+    },
+    "game/人物典籍身世说明.md": {
+      "bytes": 1741,
+      "sha256": "25c359a45887673cb7c8c0881dafddfef7cf2c429b1ad6bdfab02c3141807ec9"
+    },
+    "game/像素界面与拖动说明.md": {
+      "bytes": 2299,
+      "sha256": "21954164cbd08a6f88f8beb9e3643bf76d9994d731449b017cc2d65d43c3071b"
+    },
+    "game/山海文化读本-中英对照.txt": {
+      "bytes": 182328,
+      "sha256": "7af0d4de1031ae7d635dec89b7ad8bac8fd20109fd793e6f986b4a82a5bc69d9"
+    },
+    "game/山海食肆物语-美术资源清单.md": {
+      "bytes": 7101,
+      "sha256": "f9330bbe4461b77953bfc644bb7e0fd6407d83c78825824c5ffade3761f457c4"
+    },
+    "game/文化体验改造说明.md": {
+      "bytes": 6785,
+      "sha256": "e35f0ce162b4f0a4373dc47d91e23e866c02ab04206f038e9b7a27d27edd30c5"
+    },
+    "game/文化小传新编说明.md": {
+      "bytes": 1612,
+      "sha256": "44632f5a999d3ba21c654c096b79e78a2d977771d5d00e0f6dbef8610a6fa4f1"
+    },
+    "game/文化阅读说明.md": {
+      "bytes": 5615,
+      "sha256": "d0886eac0951dc277bb10e0fbed3da8407cec5579c187e37884d6bd33d6c3094"
+    },
+    "game/美术接入说明.md": {
+      "bytes": 24220,
+      "sha256": "a20242091590be75bcf821c472c74f8e629eb201fa639cebdd65a1a5453e95ef"
+    },
+    "game/美术整合说明.md": {
+      "bytes": 3644,
+      "sha256": "58b9ed42e41a41469d414cc554b5dda6660891fd1376de8b9d1f07df98bab1d6"
+    },
+    "game/请先读我.txt": {
+      "bytes": 3767,
+      "sha256": "7703e80b3f145b998a664e0b37a12639ca41ee9f58643fe95f17211368bc0518"
+    },
+    "game/音效整合与来源说明.md": {
+      "bytes": 5271,
+      "sha256": "df1cc2f96fe9286ed42629fc3bff786c07077d987ce8551b332a9666cb670150"
+    },
+    "game/音频接入说明.md": {
+      "bytes": 8398,
+      "sha256": "ff625951b9c702b0be47fd0de7101afdb8399778593dded22a9b0f4a15a572a4"
+    },
+    "index.html": {
+      "bytes": 5851,
+      "sha256": "91afe360d12a6757856493652176152cba1a11cb36de7242d42e34d985018365"
+    },
+    "serve.py": {
+      "bytes": 1461,
+      "sha256": "3985d275ca6490a8090126caf001a78d2646bcc814a8e0ac6e48e891754b5930"
+    },
+    "site.css": {
+      "bytes": 2774,
+      "sha256": "4ca16c55775a036a1bd230f62877fb79d3efc3e09d4e120550eec6b9ae5e745f"
+    },
+    "site.js": {
+      "bytes": 1434,
+      "sha256": "a828a4fac25bd64d63d2ff482f5a5948f0bb9d9b44c7cc91dba7f7a3935001a2"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+/game/*.wasm
+  Content-Type: application/wasm
+/game/*.pck
+  Content-Type: application/octet-stream

@@ -1,0 +1,26 @@
+Third-party components in this distribution
+
+Godot Engine 4.6.3 stable
+https://godotengine.org/
+MIT license and third-party component notices are included as Godot-LICENSE.txt and Godot-COPYRIGHT.txt.
+These notices were obtained from the official godotengine/godot 4.6.3-stable source tag.
+
+Noto Sans CJK Simplified Chinese, bundled as assets/fonts/NotoSansSC.otf
+Copyright 2010-2012 Google Corporation
+SIL Open Font License 1.1. The accompanying NotoSansSC-LICENSE.txt (assets/fonts/LICENSE.txt in source)
+retains the upstream font notice and license. Its Debian packaging section describes packaging metadata,
+not a change to the font's SIL license. The bundled file is the existing demo's Chinese subset.
+
+CustomAssets pictures supplied later by developers/players retain their respective authors' licenses.
+The current project only supplies folder/manifest templates and program-drawn placeholder graphics.
+
+DejaVu Sans, bundled as assets/fonts/DejaVuSans.ttf
+Copyright (c) 2003 by Bitstream, Inc. DejaVu changes are in public domain.
+The Bitstream Vera font license and distribution notices are included as DejaVuSans-LICENSE.txt.
+This unmodified font supplies Latin characters and pinyin tone marks in cultural reading pages.
+
+Shanhai CJK Supplement, bundled as assets/fonts/ShanhaiCJKSupplement.otf
+Derived from the installed Noto Sans CJK SC Regular under the SIL Open Font License 1.1.
+Subset to the original outlines of U+342B and U+4455, with renamed family/PostScript names.
+Copyright, source version and license are retained in NotoCJKSupplement-LICENSE.txt and
+assets/fonts/ShanhaiCJKSupplement.json. No glyph outline is redrawn.

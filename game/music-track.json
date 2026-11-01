@@ -1,0 +1,38 @@
+{
+  "source": "User-uploaded downloads_youjian-major-flute-balanced.mp3",
+  "source_sha256": "c025ed3aa53ffeeefe38d1aae43b3d52f77724e06244da7f43a065be0070b13c",
+  "source_bytes": 2192341,
+  "original_decoded_seconds": 91.27297916666667,
+  "runtime_file": "assets/audio/music/youjian_major_flute.ogg",
+  "runtime_sha256": "9140a146a46951a82b5e574395ae3de69f2cdcdea468a087f97314b943155a71",
+  "runtime_bytes": 890050,
+  "loop_seconds": 87.27272916666666,
+  "loop_basis": "32 bars in 4/4 at 88 BPM; tail wrapped into intro; 6ms edge ramps",
+  "eq": "highpass=f=40,bass=g=0.8:f=160:w=0.7,equalizer=f=700:t=q:w=0.8:g=-1.2,treble=g=-0.5:f=4500:w=0.7",
+  "static_gain_db": -4.82,
+  "source_loudness": {
+    "input_i": "-18.27",
+    "input_tp": "-8.39",
+    "input_lra": "1.10",
+    "input_thresh": "-28.31",
+    "output_i": "-23.46",
+    "output_tp": "-13.50",
+    "output_lra": "1.10",
+    "output_thresh": "-33.49",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "runtime_loudness": {
+    "input_i": "-23.46",
+    "input_tp": "-12.42",
+    "input_lra": "1.30",
+    "input_thresh": "-33.46",
+    "output_i": "-23.43",
+    "output_tp": "-12.40",
+    "output_lra": "1.20",
+    "output_thresh": "-33.43",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.07"
+  },
+  "mix": "Music cue -2dB; Music bus user level; important SFX duck music 3dB, 60ms attack / 220ms hold / 350ms release. No routine-footstep ducking."
+}

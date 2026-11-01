@@ -1,0 +1,745 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "cue": "ui.click",
+      "output": "ui/click.wav",
+      "pack": "kenney-ui",
+      "source": {
+        "path": "addons/kenney_ui_audio/click1.wav",
+        "download_url": "https://raw.githubusercontent.com/Calinou/kenney-ui-audio/8c3d81b9159d058c444f89d12d518276b0b09345/addons/kenney_ui_audio/click1.wav",
+        "sha256": "dd90b97f38b0ec7d52161d7c3bf8d61a66655766fd0af06439963351b4853a83",
+        "bytes": 18254,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "ui.click",
+      "output": "ui/click_02.wav",
+      "pack": "kenney-ui",
+      "source": {
+        "path": "addons/kenney_ui_audio/click2.wav",
+        "download_url": "https://raw.githubusercontent.com/Calinou/kenney-ui-audio/8c3d81b9159d058c444f89d12d518276b0b09345/addons/kenney_ui_audio/click2.wav",
+        "sha256": "a8b35cb35ff45738a9d7fe008490ad21a3ad30417dadd544a435d8b0ea84d841",
+        "bytes": 10062,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "ui.back",
+      "output": "ui/back.wav",
+      "pack": "kenney-ui",
+      "source": {
+        "path": "addons/kenney_ui_audio/rollover3.wav",
+        "download_url": "https://raw.githubusercontent.com/Calinou/kenney-ui-audio/8c3d81b9159d058c444f89d12d518276b0b09345/addons/kenney_ui_audio/rollover3.wav",
+        "sha256": "f3a9e0cf97fd20c963d3793a42fc26a8f137b11d916cce1aca10b6419521eaa3",
+        "bytes": 15182,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "ui.error",
+      "output": "ui/error.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-error-soft.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-error-soft.wav",
+        "sha256": "a4fbba71503798c6c3f375b41e69d2f4dcf43866a1a29273eaa54a0280c8f339",
+        "bytes": 81786,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "a4fbba71503798c6c3f375b41e69d2f4dcf43866a1a29273eaa54a0280c8f339"
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.order",
+      "output": "actions/order.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/writing-and-drawing/writing-pen-tick.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/writing-and-drawing/writing-pen-tick.wav",
+        "sha256": "43a0aec6df4d93fa65feaf922b127c3ddb8543ae3686827957f8dd28aa6c4321",
+        "bytes": 35046,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "43a0aec6df4d93fa65feaf922b127c3ddb8543ae3686827957f8dd28aa6c4321"
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.cook",
+      "output": "actions/cook.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/chop.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/chop.ogg",
+        "sha256": "d00c2b3c9fff07e376145c8c8c45c90e5084ec192f6ce0387db233f7b86f1486",
+        "bytes": 9370,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.cook",
+      "output": "actions/cook_02.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/metal_pot_1.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/metal_pot_1.ogg",
+        "sha256": "159def979e8e386c2c539f5e99cc30a080eb2dcb6c911fa2e4ccc0785b2522fd",
+        "bytes": 31619,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.cook",
+      "output": "actions/cook_03.wav",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/WATRBubl_WaterBubbles_LOOP_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/WATRBubl_WaterBubbles_LOOP_01.ogg",
+        "sha256": "cd0795146d289ecd2131f52a8757b36e3eee93e300a53b139bd9e082e902c674",
+        "bytes": 529609,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 1.1,
+        "start": 4
+      }
+    },
+    {
+      "cue": "action.serve",
+      "output": "actions/serve.wav",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/CERMImpt_CeramicSmallImpact_OS_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/CERMImpt_CeramicSmallImpact_OS_01.ogg",
+        "sha256": "4b4d289c15d60caebc4e81db35abe5693c4d75e69c1930865b483854c6c7f690",
+        "bytes": 16544,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.serve",
+      "output": "actions/serve_02.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/impact_plate_light_000.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/impact_plate_light_000.ogg",
+        "sha256": "6e797cf8a5bfc52d7ed5eb47c227974c1cf2a674954fec5b539cea7d62c7282c",
+        "bytes": 10474,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.cashier",
+      "output": "actions/cashier.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/handle_coins.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/handle_coins.ogg",
+        "sha256": "8a91f969e932df709df80ee124d86a51389eed9b67f22e5e716bc2bbf60d8dab",
+        "bytes": 25394,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.cashier",
+      "output": "actions/cashier_02.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/handle_coins_2.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/handle_coins_2.ogg",
+        "sha256": "4b857968d64f9ac9336a10ffac6694d7547e1f01566ad6857b30bc8db3ee6c32",
+        "bytes": 13094,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "action.clean",
+      "output": "actions/clean.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/cloth_2.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/cloth_2.ogg",
+        "sha256": "8a7451193c38bc05483aec25dd193e163a15d44cf7fff04ac7912573231b0201",
+        "bytes": 11787,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.65
+      }
+    },
+    {
+      "cue": "action.clean",
+      "output": "actions/clean_02.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/cloth_3.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/cloth_3.ogg",
+        "sha256": "a48632d17a4f1416541d261a32a31612e01267144c407fa3ecab3ff410f0085b",
+        "bytes": 12432,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.65
+      }
+    },
+    {
+      "cue": "action.build",
+      "output": "actions/build.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/impact_wood_medium_000.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/impact_wood_medium_000.ogg",
+        "sha256": "1723a9fd25103ed41af06054814e84e65f4a772bac86ab2dc927da93d9592ff5",
+        "bytes": 6575,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.65
+      }
+    },
+    {
+      "cue": "action.build",
+      "output": "actions/build_02.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/impact_wood_medium_001.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/impact_wood_medium_001.ogg",
+        "sha256": "15271dbe8e2872dbb0ff1aeb7b12b2d2b92b7c1951c88532b9ab9158c36dfc73",
+        "bytes": 6555,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.65
+      }
+    },
+    {
+      "cue": "action.promote",
+      "output": "actions/promote.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/everyday-props/props-shop-bell.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/everyday-props/props-shop-bell.wav",
+        "sha256": "f2ff475cf65456f1da810869729c4c31c765dd2ff65ea620580de24c918e9877",
+        "bytes": 203882,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "f2ff475cf65456f1da810869729c4c31c765dd2ff65ea620580de24c918e9877"
+      },
+      "edit": {
+        "peak_dbfs": -16,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "move.walk",
+      "output": "actions/walk.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/footstep_wood_000.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/footstep_wood_000.ogg",
+        "sha256": "5f1c252942a220d658121bd9417448cd19649ded9fff2ff15f6e50899373ce8e",
+        "bytes": 5949,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.4
+      }
+    },
+    {
+      "cue": "move.walk",
+      "output": "actions/walk_02.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/footstep_wood_001.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/footstep_wood_001.ogg",
+        "sha256": "e4f68e1c9fd55b4dc8ca89ed2bbab6f200171bc54bdc18aa96b80d8e7336f462",
+        "bytes": 5929,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.4
+      }
+    },
+    {
+      "cue": "move.walk",
+      "output": "actions/walk_03.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/footstep_wood_002.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/footstep_wood_002.ogg",
+        "sha256": "9ff095b05cee5eec40b081defe3f0eef7232bb16d4865ce03b9f6dbab875cfdd",
+        "bytes": 5895,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.4
+      }
+    },
+    {
+      "cue": "move.walk",
+      "output": "actions/walk_04.wav",
+      "pack": "kenney-impact",
+      "source": {
+        "path": "addons/kenney impact sounds/footstep_wood_003.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/addons/kenney impact sounds/footstep_wood_003.ogg",
+        "sha256": "2a68a083daa9eda08fed0ea5da5280dfbe0de226196c576be02f95259dd139d9",
+        "bytes": 6207,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.4
+      }
+    },
+    {
+      "cue": "move.fly",
+      "output": "actions/fly.wav",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/CLOTHFlp_FlagFlapping_LOOP_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/CLOTHFlp_FlagFlapping_LOOP_01.ogg",
+        "sha256": "558ba477a7c0da78d91be6f1cd912ea754221b02d50f7963a0ef66e509d34d54",
+        "bytes": 190294,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.55,
+        "start": 1.0
+      }
+    },
+    {
+      "cue": "move.fly",
+      "output": "actions/fly_02.wav",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/CLOTHFlp_FlagFlapping_LOOP_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/CLOTHFlp_FlagFlapping_LOOP_01.ogg",
+        "sha256": "558ba477a7c0da78d91be6f1cd912ea754221b02d50f7963a0ef66e509d34d54",
+        "bytes": 190294,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.6,
+        "start": 3.0
+      }
+    },
+    {
+      "cue": "move.crawl",
+      "output": "actions/crawl.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/cloth_4.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/cloth_4.ogg",
+        "sha256": "e7ab9a6c4466dea874196c61f59bf1da05cfe58748f42fadd695d441a154a99b",
+        "bytes": 11043,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.55,
+        "playback_rate": 0.82
+      }
+    },
+    {
+      "cue": "move.crawl",
+      "output": "actions/crawl_02.wav",
+      "pack": "kenney-rpg",
+      "source": {
+        "path": "addons/kenney rpg audio/cloth_1.ogg",
+        "download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/addons/kenney rpg audio/cloth_1.ogg",
+        "sha256": "ddb93a3671233f95da0e0b10367f082f7eb42fa6caaddcf776410aa8833c747d",
+        "bytes": 16508,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.55,
+        "playback_rate": 0.85
+      }
+    },
+    {
+      "cue": "guest.sit",
+      "output": "actions/guest_sit.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/foley/foley-wood-slide.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/foley/foley-wood-slide.wav",
+        "sha256": "a2d329063e4c0aae68be9fb1b4a9ee4a24d0ad749ed5d9bc7de6618b0602a047",
+        "bytes": 84436,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "a2d329063e4c0aae68be9fb1b4a9ee4a24d0ad749ed5d9bc7de6618b0602a047"
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 0.6
+      }
+    },
+    {
+      "cue": "guest.eat",
+      "output": "actions/guest_eat.wav",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/FOODTware_SpoonDrop_OS_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/FOODTware_SpoonDrop_OS_01.ogg",
+        "sha256": "ba3c91edfba3f800f3858932305a67d2e22e5694e766fb6e5e9ba0f795002f84",
+        "bytes": 10281,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -17,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "guest.special",
+      "output": "events/special_guest.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/shimmers/shimmer-medium-soft.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/shimmers/shimmer-medium-soft.wav",
+        "sha256": "b6ca9eff8d1804b4b61d1bac5559c986549a0917d27a70a9d0e8831f43f20a45",
+        "bytes": 325496,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "b6ca9eff8d1804b4b61d1bac5559c986549a0917d27a70a9d0e8831f43f20a45"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.checkout",
+      "output": "events/checkout.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/money/money-coin-drop.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/money/money-coin-drop.wav",
+        "sha256": "618325d7d3a72b17a5768c43bc7dc85087abcd10e0450106e19bc34ca601e579",
+        "bytes": 98258,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "618325d7d3a72b17a5768c43bc7dc85087abcd10e0450106e19bc34ca601e579"
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.settlement",
+      "output": "events/settlement.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-ding-ding.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-ding-ding.wav",
+        "sha256": "0be14f244abb4394f9815424de1e5128b84407f7fe3e830bff1aee26a72a178c",
+        "bytes": 142274,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "0be14f244abb4394f9815424de1e5128b84407f7fe3e830bff1aee26a72a178c"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.stage",
+      "output": "events/stage_up.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-warm.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-warm.wav",
+        "sha256": "0700101e75de508ffc58d7f9e3ee007da63bd86535c3594e5d02ae1bc71550ca",
+        "bytes": 98060,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "0700101e75de508ffc58d7f9e3ee007da63bd86535c3594e5d02ae1bc71550ca"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.research",
+      "output": "events/research_complete.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/shimmers/shimmer-short-soft.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/shimmers/shimmer-short-soft.wav",
+        "sha256": "c0cdc8cc61e6b1dd0b16732161ff3967ad6242e2f673957bef88a49805c6286e",
+        "bytes": 137864,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "c0cdc8cc61e6b1dd0b16732161ff3967ad6242e2f673957bef88a49805c6286e"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.recruit",
+      "output": "events/recruit.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-pluck.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-pluck.wav",
+        "sha256": "ba71419ec06796d22e96b4501651cebd3fd6e472524cb67cf7c6639ce6ff8c7a",
+        "bytes": 167326,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "ba71419ec06796d22e96b4501651cebd3fd6e472524cb67cf7c6639ce6ff8c7a"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.quest",
+      "output": "events/quest_complete.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-chime.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-chime.wav",
+        "sha256": "6ef5c3d646a31b7382049f32011c44f2675cdd2524ab6ffa1c9b54533c49a44e",
+        "bytes": 138814,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "6ef5c3d646a31b7382049f32011c44f2675cdd2524ab6ffa1c9b54533c49a44e"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.random",
+      "output": "events/random_event.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-attention-soft.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-attention-soft.wav",
+        "sha256": "f4d75e08bdcfa6dc9f939cee8a973e2b9a7c96c6ef33d07ffebd20854dbde44a",
+        "bytes": 47374,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "f4d75e08bdcfa6dc9f939cee8a973e2b9a7c96c6ef33d07ffebd20854dbde44a"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.success",
+      "output": "events/success.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-soft.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-soft.wav",
+        "sha256": "49fa865e894e26a59dea81144844270d532fa899d7eb94f2ac0687af4a66ebc1",
+        "bytes": 76532,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "49fa865e894e26a59dea81144844270d532fa899d7eb94f2ac0687af4a66ebc1"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.failure",
+      "output": "events/failure.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-failure-pluck.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-failure-pluck.wav",
+        "sha256": "0623bcc2c809025a09b0a2c10df227ddc3acb2389359edaa80300445332685cb",
+        "bytes": 46078,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "0623bcc2c809025a09b0a2c10df227ddc3acb2389359edaa80300445332685cb"
+      },
+      "edit": {
+        "peak_dbfs": -9,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "event.pickup",
+      "output": "events/pickup.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-success-bubble.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-success-bubble.wav",
+        "sha256": "4c65e51c1ae19fd224c88352b97ec2d72f0387a32b3146d6a30df0f6979ff21d",
+        "bytes": 91798,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "4c65e51c1ae19fd224c88352b97ec2d72f0387a32b3146d6a30df0f6979ff21d"
+      },
+      "edit": {
+        "peak_dbfs": -12,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "guest.happy",
+      "output": "events/guest_happy.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/tones/tone-ding-mid.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/tones/tone-ding-mid.wav",
+        "sha256": "ee072e95a2634c39a0b54efb06a41e0cc337d4a502719d9b45e85474f6b32837",
+        "bytes": 153336,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "ee072e95a2634c39a0b54efb06a41e0cc337d4a502719d9b45e85474f6b32837"
+      },
+      "edit": {
+        "peak_dbfs": -16,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "guest.unhappy",
+      "output": "events/guest_unhappy.wav",
+      "pack": "wyzowl",
+      "source": {
+        "path": "sounds/notifications/notification-failure-low.wav",
+        "download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/sounds/notifications/notification-failure-low.wav",
+        "sha256": "9c231682ef419d39079cde9d05fc3512164318098807e765d5e08e8415b05cd5",
+        "bytes": 101444,
+        "retrieved": "2026-10-27",
+        "http_status": 200,
+        "publisher_sha256": "9c231682ef419d39079cde9d05fc3512164318098807e765d5e08e8415b05cd5"
+      },
+      "edit": {
+        "peak_dbfs": -14,
+        "max_seconds": 2.0
+      }
+    },
+    {
+      "cue": "ambience.dining",
+      "output": "ambience/restaurant.ogg",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/CRWDConv_Restaurant_LOOP_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/CRWDConv_Restaurant_LOOP_01.ogg",
+        "sha256": "8c39aac1aa71f09ca56492199a65fa187b779967db36ad32c2c5a501f3b63d9a",
+        "bytes": 925713,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -16,
+        "max_seconds": 60,
+        "loop": true,
+        "rms_dbfs": -28
+      }
+    },
+    {
+      "cue": "ambience.night",
+      "output": "ambience/courtyard_night.ogg",
+      "pack": "oculus",
+      "source": {
+        "path": "corpora/oculus-audio-pack/ogg/AMBForst_Night_LOOP_01.ogg",
+        "download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/ogg/AMBForst_Night_LOOP_01.ogg",
+        "sha256": "ff62723c83eececdd4fc3c4707a7e35d4216d1fda84a07718464fa8f5d56d461",
+        "bytes": 903958,
+        "retrieved": "2026-10-27",
+        "http_status": 200
+      },
+      "edit": {
+        "peak_dbfs": -16,
+        "max_seconds": 60,
+        "loop": true,
+        "rms_dbfs": -28
+      }
+    }
+  ]
+}
