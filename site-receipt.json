@@ -1,9 +1,9 @@
 {
-  "version": "SH-WEB-R1",
-  "created_utc": "2026-11-01T11:07:52+00:00",
+  "version": "SH-WEB-R2",
+  "created_utc": "2026-11-01T11:48:38+00:00",
   "game_source": {
-    "sha256": "c4bee03a00192630932d4d5ac1ce509db81b9219aa3156e7a44f8eb4e33cd51a",
-    "files": 830,
+    "sha256": "882c7aee14ae3e76964fba0fb93ed0a0825aba06164de94a7e7bb748d35c5c4d",
+    "files": 832,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
   "compression": {
@@ -14,10 +14,10 @@
       "gzip_sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
     },
     "index.pck": {
-      "original_bytes": 33469808,
-      "gzip_bytes": 30485345,
-      "sha256": "adbf1615f598f40e87f41b6ec625b5769089b64926880d5dcd4cbb362a5108c8",
-      "gzip_sha256": "d8654b30cfa4976df43905ca71b85fd7e1be2596b18c5628fab5c29192718e92"
+      "original_bytes": 33470796,
+      "gzip_bytes": 30488265,
+      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394",
+      "gzip_sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
     }
   },
   "files": {
@@ -26,8 +26,8 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "README.md": {
-      "bytes": 2756,
-      "sha256": "6b511dbdf579ec08625e92ab23a9fcedac0a8bc5548669c6237953115128d958"
+      "bytes": 2795,
+      "sha256": "ecdabacd94bc8e2d4265839ba926b4fe9be8f50b253812bae865901d67eaaab0"
     },
     "Start-Web.cmd": {
       "bytes": 381,
@@ -138,12 +138,12 @@
       "sha256": "cb8f2d1d708e88b96a8f12278eb788aee4a4a6d35b79f9588fb05ba94605c245"
     },
     "game/export-receipt.json": {
-      "bytes": 10462,
-      "sha256": "45691c234132273c57c202e617c2a2a50ad90f0a52a20bb9340b6f693dd6f73f"
+      "bytes": 10408,
+      "sha256": "f73929abdf90a7cdf99d333d614319e30b2098bbbc3a149115ca5e938762fb9b"
     },
     "game/fast-loader.js": {
-      "bytes": 1701,
-      "sha256": "34dc4c30dbf0d51170162bfadc5e7a9185118a90f8fb448b817379afb3693ec3"
+      "bytes": 2078,
+      "sha256": "ed8ccf8d8cf8a4e444c781c7d25ad8c737e79a3dde0b748e212a75c434330d9d"
     },
     "game/index.apple-touch-icon.png": {
       "bytes": 10548,
@@ -158,8 +158,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "game/index.html": {
-      "bytes": 7049,
-      "sha256": "f1cbf6cc1f888e40ebfa549b71312c78cb093af00815c0df94c20f6646835c16"
+      "bytes": 7196,
+      "sha256": "310de311e469698557302701cf81eff88cd11e6a707d06e83041beeb62520b21"
     },
     "game/index.icon.png": {
       "bytes": 2622,
@@ -170,12 +170,12 @@
       "sha256": "e3f56ee40e6f84371053db06692cfac15e2c8659547b11c6b2dfa1996dabd981"
     },
     "game/index.pck": {
-      "bytes": 33469808,
-      "sha256": "adbf1615f598f40e87f41b6ec625b5769089b64926880d5dcd4cbb362a5108c8"
+      "bytes": 33470796,
+      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394"
     },
     "game/index.pck.gz": {
-      "bytes": 30485345,
-      "sha256": "d8654b30cfa4976df43905ca71b85fd7e1be2596b18c5628fab5c29192718e92"
+      "bytes": 30488265,
+      "sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
     },
     "game/index.png": {
       "bytes": 21443,
@@ -322,8 +322,8 @@
       "sha256": "ff625951b9c702b0be47fd0de7101afdb8399778593dded22a9b0f4a15a572a4"
     },
     "index.html": {
-      "bytes": 5851,
-      "sha256": "91afe360d12a6757856493652176152cba1a11cb36de7242d42e34d985018365"
+      "bytes": 5860,
+      "sha256": "ffbf83ce47f49199c3e2ea8cca5211232725cfb6e3a000c78a827e70b65189a1"
     },
     "serve.py": {
       "bytes": 1461,
