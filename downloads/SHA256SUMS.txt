@@ -1,0 +1,4 @@
+01b807448693f07675e53c89175c1a3c2db5b7444eccc3a93fbfe82ebceb8a7a  shanhai-v1.9.5-menu-r5-web.zip
+29be844d3386d78e1eaf2e18069e4b23ec8549cc5fb38b98586c0328b16bbddb  shanhai-v1.9.5-menu-r5-windows.zip
+c2e7161f0bb1a77f28b8553b979809893c913e3cb6a82a396a42b266dd76248b  shanhai-v1.9.5-menu-r5-source.zip
+314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69  shanhai-v1.9.5-menu-r5-art-masters.zip
