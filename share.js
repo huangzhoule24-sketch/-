@@ -1,6 +1,6 @@
 'use strict';
 (()=>{
- const fallback=new URL('./',location.href);fallback.searchParams.set('classroom','1');fallback.searchParams.set('v','web-r5');
+ const fallback=new URL('./',location.href);fallback.searchParams.set('classroom','1');fallback.searchParams.set('v','web-r6');
  const value=window.shanhaiPreviewAccess?window.shanhaiPreviewAccess.entryURL():fallback.href,qr=qrcode(0,'M');qr.addData(value);qr.make();
  const svg=qr.createSvgTag({cellSize:7,margin:28,scalable:true,alt:'山海食肆物语课堂试玩二维码'});
  document.getElementById('qr').innerHTML=svg;document.getElementById('share-url').value=value;document.getElementById('open-game').href=value;
