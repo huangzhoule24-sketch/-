@@ -1,0 +1,4 @@
+a82c0b4a4856f594ab8a7a47797d9776b8cb3394aab2abee9c21bc0b77a3fa25  shanhai-v1.9.5-startup-r3-web.zip
+a5cbdc8a770a5506ddf8f46e90dfb78814ac03c79e04e06aa416479fe2c03c40  shanhai-v1.9.5-startup-r3-windows.zip
+c6416da5e426cdbb784ff5f1d6bafc916d30f9fe467f2a3ba40bff8be9df1d30  shanhai-v1.9.5-startup-r3-source.zip
+314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69  shanhai-v1.9.5-startup-r3-art-masters.zip

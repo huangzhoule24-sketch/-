@@ -1,0 +1,30 @@
+{
+  "version": "SH-STARTUP-R3",
+  "game_source": {
+    "sha256": "4fa823e8f893aaba091e34d207b38c8b5a94dc701ac43d0fb2f386518f075c8e",
+    "files": 827,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifacts": {
+    "web": {
+      "file": "shanhai-v1.9.5-startup-r3-web.zip",
+      "bytes": 39404147,
+      "sha256": "a82c0b4a4856f594ab8a7a47797d9776b8cb3394aab2abee9c21bc0b77a3fa25"
+    },
+    "windows": {
+      "file": "shanhai-v1.9.5-startup-r3-windows.zip",
+      "bytes": 65944944,
+      "sha256": "a5cbdc8a770a5506ddf8f46e90dfb78814ac03c79e04e06aa416479fe2c03c40"
+    },
+    "source": {
+      "file": "shanhai-v1.9.5-startup-r3-source.zip",
+      "bytes": 61667666,
+      "sha256": "c6416da5e426cdbb784ff5f1d6bafc916d30f9fe467f2a3ba40bff8be9df1d30"
+    },
+    "art-masters": {
+      "file": "shanhai-v1.9.5-startup-r3-art-masters.zip",
+      "bytes": 57485385,
+      "sha256": "314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69"
+    }
+  }
+}
