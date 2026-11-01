@@ -1,0 +1,30 @@
+{
+  "version": "SH-MUSIC-R4",
+  "game_source": {
+    "sha256": "415b68dedb998b0a84da3789d5193e1664b80eb20ec070d044096b1cf5d1e015",
+    "files": 829,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifacts": {
+    "web": {
+      "file": "shanhai-v1.9.5-music-r4-web.zip",
+      "bytes": 40253059,
+      "sha256": "7cb6598ccc1586151f15d99ee1ac3acc463df4583261a8fd699394cade8f4a5c"
+    },
+    "windows": {
+      "file": "shanhai-v1.9.5-music-r4-windows.zip",
+      "bytes": 66793835,
+      "sha256": "c8362bee9cb4cf8a88d33a15cba24226bb67542a86b809284e97cc1f8a34cb36"
+    },
+    "source": {
+      "file": "shanhai-v1.9.5-music-r4-source.zip",
+      "bytes": 65636873,
+      "sha256": "e58d789154201a86475582b918812da3cbfc4ac5ad82e540e9acdf2a9f849f95"
+    },
+    "art-masters": {
+      "file": "shanhai-v1.9.5-music-r4-art-masters.zip",
+      "bytes": 57485385,
+      "sha256": "314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69"
+    }
+  }
+}
