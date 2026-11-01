@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
 		<title>山海食肆物语 · 有间小馆</title>
 		<style>
 html, body, #canvas {
@@ -94,11 +94,12 @@ body {
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 
 	<style>#status{background:#f5efdc;color:#334e45;font-family:"Microsoft YaHei",system-ui,sans-serif;padding:24px;box-sizing:border-box;gap:20px}#status-splash{display:none!important}.status-heading{font-size:clamp(22px,4vw,34px);text-align:center;line-height:1.6}.status-detail{font-size:14px;line-height:1.8;text-align:center;max-width:600px}#status-progress{position:static;width:min(520px,85%);height:18px;accent-color:#427b6c;margin:0}#status-notice{max-width:700px;white-space:pre-wrap}#status .status-links{display:none;gap:16px;align-items:center}#status[data-mode=notice] .status-links{display:flex}.status-links a,.status-links button{font:inherit;color:#334e45;background:#f5efdc;border:2px solid #334e45;padding:8px 16px;min-height:44px;cursor:pointer;text-decoration:none}</style>
+<style>html{height:100%;height:100dvh}body{width:100%;height:100%;box-sizing:border-box}#game-surface{position:fixed;left:env(safe-area-inset-left);right:env(safe-area-inset-right);top:env(safe-area-inset-top);height:calc(100% - env(safe-area-inset-top) - env(safe-area-inset-bottom));height:calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom))}#canvas{width:100%!important;height:100%!important;touch-action:none}#status{padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}</style>
 </head>
 	<body>
-		<canvas id="canvas">
+		<div id="game-surface"><canvas id="canvas">
 			Your browser does not support the canvas tag.
-		</canvas>
+		</canvas></div>
 
 		<noscript>
 			Your browser does not support JavaScript.
@@ -110,10 +111,11 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="fast-loader.js?v=5efe60a5fee2feaa64d75eb637ce96d6ec79fae1bafdace1b9bb402e56de6ec2" data-version="5efe60a5fee2feaa64d75eb637ce96d6ec79fae1bafdace1b9bb402e56de6ec2"></script>
+		<script id="shanhai-resource-map" type="application/json">{"version":1,"resources":{"index.wasm":{"mime":"application/wasm","bytes":37700666,"sha256":"26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6","raw":[{"path":"parts/index.wasm.raw.000.bin","bytes":8388608,"sha256":"b962c687139f6bf9f71dfbe6c3de35b233156cd51783a711a10a8faa914566ab"},{"path":"parts/index.wasm.raw.001.bin","bytes":8388608,"sha256":"afda687051aaa926e3d592d9eca426c7ba55db44e325b740f192a30285191d15"},{"path":"parts/index.wasm.raw.002.bin","bytes":8388608,"sha256":"be8030bed2d0abea246c827b2454ea726e18b151c278b578cb50736259c014ff"},{"path":"parts/index.wasm.raw.003.bin","bytes":8388608,"sha256":"5ed75d33994c338c28c7d13352f7991f43f07af8e69b670798305f07b7a0871f"},{"path":"parts/index.wasm.raw.004.bin","bytes":4146234,"sha256":"dc4e82b7142619b7a034460fc8fb5a372136042da1776ebfd6fbc6ba1a389285"}],"gzip":[{"path":"parts/index.wasm.gzip.000.bin","bytes":8388608,"sha256":"97d87054e00f458803fadfccd85b8f886783e7935c1f5be4ffd53ead510e1fb1"},{"path":"parts/index.wasm.gzip.001.bin","bytes":993674,"sha256":"cf91b1640f8e1913f2fa3fb030a3d5fdb546dd6842dbbdcd7e79689991bcc91d"}]},"index.pck":{"mime":"application/octet-stream","bytes":33476064,"sha256":"a4c93ce334ec9e82f798940cf2b25af77433902de1d32f25a7a1befa514aca54","raw":[{"path":"parts/index.pck.raw.000.bin","bytes":8388608,"sha256":"052723c0762aa0739670202ce74433e75f109ca20ee76a249d634b7ab80fd90b"},{"path":"parts/index.pck.raw.001.bin","bytes":8388608,"sha256":"941b828afd9873455990d9fcd140710b0ed5c243c833cd01308a8f77bfe9dd11"},{"path":"parts/index.pck.raw.002.bin","bytes":8388608,"sha256":"317ece109ee1ebe66e1b4b8fb17b38b5ee774df1a8f007786e3dc321d01c95bc"},{"path":"parts/index.pck.raw.003.bin","bytes":8310240,"sha256":"e6eec0551d525d9c24393246f604860d1743cc0c0a38a01359c4f6a55d824474"}],"gzip":[{"path":"parts/index.pck.gzip.000.bin","bytes":8388608,"sha256":"dc86eadcc78ea5e355fa2364e5327bb0b64a557f6a32da8d2247017c1b665685"},{"path":"parts/index.pck.gzip.001.bin","bytes":8388608,"sha256":"d1800317e6fa798088602d4aa291c2e4d95da8b732ee8a5f9f5975c8180eea0f"},{"path":"parts/index.pck.gzip.002.bin","bytes":8388608,"sha256":"81e8790f55fc274f304c9f88e564b14ac991354f134df8e6c492195465ae8f96"},{"path":"parts/index.pck.gzip.003.bin","bytes":5326136,"sha256":"008b119d1270ab60fb77718f3dde2bd83a4274e5e35db948028da605c75b8660"}]}}}</script>
+<script src="fast-loader.js?v=426640bc31d82c4c2c2334b4cc6a3202ef8f57a8745ec63e0e53ccaeaf52364f" data-version="426640bc31d82c4c2c2334b4cc6a3202ef8f57a8745ec63e0e53ccaeaf52364f"></script>
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":33471628,"index.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":33476064,"index.wasm":37700666},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 

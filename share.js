@@ -1,0 +1,10 @@
+'use strict';
+(()=>{
+ const url=new URL('./',location.href);url.searchParams.set('classroom','1');url.searchParams.set('v','web-r4');
+ const value=url.href,qr=qrcode(0,'M');qr.addData(value);qr.make();
+ const svg=qr.createSvgTag({cellSize:7,margin:28,scalable:true,alt:'山海食肆物语课堂试玩二维码'});
+ document.getElementById('qr').innerHTML=svg;document.getElementById('share-url').value=value;document.getElementById('open-game').href=value;
+ document.getElementById('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(value);document.getElementById('share-status').textContent='地址已复制 / Link copied';}catch(_error){document.getElementById('share-url').select();document.getElementById('share-status').textContent='请复制上方地址 / Copy the selected address';}});
+ document.getElementById('download').addEventListener('click',()=>{const object=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'})),a=document.createElement('a');a.href=object;a.download='shanhai-classroom-qr.svg';a.click();setTimeout(()=>URL.revokeObjectURL(object),1000);});
+ document.getElementById('print').addEventListener('click',()=>window.print());
+})();
