@@ -1,0 +1,4 @@
+3d87749f8a761ec4ff709964542ce71f8e4488e0ee420993773e5f565f764840  shanhai-v1.9.5-english-r2-web.zip
+38f632797bd89d8e2c813ae363aceb1df0a3fc92c7b7cfe76b401298228e96c7  shanhai-v1.9.5-english-r2-windows.zip
+87d66798f617d3630846ceabc4d283d4249ffd10e9347a889b10f74b69e77be0  shanhai-v1.9.5-english-r2-source.zip
+314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69  shanhai-v1.9.5-english-r2-art-masters.zip
