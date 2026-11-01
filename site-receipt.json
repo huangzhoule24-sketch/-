@@ -1,6 +1,6 @@
 {
-  "version": "SH-WEB-R4",
-  "created_utc": "2026-11-01T13:23:18+00:00",
+  "version": "SH-WEB-R5",
+  "created_utc": "2026-11-01T15:14:40+00:00",
   "game_source": {
     "sha256": "426640bc31d82c4c2c2334b4cc6a3202ef8f57a8745ec63e0e53ccaeaf52364f",
     "files": 834,
@@ -119,7 +119,7 @@
     }
   },
   "max_file_bytes": 8388608,
-  "classroom_url": "https://huangzhoule24-sketch.github.io/-/?classroom=1&v=web-r4",
+  "classroom_url": "https://huangzhoule24-sketch.github.io/-/?classroom=1&v=web-r5",
   "files": {
     ".nojekyll": {
       "bytes": 0,
@@ -127,7 +127,7 @@
     },
     "README.md": {
       "bytes": 4105,
-      "sha256": "a93284fe2d1f7c54c41598f08eea9f2a998735c5d899665eb69957375efd1fc4"
+      "sha256": "9815c81eaf87315378d23723613142d2238a6a03f15f5ed137be860f291e0206"
     },
     "Start-Web.cmd": {
       "bytes": 381,
@@ -146,8 +146,8 @@
       "sha256": "90f87460511ee2acb6ae548c64f796a1ce047e0ce738f19073b711ae92791367"
     },
     "classroom-qr-github.svg": {
-      "bytes": 15238,
-      "sha256": "134bcdb8e9cdb2a058bc4974ea08522b05537277a57c58e78ed740ccf7e049c3"
+      "bytes": 15671,
+      "sha256": "36fb5a2751e23b8637b5a1ef6c521a221c9869f2668d442a48935fbc7910f5eb"
     },
     "deploy/FREE-HOSTING.md": {
       "bytes": 3732,
@@ -259,7 +259,7 @@
     },
     "game/export-receipt.json": {
       "bytes": 12579,
-      "sha256": "486da6dfe9d012bc6ff912d0a66b3f783d9ee2f58c92b2d7ba78181af9434ebd"
+      "sha256": "2630c78ac7077436f14a4e2da1a6a75249f620cf2fcd6f398246443468175d09"
     },
     "game/fast-loader.js": {
       "bytes": 2785,
@@ -490,20 +490,24 @@
       "sha256": "ff625951b9c702b0be47fd0de7101afdb8399778593dded22a9b0f4a15a572a4"
     },
     "index.html": {
-      "bytes": 7983,
-      "sha256": "980e6e22bf7e3e2ecb568a9f188cb1f2e6c245621ffcbc2f3849cf13a1c04a53"
+      "bytes": 8048,
+      "sha256": "93a375e913d4c048b1aa3dade3adad56299f23e1acb30fbdc6714d407c0a5922"
+    },
+    "preview-access.js": {
+      "bytes": 1592,
+      "sha256": "b2a6a20875b7bf056f07294eee036869303e6efa54801b076a47f8c9ba678c3b"
     },
     "serve.py": {
       "bytes": 1461,
       "sha256": "3985d275ca6490a8090126caf001a78d2646bcc814a8e0ac6e48e891754b5930"
     },
     "share.html": {
-      "bytes": 1949,
-      "sha256": "18adf4d965c3461eed604bf9e39b1ac00952c8c0b887434500dd947138122ad5"
+      "bytes": 2014,
+      "sha256": "301eed44b9d1d0cc54a01f27d35661aec6f75408fc714a50ddf1b177dd9a6ed4"
     },
     "share.js": {
-      "bytes": 1197,
-      "sha256": "70cfa8b047896a7be2d688fc6acb8980fca3db38f0f1bbd82869eeafadd54add"
+      "bytes": 1568,
+      "sha256": "3a0a33c41dc1140c6ad7f644efaff99bfaef62b6a571d5c7817f038a9acbfafd"
     },
     "site.css": {
       "bytes": 3029,
