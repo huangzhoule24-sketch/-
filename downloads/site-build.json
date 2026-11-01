@@ -1,0 +1,26 @@
+{
+  "game_source": {
+    "sha256": "882c7aee14ae3e76964fba0fb93ed0a0825aba06164de94a7e7bb748d35c5c4d",
+    "files": 832,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifact": {
+    "file": "shanhai-v1.9.5-web-r2-site.zip",
+    "bytes": 80870269,
+    "sha256": "14a62fbf34dc4eb25c64098843b18ea5427ff64a11ae6bc23d4d0d594c8814dd"
+  },
+  "compression": {
+    "index.wasm": {
+      "original_bytes": 37700666,
+      "gzip_bytes": 9382282,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6",
+      "gzip_sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
+    },
+    "index.pck": {
+      "original_bytes": 33470796,
+      "gzip_bytes": 30488265,
+      "sha256": "1ac876ce4abfee8e8e69fcaabfe633168ca3d86f2fe70857e59152991da06394",
+      "gzip_sha256": "4330bae584ec7264556e3651b2908bdbdefc8d8893af61d2aa12e6e17db9c546"
+    }
+  }
+}
