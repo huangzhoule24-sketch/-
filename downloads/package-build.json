@@ -1,0 +1,15 @@
+{
+  "version": "SH-OFFLINE-FREEPLAY-R1",
+  "game_source": {
+    "sha256": "7952aae514f6091d06bbcaea8d4f5da465a0403dec1c86560c828b67562b25f9",
+    "files": 840,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifact": {
+    "file": "shanhai-offline-freeplay-win64-20261102.zip",
+    "bytes": 66647396,
+    "sha256": "b6aef117431ef13ef76ec03c68069b28606e9cc9a9466c4f39afe4d5001c1e7f",
+    "zip_crc_valid": true,
+    "files": 45
+  }
+}
