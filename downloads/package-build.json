@@ -1,0 +1,16 @@
+{
+  "version": "SH-REGULAR-R7",
+  "source_commit": "60bb84c",
+  "game_source": {
+    "sha256": "5677725dee8460b6db2ab0b70700e266c915552e4d1b3acb9a168697279d0c14",
+    "files": 836,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "artifact": {
+    "file": "shanhai-v1.9.5-regular-r7-win64-20261102.zip",
+    "bytes": 66845797,
+    "sha256": "cd7d73a39629af9650065dc96d3abc0eebe5faa87abdce248ae30e900a6ea79f",
+    "files": 65,
+    "zip_crc_valid": true
+  }
+}
