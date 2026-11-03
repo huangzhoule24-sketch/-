@@ -1,0 +1,90 @@
+{
+  "retrieved": "2026-10-27",
+  "sources": {
+    "kenney-ui": {
+      "creator": "Kenney Vleugels",
+      "pack": "UI Audio",
+      "homepage": "https://kenney.nl/assets/ui-audio",
+      "repository": "Calinou/kenney-ui-audio",
+      "commit": "8c3d81b9159d058c444f89d12d518276b0b09345",
+      "license": "CC0-1.0",
+      "license_path": "addons/kenney_ui_audio/LICENSE.txt",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_download_url": "https://raw.githubusercontent.com/Calinou/kenney-ui-audio/8c3d81b9159d058c444f89d12d518276b0b09345/addons/kenney_ui_audio/LICENSE.txt",
+      "license_file": "assets/audio/licenses/kenney-ui.txt",
+      "license_sha256": "4f88ab3c885c87874834441a0d009cea8942f57461d7b870be65cf4e31362073",
+      "license_http_status": 200
+    },
+    "kenney-rpg": {
+      "creator": "Kenney Vleugels",
+      "pack": "RPG Audio",
+      "homepage": "https://kenney.nl/assets/rpg-audio",
+      "repository": "Boyquotes/kenney-rpg-audio-for-godot",
+      "commit": "22eb79bb843bbcadcaa6ed119353a33265ffad11",
+      "license": "CC0-1.0",
+      "license_path": "LICENSE",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-rpg-audio-for-godot/22eb79bb843bbcadcaa6ed119353a33265ffad11/LICENSE",
+      "license_file": "assets/audio/licenses/kenney-rpg.txt",
+      "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "license_http_status": 200,
+      "additional_notice": {
+        "file": "assets/audio/licenses/kenney-rpg-audio-original.txt",
+        "download_url": "https://raw.githubusercontent.com/Daarko/sparkstream-sounds/a7a3ee178d2ec48f4354782f244ab777a0e238df/credits/rpg-audio-License.txt",
+        "sha256": "842c42cc1942963f6fcdc18fe57e9e0631e8a4936f9803688e8152e830088eb9",
+        "http_status": 200
+      }
+    },
+    "kenney-impact": {
+      "creator": "Kenney Vleugels",
+      "pack": "Impact Sounds",
+      "homepage": "https://kenney.nl/assets/impact-sounds",
+      "repository": "Boyquotes/kenney-impact-sounds-for-godot",
+      "commit": "999dd1684873f8b020a3aa5b26e713da21688924",
+      "license": "CC0-1.0",
+      "license_path": "LICENSE",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_download_url": "https://raw.githubusercontent.com/Boyquotes/kenney-impact-sounds-for-godot/999dd1684873f8b020a3aa5b26e713da21688924/LICENSE",
+      "license_file": "assets/audio/licenses/kenney-impact.txt",
+      "license_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "license_http_status": 200,
+      "additional_notice": {
+        "file": "assets/audio/licenses/kenney-impact-sounds-original.txt",
+        "download_url": "https://raw.githubusercontent.com/Daarko/sparkstream-sounds/a7a3ee178d2ec48f4354782f244ab777a0e238df/credits/impact-sounds-License.txt",
+        "sha256": "b49aa9c56b04528b95913de13e506a0f7c5e807b9925db9bfef86af1f91120db",
+        "http_status": 200
+      }
+    },
+    "wyzowl": {
+      "creator": "Wyzowl",
+      "pack": "SFX Kit",
+      "homepage": "https://github.com/wyzowl/sfx-kit",
+      "repository": "wyzowl/sfx-kit",
+      "commit": "92780e7ab0cdfb557497a988089c47f46e8c7412",
+      "license": "CC0-1.0",
+      "license_path": "LICENSE",
+      "creation_note": "Publisher describes these as code-synthesised sounds made with AI assistance, not field recordings.",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_download_url": "https://raw.githubusercontent.com/wyzowl/sfx-kit/92780e7ab0cdfb557497a988089c47f46e8c7412/LICENSE",
+      "license_file": "assets/audio/licenses/wyzowl.txt",
+      "license_sha256": "7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309",
+      "license_http_status": 200
+    },
+    "oculus": {
+      "creator": "Oculus VR, LLC",
+      "pack": "Oculus Audio Pack 01",
+      "homepage": "https://developers.meta.com/vr/downloads/package/oculus-audio-pack-1/",
+      "repository": "facebookincubator/Meta-open-sound",
+      "commit": "251c0be57d5d1b3242b91f53e0cde62ab1cb42d9",
+      "license": "CC-BY-4.0",
+      "license_path": "corpora/oculus-audio-pack/LICENSE",
+      "attribution": "\"Oculus Audio Pack 01\" by Oculus VR, LLC (https://developers.meta.com/vr/downloads/package/oculus-audio-pack-1/), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Files renamed to the UCS naming convention; OGG previews transcoded from the original WAVs. Further edited for Shanhai: excerpting, mono conversion for one-shots, level adjustment, edge fades, loop overlap and OGG/WAV conversion as individually recorded in selection.json.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_download_url": "https://raw.githubusercontent.com/facebookincubator/Meta-open-sound/251c0be57d5d1b3242b91f53e0cde62ab1cb42d9/corpora/oculus-audio-pack/LICENSE",
+      "license_file": "assets/audio/licenses/oculus.txt",
+      "license_sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "license_http_status": 200
+    }
+  },
+  "network_note": "Kenney, OpenGameArt, Freesound and BigSoundBank front pages/search endpoints were blocked by this environment proxy (HTTP tunnel 403). GitHub public repository search, pinned source files and attached licenses were actually retrieved. No account or paid service used."
+}
