@@ -1,0 +1,2 @@
+c60fa27414ecfb03fc7c404b2dd8e96179d024e0b82fa9b8cabf44862c1e9fcc  shanhai-v1.9.5-latest-editable-source.zip
+314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69  shanhai-v1.9.5-art-masters-supplement.zip

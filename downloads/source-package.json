@@ -1,0 +1,23 @@
+{
+  "version": "SH-SOURCE-INVENTORY-R1",
+  "game_source": {
+    "sha256": "e5333a5044cde2936c34aad86d0ea0f6e531efb7081b31a51e8ba819519fe737",
+    "files": 842,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "source_files": 1209,
+  "artifacts": [
+    {
+      "file": "shanhai-v1.9.5-latest-editable-source.zip",
+      "bytes": 43238815,
+      "sha256": "c60fa27414ecfb03fc7c404b2dd8e96179d024e0b82fa9b8cabf44862c1e9fcc"
+    },
+    {
+      "file": "shanhai-v1.9.5-art-masters-supplement.zip",
+      "bytes": 57485385,
+      "sha256": "314c27eecbac1b251e25889e3d792b6dba98a1f5e47b99bf0b20bb65b96f5e69"
+    }
+  ],
+  "proposal_implemented": false,
+  "privacy_scope": "Editable game, technical docs and public validation only; no private presentations, diary, credentials or player saves"
+}
