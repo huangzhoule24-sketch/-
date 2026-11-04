@@ -258,8 +258,8 @@
       "sha256": "cb8f2d1d708e88b96a8f12278eb788aee4a4a6d35b79f9588fb05ba94605c245"
     },
     "game/export-receipt.json": {
-      "bytes": 12727,
-      "sha256": "d220d3fd6af3bcf15bc5eebfa6f66f6a176eab8239f52f3ada855ccea7e7dd5c"
+      "bytes": 12806,
+      "sha256": "a6d59bd8b9f6f8723f554eeec68b830cb4c70b455753fae084a4a9860d8c94c5"
     },
     "game/fast-loader.js": {
       "bytes": 2785,
@@ -278,8 +278,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "game/index.html": {
-      "bytes": 10433,
-      "sha256": "f28fff4355c899a0e892eaaf6a551a227d23aa5906a0cd6161b147cdfec6c2dc"
+      "bytes": 10633,
+      "sha256": "0bc6e2cb7574ccfcec6e0f471df86737621e32a681f80b11fe7bcec01551d67a"
     },
     "game/index.icon.png": {
       "bytes": 2622,
@@ -494,20 +494,20 @@
       "sha256": "ff625951b9c702b0be47fd0de7101afdb8399778593dded22a9b0f4a15a572a4"
     },
     "index.html": {
-      "bytes": 8458,
-      "sha256": "efd99d86c12add33cc5ea0c3cd72606ef32c53a943c96485a803a729dff7934e"
+      "bytes": 8632,
+      "sha256": "3c5d833ebc0dd68b1920c2542f9f30043e5204617791e974f28ff570acbb5825"
     },
     "preview-access.js": {
-      "bytes": 1601,
-      "sha256": "3014440e1eb34292e3d62cd3a7ec606a1c2a1dda8759e17398b4cff5988d2165"
+      "bytes": 1727,
+      "sha256": "f6a6265ea6357fcf293dda358ac4a0b6d57d0ce33acc85b25a3bed12457fbe5a"
     },
     "serve.py": {
       "bytes": 1461,
       "sha256": "3985d275ca6490a8090126caf001a78d2646bcc814a8e0ac6e48e891754b5930"
     },
     "share.html": {
-      "bytes": 2032,
-      "sha256": "2e8e5f1ad6e1f91180ca5e8f859dc27549991328f576c9c887212d279b095bbc"
+      "bytes": 2247,
+      "sha256": "c2562871f650cc8d0360a7ffd24819392650c7d919f2d11b566f6c4bc4a21a84"
     },
     "share.js": {
       "bytes": 1577,
@@ -533,5 +533,10 @@
       "bytes": 56694,
       "sha256": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c"
     }
+  },
+  "entry_router": {
+    "version": "web-auto-r1",
+    "variant": "mobile",
+    "root_relative": "../"
   }
 }

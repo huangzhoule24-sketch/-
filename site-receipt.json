@@ -258,8 +258,8 @@
       "sha256": "cb8f2d1d708e88b96a8f12278eb788aee4a4a6d35b79f9588fb05ba94605c245"
     },
     "game/export-receipt.json": {
-      "bytes": 12717,
-      "sha256": "caf9bb83893208f0d04ffc34f9532dde227e29abae08f0d9f05e9420daf236a3"
+      "bytes": 12797,
+      "sha256": "156670104935c926d93e4591a5e6e80aa391fa47732af7351410d2318df408ed"
     },
     "game/fast-loader.js": {
       "bytes": 2785,
@@ -278,8 +278,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "game/index.html": {
-      "bytes": 10424,
-      "sha256": "c6321d0393ecfa14af4ae78889fce40b20fc4d79ee15d47bc76c586afe9d7265"
+      "bytes": 10619,
+      "sha256": "3616252e0f0c4b530bf51d8df0d064b12c5d0c2559fdff0d96b0e5323111d54b"
     },
     "game/index.icon.png": {
       "bytes": 2622,
@@ -494,20 +494,20 @@
       "sha256": "ff625951b9c702b0be47fd0de7101afdb8399778593dded22a9b0f4a15a572a4"
     },
     "index.html": {
-      "bytes": 8451,
-      "sha256": "1a2d5b1ac5c27728f4c0e5a9cb7029029d01abe7d3efb7ec3ccaec40920b71ab"
+      "bytes": 8632,
+      "sha256": "f52e9d39995c1fb9ac3e94fd7b474d4f03db023e1004805959fd92dd219e689d"
     },
     "preview-access.js": {
-      "bytes": 1592,
-      "sha256": "bc299f63e6a9d80d0ffc8fb245998d9132dd822d23b0cb9dc84a479d87ce0b6c"
+      "bytes": 1718,
+      "sha256": "b99cb9f3e1d35229d7d9e09fe67dd282dfdb4b19cc2a7e3447de7c1b206737a1"
     },
     "serve.py": {
       "bytes": 1461,
       "sha256": "3985d275ca6490a8090126caf001a78d2646bcc814a8e0ac6e48e891754b5930"
     },
     "share.html": {
-      "bytes": 2014,
-      "sha256": "c13f6645649616f0d96f9251c111c3eb50a1f1b8878ccf1013d8b317c392c2d8"
+      "bytes": 2245,
+      "sha256": "7c30fcff9ac2f04b4528b3a8720cf636b196c2a868be1f3bc83159cd21a9338e"
     },
     "share.js": {
       "bytes": 1568,
@@ -532,6 +532,19 @@
     "vendor/qrcode.js": {
       "bytes": 56694,
       "sha256": "79ec86f82856005b1c887905cfccfcfbec3821ca61c7fd5a952faa5f778f791c"
+    },
+    "device-router.js": {
+      "bytes": 4482,
+      "sha256": "2bb0d0a64fc39b4231e3cb7a8fbba8a72431f49d56b6689de14e77b36e7a914d"
+    },
+    "device-entry.css": {
+      "bytes": 616,
+      "sha256": "35481a77a0c17e574c47cdbcf00a672da7b0c03590be6b1f4c39af2459d146ac"
     }
+  },
+  "entry_router": {
+    "version": "web-auto-r1",
+    "variant": "desktop",
+    "root_relative": "./"
   }
 }

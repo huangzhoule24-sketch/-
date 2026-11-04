@@ -114,8 +114,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 10433,
-      "sha256": "f28fff4355c899a0e892eaaf6a551a227d23aa5906a0cd6161b147cdfec6c2dc"
+      "bytes": 10633,
+      "sha256": "0bc6e2cb7574ccfcec6e0f471df86737621e32a681f80b11fe7bcec01551d67a"
     },
     "index.icon.png": {
       "bytes": 2622,
@@ -346,5 +346,9 @@
   },
   "original_export_receipt_sha256": "e6fa798259690cfa17fb440edb78b737ca60cdda46ec4cc1f78cbf7f7e08b79b",
   "web_shell": "SH-WEB-R9-PORTRAIT",
-  "site_shell_updated_utc": "2026-11-03T16:38:07+00:00"
+  "site_shell_updated_utc": "2026-11-04T03:25:03+00:00",
+  "entry_router": {
+    "version": "web-auto-r1",
+    "variant": "mobile"
+  }
 }

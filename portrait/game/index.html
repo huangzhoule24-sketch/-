@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 	<head>
+<script src="../../device-router.js?v=web-auto-r1" data-root="../../" data-variant="mobile" data-page="game"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, viewport-fit=cover">
 		<title>山海食肆物语 · 有间小馆</title>
@@ -122,6 +123,7 @@ if (window.shanhaiWholeView && window.shanhaiWholeView.active) GODOT_CONFIG.canv
 const engine = new Engine(GODOT_CONFIG);
 
 (function () {
+	if (window.shanhaiDeviceRoute && window.shanhaiDeviceRoute.redirecting) return;
 	const statusOverlay = document.getElementById('status');
 	const statusProgress = document.getElementById('status-progress');
 	const statusNotice = document.getElementById('status-notice');

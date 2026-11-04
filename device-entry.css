@@ -1,0 +1,6 @@
+.device-entry{margin:18px 0;padding:14px;border:2px solid #859477;background:#f7f3e2;color:#334e45;font-size:14px;line-height:1.7}
+.device-entry p{margin:0 0 9px;font-weight:700}
+.device-entry nav{display:flex;justify-content:flex-start;flex-wrap:wrap;gap:8px}
+.device-entry a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:7px 12px;border:2px solid #334e45;color:#334e45;background:#f5efdc;text-decoration:none;font-weight:600}
+.device-entry a[aria-current=true]{background:#334e45;color:#fff6de}
+.device-entry small{display:block;margin-top:9px;color:#596454;font-size:12px}

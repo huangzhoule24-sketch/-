@@ -16,9 +16,9 @@
  window.shanhaiPreviewAccess={
   active:!!access,
   entryURL(){
-   const url=new URL('./',location.href);
+   const url=new URL(window.shanhaiDeviceRoute?window.shanhaiDeviceRoute.root:new URL('./',location.href));
    if(access){for(const key of keys)url.searchParams.set(key,access[key]);}
-   else{url.searchParams.set('classroom','1');url.searchParams.set('v','web-r9-portrait');}
+   else{url.searchParams.set('classroom','1');url.searchParams.set('v',window.shanhaiDeviceRoute?window.shanhaiDeviceRoute.version:'web-r9-portrait');}
    return url.href;
   }
  };
