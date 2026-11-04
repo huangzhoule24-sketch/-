@@ -1,0 +1,2 @@
+5ddc6ee5870c7ac016ea0b6d7bf99157d2bba134f0e053e1028a8f296c2641d0  shanhai-web-auto-r1-main.zip
+716667adedf8d33be035d7a5ecf514778b68186e37224bc81cbfb2c098f9cceb  shanhai-web-auto-r1-mobile-addon.zip
