@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "resources": {
+    "index.wasm": {
+      "mime": "application/wasm",
+      "bytes": 37700666,
+      "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6",
+      "raw": [
+        {
+          "path": "parts/index.wasm.raw.000.bin",
+          "bytes": 8388608,
+          "sha256": "b962c687139f6bf9f71dfbe6c3de35b233156cd51783a711a10a8faa914566ab"
+        },
+        {
+          "path": "parts/index.wasm.raw.001.bin",
+          "bytes": 8388608,
+          "sha256": "afda687051aaa926e3d592d9eca426c7ba55db44e325b740f192a30285191d15"
+        },
+        {
+          "path": "parts/index.wasm.raw.002.bin",
+          "bytes": 8388608,
+          "sha256": "be8030bed2d0abea246c827b2454ea726e18b151c278b578cb50736259c014ff"
+        },
+        {
+          "path": "parts/index.wasm.raw.003.bin",
+          "bytes": 8388608,
+          "sha256": "5ed75d33994c338c28c7d13352f7991f43f07af8e69b670798305f07b7a0871f"
+        },
+        {
+          "path": "parts/index.wasm.raw.004.bin",
+          "bytes": 4146234,
+          "sha256": "dc4e82b7142619b7a034460fc8fb5a372136042da1776ebfd6fbc6ba1a389285"
+        }
+      ],
+      "gzip": [
+        {
+          "path": "parts/index.wasm.gzip.000.bin",
+          "bytes": 8388608,
+          "sha256": "97d87054e00f458803fadfccd85b8f886783e7935c1f5be4ffd53ead510e1fb1"
+        },
+        {
+          "path": "parts/index.wasm.gzip.001.bin",
+          "bytes": 993674,
+          "sha256": "cf91b1640f8e1913f2fa3fb030a3d5fdb546dd6842dbbdcd7e79689991bcc91d"
+        }
+      ]
+    },
+    "index.pck": {
+      "mime": "application/octet-stream",
+      "bytes": 33501084,
+      "sha256": "990094bd76b4fdf1d33aacd0ae75d33d1194198807ea33d004997dff4fac851a",
+      "raw": [
+        {
+          "path": "parts/index.pck.raw.000.bin",
+          "bytes": 8388608,
+          "sha256": "46b53bdc47f62f94750f2f1c10fd39f756f414d0bc022dbef09b64645bec17db"
+        },
+        {
+          "path": "parts/index.pck.raw.001.bin",
+          "bytes": 8388608,
+          "sha256": "941b828afd9873455990d9fcd140710b0ed5c243c833cd01308a8f77bfe9dd11"
+        },
+        {
+          "path": "parts/index.pck.raw.002.bin",
+          "bytes": 8388608,
+          "sha256": "317ece109ee1ebe66e1b4b8fb17b38b5ee774df1a8f007786e3dc321d01c95bc"
+        },
+        {
+          "path": "parts/index.pck.raw.003.bin",
+          "bytes": 8335260,
+          "sha256": "e53e42e97fe60b750a8c203dfa69c1be9dca51ce16283ada4a844be43f38fb3a"
+        }
+      ],
+      "gzip": [
+        {
+          "path": "parts/index.pck.gzip.000.bin",
+          "bytes": 8388608,
+          "sha256": "8da2826c0ba95343e8abb2eeedc8ffa7a8df969e59c9e0fad80916249bc95410"
+        },
+        {
+          "path": "parts/index.pck.gzip.001.bin",
+          "bytes": 8388608,
+          "sha256": "d1800317e6fa798088602d4aa291c2e4d95da8b732ee8a5f9f5975c8180eea0f"
+        },
+        {
+          "path": "parts/index.pck.gzip.002.bin",
+          "bytes": 8388608,
+          "sha256": "81e8790f55fc274f304c9f88e564b14ac991354f134df8e6c492195465ae8f96"
+        },
+        {
+          "path": "parts/index.pck.gzip.003.bin",
+          "bytes": 5353023,
+          "sha256": "2b4f4b53c4950790ad1828667f90bd4efb8ae1ea97d8580accccb0751f51db3c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6550 @@
+{
+  "version": 3,
+  "aliases": {
+    "restaurant": "Backgrounds/restaurant",
+    "btn_employee": "UI/btn_employee",
+    "noodles": "Dishes/noodles",
+    "qianyang_idle": "Characters/xian_yang_idle",
+    "thought_bubble": "UI/thought_bubble",
+    "btn_promotion": "UI/btn_promotion",
+    "btn_recruit": "UI/btn_recruit",
+    "btn_branch": "UI/btn_branch",
+    "btn_central": "UI/btn_central",
+    "btn_exploration": "UI/btn_exploration"
+  },
+  "culture_slots": [
+    {
+      "kind": "employees",
+      "id": "xian_yang",
+      "name": "羬羊",
+      "resource_id": "Characters/xian_yang_lore",
+      "path": "Characters/xian_yang_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "xiao",
+      "name": "鸮",
+      "resource_id": "Characters/xiao_lore",
+      "path": "Characters/xiao_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "er_shu",
+      "name": "耳鼠",
+      "resource_id": "Characters/er_shu_lore",
+      "path": "Characters/er_shu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "guan_guan",
+      "name": "灌灌",
+      "resource_id": "Characters/guan_guan_lore",
+      "path": "Characters/guan_guan_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "e_shou",
+      "name": "讹兽",
+      "resource_id": "Characters/e_shou_lore",
+      "path": "Characters/e_shou_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "tao_tie",
+      "name": "饕餮",
+      "resource_id": "Characters/tao_tie_lore",
+      "path": "Characters/tao_tie_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "ran_yi_yu",
+      "name": "冉遗鱼",
+      "resource_id": "Characters/ran_yi_yu_lore",
+      "path": "Characters/ran_yi_yu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "dang_kang",
+      "name": "当康",
+      "resource_id": "Characters/dang_kang_lore",
+      "path": "Characters/dang_kang_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "tian_gou",
+      "name": "天狗",
+      "resource_id": "Characters/tian_gou_lore",
+      "path": "Characters/tian_gou_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "gu_diao",
+      "name": "蛊雕",
+      "resource_id": "Characters/gu_diao_lore",
+      "path": "Characters/gu_diao_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "jiu_wei_hu",
+      "name": "九尾狐",
+      "resource_id": "Characters/jiu_wei_hu_lore",
+      "path": "Characters/jiu_wei_hu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "bi_fang",
+      "name": "毕方",
+      "resource_id": "Characters/bi_fang_lore",
+      "path": "Characters/bi_fang_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "pi_xiu",
+      "name": "貔貅",
+      "resource_id": "Characters/pi_xiu_lore",
+      "path": "Characters/pi_xiu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "ying_zhao",
+      "name": "英招",
+      "resource_id": "Characters/ying_zhao_lore",
+      "path": "Characters/ying_zhao_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "lu_wu",
+      "name": "陆吾",
+      "resource_id": "Characters/lu_wu_lore",
+      "path": "Characters/lu_wu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "jing_wei",
+      "name": "精卫",
+      "resource_id": "Characters/jing_wei_lore",
+      "path": "Characters/jing_wei_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "qiong_qi",
+      "name": "穷奇",
+      "resource_id": "Characters/qiong_qi_lore",
+      "path": "Characters/qiong_qi_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "tao_wu",
+      "name": "梼杌",
+      "resource_id": "Characters/tao_wu_lore",
+      "path": "Characters/tao_wu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "hun_dun",
+      "name": "混沌",
+      "resource_id": "Characters/hun_dun_lore",
+      "path": "Characters/hun_dun_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "xie_zhi",
+      "name": "獬豸",
+      "resource_id": "Characters/xie_zhi_lore",
+      "path": "Characters/xie_zhi_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "feng_huang",
+      "name": "凤凰",
+      "resource_id": "Characters/feng_huang_lore",
+      "path": "Characters/feng_huang_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "bai_ze",
+      "name": "白泽",
+      "resource_id": "Characters/bai_ze_lore",
+      "path": "Characters/bai_ze_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "ying_long",
+      "name": "应龙",
+      "resource_id": "Characters/ying_long_lore",
+      "path": "Characters/ying_long_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "zhu_long",
+      "name": "烛龙",
+      "resource_id": "Characters/zhu_long_lore",
+      "path": "Characters/zhu_long_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "di_jiang",
+      "name": "帝江",
+      "resource_id": "Characters/di_jiang_lore",
+      "path": "Characters/di_jiang_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "jiu_ying",
+      "name": "九婴",
+      "resource_id": "Characters/jiu_ying_lore",
+      "path": "Characters/jiu_ying_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "noodles",
+      "name": "阳春面",
+      "resource_id": "Dishes/noodles_lore",
+      "path": "Dishes/noodles_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "fried_rice",
+      "name": "蛋炒饭",
+      "resource_id": "Dishes/fried_rice_lore",
+      "path": "Dishes/fried_rice_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "plum_juice",
+      "name": "酸梅汤",
+      "resource_id": "Dishes/plum_juice_lore",
+      "path": "Dishes/plum_juice_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "qianyang_soup",
+      "name": "羬羊羊肉汤",
+      "resource_id": "Dishes/qianyang_soup_lore",
+      "path": "Dishes/qianyang_soup_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "bifang_wings",
+      "name": "毕方烤翅",
+      "resource_id": "Dishes/bifang_wings_lore",
+      "path": "Dishes/bifang_wings_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "fox_milk",
+      "name": "九尾仙奶",
+      "resource_id": "Dishes/fox_milk_lore",
+      "path": "Dishes/fox_milk_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "yinglong_hotpot",
+      "name": "应龙海鲜锅",
+      "resource_id": "Dishes/yinglong_hotpot_lore",
+      "path": "Dishes/yinglong_hotpot_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "taotie_buffet",
+      "name": "饕餮自助套餐",
+      "resource_id": "Dishes/taotie_buffet_lore",
+      "path": "Dishes/taotie_buffet_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "phoenix_soup",
+      "name": "凤凰涅槃羹",
+      "resource_id": "Dishes/phoenix_soup_lore",
+      "path": "Dishes/phoenix_soup_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "zhuyu_salad",
+      "name": "祝余轻食",
+      "resource_id": "Dishes/zhuyu_salad_lore",
+      "path": "Dishes/zhuyu_salad_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "luwu_platter",
+      "name": "陆吾烤肉拼盘",
+      "resource_id": "Dishes/luwu_platter_lore",
+      "path": "Dishes/luwu_platter_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "yingzhao_salad",
+      "name": "英招时蔬沙拉",
+      "resource_id": "Dishes/yingzhao_salad_lore",
+      "path": "Dishes/yingzhao_salad_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "jingwei_bibimbap",
+      "name": "精卫石锅拌饭",
+      "resource_id": "Dishes/jingwei_bibimbap_lore",
+      "path": "Dishes/jingwei_bibimbap_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "dangkang_rice",
+      "name": "当康丰收炒饭",
+      "resource_id": "Dishes/dangkang_rice_lore",
+      "path": "Dishes/dangkang_rice_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "tiangou_tempura",
+      "name": "天狗天妇罗",
+      "resource_id": "Dishes/tiangou_tempura_lore",
+      "path": "Dishes/tiangou_tempura_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "ranyiyu_soup",
+      "name": "冉遗鱼汤",
+      "resource_id": "Dishes/ranyiyu_soup_lore",
+      "path": "Dishes/ranyiyu_soup_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "qiongqi_hotpot",
+      "name": "穷奇麻辣火锅",
+      "resource_id": "Dishes/qiongqi_hotpot_lore",
+      "path": "Dishes/qiongqi_hotpot_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "taowu_barbecue",
+      "name": "梼杌秘制烤肉",
+      "resource_id": "Dishes/taowu_barbecue_lore",
+      "path": "Dishes/taowu_barbecue_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "hundun_wonton",
+      "name": "混沌云吞",
+      "resource_id": "Dishes/hundun_wonton_lore",
+      "path": "Dishes/hundun_wonton_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "xiezhi_set",
+      "name": "獬豸正义套餐",
+      "resource_id": "Dishes/xiezhi_set_lore",
+      "path": "Dishes/xiezhi_set_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "zhulong_ramen",
+      "name": "烛龙火焰拉面",
+      "resource_id": "Dishes/zhulong_ramen_lore",
+      "path": "Dishes/zhulong_ramen_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "dijiang_dumplings",
+      "name": "帝江无面饺子",
+      "resource_id": "Dishes/dijiang_dumplings_lore",
+      "path": "Dishes/dijiang_dumplings_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "jiuying_platter",
+      "name": "九婴九味拼盘",
+      "resource_id": "Dishes/jiuying_platter_lore",
+      "path": "Dishes/jiuying_platter_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "baize_hidden_banquet",
+      "name": "白泽万象宴",
+      "resource_id": "Dishes/baize_hidden_banquet_lore",
+      "path": "Dishes/baize_hidden_banquet_lore.png"
+    },
+    {
+      "kind": "dishes",
+      "id": "phoenix_true_soup",
+      "name": "凤凰涅槃羹·真",
+      "resource_id": "Dishes/phoenix_true_soup_lore",
+      "path": "Dishes/phoenix_true_soup_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "xuan_gui",
+      "name": "旋龟",
+      "resource_id": "Characters/xuan_gui_lore",
+      "path": "Characters/xuan_gui_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "qing_geng",
+      "name": "青耕",
+      "resource_id": "Characters/qing_geng_lore",
+      "path": "Characters/qing_geng_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "qing_fu",
+      "name": "青蚨",
+      "resource_id": "Characters/qing_fu_lore",
+      "path": "Characters/qing_fu_lore.png"
+    },
+    {
+      "kind": "employees",
+      "id": "tian_lu",
+      "name": "天禄",
+      "resource_id": "Characters/tian_lu_lore",
+      "path": "Characters/tian_lu_lore.png"
+    }
+  ],
+  "appearance_slots": [
+    {
+      "employee_id": "feng_huang",
+      "appearance_id": "phoenix_awakened",
+      "path": "Characters/feng_huang_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:phoenix_return"
+    },
+    {
+      "employee_id": "ying_long",
+      "appearance_id": "yinglong_awakened",
+      "path": "Characters/ying_long_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:yinglong_rain"
+    },
+    {
+      "employee_id": "zhu_long",
+      "appearance_id": "zhulong_awakened",
+      "path": "Characters/zhu_long_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:zhulong_dawn"
+    },
+    {
+      "employee_id": "di_jiang",
+      "appearance_id": "dijiang_awakened",
+      "path": "Characters/di_jiang_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:dijiang_names"
+    },
+    {
+      "employee_id": "jiu_ying",
+      "appearance_id": "jiuying_awakened",
+      "path": "Characters/jiu_ying_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:jiuying_unison"
+    },
+    {
+      "employee_id": "jiu_wei_hu",
+      "appearance_id": "nine_tailed_fox_awakened",
+      "path": "Characters/jiu_wei_hu_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:fox_true_charm"
+    },
+    {
+      "employee_id": "jing_wei",
+      "appearance_id": "jingwei_awakened",
+      "path": "Characters/jing_wei_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:jingwei_shore"
+    },
+    {
+      "employee_id": "qiong_qi",
+      "appearance_id": "qiongqi_awakened",
+      "path": "Characters/qiong_qi_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:qiongqi_truce"
+    },
+    {
+      "employee_id": "xie_zhi",
+      "appearance_id": "xiezhi_awakened",
+      "path": "Characters/xie_zhi_awakened_idle.png",
+      "actions": [
+        "idle",
+        "move",
+        "cook",
+        "serve",
+        "clean",
+        "cashier",
+        "promote"
+      ],
+      "unlock": "sidequest:xiezhi_balance"
+    }
+  ],
+  "special_guest_slots": [
+    {
+      "id": "old_gourmand",
+      "name": "饕客·老饕",
+      "resource_id": "Characters/guest_old_gourmand_lore",
+      "path": "Characters/guest_old_gourmand_lore.png"
+    },
+    {
+      "id": "old_gourmand",
+      "name": "饕客·老饕",
+      "resource_id": "Characters/guest_old_gourmand_idle",
+      "path": "Characters/guest_old_gourmand_idle.png"
+    },
+    {
+      "id": "baize_friend",
+      "name": "白泽的故人",
+      "resource_id": "Characters/guest_baize_friend_lore",
+      "path": "Characters/guest_baize_friend_lore.png"
+    },
+    {
+      "id": "baize_friend",
+      "name": "白泽的故人",
+      "resource_id": "Characters/guest_baize_friend_idle",
+      "path": "Characters/guest_baize_friend_idle.png"
+    },
+    {
+      "id": "lost_cub",
+      "name": "小神兽",
+      "resource_id": "Characters/guest_lost_cub_lore",
+      "path": "Characters/guest_lost_cub_lore.png"
+    },
+    {
+      "id": "lost_cub",
+      "name": "小神兽",
+      "resource_id": "Characters/guest_lost_cub_idle",
+      "path": "Characters/guest_lost_cub_idle.png"
+    },
+    {
+      "id": "picky_blogger",
+      "name": "挑剔的美食家",
+      "resource_id": "Characters/guest_picky_blogger_lore",
+      "path": "Characters/guest_picky_blogger_lore.png"
+    },
+    {
+      "id": "picky_blogger",
+      "name": "挑剔的美食家",
+      "resource_id": "Characters/guest_picky_blogger_idle",
+      "path": "Characters/guest_picky_blogger_idle.png"
+    },
+    {
+      "id": "grateful_monster",
+      "name": "报恩的妖怪",
+      "resource_id": "Characters/guest_grateful_monster_lore",
+      "path": "Characters/guest_grateful_monster_lore.png"
+    },
+    {
+      "id": "grateful_monster",
+      "name": "报恩的妖怪",
+      "resource_id": "Characters/guest_grateful_monster_idle",
+      "path": "Characters/guest_grateful_monster_idle.png"
+    },
+    {
+      "id": "kunlun_spy",
+      "name": "昆仑集团密探",
+      "resource_id": "Characters/guest_kunlun_spy_lore",
+      "path": "Characters/guest_kunlun_spy_lore.png"
+    },
+    {
+      "id": "kunlun_spy",
+      "name": "昆仑集团密探",
+      "resource_id": "Characters/guest_kunlun_spy_idle",
+      "path": "Characters/guest_kunlun_spy_idle.png"
+    }
+  ],
+  "pickup_slots": [
+    {
+      "id": "pickup_cash",
+      "path": "UI/pickup_cash.png"
+    },
+    {
+      "id": "pickup_gem",
+      "path": "UI/pickup_gem.png"
+    }
+  ],
+  "dollhouse_slots": [
+    {
+      "resource_id": "Backgrounds/dollhouse",
+      "path": "Backgrounds/dollhouse.png",
+      "name": "横截面场景"
+    },
+    {
+      "resource_id": "Backgrounds/dollhouse_stage_0",
+      "path": "Backgrounds/dollhouse_stage_0.png",
+      "name": "横截面场景_stage_0"
+    },
+    {
+      "resource_id": "Backgrounds/dollhouse_stage_1",
+      "path": "Backgrounds/dollhouse_stage_1.png",
+      "name": "横截面场景_stage_1"
+    },
+    {
+      "resource_id": "Backgrounds/dollhouse_stage_2",
+      "path": "Backgrounds/dollhouse_stage_2.png",
+      "name": "横截面场景_stage_2"
+    },
+    {
+      "resource_id": "Backgrounds/dollhouse_stage_3",
+      "path": "Backgrounds/dollhouse_stage_3.png",
+      "name": "横截面场景_stage_3"
+    },
+    {
+      "resource_id": "Backgrounds/dollhouse_stage_4",
+      "path": "Backgrounds/dollhouse_stage_4.png",
+      "name": "横截面场景_stage_4"
+    },
+    {
+      "resource_id": "UI/decor_stove",
+      "path": "UI/decor_stove.png",
+      "name": "设备 stove"
+    },
+    {
+      "resource_id": "UI/decor_serving_counter",
+      "path": "UI/decor_serving_counter.png",
+      "name": "设备 serving_counter"
+    },
+    {
+      "resource_id": "UI/decor_promotion_board",
+      "path": "UI/decor_promotion_board.png",
+      "name": "设备 promotion_board"
+    },
+    {
+      "resource_id": "UI/decor_staff_corner",
+      "path": "UI/decor_staff_corner.png",
+      "name": "设备 staff_corner"
+    },
+    {
+      "resource_id": "UI/decor_basic_pass",
+      "path": "UI/decor_basic_pass.png",
+      "name": "设备 basic_pass"
+    },
+    {
+      "resource_id": "UI/decor_basic_cashier",
+      "path": "UI/decor_basic_cashier.png",
+      "name": "设备 basic_cashier"
+    }
+  ],
+  "dollhouse_character_actions": [
+    "recommend",
+    "rest",
+    "build"
+  ],
+  "categories": [
+    "Portraits",
+    "Sprites",
+    "UI",
+    "Map",
+    "Items",
+    "FX"
+  ],
+  "legacy_categories": [
+    "Backgrounds",
+    "Characters",
+    "Dishes"
+  ],
+  "employee_id_aliases": {
+    "qianyang": "xian_yang",
+    "owl": "xiao",
+    "earmouse": "er_shu",
+    "guanguan": "guan_guan",
+    "eshou": "e_shou",
+    "taotie": "tao_tie",
+    "ranyiyu": "ran_yi_yu",
+    "dangkang": "dang_kang",
+    "tiangou": "tian_gou",
+    "gudiao": "gu_diao",
+    "xuangui": "xuan_gui",
+    "qingfu": "qing_fu",
+    "nine_tailed_fox": "jiu_wei_hu",
+    "bifang": "bi_fang",
+    "pixiu": "pi_xiu",
+    "yingzhao": "ying_zhao",
+    "luwu": "lu_wu",
+    "jingwei": "jing_wei",
+    "qiongqi": "qiong_qi",
+    "taowu": "tao_wu",
+    "hundun": "hun_dun",
+    "xiezhi": "xie_zhi",
+    "qinggeng": "qing_geng",
+    "tianlu": "tian_lu",
+    "phoenix": "feng_huang",
+    "baize": "bai_ze",
+    "yinglong": "ying_long",
+    "zhulong": "zhu_long",
+    "dijiang": "di_jiang",
+    "jiuying": "jiu_ying"
+  },
+  "sprite_contract": {
+    "actions": [
+      "walk",
+      "idle",
+      "order",
+      "cook",
+      "serve",
+      "clean",
+      "cashier",
+      "promote",
+      "rest"
+    ],
+    "directions": [
+      "down",
+      "up",
+      "left",
+      "right"
+    ],
+    "frames": "0..3; author supplies the actual frames",
+    "recommended_size": [
+      32,
+      64
+    ],
+    "placeholder_art_only": true
+  },
+  "v193_slots": [
+    {
+      "name": "立绘 · 羬羊",
+      "path": "Portraits/xian_yang.png"
+    },
+    {
+      "name": "引导立绘 · 羬羊",
+      "path": "Portraits/tutorial_xian_yang.png"
+    },
+    {
+      "name": "小人 · 羬羊 · walk · down",
+      "path": "Sprites/xian_yang/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · walk · up",
+      "path": "Sprites/xian_yang/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · walk · left",
+      "path": "Sprites/xian_yang/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · walk · right",
+      "path": "Sprites/xian_yang/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · idle · down",
+      "path": "Sprites/xian_yang/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · idle · up",
+      "path": "Sprites/xian_yang/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · idle · left",
+      "path": "Sprites/xian_yang/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · idle · right",
+      "path": "Sprites/xian_yang/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · order · down",
+      "path": "Sprites/xian_yang/order_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · order · up",
+      "path": "Sprites/xian_yang/order_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · order · left",
+      "path": "Sprites/xian_yang/order_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · order · right",
+      "path": "Sprites/xian_yang/order_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cook · down",
+      "path": "Sprites/xian_yang/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cook · up",
+      "path": "Sprites/xian_yang/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cook · left",
+      "path": "Sprites/xian_yang/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cook · right",
+      "path": "Sprites/xian_yang/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · serve · down",
+      "path": "Sprites/xian_yang/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · serve · up",
+      "path": "Sprites/xian_yang/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · serve · left",
+      "path": "Sprites/xian_yang/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · serve · right",
+      "path": "Sprites/xian_yang/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · clean · down",
+      "path": "Sprites/xian_yang/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · clean · up",
+      "path": "Sprites/xian_yang/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · clean · left",
+      "path": "Sprites/xian_yang/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · clean · right",
+      "path": "Sprites/xian_yang/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cashier · down",
+      "path": "Sprites/xian_yang/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cashier · up",
+      "path": "Sprites/xian_yang/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cashier · left",
+      "path": "Sprites/xian_yang/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · cashier · right",
+      "path": "Sprites/xian_yang/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · promote · down",
+      "path": "Sprites/xian_yang/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · promote · up",
+      "path": "Sprites/xian_yang/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · promote · left",
+      "path": "Sprites/xian_yang/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · promote · right",
+      "path": "Sprites/xian_yang/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · rest · down",
+      "path": "Sprites/xian_yang/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · rest · up",
+      "path": "Sprites/xian_yang/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · rest · left",
+      "path": "Sprites/xian_yang/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 羬羊 · rest · right",
+      "path": "Sprites/xian_yang/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 鸮",
+      "path": "Portraits/xiao.png"
+    },
+    {
+      "name": "引导立绘 · 鸮",
+      "path": "Portraits/tutorial_xiao.png"
+    },
+    {
+      "name": "小人 · 鸮 · walk · down",
+      "path": "Sprites/xiao/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · walk · up",
+      "path": "Sprites/xiao/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · walk · left",
+      "path": "Sprites/xiao/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · walk · right",
+      "path": "Sprites/xiao/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · idle · down",
+      "path": "Sprites/xiao/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · idle · up",
+      "path": "Sprites/xiao/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · idle · left",
+      "path": "Sprites/xiao/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · idle · right",
+      "path": "Sprites/xiao/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · order · down",
+      "path": "Sprites/xiao/order_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · order · up",
+      "path": "Sprites/xiao/order_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · order · left",
+      "path": "Sprites/xiao/order_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · order · right",
+      "path": "Sprites/xiao/order_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cook · down",
+      "path": "Sprites/xiao/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cook · up",
+      "path": "Sprites/xiao/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cook · left",
+      "path": "Sprites/xiao/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cook · right",
+      "path": "Sprites/xiao/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · serve · down",
+      "path": "Sprites/xiao/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · serve · up",
+      "path": "Sprites/xiao/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · serve · left",
+      "path": "Sprites/xiao/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · serve · right",
+      "path": "Sprites/xiao/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · clean · down",
+      "path": "Sprites/xiao/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · clean · up",
+      "path": "Sprites/xiao/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · clean · left",
+      "path": "Sprites/xiao/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · clean · right",
+      "path": "Sprites/xiao/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cashier · down",
+      "path": "Sprites/xiao/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cashier · up",
+      "path": "Sprites/xiao/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cashier · left",
+      "path": "Sprites/xiao/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · cashier · right",
+      "path": "Sprites/xiao/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · promote · down",
+      "path": "Sprites/xiao/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · promote · up",
+      "path": "Sprites/xiao/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · promote · left",
+      "path": "Sprites/xiao/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · promote · right",
+      "path": "Sprites/xiao/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · rest · down",
+      "path": "Sprites/xiao/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · rest · up",
+      "path": "Sprites/xiao/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · rest · left",
+      "path": "Sprites/xiao/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 鸮 · rest · right",
+      "path": "Sprites/xiao/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 耳鼠",
+      "path": "Portraits/er_shu.png"
+    },
+    {
+      "name": "引导立绘 · 耳鼠",
+      "path": "Portraits/tutorial_er_shu.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · walk · down",
+      "path": "Sprites/er_shu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · walk · up",
+      "path": "Sprites/er_shu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · walk · left",
+      "path": "Sprites/er_shu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · walk · right",
+      "path": "Sprites/er_shu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · idle · down",
+      "path": "Sprites/er_shu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · idle · up",
+      "path": "Sprites/er_shu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · idle · left",
+      "path": "Sprites/er_shu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · idle · right",
+      "path": "Sprites/er_shu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · order · down",
+      "path": "Sprites/er_shu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · order · up",
+      "path": "Sprites/er_shu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · order · left",
+      "path": "Sprites/er_shu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · order · right",
+      "path": "Sprites/er_shu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cook · down",
+      "path": "Sprites/er_shu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cook · up",
+      "path": "Sprites/er_shu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cook · left",
+      "path": "Sprites/er_shu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cook · right",
+      "path": "Sprites/er_shu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · serve · down",
+      "path": "Sprites/er_shu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · serve · up",
+      "path": "Sprites/er_shu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · serve · left",
+      "path": "Sprites/er_shu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · serve · right",
+      "path": "Sprites/er_shu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · clean · down",
+      "path": "Sprites/er_shu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · clean · up",
+      "path": "Sprites/er_shu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · clean · left",
+      "path": "Sprites/er_shu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · clean · right",
+      "path": "Sprites/er_shu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cashier · down",
+      "path": "Sprites/er_shu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cashier · up",
+      "path": "Sprites/er_shu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cashier · left",
+      "path": "Sprites/er_shu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · cashier · right",
+      "path": "Sprites/er_shu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · promote · down",
+      "path": "Sprites/er_shu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · promote · up",
+      "path": "Sprites/er_shu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · promote · left",
+      "path": "Sprites/er_shu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · promote · right",
+      "path": "Sprites/er_shu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · rest · down",
+      "path": "Sprites/er_shu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · rest · up",
+      "path": "Sprites/er_shu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · rest · left",
+      "path": "Sprites/er_shu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 耳鼠 · rest · right",
+      "path": "Sprites/er_shu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 灌灌",
+      "path": "Portraits/guan_guan.png"
+    },
+    {
+      "name": "引导立绘 · 灌灌",
+      "path": "Portraits/tutorial_guan_guan.png"
+    },
+    {
+      "name": "小人 · 灌灌 · walk · down",
+      "path": "Sprites/guan_guan/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · walk · up",
+      "path": "Sprites/guan_guan/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · walk · left",
+      "path": "Sprites/guan_guan/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · walk · right",
+      "path": "Sprites/guan_guan/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · idle · down",
+      "path": "Sprites/guan_guan/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · idle · up",
+      "path": "Sprites/guan_guan/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · idle · left",
+      "path": "Sprites/guan_guan/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · idle · right",
+      "path": "Sprites/guan_guan/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · order · down",
+      "path": "Sprites/guan_guan/order_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · order · up",
+      "path": "Sprites/guan_guan/order_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · order · left",
+      "path": "Sprites/guan_guan/order_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · order · right",
+      "path": "Sprites/guan_guan/order_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cook · down",
+      "path": "Sprites/guan_guan/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cook · up",
+      "path": "Sprites/guan_guan/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cook · left",
+      "path": "Sprites/guan_guan/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cook · right",
+      "path": "Sprites/guan_guan/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · serve · down",
+      "path": "Sprites/guan_guan/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · serve · up",
+      "path": "Sprites/guan_guan/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · serve · left",
+      "path": "Sprites/guan_guan/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · serve · right",
+      "path": "Sprites/guan_guan/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · clean · down",
+      "path": "Sprites/guan_guan/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · clean · up",
+      "path": "Sprites/guan_guan/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · clean · left",
+      "path": "Sprites/guan_guan/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · clean · right",
+      "path": "Sprites/guan_guan/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cashier · down",
+      "path": "Sprites/guan_guan/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cashier · up",
+      "path": "Sprites/guan_guan/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cashier · left",
+      "path": "Sprites/guan_guan/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · cashier · right",
+      "path": "Sprites/guan_guan/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · promote · down",
+      "path": "Sprites/guan_guan/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · promote · up",
+      "path": "Sprites/guan_guan/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · promote · left",
+      "path": "Sprites/guan_guan/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · promote · right",
+      "path": "Sprites/guan_guan/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · rest · down",
+      "path": "Sprites/guan_guan/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · rest · up",
+      "path": "Sprites/guan_guan/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · rest · left",
+      "path": "Sprites/guan_guan/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 灌灌 · rest · right",
+      "path": "Sprites/guan_guan/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 讹兽",
+      "path": "Portraits/e_shou.png"
+    },
+    {
+      "name": "引导立绘 · 讹兽",
+      "path": "Portraits/tutorial_e_shou.png"
+    },
+    {
+      "name": "小人 · 讹兽 · walk · down",
+      "path": "Sprites/e_shou/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · walk · up",
+      "path": "Sprites/e_shou/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · walk · left",
+      "path": "Sprites/e_shou/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · walk · right",
+      "path": "Sprites/e_shou/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · idle · down",
+      "path": "Sprites/e_shou/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · idle · up",
+      "path": "Sprites/e_shou/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · idle · left",
+      "path": "Sprites/e_shou/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · idle · right",
+      "path": "Sprites/e_shou/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · order · down",
+      "path": "Sprites/e_shou/order_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · order · up",
+      "path": "Sprites/e_shou/order_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · order · left",
+      "path": "Sprites/e_shou/order_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · order · right",
+      "path": "Sprites/e_shou/order_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cook · down",
+      "path": "Sprites/e_shou/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cook · up",
+      "path": "Sprites/e_shou/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cook · left",
+      "path": "Sprites/e_shou/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cook · right",
+      "path": "Sprites/e_shou/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · serve · down",
+      "path": "Sprites/e_shou/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · serve · up",
+      "path": "Sprites/e_shou/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · serve · left",
+      "path": "Sprites/e_shou/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · serve · right",
+      "path": "Sprites/e_shou/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · clean · down",
+      "path": "Sprites/e_shou/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · clean · up",
+      "path": "Sprites/e_shou/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · clean · left",
+      "path": "Sprites/e_shou/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · clean · right",
+      "path": "Sprites/e_shou/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cashier · down",
+      "path": "Sprites/e_shou/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cashier · up",
+      "path": "Sprites/e_shou/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cashier · left",
+      "path": "Sprites/e_shou/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · cashier · right",
+      "path": "Sprites/e_shou/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · promote · down",
+      "path": "Sprites/e_shou/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · promote · up",
+      "path": "Sprites/e_shou/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · promote · left",
+      "path": "Sprites/e_shou/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · promote · right",
+      "path": "Sprites/e_shou/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · rest · down",
+      "path": "Sprites/e_shou/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · rest · up",
+      "path": "Sprites/e_shou/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · rest · left",
+      "path": "Sprites/e_shou/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 讹兽 · rest · right",
+      "path": "Sprites/e_shou/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 饕餮",
+      "path": "Portraits/tao_tie.png"
+    },
+    {
+      "name": "引导立绘 · 饕餮",
+      "path": "Portraits/tutorial_tao_tie.png"
+    },
+    {
+      "name": "小人 · 饕餮 · walk · down",
+      "path": "Sprites/tao_tie/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · walk · up",
+      "path": "Sprites/tao_tie/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · walk · left",
+      "path": "Sprites/tao_tie/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · walk · right",
+      "path": "Sprites/tao_tie/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · idle · down",
+      "path": "Sprites/tao_tie/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · idle · up",
+      "path": "Sprites/tao_tie/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · idle · left",
+      "path": "Sprites/tao_tie/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · idle · right",
+      "path": "Sprites/tao_tie/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · order · down",
+      "path": "Sprites/tao_tie/order_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · order · up",
+      "path": "Sprites/tao_tie/order_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · order · left",
+      "path": "Sprites/tao_tie/order_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · order · right",
+      "path": "Sprites/tao_tie/order_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cook · down",
+      "path": "Sprites/tao_tie/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cook · up",
+      "path": "Sprites/tao_tie/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cook · left",
+      "path": "Sprites/tao_tie/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cook · right",
+      "path": "Sprites/tao_tie/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · serve · down",
+      "path": "Sprites/tao_tie/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · serve · up",
+      "path": "Sprites/tao_tie/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · serve · left",
+      "path": "Sprites/tao_tie/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · serve · right",
+      "path": "Sprites/tao_tie/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · clean · down",
+      "path": "Sprites/tao_tie/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · clean · up",
+      "path": "Sprites/tao_tie/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · clean · left",
+      "path": "Sprites/tao_tie/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · clean · right",
+      "path": "Sprites/tao_tie/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cashier · down",
+      "path": "Sprites/tao_tie/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cashier · up",
+      "path": "Sprites/tao_tie/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cashier · left",
+      "path": "Sprites/tao_tie/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · cashier · right",
+      "path": "Sprites/tao_tie/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · promote · down",
+      "path": "Sprites/tao_tie/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · promote · up",
+      "path": "Sprites/tao_tie/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · promote · left",
+      "path": "Sprites/tao_tie/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · promote · right",
+      "path": "Sprites/tao_tie/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · rest · down",
+      "path": "Sprites/tao_tie/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · rest · up",
+      "path": "Sprites/tao_tie/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · rest · left",
+      "path": "Sprites/tao_tie/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 饕餮 · rest · right",
+      "path": "Sprites/tao_tie/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 冉遗鱼",
+      "path": "Portraits/ran_yi_yu.png"
+    },
+    {
+      "name": "引导立绘 · 冉遗鱼",
+      "path": "Portraits/tutorial_ran_yi_yu.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · walk · down",
+      "path": "Sprites/ran_yi_yu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · walk · up",
+      "path": "Sprites/ran_yi_yu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · walk · left",
+      "path": "Sprites/ran_yi_yu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · walk · right",
+      "path": "Sprites/ran_yi_yu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · idle · down",
+      "path": "Sprites/ran_yi_yu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · idle · up",
+      "path": "Sprites/ran_yi_yu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · idle · left",
+      "path": "Sprites/ran_yi_yu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · idle · right",
+      "path": "Sprites/ran_yi_yu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · order · down",
+      "path": "Sprites/ran_yi_yu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · order · up",
+      "path": "Sprites/ran_yi_yu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · order · left",
+      "path": "Sprites/ran_yi_yu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · order · right",
+      "path": "Sprites/ran_yi_yu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cook · down",
+      "path": "Sprites/ran_yi_yu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cook · up",
+      "path": "Sprites/ran_yi_yu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cook · left",
+      "path": "Sprites/ran_yi_yu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cook · right",
+      "path": "Sprites/ran_yi_yu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · serve · down",
+      "path": "Sprites/ran_yi_yu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · serve · up",
+      "path": "Sprites/ran_yi_yu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · serve · left",
+      "path": "Sprites/ran_yi_yu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · serve · right",
+      "path": "Sprites/ran_yi_yu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · clean · down",
+      "path": "Sprites/ran_yi_yu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · clean · up",
+      "path": "Sprites/ran_yi_yu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · clean · left",
+      "path": "Sprites/ran_yi_yu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · clean · right",
+      "path": "Sprites/ran_yi_yu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cashier · down",
+      "path": "Sprites/ran_yi_yu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cashier · up",
+      "path": "Sprites/ran_yi_yu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cashier · left",
+      "path": "Sprites/ran_yi_yu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · cashier · right",
+      "path": "Sprites/ran_yi_yu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · promote · down",
+      "path": "Sprites/ran_yi_yu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · promote · up",
+      "path": "Sprites/ran_yi_yu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · promote · left",
+      "path": "Sprites/ran_yi_yu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · promote · right",
+      "path": "Sprites/ran_yi_yu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · rest · down",
+      "path": "Sprites/ran_yi_yu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · rest · up",
+      "path": "Sprites/ran_yi_yu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · rest · left",
+      "path": "Sprites/ran_yi_yu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 冉遗鱼 · rest · right",
+      "path": "Sprites/ran_yi_yu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 当康",
+      "path": "Portraits/dang_kang.png"
+    },
+    {
+      "name": "引导立绘 · 当康",
+      "path": "Portraits/tutorial_dang_kang.png"
+    },
+    {
+      "name": "小人 · 当康 · walk · down",
+      "path": "Sprites/dang_kang/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · walk · up",
+      "path": "Sprites/dang_kang/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · walk · left",
+      "path": "Sprites/dang_kang/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · walk · right",
+      "path": "Sprites/dang_kang/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · idle · down",
+      "path": "Sprites/dang_kang/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · idle · up",
+      "path": "Sprites/dang_kang/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · idle · left",
+      "path": "Sprites/dang_kang/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · idle · right",
+      "path": "Sprites/dang_kang/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · order · down",
+      "path": "Sprites/dang_kang/order_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · order · up",
+      "path": "Sprites/dang_kang/order_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · order · left",
+      "path": "Sprites/dang_kang/order_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · order · right",
+      "path": "Sprites/dang_kang/order_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cook · down",
+      "path": "Sprites/dang_kang/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cook · up",
+      "path": "Sprites/dang_kang/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cook · left",
+      "path": "Sprites/dang_kang/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cook · right",
+      "path": "Sprites/dang_kang/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · serve · down",
+      "path": "Sprites/dang_kang/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · serve · up",
+      "path": "Sprites/dang_kang/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · serve · left",
+      "path": "Sprites/dang_kang/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · serve · right",
+      "path": "Sprites/dang_kang/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · clean · down",
+      "path": "Sprites/dang_kang/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · clean · up",
+      "path": "Sprites/dang_kang/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · clean · left",
+      "path": "Sprites/dang_kang/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · clean · right",
+      "path": "Sprites/dang_kang/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cashier · down",
+      "path": "Sprites/dang_kang/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cashier · up",
+      "path": "Sprites/dang_kang/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cashier · left",
+      "path": "Sprites/dang_kang/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · cashier · right",
+      "path": "Sprites/dang_kang/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · promote · down",
+      "path": "Sprites/dang_kang/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · promote · up",
+      "path": "Sprites/dang_kang/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · promote · left",
+      "path": "Sprites/dang_kang/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · promote · right",
+      "path": "Sprites/dang_kang/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 当康 · rest · down",
+      "path": "Sprites/dang_kang/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 当康 · rest · up",
+      "path": "Sprites/dang_kang/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 当康 · rest · left",
+      "path": "Sprites/dang_kang/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 当康 · rest · right",
+      "path": "Sprites/dang_kang/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 天狗",
+      "path": "Portraits/tian_gou.png"
+    },
+    {
+      "name": "引导立绘 · 天狗",
+      "path": "Portraits/tutorial_tian_gou.png"
+    },
+    {
+      "name": "小人 · 天狗 · walk · down",
+      "path": "Sprites/tian_gou/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · walk · up",
+      "path": "Sprites/tian_gou/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · walk · left",
+      "path": "Sprites/tian_gou/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · walk · right",
+      "path": "Sprites/tian_gou/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · idle · down",
+      "path": "Sprites/tian_gou/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · idle · up",
+      "path": "Sprites/tian_gou/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · idle · left",
+      "path": "Sprites/tian_gou/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · idle · right",
+      "path": "Sprites/tian_gou/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · order · down",
+      "path": "Sprites/tian_gou/order_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · order · up",
+      "path": "Sprites/tian_gou/order_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · order · left",
+      "path": "Sprites/tian_gou/order_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · order · right",
+      "path": "Sprites/tian_gou/order_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cook · down",
+      "path": "Sprites/tian_gou/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cook · up",
+      "path": "Sprites/tian_gou/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cook · left",
+      "path": "Sprites/tian_gou/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cook · right",
+      "path": "Sprites/tian_gou/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · serve · down",
+      "path": "Sprites/tian_gou/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · serve · up",
+      "path": "Sprites/tian_gou/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · serve · left",
+      "path": "Sprites/tian_gou/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · serve · right",
+      "path": "Sprites/tian_gou/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · clean · down",
+      "path": "Sprites/tian_gou/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · clean · up",
+      "path": "Sprites/tian_gou/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · clean · left",
+      "path": "Sprites/tian_gou/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · clean · right",
+      "path": "Sprites/tian_gou/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cashier · down",
+      "path": "Sprites/tian_gou/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cashier · up",
+      "path": "Sprites/tian_gou/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cashier · left",
+      "path": "Sprites/tian_gou/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · cashier · right",
+      "path": "Sprites/tian_gou/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · promote · down",
+      "path": "Sprites/tian_gou/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · promote · up",
+      "path": "Sprites/tian_gou/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · promote · left",
+      "path": "Sprites/tian_gou/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · promote · right",
+      "path": "Sprites/tian_gou/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · rest · down",
+      "path": "Sprites/tian_gou/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · rest · up",
+      "path": "Sprites/tian_gou/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · rest · left",
+      "path": "Sprites/tian_gou/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 天狗 · rest · right",
+      "path": "Sprites/tian_gou/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 蛊雕",
+      "path": "Portraits/gu_diao.png"
+    },
+    {
+      "name": "引导立绘 · 蛊雕",
+      "path": "Portraits/tutorial_gu_diao.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · walk · down",
+      "path": "Sprites/gu_diao/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · walk · up",
+      "path": "Sprites/gu_diao/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · walk · left",
+      "path": "Sprites/gu_diao/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · walk · right",
+      "path": "Sprites/gu_diao/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · idle · down",
+      "path": "Sprites/gu_diao/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · idle · up",
+      "path": "Sprites/gu_diao/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · idle · left",
+      "path": "Sprites/gu_diao/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · idle · right",
+      "path": "Sprites/gu_diao/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · order · down",
+      "path": "Sprites/gu_diao/order_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · order · up",
+      "path": "Sprites/gu_diao/order_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · order · left",
+      "path": "Sprites/gu_diao/order_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · order · right",
+      "path": "Sprites/gu_diao/order_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cook · down",
+      "path": "Sprites/gu_diao/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cook · up",
+      "path": "Sprites/gu_diao/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cook · left",
+      "path": "Sprites/gu_diao/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cook · right",
+      "path": "Sprites/gu_diao/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · serve · down",
+      "path": "Sprites/gu_diao/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · serve · up",
+      "path": "Sprites/gu_diao/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · serve · left",
+      "path": "Sprites/gu_diao/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · serve · right",
+      "path": "Sprites/gu_diao/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · clean · down",
+      "path": "Sprites/gu_diao/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · clean · up",
+      "path": "Sprites/gu_diao/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · clean · left",
+      "path": "Sprites/gu_diao/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · clean · right",
+      "path": "Sprites/gu_diao/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cashier · down",
+      "path": "Sprites/gu_diao/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cashier · up",
+      "path": "Sprites/gu_diao/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cashier · left",
+      "path": "Sprites/gu_diao/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · cashier · right",
+      "path": "Sprites/gu_diao/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · promote · down",
+      "path": "Sprites/gu_diao/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · promote · up",
+      "path": "Sprites/gu_diao/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · promote · left",
+      "path": "Sprites/gu_diao/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · promote · right",
+      "path": "Sprites/gu_diao/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · rest · down",
+      "path": "Sprites/gu_diao/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · rest · up",
+      "path": "Sprites/gu_diao/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · rest · left",
+      "path": "Sprites/gu_diao/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 蛊雕 · rest · right",
+      "path": "Sprites/gu_diao/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 旋龟",
+      "path": "Portraits/xuan_gui.png"
+    },
+    {
+      "name": "引导立绘 · 旋龟",
+      "path": "Portraits/tutorial_xuan_gui.png"
+    },
+    {
+      "name": "小人 · 旋龟 · walk · down",
+      "path": "Sprites/xuan_gui/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · walk · up",
+      "path": "Sprites/xuan_gui/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · walk · left",
+      "path": "Sprites/xuan_gui/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · walk · right",
+      "path": "Sprites/xuan_gui/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · idle · down",
+      "path": "Sprites/xuan_gui/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · idle · up",
+      "path": "Sprites/xuan_gui/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · idle · left",
+      "path": "Sprites/xuan_gui/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · idle · right",
+      "path": "Sprites/xuan_gui/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · order · down",
+      "path": "Sprites/xuan_gui/order_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · order · up",
+      "path": "Sprites/xuan_gui/order_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · order · left",
+      "path": "Sprites/xuan_gui/order_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · order · right",
+      "path": "Sprites/xuan_gui/order_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cook · down",
+      "path": "Sprites/xuan_gui/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cook · up",
+      "path": "Sprites/xuan_gui/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cook · left",
+      "path": "Sprites/xuan_gui/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cook · right",
+      "path": "Sprites/xuan_gui/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · serve · down",
+      "path": "Sprites/xuan_gui/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · serve · up",
+      "path": "Sprites/xuan_gui/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · serve · left",
+      "path": "Sprites/xuan_gui/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · serve · right",
+      "path": "Sprites/xuan_gui/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · clean · down",
+      "path": "Sprites/xuan_gui/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · clean · up",
+      "path": "Sprites/xuan_gui/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · clean · left",
+      "path": "Sprites/xuan_gui/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · clean · right",
+      "path": "Sprites/xuan_gui/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cashier · down",
+      "path": "Sprites/xuan_gui/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cashier · up",
+      "path": "Sprites/xuan_gui/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cashier · left",
+      "path": "Sprites/xuan_gui/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · cashier · right",
+      "path": "Sprites/xuan_gui/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · promote · down",
+      "path": "Sprites/xuan_gui/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · promote · up",
+      "path": "Sprites/xuan_gui/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · promote · left",
+      "path": "Sprites/xuan_gui/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · promote · right",
+      "path": "Sprites/xuan_gui/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · rest · down",
+      "path": "Sprites/xuan_gui/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · rest · up",
+      "path": "Sprites/xuan_gui/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · rest · left",
+      "path": "Sprites/xuan_gui/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 旋龟 · rest · right",
+      "path": "Sprites/xuan_gui/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 青蚨",
+      "path": "Portraits/qing_fu.png"
+    },
+    {
+      "name": "引导立绘 · 青蚨",
+      "path": "Portraits/tutorial_qing_fu.png"
+    },
+    {
+      "name": "小人 · 青蚨 · walk · down",
+      "path": "Sprites/qing_fu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · walk · up",
+      "path": "Sprites/qing_fu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · walk · left",
+      "path": "Sprites/qing_fu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · walk · right",
+      "path": "Sprites/qing_fu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · idle · down",
+      "path": "Sprites/qing_fu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · idle · up",
+      "path": "Sprites/qing_fu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · idle · left",
+      "path": "Sprites/qing_fu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · idle · right",
+      "path": "Sprites/qing_fu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · order · down",
+      "path": "Sprites/qing_fu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · order · up",
+      "path": "Sprites/qing_fu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · order · left",
+      "path": "Sprites/qing_fu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · order · right",
+      "path": "Sprites/qing_fu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cook · down",
+      "path": "Sprites/qing_fu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cook · up",
+      "path": "Sprites/qing_fu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cook · left",
+      "path": "Sprites/qing_fu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cook · right",
+      "path": "Sprites/qing_fu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · serve · down",
+      "path": "Sprites/qing_fu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · serve · up",
+      "path": "Sprites/qing_fu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · serve · left",
+      "path": "Sprites/qing_fu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · serve · right",
+      "path": "Sprites/qing_fu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · clean · down",
+      "path": "Sprites/qing_fu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · clean · up",
+      "path": "Sprites/qing_fu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · clean · left",
+      "path": "Sprites/qing_fu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · clean · right",
+      "path": "Sprites/qing_fu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cashier · down",
+      "path": "Sprites/qing_fu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cashier · up",
+      "path": "Sprites/qing_fu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cashier · left",
+      "path": "Sprites/qing_fu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · cashier · right",
+      "path": "Sprites/qing_fu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · promote · down",
+      "path": "Sprites/qing_fu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · promote · up",
+      "path": "Sprites/qing_fu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · promote · left",
+      "path": "Sprites/qing_fu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · promote · right",
+      "path": "Sprites/qing_fu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · rest · down",
+      "path": "Sprites/qing_fu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · rest · up",
+      "path": "Sprites/qing_fu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · rest · left",
+      "path": "Sprites/qing_fu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 青蚨 · rest · right",
+      "path": "Sprites/qing_fu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 九尾狐",
+      "path": "Portraits/jiu_wei_hu.png"
+    },
+    {
+      "name": "引导立绘 · 九尾狐",
+      "path": "Portraits/tutorial_jiu_wei_hu.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · walk · down",
+      "path": "Sprites/jiu_wei_hu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · walk · up",
+      "path": "Sprites/jiu_wei_hu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · walk · left",
+      "path": "Sprites/jiu_wei_hu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · walk · right",
+      "path": "Sprites/jiu_wei_hu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · idle · down",
+      "path": "Sprites/jiu_wei_hu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · idle · up",
+      "path": "Sprites/jiu_wei_hu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · idle · left",
+      "path": "Sprites/jiu_wei_hu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · idle · right",
+      "path": "Sprites/jiu_wei_hu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · order · down",
+      "path": "Sprites/jiu_wei_hu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · order · up",
+      "path": "Sprites/jiu_wei_hu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · order · left",
+      "path": "Sprites/jiu_wei_hu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · order · right",
+      "path": "Sprites/jiu_wei_hu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cook · down",
+      "path": "Sprites/jiu_wei_hu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cook · up",
+      "path": "Sprites/jiu_wei_hu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cook · left",
+      "path": "Sprites/jiu_wei_hu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cook · right",
+      "path": "Sprites/jiu_wei_hu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · serve · down",
+      "path": "Sprites/jiu_wei_hu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · serve · up",
+      "path": "Sprites/jiu_wei_hu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · serve · left",
+      "path": "Sprites/jiu_wei_hu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · serve · right",
+      "path": "Sprites/jiu_wei_hu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · clean · down",
+      "path": "Sprites/jiu_wei_hu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · clean · up",
+      "path": "Sprites/jiu_wei_hu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · clean · left",
+      "path": "Sprites/jiu_wei_hu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · clean · right",
+      "path": "Sprites/jiu_wei_hu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cashier · down",
+      "path": "Sprites/jiu_wei_hu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cashier · up",
+      "path": "Sprites/jiu_wei_hu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cashier · left",
+      "path": "Sprites/jiu_wei_hu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · cashier · right",
+      "path": "Sprites/jiu_wei_hu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · promote · down",
+      "path": "Sprites/jiu_wei_hu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · promote · up",
+      "path": "Sprites/jiu_wei_hu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · promote · left",
+      "path": "Sprites/jiu_wei_hu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · promote · right",
+      "path": "Sprites/jiu_wei_hu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · rest · down",
+      "path": "Sprites/jiu_wei_hu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · rest · up",
+      "path": "Sprites/jiu_wei_hu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · rest · left",
+      "path": "Sprites/jiu_wei_hu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 九尾狐 · rest · right",
+      "path": "Sprites/jiu_wei_hu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 毕方",
+      "path": "Portraits/bi_fang.png"
+    },
+    {
+      "name": "引导立绘 · 毕方",
+      "path": "Portraits/tutorial_bi_fang.png"
+    },
+    {
+      "name": "小人 · 毕方 · walk · down",
+      "path": "Sprites/bi_fang/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · walk · up",
+      "path": "Sprites/bi_fang/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · walk · left",
+      "path": "Sprites/bi_fang/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · walk · right",
+      "path": "Sprites/bi_fang/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · idle · down",
+      "path": "Sprites/bi_fang/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · idle · up",
+      "path": "Sprites/bi_fang/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · idle · left",
+      "path": "Sprites/bi_fang/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · idle · right",
+      "path": "Sprites/bi_fang/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · order · down",
+      "path": "Sprites/bi_fang/order_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · order · up",
+      "path": "Sprites/bi_fang/order_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · order · left",
+      "path": "Sprites/bi_fang/order_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · order · right",
+      "path": "Sprites/bi_fang/order_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cook · down",
+      "path": "Sprites/bi_fang/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cook · up",
+      "path": "Sprites/bi_fang/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cook · left",
+      "path": "Sprites/bi_fang/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cook · right",
+      "path": "Sprites/bi_fang/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · serve · down",
+      "path": "Sprites/bi_fang/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · serve · up",
+      "path": "Sprites/bi_fang/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · serve · left",
+      "path": "Sprites/bi_fang/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · serve · right",
+      "path": "Sprites/bi_fang/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · clean · down",
+      "path": "Sprites/bi_fang/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · clean · up",
+      "path": "Sprites/bi_fang/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · clean · left",
+      "path": "Sprites/bi_fang/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · clean · right",
+      "path": "Sprites/bi_fang/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cashier · down",
+      "path": "Sprites/bi_fang/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cashier · up",
+      "path": "Sprites/bi_fang/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cashier · left",
+      "path": "Sprites/bi_fang/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · cashier · right",
+      "path": "Sprites/bi_fang/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · promote · down",
+      "path": "Sprites/bi_fang/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · promote · up",
+      "path": "Sprites/bi_fang/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · promote · left",
+      "path": "Sprites/bi_fang/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · promote · right",
+      "path": "Sprites/bi_fang/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · rest · down",
+      "path": "Sprites/bi_fang/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · rest · up",
+      "path": "Sprites/bi_fang/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · rest · left",
+      "path": "Sprites/bi_fang/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 毕方 · rest · right",
+      "path": "Sprites/bi_fang/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 貔貅",
+      "path": "Portraits/pi_xiu.png"
+    },
+    {
+      "name": "引导立绘 · 貔貅",
+      "path": "Portraits/tutorial_pi_xiu.png"
+    },
+    {
+      "name": "小人 · 貔貅 · walk · down",
+      "path": "Sprites/pi_xiu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · walk · up",
+      "path": "Sprites/pi_xiu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · walk · left",
+      "path": "Sprites/pi_xiu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · walk · right",
+      "path": "Sprites/pi_xiu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · idle · down",
+      "path": "Sprites/pi_xiu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · idle · up",
+      "path": "Sprites/pi_xiu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · idle · left",
+      "path": "Sprites/pi_xiu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · idle · right",
+      "path": "Sprites/pi_xiu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · order · down",
+      "path": "Sprites/pi_xiu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · order · up",
+      "path": "Sprites/pi_xiu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · order · left",
+      "path": "Sprites/pi_xiu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · order · right",
+      "path": "Sprites/pi_xiu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cook · down",
+      "path": "Sprites/pi_xiu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cook · up",
+      "path": "Sprites/pi_xiu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cook · left",
+      "path": "Sprites/pi_xiu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cook · right",
+      "path": "Sprites/pi_xiu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · serve · down",
+      "path": "Sprites/pi_xiu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · serve · up",
+      "path": "Sprites/pi_xiu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · serve · left",
+      "path": "Sprites/pi_xiu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · serve · right",
+      "path": "Sprites/pi_xiu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · clean · down",
+      "path": "Sprites/pi_xiu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · clean · up",
+      "path": "Sprites/pi_xiu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · clean · left",
+      "path": "Sprites/pi_xiu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · clean · right",
+      "path": "Sprites/pi_xiu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cashier · down",
+      "path": "Sprites/pi_xiu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cashier · up",
+      "path": "Sprites/pi_xiu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cashier · left",
+      "path": "Sprites/pi_xiu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · cashier · right",
+      "path": "Sprites/pi_xiu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · promote · down",
+      "path": "Sprites/pi_xiu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · promote · up",
+      "path": "Sprites/pi_xiu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · promote · left",
+      "path": "Sprites/pi_xiu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · promote · right",
+      "path": "Sprites/pi_xiu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · rest · down",
+      "path": "Sprites/pi_xiu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · rest · up",
+      "path": "Sprites/pi_xiu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · rest · left",
+      "path": "Sprites/pi_xiu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 貔貅 · rest · right",
+      "path": "Sprites/pi_xiu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 英招",
+      "path": "Portraits/ying_zhao.png"
+    },
+    {
+      "name": "引导立绘 · 英招",
+      "path": "Portraits/tutorial_ying_zhao.png"
+    },
+    {
+      "name": "小人 · 英招 · walk · down",
+      "path": "Sprites/ying_zhao/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · walk · up",
+      "path": "Sprites/ying_zhao/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · walk · left",
+      "path": "Sprites/ying_zhao/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · walk · right",
+      "path": "Sprites/ying_zhao/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · idle · down",
+      "path": "Sprites/ying_zhao/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · idle · up",
+      "path": "Sprites/ying_zhao/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · idle · left",
+      "path": "Sprites/ying_zhao/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · idle · right",
+      "path": "Sprites/ying_zhao/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · order · down",
+      "path": "Sprites/ying_zhao/order_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · order · up",
+      "path": "Sprites/ying_zhao/order_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · order · left",
+      "path": "Sprites/ying_zhao/order_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · order · right",
+      "path": "Sprites/ying_zhao/order_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cook · down",
+      "path": "Sprites/ying_zhao/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cook · up",
+      "path": "Sprites/ying_zhao/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cook · left",
+      "path": "Sprites/ying_zhao/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cook · right",
+      "path": "Sprites/ying_zhao/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · serve · down",
+      "path": "Sprites/ying_zhao/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · serve · up",
+      "path": "Sprites/ying_zhao/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · serve · left",
+      "path": "Sprites/ying_zhao/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · serve · right",
+      "path": "Sprites/ying_zhao/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · clean · down",
+      "path": "Sprites/ying_zhao/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · clean · up",
+      "path": "Sprites/ying_zhao/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · clean · left",
+      "path": "Sprites/ying_zhao/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · clean · right",
+      "path": "Sprites/ying_zhao/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cashier · down",
+      "path": "Sprites/ying_zhao/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cashier · up",
+      "path": "Sprites/ying_zhao/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cashier · left",
+      "path": "Sprites/ying_zhao/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · cashier · right",
+      "path": "Sprites/ying_zhao/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · promote · down",
+      "path": "Sprites/ying_zhao/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · promote · up",
+      "path": "Sprites/ying_zhao/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · promote · left",
+      "path": "Sprites/ying_zhao/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · promote · right",
+      "path": "Sprites/ying_zhao/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 英招 · rest · down",
+      "path": "Sprites/ying_zhao/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 英招 · rest · up",
+      "path": "Sprites/ying_zhao/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 英招 · rest · left",
+      "path": "Sprites/ying_zhao/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 英招 · rest · right",
+      "path": "Sprites/ying_zhao/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 陆吾",
+      "path": "Portraits/lu_wu.png"
+    },
+    {
+      "name": "引导立绘 · 陆吾",
+      "path": "Portraits/tutorial_lu_wu.png"
+    },
+    {
+      "name": "小人 · 陆吾 · walk · down",
+      "path": "Sprites/lu_wu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · walk · up",
+      "path": "Sprites/lu_wu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · walk · left",
+      "path": "Sprites/lu_wu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · walk · right",
+      "path": "Sprites/lu_wu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · idle · down",
+      "path": "Sprites/lu_wu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · idle · up",
+      "path": "Sprites/lu_wu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · idle · left",
+      "path": "Sprites/lu_wu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · idle · right",
+      "path": "Sprites/lu_wu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · order · down",
+      "path": "Sprites/lu_wu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · order · up",
+      "path": "Sprites/lu_wu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · order · left",
+      "path": "Sprites/lu_wu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · order · right",
+      "path": "Sprites/lu_wu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cook · down",
+      "path": "Sprites/lu_wu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cook · up",
+      "path": "Sprites/lu_wu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cook · left",
+      "path": "Sprites/lu_wu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cook · right",
+      "path": "Sprites/lu_wu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · serve · down",
+      "path": "Sprites/lu_wu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · serve · up",
+      "path": "Sprites/lu_wu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · serve · left",
+      "path": "Sprites/lu_wu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · serve · right",
+      "path": "Sprites/lu_wu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · clean · down",
+      "path": "Sprites/lu_wu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · clean · up",
+      "path": "Sprites/lu_wu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · clean · left",
+      "path": "Sprites/lu_wu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · clean · right",
+      "path": "Sprites/lu_wu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cashier · down",
+      "path": "Sprites/lu_wu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cashier · up",
+      "path": "Sprites/lu_wu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cashier · left",
+      "path": "Sprites/lu_wu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · cashier · right",
+      "path": "Sprites/lu_wu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · promote · down",
+      "path": "Sprites/lu_wu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · promote · up",
+      "path": "Sprites/lu_wu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · promote · left",
+      "path": "Sprites/lu_wu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · promote · right",
+      "path": "Sprites/lu_wu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · rest · down",
+      "path": "Sprites/lu_wu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · rest · up",
+      "path": "Sprites/lu_wu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · rest · left",
+      "path": "Sprites/lu_wu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 陆吾 · rest · right",
+      "path": "Sprites/lu_wu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 精卫",
+      "path": "Portraits/jing_wei.png"
+    },
+    {
+      "name": "引导立绘 · 精卫",
+      "path": "Portraits/tutorial_jing_wei.png"
+    },
+    {
+      "name": "小人 · 精卫 · walk · down",
+      "path": "Sprites/jing_wei/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · walk · up",
+      "path": "Sprites/jing_wei/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · walk · left",
+      "path": "Sprites/jing_wei/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · walk · right",
+      "path": "Sprites/jing_wei/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · idle · down",
+      "path": "Sprites/jing_wei/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · idle · up",
+      "path": "Sprites/jing_wei/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · idle · left",
+      "path": "Sprites/jing_wei/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · idle · right",
+      "path": "Sprites/jing_wei/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · order · down",
+      "path": "Sprites/jing_wei/order_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · order · up",
+      "path": "Sprites/jing_wei/order_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · order · left",
+      "path": "Sprites/jing_wei/order_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · order · right",
+      "path": "Sprites/jing_wei/order_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cook · down",
+      "path": "Sprites/jing_wei/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cook · up",
+      "path": "Sprites/jing_wei/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cook · left",
+      "path": "Sprites/jing_wei/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cook · right",
+      "path": "Sprites/jing_wei/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · serve · down",
+      "path": "Sprites/jing_wei/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · serve · up",
+      "path": "Sprites/jing_wei/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · serve · left",
+      "path": "Sprites/jing_wei/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · serve · right",
+      "path": "Sprites/jing_wei/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · clean · down",
+      "path": "Sprites/jing_wei/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · clean · up",
+      "path": "Sprites/jing_wei/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · clean · left",
+      "path": "Sprites/jing_wei/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · clean · right",
+      "path": "Sprites/jing_wei/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cashier · down",
+      "path": "Sprites/jing_wei/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cashier · up",
+      "path": "Sprites/jing_wei/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cashier · left",
+      "path": "Sprites/jing_wei/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · cashier · right",
+      "path": "Sprites/jing_wei/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · promote · down",
+      "path": "Sprites/jing_wei/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · promote · up",
+      "path": "Sprites/jing_wei/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · promote · left",
+      "path": "Sprites/jing_wei/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · promote · right",
+      "path": "Sprites/jing_wei/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · rest · down",
+      "path": "Sprites/jing_wei/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · rest · up",
+      "path": "Sprites/jing_wei/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · rest · left",
+      "path": "Sprites/jing_wei/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 精卫 · rest · right",
+      "path": "Sprites/jing_wei/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 穷奇",
+      "path": "Portraits/qiong_qi.png"
+    },
+    {
+      "name": "引导立绘 · 穷奇",
+      "path": "Portraits/tutorial_qiong_qi.png"
+    },
+    {
+      "name": "小人 · 穷奇 · walk · down",
+      "path": "Sprites/qiong_qi/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · walk · up",
+      "path": "Sprites/qiong_qi/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · walk · left",
+      "path": "Sprites/qiong_qi/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · walk · right",
+      "path": "Sprites/qiong_qi/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · idle · down",
+      "path": "Sprites/qiong_qi/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · idle · up",
+      "path": "Sprites/qiong_qi/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · idle · left",
+      "path": "Sprites/qiong_qi/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · idle · right",
+      "path": "Sprites/qiong_qi/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · order · down",
+      "path": "Sprites/qiong_qi/order_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · order · up",
+      "path": "Sprites/qiong_qi/order_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · order · left",
+      "path": "Sprites/qiong_qi/order_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · order · right",
+      "path": "Sprites/qiong_qi/order_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cook · down",
+      "path": "Sprites/qiong_qi/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cook · up",
+      "path": "Sprites/qiong_qi/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cook · left",
+      "path": "Sprites/qiong_qi/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cook · right",
+      "path": "Sprites/qiong_qi/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · serve · down",
+      "path": "Sprites/qiong_qi/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · serve · up",
+      "path": "Sprites/qiong_qi/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · serve · left",
+      "path": "Sprites/qiong_qi/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · serve · right",
+      "path": "Sprites/qiong_qi/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · clean · down",
+      "path": "Sprites/qiong_qi/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · clean · up",
+      "path": "Sprites/qiong_qi/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · clean · left",
+      "path": "Sprites/qiong_qi/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · clean · right",
+      "path": "Sprites/qiong_qi/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cashier · down",
+      "path": "Sprites/qiong_qi/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cashier · up",
+      "path": "Sprites/qiong_qi/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cashier · left",
+      "path": "Sprites/qiong_qi/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · cashier · right",
+      "path": "Sprites/qiong_qi/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · promote · down",
+      "path": "Sprites/qiong_qi/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · promote · up",
+      "path": "Sprites/qiong_qi/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · promote · left",
+      "path": "Sprites/qiong_qi/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · promote · right",
+      "path": "Sprites/qiong_qi/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · rest · down",
+      "path": "Sprites/qiong_qi/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · rest · up",
+      "path": "Sprites/qiong_qi/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · rest · left",
+      "path": "Sprites/qiong_qi/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 穷奇 · rest · right",
+      "path": "Sprites/qiong_qi/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 梼杌",
+      "path": "Portraits/tao_wu.png"
+    },
+    {
+      "name": "引导立绘 · 梼杌",
+      "path": "Portraits/tutorial_tao_wu.png"
+    },
+    {
+      "name": "小人 · 梼杌 · walk · down",
+      "path": "Sprites/tao_wu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · walk · up",
+      "path": "Sprites/tao_wu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · walk · left",
+      "path": "Sprites/tao_wu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · walk · right",
+      "path": "Sprites/tao_wu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · idle · down",
+      "path": "Sprites/tao_wu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · idle · up",
+      "path": "Sprites/tao_wu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · idle · left",
+      "path": "Sprites/tao_wu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · idle · right",
+      "path": "Sprites/tao_wu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · order · down",
+      "path": "Sprites/tao_wu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · order · up",
+      "path": "Sprites/tao_wu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · order · left",
+      "path": "Sprites/tao_wu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · order · right",
+      "path": "Sprites/tao_wu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cook · down",
+      "path": "Sprites/tao_wu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cook · up",
+      "path": "Sprites/tao_wu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cook · left",
+      "path": "Sprites/tao_wu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cook · right",
+      "path": "Sprites/tao_wu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · serve · down",
+      "path": "Sprites/tao_wu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · serve · up",
+      "path": "Sprites/tao_wu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · serve · left",
+      "path": "Sprites/tao_wu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · serve · right",
+      "path": "Sprites/tao_wu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · clean · down",
+      "path": "Sprites/tao_wu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · clean · up",
+      "path": "Sprites/tao_wu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · clean · left",
+      "path": "Sprites/tao_wu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · clean · right",
+      "path": "Sprites/tao_wu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cashier · down",
+      "path": "Sprites/tao_wu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cashier · up",
+      "path": "Sprites/tao_wu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cashier · left",
+      "path": "Sprites/tao_wu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · cashier · right",
+      "path": "Sprites/tao_wu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · promote · down",
+      "path": "Sprites/tao_wu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · promote · up",
+      "path": "Sprites/tao_wu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · promote · left",
+      "path": "Sprites/tao_wu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · promote · right",
+      "path": "Sprites/tao_wu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · rest · down",
+      "path": "Sprites/tao_wu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · rest · up",
+      "path": "Sprites/tao_wu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · rest · left",
+      "path": "Sprites/tao_wu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 梼杌 · rest · right",
+      "path": "Sprites/tao_wu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 混沌",
+      "path": "Portraits/hun_dun.png"
+    },
+    {
+      "name": "引导立绘 · 混沌",
+      "path": "Portraits/tutorial_hun_dun.png"
+    },
+    {
+      "name": "小人 · 混沌 · walk · down",
+      "path": "Sprites/hun_dun/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · walk · up",
+      "path": "Sprites/hun_dun/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · walk · left",
+      "path": "Sprites/hun_dun/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · walk · right",
+      "path": "Sprites/hun_dun/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · idle · down",
+      "path": "Sprites/hun_dun/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · idle · up",
+      "path": "Sprites/hun_dun/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · idle · left",
+      "path": "Sprites/hun_dun/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · idle · right",
+      "path": "Sprites/hun_dun/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · order · down",
+      "path": "Sprites/hun_dun/order_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · order · up",
+      "path": "Sprites/hun_dun/order_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · order · left",
+      "path": "Sprites/hun_dun/order_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · order · right",
+      "path": "Sprites/hun_dun/order_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cook · down",
+      "path": "Sprites/hun_dun/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cook · up",
+      "path": "Sprites/hun_dun/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cook · left",
+      "path": "Sprites/hun_dun/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cook · right",
+      "path": "Sprites/hun_dun/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · serve · down",
+      "path": "Sprites/hun_dun/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · serve · up",
+      "path": "Sprites/hun_dun/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · serve · left",
+      "path": "Sprites/hun_dun/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · serve · right",
+      "path": "Sprites/hun_dun/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · clean · down",
+      "path": "Sprites/hun_dun/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · clean · up",
+      "path": "Sprites/hun_dun/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · clean · left",
+      "path": "Sprites/hun_dun/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · clean · right",
+      "path": "Sprites/hun_dun/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cashier · down",
+      "path": "Sprites/hun_dun/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cashier · up",
+      "path": "Sprites/hun_dun/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cashier · left",
+      "path": "Sprites/hun_dun/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · cashier · right",
+      "path": "Sprites/hun_dun/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · promote · down",
+      "path": "Sprites/hun_dun/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · promote · up",
+      "path": "Sprites/hun_dun/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · promote · left",
+      "path": "Sprites/hun_dun/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · promote · right",
+      "path": "Sprites/hun_dun/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · rest · down",
+      "path": "Sprites/hun_dun/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · rest · up",
+      "path": "Sprites/hun_dun/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · rest · left",
+      "path": "Sprites/hun_dun/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 混沌 · rest · right",
+      "path": "Sprites/hun_dun/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 獬豸",
+      "path": "Portraits/xie_zhi.png"
+    },
+    {
+      "name": "引导立绘 · 獬豸",
+      "path": "Portraits/tutorial_xie_zhi.png"
+    },
+    {
+      "name": "小人 · 獬豸 · walk · down",
+      "path": "Sprites/xie_zhi/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · walk · up",
+      "path": "Sprites/xie_zhi/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · walk · left",
+      "path": "Sprites/xie_zhi/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · walk · right",
+      "path": "Sprites/xie_zhi/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · idle · down",
+      "path": "Sprites/xie_zhi/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · idle · up",
+      "path": "Sprites/xie_zhi/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · idle · left",
+      "path": "Sprites/xie_zhi/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · idle · right",
+      "path": "Sprites/xie_zhi/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · order · down",
+      "path": "Sprites/xie_zhi/order_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · order · up",
+      "path": "Sprites/xie_zhi/order_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · order · left",
+      "path": "Sprites/xie_zhi/order_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · order · right",
+      "path": "Sprites/xie_zhi/order_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cook · down",
+      "path": "Sprites/xie_zhi/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cook · up",
+      "path": "Sprites/xie_zhi/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cook · left",
+      "path": "Sprites/xie_zhi/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cook · right",
+      "path": "Sprites/xie_zhi/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · serve · down",
+      "path": "Sprites/xie_zhi/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · serve · up",
+      "path": "Sprites/xie_zhi/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · serve · left",
+      "path": "Sprites/xie_zhi/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · serve · right",
+      "path": "Sprites/xie_zhi/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · clean · down",
+      "path": "Sprites/xie_zhi/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · clean · up",
+      "path": "Sprites/xie_zhi/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · clean · left",
+      "path": "Sprites/xie_zhi/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · clean · right",
+      "path": "Sprites/xie_zhi/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cashier · down",
+      "path": "Sprites/xie_zhi/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cashier · up",
+      "path": "Sprites/xie_zhi/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cashier · left",
+      "path": "Sprites/xie_zhi/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · cashier · right",
+      "path": "Sprites/xie_zhi/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · promote · down",
+      "path": "Sprites/xie_zhi/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · promote · up",
+      "path": "Sprites/xie_zhi/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · promote · left",
+      "path": "Sprites/xie_zhi/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · promote · right",
+      "path": "Sprites/xie_zhi/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · rest · down",
+      "path": "Sprites/xie_zhi/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · rest · up",
+      "path": "Sprites/xie_zhi/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · rest · left",
+      "path": "Sprites/xie_zhi/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 獬豸 · rest · right",
+      "path": "Sprites/xie_zhi/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 青耕",
+      "path": "Portraits/qing_geng.png"
+    },
+    {
+      "name": "引导立绘 · 青耕",
+      "path": "Portraits/tutorial_qing_geng.png"
+    },
+    {
+      "name": "小人 · 青耕 · walk · down",
+      "path": "Sprites/qing_geng/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · walk · up",
+      "path": "Sprites/qing_geng/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · walk · left",
+      "path": "Sprites/qing_geng/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · walk · right",
+      "path": "Sprites/qing_geng/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · idle · down",
+      "path": "Sprites/qing_geng/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · idle · up",
+      "path": "Sprites/qing_geng/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · idle · left",
+      "path": "Sprites/qing_geng/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · idle · right",
+      "path": "Sprites/qing_geng/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · order · down",
+      "path": "Sprites/qing_geng/order_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · order · up",
+      "path": "Sprites/qing_geng/order_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · order · left",
+      "path": "Sprites/qing_geng/order_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · order · right",
+      "path": "Sprites/qing_geng/order_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cook · down",
+      "path": "Sprites/qing_geng/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cook · up",
+      "path": "Sprites/qing_geng/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cook · left",
+      "path": "Sprites/qing_geng/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cook · right",
+      "path": "Sprites/qing_geng/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · serve · down",
+      "path": "Sprites/qing_geng/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · serve · up",
+      "path": "Sprites/qing_geng/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · serve · left",
+      "path": "Sprites/qing_geng/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · serve · right",
+      "path": "Sprites/qing_geng/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · clean · down",
+      "path": "Sprites/qing_geng/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · clean · up",
+      "path": "Sprites/qing_geng/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · clean · left",
+      "path": "Sprites/qing_geng/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · clean · right",
+      "path": "Sprites/qing_geng/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cashier · down",
+      "path": "Sprites/qing_geng/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cashier · up",
+      "path": "Sprites/qing_geng/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cashier · left",
+      "path": "Sprites/qing_geng/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · cashier · right",
+      "path": "Sprites/qing_geng/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · promote · down",
+      "path": "Sprites/qing_geng/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · promote · up",
+      "path": "Sprites/qing_geng/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · promote · left",
+      "path": "Sprites/qing_geng/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · promote · right",
+      "path": "Sprites/qing_geng/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · rest · down",
+      "path": "Sprites/qing_geng/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · rest · up",
+      "path": "Sprites/qing_geng/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · rest · left",
+      "path": "Sprites/qing_geng/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 青耕 · rest · right",
+      "path": "Sprites/qing_geng/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 天禄",
+      "path": "Portraits/tian_lu.png"
+    },
+    {
+      "name": "引导立绘 · 天禄",
+      "path": "Portraits/tutorial_tian_lu.png"
+    },
+    {
+      "name": "小人 · 天禄 · walk · down",
+      "path": "Sprites/tian_lu/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · walk · up",
+      "path": "Sprites/tian_lu/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · walk · left",
+      "path": "Sprites/tian_lu/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · walk · right",
+      "path": "Sprites/tian_lu/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · idle · down",
+      "path": "Sprites/tian_lu/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · idle · up",
+      "path": "Sprites/tian_lu/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · idle · left",
+      "path": "Sprites/tian_lu/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · idle · right",
+      "path": "Sprites/tian_lu/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · order · down",
+      "path": "Sprites/tian_lu/order_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · order · up",
+      "path": "Sprites/tian_lu/order_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · order · left",
+      "path": "Sprites/tian_lu/order_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · order · right",
+      "path": "Sprites/tian_lu/order_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cook · down",
+      "path": "Sprites/tian_lu/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cook · up",
+      "path": "Sprites/tian_lu/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cook · left",
+      "path": "Sprites/tian_lu/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cook · right",
+      "path": "Sprites/tian_lu/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · serve · down",
+      "path": "Sprites/tian_lu/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · serve · up",
+      "path": "Sprites/tian_lu/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · serve · left",
+      "path": "Sprites/tian_lu/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · serve · right",
+      "path": "Sprites/tian_lu/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · clean · down",
+      "path": "Sprites/tian_lu/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · clean · up",
+      "path": "Sprites/tian_lu/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · clean · left",
+      "path": "Sprites/tian_lu/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · clean · right",
+      "path": "Sprites/tian_lu/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cashier · down",
+      "path": "Sprites/tian_lu/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cashier · up",
+      "path": "Sprites/tian_lu/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cashier · left",
+      "path": "Sprites/tian_lu/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · cashier · right",
+      "path": "Sprites/tian_lu/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · promote · down",
+      "path": "Sprites/tian_lu/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · promote · up",
+      "path": "Sprites/tian_lu/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · promote · left",
+      "path": "Sprites/tian_lu/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · promote · right",
+      "path": "Sprites/tian_lu/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · rest · down",
+      "path": "Sprites/tian_lu/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · rest · up",
+      "path": "Sprites/tian_lu/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · rest · left",
+      "path": "Sprites/tian_lu/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 天禄 · rest · right",
+      "path": "Sprites/tian_lu/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 凤凰",
+      "path": "Portraits/feng_huang.png"
+    },
+    {
+      "name": "引导立绘 · 凤凰",
+      "path": "Portraits/tutorial_feng_huang.png"
+    },
+    {
+      "name": "小人 · 凤凰 · walk · down",
+      "path": "Sprites/feng_huang/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · walk · up",
+      "path": "Sprites/feng_huang/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · walk · left",
+      "path": "Sprites/feng_huang/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · walk · right",
+      "path": "Sprites/feng_huang/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · idle · down",
+      "path": "Sprites/feng_huang/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · idle · up",
+      "path": "Sprites/feng_huang/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · idle · left",
+      "path": "Sprites/feng_huang/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · idle · right",
+      "path": "Sprites/feng_huang/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · order · down",
+      "path": "Sprites/feng_huang/order_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · order · up",
+      "path": "Sprites/feng_huang/order_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · order · left",
+      "path": "Sprites/feng_huang/order_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · order · right",
+      "path": "Sprites/feng_huang/order_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cook · down",
+      "path": "Sprites/feng_huang/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cook · up",
+      "path": "Sprites/feng_huang/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cook · left",
+      "path": "Sprites/feng_huang/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cook · right",
+      "path": "Sprites/feng_huang/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · serve · down",
+      "path": "Sprites/feng_huang/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · serve · up",
+      "path": "Sprites/feng_huang/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · serve · left",
+      "path": "Sprites/feng_huang/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · serve · right",
+      "path": "Sprites/feng_huang/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · clean · down",
+      "path": "Sprites/feng_huang/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · clean · up",
+      "path": "Sprites/feng_huang/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · clean · left",
+      "path": "Sprites/feng_huang/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · clean · right",
+      "path": "Sprites/feng_huang/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cashier · down",
+      "path": "Sprites/feng_huang/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cashier · up",
+      "path": "Sprites/feng_huang/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cashier · left",
+      "path": "Sprites/feng_huang/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · cashier · right",
+      "path": "Sprites/feng_huang/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · promote · down",
+      "path": "Sprites/feng_huang/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · promote · up",
+      "path": "Sprites/feng_huang/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · promote · left",
+      "path": "Sprites/feng_huang/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · promote · right",
+      "path": "Sprites/feng_huang/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · rest · down",
+      "path": "Sprites/feng_huang/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · rest · up",
+      "path": "Sprites/feng_huang/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · rest · left",
+      "path": "Sprites/feng_huang/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 凤凰 · rest · right",
+      "path": "Sprites/feng_huang/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 白泽",
+      "path": "Portraits/bai_ze.png"
+    },
+    {
+      "name": "引导立绘 · 白泽",
+      "path": "Portraits/tutorial_bai_ze.png"
+    },
+    {
+      "name": "小人 · 白泽 · walk · down",
+      "path": "Sprites/bai_ze/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · walk · up",
+      "path": "Sprites/bai_ze/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · walk · left",
+      "path": "Sprites/bai_ze/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · walk · right",
+      "path": "Sprites/bai_ze/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · idle · down",
+      "path": "Sprites/bai_ze/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · idle · up",
+      "path": "Sprites/bai_ze/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · idle · left",
+      "path": "Sprites/bai_ze/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · idle · right",
+      "path": "Sprites/bai_ze/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · order · down",
+      "path": "Sprites/bai_ze/order_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · order · up",
+      "path": "Sprites/bai_ze/order_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · order · left",
+      "path": "Sprites/bai_ze/order_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · order · right",
+      "path": "Sprites/bai_ze/order_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cook · down",
+      "path": "Sprites/bai_ze/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cook · up",
+      "path": "Sprites/bai_ze/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cook · left",
+      "path": "Sprites/bai_ze/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cook · right",
+      "path": "Sprites/bai_ze/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · serve · down",
+      "path": "Sprites/bai_ze/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · serve · up",
+      "path": "Sprites/bai_ze/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · serve · left",
+      "path": "Sprites/bai_ze/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · serve · right",
+      "path": "Sprites/bai_ze/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · clean · down",
+      "path": "Sprites/bai_ze/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · clean · up",
+      "path": "Sprites/bai_ze/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · clean · left",
+      "path": "Sprites/bai_ze/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · clean · right",
+      "path": "Sprites/bai_ze/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cashier · down",
+      "path": "Sprites/bai_ze/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cashier · up",
+      "path": "Sprites/bai_ze/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cashier · left",
+      "path": "Sprites/bai_ze/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · cashier · right",
+      "path": "Sprites/bai_ze/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · promote · down",
+      "path": "Sprites/bai_ze/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · promote · up",
+      "path": "Sprites/bai_ze/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · promote · left",
+      "path": "Sprites/bai_ze/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · promote · right",
+      "path": "Sprites/bai_ze/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · rest · down",
+      "path": "Sprites/bai_ze/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · rest · up",
+      "path": "Sprites/bai_ze/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · rest · left",
+      "path": "Sprites/bai_ze/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 白泽 · rest · right",
+      "path": "Sprites/bai_ze/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 应龙",
+      "path": "Portraits/ying_long.png"
+    },
+    {
+      "name": "引导立绘 · 应龙",
+      "path": "Portraits/tutorial_ying_long.png"
+    },
+    {
+      "name": "小人 · 应龙 · walk · down",
+      "path": "Sprites/ying_long/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · walk · up",
+      "path": "Sprites/ying_long/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · walk · left",
+      "path": "Sprites/ying_long/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · walk · right",
+      "path": "Sprites/ying_long/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · idle · down",
+      "path": "Sprites/ying_long/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · idle · up",
+      "path": "Sprites/ying_long/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · idle · left",
+      "path": "Sprites/ying_long/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · idle · right",
+      "path": "Sprites/ying_long/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · order · down",
+      "path": "Sprites/ying_long/order_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · order · up",
+      "path": "Sprites/ying_long/order_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · order · left",
+      "path": "Sprites/ying_long/order_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · order · right",
+      "path": "Sprites/ying_long/order_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cook · down",
+      "path": "Sprites/ying_long/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cook · up",
+      "path": "Sprites/ying_long/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cook · left",
+      "path": "Sprites/ying_long/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cook · right",
+      "path": "Sprites/ying_long/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · serve · down",
+      "path": "Sprites/ying_long/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · serve · up",
+      "path": "Sprites/ying_long/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · serve · left",
+      "path": "Sprites/ying_long/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · serve · right",
+      "path": "Sprites/ying_long/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · clean · down",
+      "path": "Sprites/ying_long/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · clean · up",
+      "path": "Sprites/ying_long/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · clean · left",
+      "path": "Sprites/ying_long/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · clean · right",
+      "path": "Sprites/ying_long/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cashier · down",
+      "path": "Sprites/ying_long/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cashier · up",
+      "path": "Sprites/ying_long/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cashier · left",
+      "path": "Sprites/ying_long/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · cashier · right",
+      "path": "Sprites/ying_long/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · promote · down",
+      "path": "Sprites/ying_long/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · promote · up",
+      "path": "Sprites/ying_long/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · promote · left",
+      "path": "Sprites/ying_long/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · promote · right",
+      "path": "Sprites/ying_long/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · rest · down",
+      "path": "Sprites/ying_long/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · rest · up",
+      "path": "Sprites/ying_long/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · rest · left",
+      "path": "Sprites/ying_long/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 应龙 · rest · right",
+      "path": "Sprites/ying_long/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 烛龙",
+      "path": "Portraits/zhu_long.png"
+    },
+    {
+      "name": "引导立绘 · 烛龙",
+      "path": "Portraits/tutorial_zhu_long.png"
+    },
+    {
+      "name": "小人 · 烛龙 · walk · down",
+      "path": "Sprites/zhu_long/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · walk · up",
+      "path": "Sprites/zhu_long/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · walk · left",
+      "path": "Sprites/zhu_long/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · walk · right",
+      "path": "Sprites/zhu_long/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · idle · down",
+      "path": "Sprites/zhu_long/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · idle · up",
+      "path": "Sprites/zhu_long/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · idle · left",
+      "path": "Sprites/zhu_long/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · idle · right",
+      "path": "Sprites/zhu_long/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · order · down",
+      "path": "Sprites/zhu_long/order_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · order · up",
+      "path": "Sprites/zhu_long/order_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · order · left",
+      "path": "Sprites/zhu_long/order_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · order · right",
+      "path": "Sprites/zhu_long/order_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cook · down",
+      "path": "Sprites/zhu_long/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cook · up",
+      "path": "Sprites/zhu_long/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cook · left",
+      "path": "Sprites/zhu_long/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cook · right",
+      "path": "Sprites/zhu_long/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · serve · down",
+      "path": "Sprites/zhu_long/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · serve · up",
+      "path": "Sprites/zhu_long/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · serve · left",
+      "path": "Sprites/zhu_long/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · serve · right",
+      "path": "Sprites/zhu_long/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · clean · down",
+      "path": "Sprites/zhu_long/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · clean · up",
+      "path": "Sprites/zhu_long/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · clean · left",
+      "path": "Sprites/zhu_long/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · clean · right",
+      "path": "Sprites/zhu_long/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cashier · down",
+      "path": "Sprites/zhu_long/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cashier · up",
+      "path": "Sprites/zhu_long/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cashier · left",
+      "path": "Sprites/zhu_long/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · cashier · right",
+      "path": "Sprites/zhu_long/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · promote · down",
+      "path": "Sprites/zhu_long/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · promote · up",
+      "path": "Sprites/zhu_long/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · promote · left",
+      "path": "Sprites/zhu_long/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · promote · right",
+      "path": "Sprites/zhu_long/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · rest · down",
+      "path": "Sprites/zhu_long/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · rest · up",
+      "path": "Sprites/zhu_long/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · rest · left",
+      "path": "Sprites/zhu_long/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 烛龙 · rest · right",
+      "path": "Sprites/zhu_long/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 帝江",
+      "path": "Portraits/di_jiang.png"
+    },
+    {
+      "name": "引导立绘 · 帝江",
+      "path": "Portraits/tutorial_di_jiang.png"
+    },
+    {
+      "name": "小人 · 帝江 · walk · down",
+      "path": "Sprites/di_jiang/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · walk · up",
+      "path": "Sprites/di_jiang/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · walk · left",
+      "path": "Sprites/di_jiang/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · walk · right",
+      "path": "Sprites/di_jiang/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · idle · down",
+      "path": "Sprites/di_jiang/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · idle · up",
+      "path": "Sprites/di_jiang/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · idle · left",
+      "path": "Sprites/di_jiang/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · idle · right",
+      "path": "Sprites/di_jiang/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · order · down",
+      "path": "Sprites/di_jiang/order_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · order · up",
+      "path": "Sprites/di_jiang/order_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · order · left",
+      "path": "Sprites/di_jiang/order_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · order · right",
+      "path": "Sprites/di_jiang/order_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cook · down",
+      "path": "Sprites/di_jiang/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cook · up",
+      "path": "Sprites/di_jiang/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cook · left",
+      "path": "Sprites/di_jiang/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cook · right",
+      "path": "Sprites/di_jiang/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · serve · down",
+      "path": "Sprites/di_jiang/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · serve · up",
+      "path": "Sprites/di_jiang/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · serve · left",
+      "path": "Sprites/di_jiang/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · serve · right",
+      "path": "Sprites/di_jiang/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · clean · down",
+      "path": "Sprites/di_jiang/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · clean · up",
+      "path": "Sprites/di_jiang/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · clean · left",
+      "path": "Sprites/di_jiang/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · clean · right",
+      "path": "Sprites/di_jiang/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cashier · down",
+      "path": "Sprites/di_jiang/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cashier · up",
+      "path": "Sprites/di_jiang/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cashier · left",
+      "path": "Sprites/di_jiang/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · cashier · right",
+      "path": "Sprites/di_jiang/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · promote · down",
+      "path": "Sprites/di_jiang/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · promote · up",
+      "path": "Sprites/di_jiang/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · promote · left",
+      "path": "Sprites/di_jiang/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · promote · right",
+      "path": "Sprites/di_jiang/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · rest · down",
+      "path": "Sprites/di_jiang/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · rest · up",
+      "path": "Sprites/di_jiang/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · rest · left",
+      "path": "Sprites/di_jiang/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 帝江 · rest · right",
+      "path": "Sprites/di_jiang/rest_right_0.png"
+    },
+    {
+      "name": "立绘 · 九婴",
+      "path": "Portraits/jiu_ying.png"
+    },
+    {
+      "name": "引导立绘 · 九婴",
+      "path": "Portraits/tutorial_jiu_ying.png"
+    },
+    {
+      "name": "小人 · 九婴 · walk · down",
+      "path": "Sprites/jiu_ying/walk_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · walk · up",
+      "path": "Sprites/jiu_ying/walk_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · walk · left",
+      "path": "Sprites/jiu_ying/walk_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · walk · right",
+      "path": "Sprites/jiu_ying/walk_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · idle · down",
+      "path": "Sprites/jiu_ying/idle_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · idle · up",
+      "path": "Sprites/jiu_ying/idle_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · idle · left",
+      "path": "Sprites/jiu_ying/idle_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · idle · right",
+      "path": "Sprites/jiu_ying/idle_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · order · down",
+      "path": "Sprites/jiu_ying/order_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · order · up",
+      "path": "Sprites/jiu_ying/order_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · order · left",
+      "path": "Sprites/jiu_ying/order_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · order · right",
+      "path": "Sprites/jiu_ying/order_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cook · down",
+      "path": "Sprites/jiu_ying/cook_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cook · up",
+      "path": "Sprites/jiu_ying/cook_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cook · left",
+      "path": "Sprites/jiu_ying/cook_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cook · right",
+      "path": "Sprites/jiu_ying/cook_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · serve · down",
+      "path": "Sprites/jiu_ying/serve_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · serve · up",
+      "path": "Sprites/jiu_ying/serve_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · serve · left",
+      "path": "Sprites/jiu_ying/serve_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · serve · right",
+      "path": "Sprites/jiu_ying/serve_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · clean · down",
+      "path": "Sprites/jiu_ying/clean_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · clean · up",
+      "path": "Sprites/jiu_ying/clean_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · clean · left",
+      "path": "Sprites/jiu_ying/clean_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · clean · right",
+      "path": "Sprites/jiu_ying/clean_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cashier · down",
+      "path": "Sprites/jiu_ying/cashier_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cashier · up",
+      "path": "Sprites/jiu_ying/cashier_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cashier · left",
+      "path": "Sprites/jiu_ying/cashier_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · cashier · right",
+      "path": "Sprites/jiu_ying/cashier_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · promote · down",
+      "path": "Sprites/jiu_ying/promote_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · promote · up",
+      "path": "Sprites/jiu_ying/promote_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · promote · left",
+      "path": "Sprites/jiu_ying/promote_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · promote · right",
+      "path": "Sprites/jiu_ying/promote_right_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · rest · down",
+      "path": "Sprites/jiu_ying/rest_down_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · rest · up",
+      "path": "Sprites/jiu_ying/rest_up_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · rest · left",
+      "path": "Sprites/jiu_ying/rest_left_0.png"
+    },
+    {
+      "name": "小人 · 九婴 · rest · right",
+      "path": "Sprites/jiu_ying/rest_right_0.png"
+    },
+    {
+      "name": "菜品图标 · 阳春面",
+      "path": "Items/dish_noodles.png"
+    },
+    {
+      "name": "菜品图标 · 蛋炒饭",
+      "path": "Items/dish_fried_rice.png"
+    },
+    {
+      "name": "菜品图标 · 酸梅汤",
+      "path": "Items/dish_plum_juice.png"
+    },
+    {
+      "name": "菜品图标 · 羬羊羊肉汤",
+      "path": "Items/dish_qianyang_soup.png"
+    },
+    {
+      "name": "菜品图标 · 毕方烤翅",
+      "path": "Items/dish_bifang_wings.png"
+    },
+    {
+      "name": "菜品图标 · 九尾仙奶",
+      "path": "Items/dish_fox_milk.png"
+    },
+    {
+      "name": "菜品图标 · 应龙海鲜锅",
+      "path": "Items/dish_yinglong_hotpot.png"
+    },
+    {
+      "name": "菜品图标 · 饕餮自助套餐",
+      "path": "Items/dish_taotie_buffet.png"
+    },
+    {
+      "name": "菜品图标 · 凤凰涅槃羹",
+      "path": "Items/dish_phoenix_soup.png"
+    },
+    {
+      "name": "菜品图标 · 祝余轻食",
+      "path": "Items/dish_zhuyu_salad.png"
+    },
+    {
+      "name": "菜品图标 · 陆吾烤肉拼盘",
+      "path": "Items/dish_luwu_platter.png"
+    },
+    {
+      "name": "菜品图标 · 英招时蔬沙拉",
+      "path": "Items/dish_yingzhao_salad.png"
+    },
+    {
+      "name": "菜品图标 · 精卫石锅拌饭",
+      "path": "Items/dish_jingwei_bibimbap.png"
+    },
+    {
+      "name": "菜品图标 · 当康丰收炒饭",
+      "path": "Items/dish_dangkang_rice.png"
+    },
+    {
+      "name": "菜品图标 · 天狗天妇罗",
+      "path": "Items/dish_tiangou_tempura.png"
+    },
+    {
+      "name": "菜品图标 · 冉遗鱼汤",
+      "path": "Items/dish_ranyiyu_soup.png"
+    },
+    {
+      "name": "菜品图标 · 穷奇麻辣火锅",
+      "path": "Items/dish_qiongqi_hotpot.png"
+    },
+    {
+      "name": "菜品图标 · 梼杌秘制烤肉",
+      "path": "Items/dish_taowu_barbecue.png"
+    },
+    {
+      "name": "菜品图标 · 混沌云吞",
+      "path": "Items/dish_hundun_wonton.png"
+    },
+    {
+      "name": "菜品图标 · 獬豸正义套餐",
+      "path": "Items/dish_xiezhi_set.png"
+    },
+    {
+      "name": "菜品图标 · 烛龙火焰拉面",
+      "path": "Items/dish_zhulong_ramen.png"
+    },
+    {
+      "name": "菜品图标 · 帝江无面饺子",
+      "path": "Items/dish_dijiang_dumplings.png"
+    },
+    {
+      "name": "菜品图标 · 九婴九味拼盘",
+      "path": "Items/dish_jiuying_platter.png"
+    },
+    {
+      "name": "菜品图标 · 凤凰涅槃羹·真",
+      "path": "Items/dish_phoenix_true_soup.png"
+    },
+    {
+      "name": "菜品图标 · 白泽万象宴",
+      "path": "Items/dish_baize_hidden_banquet.png"
+    },
+    {
+      "name": "俯视设施 · 朴素双人桌",
+      "path": "Map/equip_table_two.png"
+    },
+    {
+      "name": "俯视设施 · 青龙壁画",
+      "path": "Map/decor_wall_mural.png"
+    },
+    {
+      "name": "俯视设施 · 九尾狐灯笼",
+      "path": "Map/decor_lantern.png"
+    },
+    {
+      "name": "俯视设施 · 后厨设备升级",
+      "path": "Map/equip_kitchen.png"
+    },
+    {
+      "name": "俯视设施 · 宽敞四人桌",
+      "path": "Map/equip_table_four.png"
+    },
+    {
+      "name": "俯视设施 · 灵巧收银台",
+      "path": "Map/equip_cashier.png"
+    },
+    {
+      "name": "俯视设施 · 单口灶台",
+      "path": "Map/equip_stove.png"
+    },
+    {
+      "name": "俯视设施 · 传菜口",
+      "path": "Map/equip_serving_counter.png"
+    },
+    {
+      "name": "俯视设施 · 宣传立牌",
+      "path": "Map/decor_promotion_board.png"
+    },
+    {
+      "name": "俯视设施 · 员工休息角",
+      "path": "Map/decor_staff_corner.png"
+    },
+    {
+      "name": "俯视设施 · 基础传菜口",
+      "path": "Map/equip_basic_pass.png"
+    },
+    {
+      "name": "俯视设施 · 基础收银台",
+      "path": "Map/equip_basic_cashier.png"
+    },
+    {
+      "name": "木地板",
+      "path": "Map/floor_wood.png"
+    },
+    {
+      "name": "店墙",
+      "path": "Map/wall_shop.png"
+    },
+    {
+      "name": "庭院",
+      "path": "Map/floor_yard.png"
+    },
+    {
+      "name": "店招",
+      "path": "Map/decor_sign.png"
+    },
+    {
+      "name": "绿植",
+      "path": "Map/decor_plant.png"
+    },
+    {
+      "name": "员工面板",
+      "path": "UI/panel_employee.png"
+    },
+    {
+      "name": "照片框",
+      "path": "UI/frame_portrait.png"
+    },
+    {
+      "name": "状态警示",
+      "path": "FX/icon_warning.png"
+    },
+    {
+      "name": "顾客 · human_01 · walk · down",
+      "path": "Sprites/customer/human/human_01/human_01_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · walk · up",
+      "path": "Sprites/customer/human/human_01/human_01_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · walk · left",
+      "path": "Sprites/customer/human/human_01/human_01_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · walk · right",
+      "path": "Sprites/customer/human/human_01/human_01_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · idle · down",
+      "path": "Sprites/customer/human/human_01/human_01_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · idle · up",
+      "path": "Sprites/customer/human/human_01/human_01_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · idle · left",
+      "path": "Sprites/customer/human/human_01/human_01_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · idle · right",
+      "path": "Sprites/customer/human/human_01/human_01_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · sit · down",
+      "path": "Sprites/customer/human/human_01/human_01_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · sit · up",
+      "path": "Sprites/customer/human/human_01/human_01_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · sit · left",
+      "path": "Sprites/customer/human/human_01/human_01_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · sit · right",
+      "path": "Sprites/customer/human/human_01/human_01_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · eat · down",
+      "path": "Sprites/customer/human/human_01/human_01_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · eat · up",
+      "path": "Sprites/customer/human/human_01/human_01_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · eat · left",
+      "path": "Sprites/customer/human/human_01/human_01_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · human_01 · eat · right",
+      "path": "Sprites/customer/human/human_01/human_01_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · walk · down",
+      "path": "Sprites/customer/human/human_02/human_02_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · walk · up",
+      "path": "Sprites/customer/human/human_02/human_02_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · walk · left",
+      "path": "Sprites/customer/human/human_02/human_02_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · walk · right",
+      "path": "Sprites/customer/human/human_02/human_02_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · idle · down",
+      "path": "Sprites/customer/human/human_02/human_02_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · idle · up",
+      "path": "Sprites/customer/human/human_02/human_02_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · idle · left",
+      "path": "Sprites/customer/human/human_02/human_02_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · idle · right",
+      "path": "Sprites/customer/human/human_02/human_02_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · sit · down",
+      "path": "Sprites/customer/human/human_02/human_02_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · sit · up",
+      "path": "Sprites/customer/human/human_02/human_02_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · sit · left",
+      "path": "Sprites/customer/human/human_02/human_02_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · sit · right",
+      "path": "Sprites/customer/human/human_02/human_02_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · eat · down",
+      "path": "Sprites/customer/human/human_02/human_02_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · eat · up",
+      "path": "Sprites/customer/human/human_02/human_02_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · eat · left",
+      "path": "Sprites/customer/human/human_02/human_02_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · human_02 · eat · right",
+      "path": "Sprites/customer/human/human_02/human_02_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · walk · down",
+      "path": "Sprites/customer/human/human_03/human_03_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · walk · up",
+      "path": "Sprites/customer/human/human_03/human_03_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · walk · left",
+      "path": "Sprites/customer/human/human_03/human_03_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · walk · right",
+      "path": "Sprites/customer/human/human_03/human_03_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · idle · down",
+      "path": "Sprites/customer/human/human_03/human_03_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · idle · up",
+      "path": "Sprites/customer/human/human_03/human_03_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · idle · left",
+      "path": "Sprites/customer/human/human_03/human_03_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · idle · right",
+      "path": "Sprites/customer/human/human_03/human_03_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · sit · down",
+      "path": "Sprites/customer/human/human_03/human_03_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · sit · up",
+      "path": "Sprites/customer/human/human_03/human_03_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · sit · left",
+      "path": "Sprites/customer/human/human_03/human_03_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · sit · right",
+      "path": "Sprites/customer/human/human_03/human_03_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · eat · down",
+      "path": "Sprites/customer/human/human_03/human_03_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · eat · up",
+      "path": "Sprites/customer/human/human_03/human_03_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · eat · left",
+      "path": "Sprites/customer/human/human_03/human_03_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · human_03 · eat · right",
+      "path": "Sprites/customer/human/human_03/human_03_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · walk · down",
+      "path": "Sprites/customer/demon/demon_01/demon_01_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · walk · up",
+      "path": "Sprites/customer/demon/demon_01/demon_01_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · walk · left",
+      "path": "Sprites/customer/demon/demon_01/demon_01_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · walk · right",
+      "path": "Sprites/customer/demon/demon_01/demon_01_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · idle · down",
+      "path": "Sprites/customer/demon/demon_01/demon_01_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · idle · up",
+      "path": "Sprites/customer/demon/demon_01/demon_01_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · idle · left",
+      "path": "Sprites/customer/demon/demon_01/demon_01_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · idle · right",
+      "path": "Sprites/customer/demon/demon_01/demon_01_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · sit · down",
+      "path": "Sprites/customer/demon/demon_01/demon_01_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · sit · up",
+      "path": "Sprites/customer/demon/demon_01/demon_01_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · sit · left",
+      "path": "Sprites/customer/demon/demon_01/demon_01_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · sit · right",
+      "path": "Sprites/customer/demon/demon_01/demon_01_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · eat · down",
+      "path": "Sprites/customer/demon/demon_01/demon_01_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · eat · up",
+      "path": "Sprites/customer/demon/demon_01/demon_01_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · eat · left",
+      "path": "Sprites/customer/demon/demon_01/demon_01_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_01 · eat · right",
+      "path": "Sprites/customer/demon/demon_01/demon_01_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · walk · down",
+      "path": "Sprites/customer/demon/demon_02/demon_02_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · walk · up",
+      "path": "Sprites/customer/demon/demon_02/demon_02_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · walk · left",
+      "path": "Sprites/customer/demon/demon_02/demon_02_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · walk · right",
+      "path": "Sprites/customer/demon/demon_02/demon_02_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · idle · down",
+      "path": "Sprites/customer/demon/demon_02/demon_02_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · idle · up",
+      "path": "Sprites/customer/demon/demon_02/demon_02_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · idle · left",
+      "path": "Sprites/customer/demon/demon_02/demon_02_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · idle · right",
+      "path": "Sprites/customer/demon/demon_02/demon_02_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · sit · down",
+      "path": "Sprites/customer/demon/demon_02/demon_02_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · sit · up",
+      "path": "Sprites/customer/demon/demon_02/demon_02_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · sit · left",
+      "path": "Sprites/customer/demon/demon_02/demon_02_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · sit · right",
+      "path": "Sprites/customer/demon/demon_02/demon_02_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · eat · down",
+      "path": "Sprites/customer/demon/demon_02/demon_02_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · eat · up",
+      "path": "Sprites/customer/demon/demon_02/demon_02_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · eat · left",
+      "path": "Sprites/customer/demon/demon_02/demon_02_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_02 · eat · right",
+      "path": "Sprites/customer/demon/demon_02/demon_02_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · walk · down",
+      "path": "Sprites/customer/demon/demon_03/demon_03_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · walk · up",
+      "path": "Sprites/customer/demon/demon_03/demon_03_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · walk · left",
+      "path": "Sprites/customer/demon/demon_03/demon_03_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · walk · right",
+      "path": "Sprites/customer/demon/demon_03/demon_03_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · idle · down",
+      "path": "Sprites/customer/demon/demon_03/demon_03_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · idle · up",
+      "path": "Sprites/customer/demon/demon_03/demon_03_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · idle · left",
+      "path": "Sprites/customer/demon/demon_03/demon_03_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · idle · right",
+      "path": "Sprites/customer/demon/demon_03/demon_03_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · sit · down",
+      "path": "Sprites/customer/demon/demon_03/demon_03_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · sit · up",
+      "path": "Sprites/customer/demon/demon_03/demon_03_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · sit · left",
+      "path": "Sprites/customer/demon/demon_03/demon_03_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · sit · right",
+      "path": "Sprites/customer/demon/demon_03/demon_03_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · eat · down",
+      "path": "Sprites/customer/demon/demon_03/demon_03_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · eat · up",
+      "path": "Sprites/customer/demon/demon_03/demon_03_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · eat · left",
+      "path": "Sprites/customer/demon/demon_03/demon_03_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · demon_03 · eat · right",
+      "path": "Sprites/customer/demon/demon_03/demon_03_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · walk · down",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · walk · up",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · walk · left",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · walk · right",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · idle · down",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · idle · up",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · idle · left",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · idle · right",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · sit · down",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · sit · up",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · sit · left",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · sit · right",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · eat · down",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · eat · up",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · eat · left",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_01 · eat · right",
+      "path": "Sprites/customer/beastkin/beastkin_01/beastkin_01_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · walk · down",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · walk · up",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · walk · left",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · walk · right",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · idle · down",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · idle · up",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · idle · left",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · idle · right",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · sit · down",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · sit · up",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · sit · left",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · sit · right",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · eat · down",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · eat · up",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · eat · left",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_02 · eat · right",
+      "path": "Sprites/customer/beastkin/beastkin_02/beastkin_02_eat_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · walk · down",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_walk_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · walk · up",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_walk_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · walk · left",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_walk_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · walk · right",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_walk_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · idle · down",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_idle_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · idle · up",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_idle_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · idle · left",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_idle_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · idle · right",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_idle_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · sit · down",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_sit_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · sit · up",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_sit_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · sit · left",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_sit_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · sit · right",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_sit_right_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · eat · down",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_eat_down_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · eat · up",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_eat_up_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · eat · left",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_eat_left_0.png"
+    },
+    {
+      "name": "顾客 · beastkin_03 · eat · right",
+      "path": "Sprites/customer/beastkin/beastkin_03/beastkin_03_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · lao_tao",
+      "path": "Portraits/lao_tao.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · walk · down",
+      "path": "Sprites/customer/lao_tao/lao_tao_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · walk · up",
+      "path": "Sprites/customer/lao_tao/lao_tao_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · walk · left",
+      "path": "Sprites/customer/lao_tao/lao_tao_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · walk · right",
+      "path": "Sprites/customer/lao_tao/lao_tao_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · idle · down",
+      "path": "Sprites/customer/lao_tao/lao_tao_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · idle · up",
+      "path": "Sprites/customer/lao_tao/lao_tao_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · idle · left",
+      "path": "Sprites/customer/lao_tao/lao_tao_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · idle · right",
+      "path": "Sprites/customer/lao_tao/lao_tao_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · sit · down",
+      "path": "Sprites/customer/lao_tao/lao_tao_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · sit · up",
+      "path": "Sprites/customer/lao_tao/lao_tao_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · sit · left",
+      "path": "Sprites/customer/lao_tao/lao_tao_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · sit · right",
+      "path": "Sprites/customer/lao_tao/lao_tao_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · eat · down",
+      "path": "Sprites/customer/lao_tao/lao_tao_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · eat · up",
+      "path": "Sprites/customer/lao_tao/lao_tao_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · eat · left",
+      "path": "Sprites/customer/lao_tao/lao_tao_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · lao_tao · eat · right",
+      "path": "Sprites/customer/lao_tao/lao_tao_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · bai_ze_gu_ren",
+      "path": "Portraits/bai_ze_gu_ren.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · walk · down",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · walk · up",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · walk · left",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · walk · right",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · idle · down",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · idle · up",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · idle · left",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · idle · right",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · sit · down",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · sit · up",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · sit · left",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · sit · right",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · eat · down",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · eat · up",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · eat · left",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bai_ze_gu_ren · eat · right",
+      "path": "Sprites/customer/bai_ze_gu_ren/bai_ze_gu_ren_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · xiao_shen_shou",
+      "path": "Portraits/xiao_shen_shou.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · walk · down",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · walk · up",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · walk · left",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · walk · right",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · idle · down",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · idle · up",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · idle · left",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · idle · right",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · sit · down",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · sit · up",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · sit · left",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · sit · right",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · eat · down",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · eat · up",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · eat · left",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · xiao_shen_shou · eat · right",
+      "path": "Sprites/customer/xiao_shen_shou/xiao_shen_shou_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · tiao_ti_mei_shi_jia",
+      "path": "Portraits/tiao_ti_mei_shi_jia.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · walk · down",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · walk · up",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · walk · left",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · walk · right",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · idle · down",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · idle · up",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · idle · left",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · idle · right",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · sit · down",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · sit · up",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · sit · left",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · sit · right",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · eat · down",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · eat · up",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · eat · left",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · tiao_ti_mei_shi_jia · eat · right",
+      "path": "Sprites/customer/tiao_ti_mei_shi_jia/tiao_ti_mei_shi_jia_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · bao_en_yao_guai",
+      "path": "Portraits/bao_en_yao_guai.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · walk · down",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · walk · up",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · walk · left",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · walk · right",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · idle · down",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · idle · up",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · idle · left",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · idle · right",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · sit · down",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · sit · up",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · sit · left",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · sit · right",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · eat · down",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · eat · up",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · eat · left",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · bao_en_yao_guai · eat · right",
+      "path": "Sprites/customer/bao_en_yao_guai/bao_en_yao_guai_eat_right_0.png"
+    },
+    {
+      "name": "特殊来客立绘 · mi_tan",
+      "path": "Portraits/mi_tan.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · walk · down",
+      "path": "Sprites/customer/mi_tan/mi_tan_walk_down_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · walk · up",
+      "path": "Sprites/customer/mi_tan/mi_tan_walk_up_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · walk · left",
+      "path": "Sprites/customer/mi_tan/mi_tan_walk_left_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · walk · right",
+      "path": "Sprites/customer/mi_tan/mi_tan_walk_right_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · idle · down",
+      "path": "Sprites/customer/mi_tan/mi_tan_idle_down_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · idle · up",
+      "path": "Sprites/customer/mi_tan/mi_tan_idle_up_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · idle · left",
+      "path": "Sprites/customer/mi_tan/mi_tan_idle_left_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · idle · right",
+      "path": "Sprites/customer/mi_tan/mi_tan_idle_right_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · sit · down",
+      "path": "Sprites/customer/mi_tan/mi_tan_sit_down_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · sit · up",
+      "path": "Sprites/customer/mi_tan/mi_tan_sit_up_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · sit · left",
+      "path": "Sprites/customer/mi_tan/mi_tan_sit_left_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · sit · right",
+      "path": "Sprites/customer/mi_tan/mi_tan_sit_right_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · eat · down",
+      "path": "Sprites/customer/mi_tan/mi_tan_eat_down_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · eat · up",
+      "path": "Sprites/customer/mi_tan/mi_tan_eat_up_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · eat · left",
+      "path": "Sprites/customer/mi_tan/mi_tan_eat_left_0.png"
+    },
+    {
+      "name": "特殊来客 · mi_tan · eat · right",
+      "path": "Sprites/customer/mi_tan/mi_tan_eat_right_0.png"
+    },
+    {
+      "name": "状态图标 · special_guest",
+      "path": "FX/icon_special_guest.png"
+    },
+    {
+      "name": "状态图标 · training",
+      "path": "FX/icon_training.png"
+    },
+    {
+      "name": "状态图标 · construction",
+      "path": "FX/icon_construction.png"
+    },
+    {
+      "name": "状态图标 · rest",
+      "path": "FX/icon_rest.png"
+    },
+    {
+      "name": "状态图标 · fatigue",
+      "path": "FX/icon_fatigue.png"
+    },
+    {
+      "name": "状态图标 · working",
+      "path": "FX/icon_working.png"
+    },
+    {
+      "name": "道具 · skill_book",
+      "path": "Items/item_skill_book.png"
+    },
+    {
+      "name": "道具 · generic",
+      "path": "Items/item_generic.png"
+    },
+    {
+      "name": "道具 · tea",
+      "path": "Items/item_tea.png"
+    },
+    {
+      "name": "道具 · spice",
+      "path": "Items/item_spice.png"
+    },
+    {
+      "name": "道具 · fruit",
+      "path": "Items/item_fruit.png"
+    },
+    {
+      "name": "道具 · rice",
+      "path": "Items/item_rice.png"
+    },
+    {
+      "name": "道具 · qingqiu_milk",
+      "path": "Items/item_qingqiu_milk.png"
+    },
+    {
+      "name": "道具 · yushan_water",
+      "path": "Items/item_yushan_water.png"
+    },
+    {
+      "name": "道具 · danshu_rice",
+      "path": "Items/item_danshu_rice.png"
+    },
+    {
+      "name": "道具 · spirit_herb",
+      "path": "Items/item_spirit_herb.png"
+    }
+  ]
+}

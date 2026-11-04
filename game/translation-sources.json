@@ -1,0 +1,45 @@
+{
+  "revision": "SH-EN-R2",
+  "retrieved_on": "2026-10-31",
+  "direct_published_excerpts": 4,
+  "project_translations": 50,
+  "chinese_and_literary_preservation": {
+    "employees_chinese_and_literary_prose_preserved": true,
+    "dishes_chinese_and_literary_prose_preserved": true,
+    "guests_chinese_and_literary_prose_preserved": true
+  },
+  "published_matches_verified": true,
+  "waley_total_excerpt_words": 83,
+  "sources": [
+    {
+      "id": "waley1937",
+      "translator": "Arthur Waley",
+      "work": "The Book of Songs",
+      "year": 1937,
+      "locator": "Chen: Mu Men, stanza 2; Bin: Chi Xiao, stanza 1 and the beginning of stanza 2",
+      "url": "https://github.com/zijinmingyue123/A-Multi-dimensional-Analysis-of-Register-Variations-in-the-English-Translations-of-Shijing/blob/961386c3258364ae269f05822b47a8ed197b95e3/Corpus.rar",
+      "rights": "Copyrighted translation; two short excerpts, fewer than 90 words in total. Only spacing and line breaks normalised.",
+      "online_witness": "Corpus.rar, 5. Arthur.txt",
+      "downloaded_bytes": 160097,
+      "download_sha256": "43ec9e4a488ab2efbb58907e76de35521b0763b4c8ce9869a51c55a9cd2286f4"
+    },
+    {
+      "id": "giles1889",
+      "translator": "Herbert A. Giles",
+      "work": "Chuang Tzu: Mystic, Moralist, and Social Reformer",
+      "year": 1889,
+      "locator": "Chapter VII, final anecdote (Hun Tun; indexed at printed page 98)",
+      "url": "https://www.gutenberg.org/ebooks/59709",
+      "mirror_url": "https://raw.githubusercontent.com/GITenberg/Chuang-Tzu-Mystic-Moralist-and-Social-Reformer_59709/master/59709-0.txt",
+      "rights": "Public-domain translation; two continuous excerpts. Editorial commentary omitted, not translated as part of the Chinese.",
+      "downloaded_bytes": 685346,
+      "download_sha256": "e439dff44ee0d2702b9cd65e78dbc524acc7d47bef7a2a93577c48a64c27a6d1"
+    }
+  ],
+  "research_notes": [
+    "Project Gutenberg Legge volume 9394 was retrieved for comparison; it does not contain the two required owl poems, so it is not cited as their translator.",
+    "Waley corpus printing is not specified by the uploader; 1937 is the work's first-publication year, not a claim about the scan edition.",
+    "No modern complete Shanhaijing translation was copied. The other 50 passages are original project renderings of the preserved Chinese, not quotations attributed to Birrell or Strassberg.",
+    "Full downloaded third-party books/corpora remain in ignored research caches and are not distributed with the game."
+  ]
+}
