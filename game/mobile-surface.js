@@ -8,6 +8,14 @@
   const resize=()=>{const h=window.visualViewport?visualViewport.height:innerHeight;if(h>0)surface.style.setProperty('--game-height',h+'px')};
   addEventListener('resize',resize);if(window.visualViewport)visualViewport.addEventListener('resize',resize);resize();return;
  }
+ // Native mobile layout uses real CSS pixels; only an explicit legacy link
+ // selects the old whole-desktop transform.
+ if(new URLSearchParams(location.search).get('wholeview')!=='1'){
+  const style=document.createElement('style');style.textContent=`html,body{margin:0;overflow:hidden;height:100%;overscroll-behavior:none}#game-surface{position:fixed!important;left:env(safe-area-inset-left)!important;right:env(safe-area-inset-right)!important;top:env(safe-area-inset-top)!important;height:calc(var(--native-height,100dvh) - env(safe-area-inset-top) - env(safe-area-inset-bottom))!important;transform:none!important}#canvas{width:100%!important;height:100%!important;touch-action:none}`;document.head.appendChild(style);
+  const resize=()=>{const h=window.visualViewport?visualViewport.height:innerHeight;if(h>0)surface.style.setProperty('--native-height',h+'px')};
+  Object.defineProperty(window,'shanhaiPortraitView',{value:{active:true,version:'native-portrait-r9'}});
+  addEventListener('resize',resize);addEventListener('orientationchange',resize);if(window.visualViewport){visualViewport.addEventListener('resize',resize);visualViewport.addEventListener('scroll',resize)}resize();return;
+ }
  const W=1440,H=900;
  const style=document.createElement('style');style.textContent=`
  #whole-tools{position:fixed;z-index:1000;left:env(safe-area-inset-left);right:env(safe-area-inset-right);top:env(safe-area-inset-top);height:46px;display:flex;align-items:center;justify-content:center;gap:4px;background:#efe7cd;color:#334e45;font:12px system-ui,sans-serif;touch-action:manipulation}

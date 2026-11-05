@@ -2,10 +2,10 @@
   "format": 1,
   "platform": "web",
   "godot": "4.6.3.stable",
-  "exported_utc": "2026-11-02T12:14:02+00:00",
+  "exported_utc": "2026-11-05T09:10:47+00:00",
   "game_source": {
-    "sha256": "71aa6dee3ece74281d41ddac608940233ea2cc1f0ce6bf945ee58e70a842be9a",
-    "files": 840,
+    "sha256": "399b07311ed6a85e0206384a32d8940b90b5bb9a151e1ac130a9f5e6f4b0b4ce",
+    "files": 844,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
   "files": {
@@ -114,8 +114,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "index.html": {
-      "bytes": 10619,
-      "sha256": "3616252e0f0c4b530bf51d8df0d064b12c5d0c2559fdff0d96b0e5323111d54b"
+      "bytes": 10670,
+      "sha256": "06903410b9fa3e98a9132d54dc7520a79d4ac7e730035c3dbc316c8ea8b27d21"
     },
     "index.icon.png": {
       "bytes": 2622,
@@ -263,11 +263,11 @@
     },
     "resource-map.json": {
       "bytes": 3266,
-      "sha256": "4271b5da322eea37d4bee8ed839bd4b29ecdb66096090fd7de57b516430f570e"
+      "sha256": "7ecc714da28ae42699404dc85073ae85b0abfc9dd0dbb7b32d41d87373cd4740"
     },
     "mobile-surface.js": {
-      "bytes": 9075,
-      "sha256": "775d5a28694cfe9bb8a6c4d167508e11a081188df453693d1745d61a04c76fbf"
+      "bytes": 10275,
+      "sha256": "fef0c24ebe642fdd4178760bfba59d501f957947d2cdbaff6e9b24999d7bf1d8"
     },
     "fast-loader.js": {
       "bytes": 2785,
@@ -303,7 +303,7 @@
     },
     "parts/index.pck.raw.000.bin": {
       "bytes": 8388608,
-      "sha256": "46b53bdc47f62f94750f2f1c10fd39f756f414d0bc022dbef09b64645bec17db"
+      "sha256": "1b7b222925d388f65d25c47027b390758a32cd12a2e59a6bfa0af8489599e259"
     },
     "parts/index.wasm.raw.001.bin": {
       "bytes": 8388608,
@@ -318,20 +318,20 @@
       "sha256": "97d87054e00f458803fadfccd85b8f886783e7935c1f5be4ffd53ead510e1fb1"
     },
     "parts/index.pck.gzip.003.bin": {
-      "bytes": 5353023,
-      "sha256": "2b4f4b53c4950790ad1828667f90bd4efb8ae1ea97d8580accccb0751f51db3c"
+      "bytes": 5371195,
+      "sha256": "1952f6cf1f03d3899bfdca0cdc0a86f76e85af6ae5ebdd0b07d94383aaba8610"
     },
     "parts/index.wasm.raw.002.bin": {
       "bytes": 8388608,
       "sha256": "be8030bed2d0abea246c827b2454ea726e18b151c278b578cb50736259c014ff"
     },
     "parts/index.pck.raw.003.bin": {
-      "bytes": 8335260,
-      "sha256": "e53e42e97fe60b750a8c203dfa69c1be9dca51ce16283ada4a844be43f38fb3a"
+      "bytes": 8358332,
+      "sha256": "13a86cd7ba52ad8a8b31fee78279c1542b9a32c4cfb1e25cac7dea0099beeca3"
     },
     "parts/index.pck.gzip.000.bin": {
       "bytes": 8388608,
-      "sha256": "8da2826c0ba95343e8abb2eeedc8ffa7a8df969e59c9e0fad80916249bc95410"
+      "sha256": "9e694b40880bca719413a84d32bc808aae2af1f502a16ee6c81771d6eece9f00"
     }
   },
   "logical_resources": {
@@ -340,15 +340,15 @@
       "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
     },
     "index.pck": {
-      "bytes": 33501084,
-      "sha256": "990094bd76b4fdf1d33aacd0ae75d33d1194198807ea33d004997dff4fac851a"
+      "bytes": 33524156,
+      "sha256": "0cb0bb5acc907c8cedc33d9889a79aed4674506d28210e104cc38b2b78105ca3"
     }
   },
-  "original_export_receipt_sha256": "a52f70ea0b48f6accf5aac8e3cdc8d6d6f51ff06d475fa4bc806d62c6e8942b4",
-  "web_shell": "SH-WEB-R8",
-  "site_shell_updated_utc": "2026-11-04T03:25:03+00:00",
+  "original_export_receipt_sha256": "43306e9296c4411db778c5bd1a1ed9334281cd326b18f27d1c35fe1fedca485a",
+  "web_shell": "SH-WEB-UI-R1",
+  "site_shell_updated_utc": "2026-11-05T09:11:11+00:00",
   "entry_router": {
-    "version": "web-auto-r1",
+    "version": "web-ui-r1",
     "variant": "desktop"
   }
 }
