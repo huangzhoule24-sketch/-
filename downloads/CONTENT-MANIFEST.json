@@ -1,0 +1,64 @@
+{
+  "version": "integrated-proposal-r2",
+  "implemented": false,
+  "coverage": {
+    "IN": {
+      "characters": 5,
+      "dishes": 5,
+      "original_character_dish_and_story_sections_preserved": true,
+      "store_plan": "IN-S01"
+    },
+    "ND": {
+      "characters": 5,
+      "dishes": 5,
+      "original_character_dish_and_story_sections_preserved": true,
+      "store_plan": "ND-S01"
+    },
+    "GR": {
+      "characters": 5,
+      "dishes": 5,
+      "original_character_dish_and_story_sections_preserved": true,
+      "store_plan": "GR-S01"
+    }
+  },
+  "embedded_word_diagrams": 3,
+  "word_rendered_in_native_office": false,
+  "files": {
+    "localization-plan-r2/greece-store-design.png": {
+      "bytes": 195811,
+      "sha256": "d7898008d0f7c91f3aa968c5f590764c3e60eca6a67abe2093a7ca6da755f8cd"
+    },
+    "localization-plan-r2/greece-store-design.svg": {
+      "bytes": 131711,
+      "sha256": "eb9059532551a4e73c98a50cbea04cd284c91b985427f02d63c3a3ab8d8ef637"
+    },
+    "localization-plan-r2/india-store-design.png": {
+      "bytes": 185173,
+      "sha256": "df864be01a1a92cbca7e812dd6ac7cf18e8e57093e48451cfc4504ede6917734"
+    },
+    "localization-plan-r2/india-store-design.svg": {
+      "bytes": 122206,
+      "sha256": "0e9964a6ef803eab93bdc2ac934a6534361cb482bf3a003a5c791343c5638231"
+    },
+    "localization-plan-r2/nordic-store-design.png": {
+      "bytes": 182166,
+      "sha256": "5cbb9cea2f6a08742dca1cb2772619c857c8beefc44ad5b84359897c48749729"
+    },
+    "localization-plan-r2/nordic-store-design.svg": {
+      "bytes": 124083,
+      "sha256": "528529a0cab621fe17bab8b68b5622429cfc13c44f43e9f798ef544f411217c0"
+    },
+    "shanhai-localization-integrated-store-design-r2-20261105.docx": {
+      "bytes": 570261,
+      "sha256": "61e771f981146e590bcb36ce6cffd276f43f429955bc3fa9596f176b8b585e5d"
+    },
+    "shanhai-localization-integrated-store-design-r2-20261105.md": {
+      "bytes": 64005,
+      "sha256": "73a5b5d030f148712102febd16f8a3ccbd2ddadb4a773e78b8db0e627ae5a285"
+    },
+    "阅读说明.txt": {
+      "bytes": 781,
+      "sha256": "0a2dab416d190d0a162aa6ff13c62c0f00e60b1de0770e778e96c70eed27a3b2"
+    }
+  }
+}
