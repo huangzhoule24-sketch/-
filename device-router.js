@@ -35,7 +35,7 @@
   return target;
  }
  const redirecting=page!=='share'&&selected!==current;
- window.shanhaiDeviceRoute=Object.freeze({version:'web-ui-r1',root:root.href,current,device,mode,selected,redirecting});
+ window.shanhaiDeviceRoute=Object.freeze({version:'web-international-r1',root:root.href,current,device,mode,selected,redirecting});
  if(redirecting){location.replace(address(selected,page,mode).href);return;}
  // The two game builds keep their established save paths. Only switch at entry.
  function mount(){
