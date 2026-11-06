@@ -1,0 +1,117 @@
+{
+  "tool": "image_gen.imagegen",
+  "entries": [
+    {
+      "file": "assets/art/International/dishes.png",
+      "sha256": "0db38bc579f4c9437c3c7250a74ab92109d6388028917a86bf52165ab1b78780",
+      "pixels": [
+        1619,
+        971
+      ],
+      "generation_output": "exec-dcc6421b-c94c-4fac-91ab-f8ab06b9f78b.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/furniture.png",
+      "sha256": "b9a8b70e1e8c0ff176086509c74e0e76416fcbbef71ac9dcb6e33f6107c1bac9",
+      "pixels": [
+        1619,
+        972
+      ],
+      "generation_output": "exec-0713d9fd-0f5f-4357-8854-6c984e15668e.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/greece_cast.png",
+      "sha256": "a92a04180b3bc55b4de72f84cd4518d24cec27f3b59a1bb704e02de46f46f351",
+      "pixels": [
+        1983,
+        793
+      ],
+      "generation_output": "exec-6621833d-df71-4baf-ad9c-554ef132994f.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/greece_store.png",
+      "sha256": "0055368648051c6f387166df49a993fdddb39051f9efd7eaef85c69cc7275a78",
+      "pixels": [
+        1774,
+        887
+      ],
+      "generation_output": "exec-0005c6a6-811f-453a-b0bc-d5c2006ae71b.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/greece_walk.png",
+      "sha256": "20f5bfda81184a9649a2a2493eec9d64749f55bc5f15d88377c0efdc622698d3",
+      "pixels": [
+        1374,
+        1145
+      ],
+      "generation_output": "exec-c9b329d4-e650-4667-913a-312f694dfcc1.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/india_cast.png",
+      "sha256": "eced22b10b5ff9bb85db0e0ec3e4d951e62d02ca6241b80fd7c688ed4b34624e",
+      "pixels": [
+        1983,
+        793
+      ],
+      "generation_output": "exec-d3cf532d-6021-4d5c-aa07-1c038ff1fa82.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/india_store.png",
+      "sha256": "a351fff258c02bd151abdd965171ea662eb859e366e767a157d7cb04399efa99",
+      "pixels": [
+        1774,
+        887
+      ],
+      "generation_output": "exec-f136fc60-b016-4d39-9838-2e7c2ac5154a.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/india_walk.png",
+      "sha256": "0e8cf022f42bd58c9b0e041d97ad1ac4f0d5a8d9b1a64c1507f8dc8c8d545059",
+      "pixels": [
+        1374,
+        1145
+      ],
+      "generation_output": "exec-fce5eb4f-b56a-4f54-8467-d6099be2a6f0.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/nordic_cast.png",
+      "sha256": "f74fe8883a1efc9794c021298d0766d535fbc187f33b380ca92dfbaad2cdf52d",
+      "pixels": [
+        1983,
+        793
+      ],
+      "generation_output": "exec-7ba87483-b4e7-4918-b8d9-c82337b024a2.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/nordic_store.png",
+      "sha256": "792b9ddc695722b7f897ed31b9dd822604f2f37312ad5b59e6b36c0592bbd240",
+      "pixels": [
+        1774,
+        887
+      ],
+      "generation_output": "exec-2c3469f1-ff61-4d82-8780-2ed74768d933.png",
+      "unchanged_generated_master": true
+    },
+    {
+      "file": "assets/art/International/nordic_walk.png",
+      "sha256": "53f18a88aaafb86ff94faffc8e334d5e3cf2a964f30a0a0124ed625941d815a4",
+      "pixels": [
+        1374,
+        1145
+      ],
+      "generation_output": "exec-d3a98b1f-58f8-4c90-80b6-1d641197dd96.png",
+      "unchanged_generated_master": true
+    }
+  ],
+  "rendering": "Godot AtlasTexture subregions; generated master PNGs kept unchanged",
+  "human_review_scope": "layout and cultural silhouette review; not certified by local cultural reviewers"
+}
