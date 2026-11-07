@@ -1,0 +1,44 @@
+[
+  {
+    "test": "branch_r2_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "Branch R2: {\"checks\":744,\"failures\":[]}"
+  },
+  {
+    "test": "branch_floor_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "Branch floor: {\"checks\":2385,\"failures\":[]}"
+  },
+  {
+    "test": "branch_scene_ui_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "Branch scene UI: {\"checks\":99,\"failures\":[]}"
+  },
+  {
+    "test": "international_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "International: {\"checks\":251,\"failures\":[]}"
+  },
+  {
+    "test": "international_ui_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "International UI: {\"checks\":37,\"failures\":[]}"
+  },
+  {
+    "test": "inventory_return_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "Inventory return: {\"checks\":51,\"failures\":[]}"
+  },
+  {
+    "test": "save_migration_tests",
+    "exit": 0,
+    "script_errors": false,
+    "last_line": "SAVE MIGRATION CHECKS: 82 passed, 0 failed"
+  }
+]

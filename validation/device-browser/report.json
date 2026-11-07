@@ -1,0 +1,252 @@
+{
+  "checks": [
+    {
+      "ok": true,
+      "label": "Windows desktop selects desktop without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Windows desktop entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Narrow desktop window selects desktop without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Narrow desktop window entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Touch Windows laptop selects desktop without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Touch Windows laptop entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Android portrait selects mobile without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Android portrait entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Android landscape selects mobile without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Android landscape entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "iPhone selects mobile without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "iPhone entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Desktop opening previous phone link selects desktop without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Desktop opening previous phone link entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "iPad desktop-style user agent selects mobile without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "iPad desktop-style user agent entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Manual selection selects mobile without a redirect loop"
+    },
+    {
+      "ok": true,
+      "label": "Manual selection entry fits the viewport"
+    },
+    {
+      "ok": true,
+      "label": "Phone can explicitly stay in desktop mode"
+    },
+    {
+      "ok": true,
+      "label": "Manual choice survives a refresh via URL"
+    },
+    {
+      "ok": true,
+      "label": "Version selection follows English"
+    },
+    {
+      "ok": true,
+      "label": "Automatic selection can be restored"
+    },
+    {
+      "ok": true,
+      "label": "Rotating never navigates or restarts the game build"
+    },
+    {
+      "ok": true,
+      "label": "Mobile QR uses the common auto-detect root"
+    },
+    {
+      "ok": true,
+      "label": "Path changes carry preview access only in a browser fragment"
+    },
+    {
+      "ok": true,
+      "label": "Canonical sharing preserves fabricated preview access"
+    },
+    {
+      "ok": true,
+      "label": "Imported hosts with a path prefix keep that prefix"
+    },
+    {
+      "ok": true,
+      "label": "desktop old game bookmark reaches the correct build"
+    },
+    {
+      "ok": true,
+      "label": "desktop downloads only its own complete game resources"
+    },
+    {
+      "ok": true,
+      "label": "desktop still starts the formal campaign"
+    },
+    {
+      "ok": true,
+      "label": "desktop renders its intended game layout"
+    },
+    {
+      "ok": true,
+      "label": "mobile old game bookmark reaches the correct build"
+    },
+    {
+      "ok": true,
+      "label": "mobile downloads only its own complete game resources"
+    },
+    {
+      "ok": true,
+      "label": "mobile still starts the formal campaign"
+    },
+    {
+      "ok": true,
+      "label": "mobile renders its intended game layout"
+    },
+    {
+      "ok": true,
+      "label": "Rotation inside the running game does not redirect"
+    }
+  ],
+  "routes": [
+    {
+      "label": "Windows desktop",
+      "url": "http://127.0.0.1:8070/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "desktop",
+      "device": "desktop",
+      "mode": "auto",
+      "selected": "desktop",
+      "redirecting": false
+    },
+    {
+      "label": "Narrow desktop window",
+      "url": "http://127.0.0.1:8070/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "desktop",
+      "device": "desktop",
+      "mode": "auto",
+      "selected": "desktop",
+      "redirecting": false
+    },
+    {
+      "label": "Touch Windows laptop",
+      "url": "http://127.0.0.1:8070/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "desktop",
+      "device": "desktop",
+      "mode": "auto",
+      "selected": "desktop",
+      "redirecting": false
+    },
+    {
+      "label": "Android portrait",
+      "url": "http://127.0.0.1:8070/portrait/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "mobile",
+      "device": "mobile",
+      "mode": "auto",
+      "selected": "mobile",
+      "redirecting": false
+    },
+    {
+      "label": "Android landscape",
+      "url": "http://127.0.0.1:8070/portrait/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "mobile",
+      "device": "mobile",
+      "mode": "auto",
+      "selected": "mobile",
+      "redirecting": false
+    },
+    {
+      "label": "iPhone",
+      "url": "http://127.0.0.1:8070/portrait/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "mobile",
+      "device": "mobile",
+      "mode": "auto",
+      "selected": "mobile",
+      "redirecting": false
+    },
+    {
+      "label": "Desktop opening previous phone link",
+      "url": "http://127.0.0.1:8070/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "desktop",
+      "device": "desktop",
+      "mode": "auto",
+      "selected": "desktop",
+      "redirecting": false
+    },
+    {
+      "label": "iPad desktop-style user agent",
+      "url": "http://127.0.0.1:8070/portrait/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "mobile",
+      "device": "mobile",
+      "mode": "auto",
+      "selected": "mobile",
+      "redirecting": false
+    },
+    {
+      "label": "Manual selection",
+      "url": "http://127.0.0.1:8070/portrait/",
+      "version": "web-branch-r2",
+      "root": "http://127.0.0.1:8070/",
+      "current": "mobile",
+      "device": "mobile",
+      "mode": "auto",
+      "selected": "mobile",
+      "redirecting": false
+    }
+  ],
+  "errors": [],
+  "physical_devices_tested": false,
+  "version": "web-branch-r2"
+}

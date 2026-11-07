@@ -1,0 +1,51 @@
+{
+  "game_source": {
+    "sha256": "137d91bd036cadcd52b5ccf796517e16341ca2040cc43fdf999b1e79ce602cc2",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "label": "Public sharing keeps the normal classroom link",
+      "ok": true
+    },
+    {
+      "label": "Homepage passes preview access to sharing in the fragment only",
+      "ok": true
+    },
+    {
+      "label": "Only the two allowlisted access parameters are carried",
+      "ok": true
+    },
+    {
+      "label": "Share entry retains complete preview access without adding new signed query parameters",
+      "ok": true
+    },
+    {
+      "label": "Temporary-link sharing shows a validity reminder",
+      "ok": true
+    },
+    {
+      "label": "QR download contains an SVG",
+      "ok": true
+    },
+    {
+      "label": "Same-tab refresh and direct sharing retain the preview parameters",
+      "ok": true
+    },
+    {
+      "label": "A newly supplied access link replaces the old one",
+      "ok": true
+    },
+    {
+      "label": "Preview access is not copied to an unrelated browser context",
+      "ok": true
+    },
+    {
+      "label": "Fragment handoff works when session storage is unavailable",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "credentials": "Only fabricated local preview parameters used"
+}

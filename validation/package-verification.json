@@ -1,0 +1,51 @@
+{
+  "game_source": {
+    "sha256": "137d91bd036cadcd52b5ccf796517e16341ca2040cc43fdf999b1e79ce602cc2",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "ZIP bundles compressed resources without duplicate raw payloads"
+    },
+    {
+      "ok": true,
+      "label": "Offline reconstruction exactly matches the fully tested standalone site"
+    },
+    {
+      "ok": true,
+      "label": "Existing supported desktop/mobile combined site is recognised"
+    },
+    {
+      "ok": true,
+      "label": "all game files and routing receipts match the new combined export"
+    },
+    {
+      "ok": true,
+      "label": "portrait/all game files and routing receipts match the new combined export"
+    },
+    {
+      "ok": true,
+      "label": "Applying the update again preserves a valid playable site"
+    },
+    {
+      "ok": true,
+      "label": "The older UI-R1 combined site also migrates to both current game views"
+    },
+    {
+      "ok": true,
+      "label": "Standalone migration preserves a custom WorkBuddy introduction"
+    },
+    {
+      "ok": true,
+      "label": "Interrupted update restores every original file and removes every newly written file"
+    },
+    {
+      "ok": true,
+      "label": "Unknown builds are refused before overwriting or creating a backup"
+    }
+  ],
+  "network_required": false,
+  "errors": []
+}

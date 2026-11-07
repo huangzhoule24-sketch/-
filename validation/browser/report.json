@@ -1,0 +1,343 @@
+{
+  "game_source": {
+    "sha256": "137d91bd036cadcd52b5ccf796517e16341ca2040cc43fdf999b1e79ce602cc2",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "india completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "india opening assigns a named chef before any sale"
+    },
+    {
+      "ok": true,
+      "label": "india manual service holds guests waiting for inspection"
+    },
+    {
+      "ok": true,
+      "label": "india main recruitment button opens an independent local recruitment page"
+    },
+    {
+      "ok": true,
+      "label": "india formerly sales-gated chef can be hired at zero local orders"
+    },
+    {
+      "ok": true,
+      "label": "india real recruitment spends the normal main-store cash price once"
+    },
+    {
+      "ok": true,
+      "label": "india vacant active slot automatically assigns the hire"
+    },
+    {
+      "ok": true,
+      "label": "india recruitment preserves the current music recording"
+    },
+    {
+      "ok": true,
+      "label": "india staff navigation opens shifts rather than recruitment"
+    },
+    {
+      "ok": true,
+      "label": "india a real guest reaches the waiting stage"
+    },
+    {
+      "ok": true,
+      "label": "india the waiting guest stays in the same actual chair while time runs"
+    },
+    {
+      "ok": true,
+      "label": "india hired crew prepares and completes at least three real paid meals"
+    },
+    {
+      "ok": true,
+      "label": "india actual fulfilment still produces the local reply"
+    },
+    {
+      "ok": true,
+      "label": "india real IndexedDB save contains paid recruitment and business progress"
+    },
+    {
+      "ok": true,
+      "label": "india browser reload retains the selected eatery, hired chef and actual sales"
+    },
+    {
+      "ok": true,
+      "label": "nordic completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "nordic opening assigns a named chef before any sale"
+    },
+    {
+      "ok": true,
+      "label": "nordic manual service holds guests waiting for inspection"
+    },
+    {
+      "ok": true,
+      "label": "nordic main recruitment button opens an independent local recruitment page"
+    },
+    {
+      "ok": true,
+      "label": "nordic formerly sales-gated chef can be hired at zero local orders"
+    },
+    {
+      "ok": true,
+      "label": "nordic real recruitment spends the normal main-store cash price once"
+    },
+    {
+      "ok": true,
+      "label": "nordic vacant active slot automatically assigns the hire"
+    },
+    {
+      "ok": true,
+      "label": "nordic recruitment preserves the current music recording"
+    },
+    {
+      "ok": true,
+      "label": "nordic staff navigation opens shifts rather than recruitment"
+    },
+    {
+      "ok": true,
+      "label": "nordic a real guest reaches the waiting stage"
+    },
+    {
+      "ok": true,
+      "label": "nordic the waiting guest stays in the same actual chair while time runs"
+    },
+    {
+      "ok": true,
+      "label": "nordic hired crew prepares and completes at least three real paid meals"
+    },
+    {
+      "ok": true,
+      "label": "nordic actual fulfilment still produces the local reply"
+    },
+    {
+      "ok": true,
+      "label": "nordic real IndexedDB save contains paid recruitment and business progress"
+    },
+    {
+      "ok": true,
+      "label": "nordic browser reload retains the selected eatery, hired chef and actual sales"
+    },
+    {
+      "ok": true,
+      "label": "greece completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "greece opening assigns a named chef before any sale"
+    },
+    {
+      "ok": true,
+      "label": "greece manual service holds guests waiting for inspection"
+    },
+    {
+      "ok": true,
+      "label": "greece main recruitment button opens an independent local recruitment page"
+    },
+    {
+      "ok": true,
+      "label": "greece formerly sales-gated chef can be hired at zero local orders"
+    },
+    {
+      "ok": true,
+      "label": "greece real recruitment spends the normal main-store cash price once"
+    },
+    {
+      "ok": true,
+      "label": "greece vacant active slot automatically assigns the hire"
+    },
+    {
+      "ok": true,
+      "label": "greece recruitment preserves the current music recording"
+    },
+    {
+      "ok": true,
+      "label": "greece staff navigation opens shifts rather than recruitment"
+    },
+    {
+      "ok": true,
+      "label": "greece a real guest reaches the waiting stage"
+    },
+    {
+      "ok": true,
+      "label": "greece the waiting guest stays in the same actual chair while time runs"
+    },
+    {
+      "ok": true,
+      "label": "greece hired crew prepares and completes at least three real paid meals"
+    },
+    {
+      "ok": true,
+      "label": "greece actual fulfilment still produces the local reply"
+    },
+    {
+      "ok": true,
+      "label": "greece real IndexedDB save contains paid recruitment and business progress"
+    },
+    {
+      "ok": true,
+      "label": "greece browser reload retains the selected eatery, hired chef and actual sales"
+    }
+  ],
+  "actions": [
+    "india:start:full",
+    "india:time:pause",
+    "india:tutorial:ack",
+    "india:nav:员工",
+    "india:panel:close",
+    "india:tutorial:ack",
+    "india:tutorial:destination",
+    "india:full:marketing:flyer",
+    "india:tutorial:ack",
+    "india:time:pause",
+    "india:tutorial:ack",
+    "india:tutorial:ack",
+    "india:tutorial:destination",
+    "india:tutorial:ack",
+    "india:panel:close",
+    "india:time:pause",
+    "india:nav:更多",
+    "india:full:open:跨国食肆",
+    "india:int:region:india",
+    "india:int:int_open:",
+    "india:int:int_auto:service",
+    "india:int:enter:india",
+    "india:nav:招聘",
+    "india:int:int_recruit:in_04:cash",
+    "india:panel:restaurant",
+    "india:nav:员工",
+    "india:int:tab:来信",
+    "india:int:int_story:limited",
+    "india:int:tab:菜单",
+    "india:int:int_prepare:in_d01:q3",
+    "india:int:int_auto:in_d01",
+    "india:panel:restaurant",
+    "india:time:pause",
+    "india:time:pause",
+    "india:nav:员工",
+    "india:int:tab:店铺",
+    "india:int:int_auto:service",
+    "india:panel:restaurant",
+    "india:time:pause",
+    "india:panel:close",
+    "india:time:pause",
+    "india:nav:更多",
+    "india:full:open:系统",
+    "india:system:save",
+    "nordic:start:full",
+    "nordic:time:pause",
+    "nordic:tutorial:ack",
+    "nordic:nav:员工",
+    "nordic:panel:close",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:destination",
+    "nordic:full:marketing:flyer",
+    "nordic:tutorial:ack",
+    "nordic:time:pause",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:destination",
+    "nordic:tutorial:ack",
+    "nordic:panel:close",
+    "nordic:time:pause",
+    "nordic:nav:更多",
+    "nordic:full:open:跨国食肆",
+    "nordic:int:region:nordic",
+    "nordic:int:int_open:",
+    "nordic:int:int_auto:service",
+    "nordic:int:enter:nordic",
+    "nordic:nav:招聘",
+    "nordic:int:int_recruit:nd_05:cash",
+    "nordic:panel:restaurant",
+    "nordic:nav:员工",
+    "nordic:int:tab:来信",
+    "nordic:int:int_story:reserve",
+    "nordic:int:tab:菜单",
+    "nordic:int:int_prepare:nd_d01:q3",
+    "nordic:int:int_auto:nd_d01",
+    "nordic:panel:restaurant",
+    "nordic:time:pause",
+    "nordic:time:pause",
+    "nordic:nav:员工",
+    "nordic:int:tab:店铺",
+    "nordic:int:int_auto:service",
+    "nordic:panel:restaurant",
+    "nordic:time:pause",
+    "nordic:time:pause",
+    "nordic:nav:更多",
+    "nordic:full:open:系统",
+    "nordic:system:save",
+    "greece:start:full",
+    "greece:time:pause",
+    "greece:tutorial:ack",
+    "greece:nav:员工",
+    "greece:panel:close",
+    "greece:tutorial:ack",
+    "greece:tutorial:destination",
+    "greece:full:marketing:flyer",
+    "greece:tutorial:ack",
+    "greece:time:pause",
+    "greece:tutorial:ack",
+    "greece:tutorial:ack",
+    "greece:tutorial:destination",
+    "greece:tutorial:ack",
+    "greece:panel:close",
+    "greece:time:pause",
+    "greece:nav:更多",
+    "greece:full:open:跨国食肆",
+    "greece:int:region:greece",
+    "greece:int:int_open:",
+    "greece:int:int_auto:service",
+    "greece:int:enter:greece",
+    "greece:nav:招聘",
+    "greece:int:int_recruit:gr_05:cash",
+    "greece:panel:restaurant",
+    "greece:nav:员工",
+    "greece:int:tab:来信",
+    "greece:int:int_story:separate",
+    "greece:int:tab:菜单",
+    "greece:int:int_prepare:gr_d01:q3",
+    "greece:int:int_auto:gr_d01",
+    "greece:panel:restaurant",
+    "greece:time:pause",
+    "greece:time:pause",
+    "greece:nav:员工",
+    "greece:int:tab:店铺",
+    "greece:int:int_auto:service",
+    "greece:panel:restaurant",
+    "greece:time:pause",
+    "greece:revision:warning_ack:",
+    "greece:panel:close",
+    "greece:time:pause",
+    "greece:nav:更多",
+    "greece:full:open:系统",
+    "greece:system:save"
+  ],
+  "regions": [
+    {
+      "region": "india",
+      "served": 3,
+      "hired": "in_04"
+    },
+    {
+      "region": "nordic",
+      "served": 3,
+      "hired": "nd_05"
+    },
+    {
+      "region": "greece",
+      "served": 3,
+      "hired": "gr_05"
+    }
+  ],
+  "errors": [],
+  "emulation": "Chromium Android touch, DPR1; real inputs from normal new campaigns; not physical phones",
+  "verification_note": "India and Nordic passed in the initial run. Greece was repeated with its normal cash-flow warning acknowledged through the ordinary UI. No resources, save state or time were injected."
+}

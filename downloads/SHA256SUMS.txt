@@ -1,0 +1,2 @@
+a02e3885ac365e98205f7d662c1b996bf7fef79bcb15e0ba0182f19e1829ee0b  shanhai-branch-r2-complete-game.zip
+aa0a58b062b6bf5b01ba4105a4ec5fee75f7e710f65ff4ac481a26c4c8c8d728  shanhai-branch-r2-editable-source.zip
