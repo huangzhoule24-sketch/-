@@ -1,0 +1,2 @@
+f3bad8b68e0df2fd6b2631fd6c4420628c3e4f1915508c6c9fa4310ed068500e  shanhai-visual-r1-complete-game.zip
+710a499ead0771b18ffb7f78d447d7fc969555d5e67805f1ccbc4223cba4939f  shanhai-visual-r1-editable-source.zip

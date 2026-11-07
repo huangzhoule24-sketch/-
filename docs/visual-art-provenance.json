@@ -1,0 +1,16 @@
+{
+  "tool": "image_gen.imagegen",
+  "generated_assets": [
+    {
+      "file": "assets/art/VisualRefinement/characters.png",
+      "sha256": "a51520aed16c8692777d6e4e11214671b8778984b27cf57349c80e6bbb388e35",
+      "bytes": 2551268
+    },
+    {
+      "file": "assets/art/VisualRefinement/fixtures.png",
+      "sha256": "a00b18bb045aa8955836afdbbb032ed1a46893c0ff40073b4ed63ccb90c7a1ba",
+      "bytes": 1571654
+    }
+  ],
+  "geometry": "Alpha inspection produces JSON only. Generated masters remain unchanged. Six-arm correction explicitly reviewed before integration."
+}
