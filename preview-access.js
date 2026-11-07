@@ -18,7 +18,7 @@
   entryURL(){
    const url=new URL(window.shanhaiDeviceRoute?window.shanhaiDeviceRoute.root:new URL('./',location.href));
    if(access){for(const key of keys)url.searchParams.set(key,access[key]);}
-   else{url.searchParams.set('classroom','1');url.searchParams.set('v',window.shanhaiDeviceRoute?window.shanhaiDeviceRoute.version:'web-branch-r1');}
+   else{url.searchParams.set('classroom','1');url.searchParams.set('v',window.shanhaiDeviceRoute?window.shanhaiDeviceRoute.version:'web-branch-r2');}
    return url.href;
   }
  };

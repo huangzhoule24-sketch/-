@@ -2,10 +2,10 @@
   "format": 1,
   "platform": "web",
   "godot": "4.6.3.stable",
-  "exported_utc": "2026-11-07T13:03:52+00:00",
+  "exported_utc": "2026-11-07T14:28:16+00:00",
   "game_source": {
-    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
-    "files": 897,
+    "sha256": "137d91bd036cadcd52b5ccf796517e16341ca2040cc43fdf999b1e79ce602cc2",
+    "files": 898,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
   "files": {
@@ -115,7 +115,7 @@
     },
     "index.html": {
       "bytes": 11684,
-      "sha256": "1ede05deef97844d1fb237eae62658e57a4137bc8d492e1a966f7a19b5576bc3"
+      "sha256": "0d80ea58e5abe8b87451a43c20366b42d38fcb68a6c4bb91590775a1dac5a71e"
     },
     "index.icon.png": {
       "bytes": 2622,
@@ -263,7 +263,7 @@
     },
     "resource-map.json": {
       "bytes": 4750,
-      "sha256": "1a55766944401720a945606530247c689b527c5621c2b3326146c3a34748fba6"
+      "sha256": "fd8840aa51bf3f92d47a3f2b51c1ce833e69113b32790ab27ca59bc7948ab023"
     },
     "mobile-surface.js": {
       "bytes": 10275,
@@ -314,12 +314,12 @@
       "sha256": "cf91b1640f8e1913f2fa3fb030a3d5fdb546dd6842dbbdcd7e79689991bcc91d"
     },
     "parts/index.pck.raw.007.bin": {
-      "bytes": 6764916,
-      "sha256": "d9c60bd2a01710c3249a86a2a40b57a56886ed7ada32ca66499d49138842d312"
+      "bytes": 6773536,
+      "sha256": "5e3a29f0f512628abb98add1cf8984eeb2202fbac6185ce0b3d84b28e34e8c34"
     },
     "parts/index.pck.raw.000.bin": {
       "bytes": 8388608,
-      "sha256": "4a611167e58558e24a5f401e783c1b8aa151913843a424d2588d8f820bf7e08a"
+      "sha256": "7ee1cb05dfe004879b915a50f341600ba52bde98e1f559c10cfd7fe1d079be55"
     },
     "parts/index.wasm.raw.001.bin": {
       "bytes": 8388608,
@@ -330,8 +330,8 @@
       "sha256": "6cb099a062def27b5101258bcc29948f1d84cb15de8077dc6c3bfce4ba10e859"
     },
     "parts/index.pck.gzip.007.bin": {
-      "bytes": 3646122,
-      "sha256": "bdbdf39d9be4afae1731a2fdb16fba13b34de8ea0c968fca8ee42a7a448eccea"
+      "bytes": 3652310,
+      "sha256": "febaf2f3bc72ab230988e468d8c45aa918aa47096224f3297fd42f4358284895"
     },
     "parts/index.wasm.gzip.000.bin": {
       "bytes": 8388608,
@@ -359,7 +359,7 @@
     },
     "parts/index.pck.gzip.000.bin": {
       "bytes": 8388608,
-      "sha256": "2c0d680df4a6467002eeebe7a15a3d3182d2164103ea261884939af1072f2f49"
+      "sha256": "30d70e1ea0a720f0b3f083cd99dcd8508a564d57543d57122fad8c21913c4f39"
     },
     "parts/index.pck.raw.005.bin": {
       "bytes": 8388608,
@@ -372,15 +372,15 @@
       "sha256": "26b61ce95247012ab3dca3ff51e96d1cdbff44ee91a8c20a83e150afca83f1b6"
     },
     "index.pck": {
-      "bytes": 65485172,
-      "sha256": "bd1f9faeb93d405905ecd711427ea707ef6787a964ab9d0535c2338ff1dfdcb4"
+      "bytes": 65493792,
+      "sha256": "221d3489a6c11b6e94ebd450c01ef5539cb2dc8dca71fc3f3a39f2a325ef5e3e"
     }
   },
-  "original_export_receipt_sha256": "51d7e5cebe18ba2d83f34c1aadef2bcfcaf2d7064078baeb279af6289a22859c",
-  "web_shell": "SH-WEB-BRANCH-R1",
-  "site_shell_updated_utc": "2026-11-07T13:04:31+00:00",
+  "original_export_receipt_sha256": "634b089c486a3f9ba11e92faf2cc29dda1ed1636be17311da3ab5495d32f143b",
+  "web_shell": "SH-WEB-BRANCH-R2",
+  "site_shell_updated_utc": "2026-11-07T14:28:21+00:00",
   "entry_router": {
-    "version": "web-branch-r1",
+    "version": "web-branch-r2",
     "variant": "mobile"
   }
 }
