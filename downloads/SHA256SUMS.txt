@@ -1,0 +1,2 @@
+726717e3ba165843f3c4f5b6a820bffb3a4da6fca71a600ac594f95a8aec1c31  shanhai-branch-r1-complete-game.zip
+ebf96dad5da11e864ba75dc636c995b6002c3784b0e098faed9836c5bd561e4e  shanhai-branch-r1-editable-source.zip

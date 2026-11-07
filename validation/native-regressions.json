@@ -1,0 +1,56 @@
+[
+  {
+    "test": "crowd_readability_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "Crowd readability: {\"checks\":972,\"failures\":0,\"minutes\":120,\"moving_actor_frames\":350,\"peak_guests\":8,\"peak_pinned_conflicts\":0,\"served\":5}"
+  },
+  {
+    "test": "mobile_touch_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "Mobile touch: {\"checks\":53,\"failures\":0}"
+  },
+  {
+    "test": "inventory_return_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "Inventory return: {\"checks\":51,\"failures\":[]}"
+  },
+  {
+    "test": "save_migration_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "SAVE MIGRATION CHECKS: 82 passed, 0 failed"
+  },
+  {
+    "test": "culture_ui_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "Culture UI checks: 927; failures: 0"
+  },
+  {
+    "test": "animation_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "ANIMATION CHECKS: 84 passed, 0 failed"
+  },
+  {
+    "test": "international_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "International: {\"checks\":251,\"failures\":[]}"
+  },
+  {
+    "test": "international_ui_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "International UI: {\"checks\":37,\"failures\":[]}"
+  },
+  {
+    "test": "visual_refinement_tests",
+    "exit": 0,
+    "script_errors": false,
+    "tail": "Visual refinement: {\"checks\":210,\"failures\":[]}"
+  }
+]

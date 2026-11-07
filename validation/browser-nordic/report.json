@@ -1,0 +1,227 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "nordic completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "nordic opens from the existing More/branch navigation"
+    },
+    {
+      "ok": true,
+      "label": "nordic begins with an unopened formal cooperation"
+    },
+    {
+      "ok": true,
+      "label": "nordic has a distinct full storefront"
+    },
+    {
+      "ok": true,
+      "label": "nordic actual opening action succeeds"
+    },
+    {
+      "ok": true,
+      "label": "nordic opening restores the top navigation and scene instead of keeping the invitation offset"
+    },
+    {
+      "ok": true,
+      "label": "nordic scene zoom changes without shrinking the whole UI"
+    },
+    {
+      "ok": true,
+      "label": "nordic scene has a recoverable fit action"
+    },
+    {
+      "ok": true,
+      "label": "nordic map drag owns its gesture and releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "Two actual fingers zoom the map and release both contacts"
+    },
+    {
+      "ok": true,
+      "label": "Dragging beyond the map keeps ownership until the outside release"
+    },
+    {
+      "ok": true,
+      "label": "Manual pause freezes the actual fractional pose and walking frame"
+    },
+    {
+      "ok": true,
+      "label": "A paused scene avoids continuous decorative redraws"
+    },
+    {
+      "ok": true,
+      "label": "nordic chosen reception policy is persistent"
+    },
+    {
+      "ok": true,
+      "label": "nordic buying preparation does not fabricate sales"
+    },
+    {
+      "ok": true,
+      "label": "nordic recurring purchases are explicitly enabled"
+    },
+    {
+      "ok": true,
+      "label": "nordic replaces the primary game scene through the real entry"
+    },
+    {
+      "ok": true,
+      "label": "nordic primary pause works"
+    },
+    {
+      "ok": true,
+      "label": "nordic returns to main without a second opening charge"
+    },
+    {
+      "ok": true,
+      "label": "nordic switching preserves the original main floor"
+    },
+    {
+      "ok": true,
+      "label": "nordic primary zoom button targets the local scene"
+    },
+    {
+      "ok": true,
+      "label": "nordic primary two-finger zoom releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "nordic main staff button opens local partner management"
+    },
+    {
+      "ok": true,
+      "label": "nordic three actual handovers produce shared campaign revenue"
+    },
+    {
+      "ok": true,
+      "label": "nordic a letter follows fulfilled real orders"
+    },
+    {
+      "ok": true,
+      "label": "nordic actual cashier history and working crew drive the primary scene"
+    },
+    {
+      "ok": true,
+      "label": "nordic cultural entry shows the new pixel figure"
+    },
+    {
+      "ok": true,
+      "label": "nordic cultural reading has a complete English version"
+    },
+    {
+      "ok": true,
+      "label": "nordic culture Back restores the international parent"
+    },
+    {
+      "ok": true,
+      "label": "nordic management and reading do not restart music"
+    },
+    {
+      "ok": true,
+      "label": "nordic fixed return restores the normal restaurant"
+    },
+    {
+      "ok": true,
+      "label": "System reduced-effects switch changes the visual preference without spending cash"
+    },
+    {
+      "ok": true,
+      "label": "The save click preserves the selected visual preference"
+    },
+    {
+      "ok": true,
+      "label": "The actual IndexedDB save contains the active eatery and preference"
+    },
+    {
+      "ok": true,
+      "label": "nordic real browser reload retains international progress"
+    },
+    {
+      "ok": true,
+      "label": "nordic browser reload retains the active primary eatery"
+    },
+    {
+      "ok": true,
+      "label": "Reduced-effects preference also survives the browser reload"
+    }
+  ],
+  "actions": [
+    "nordic:start:full",
+    "nordic:time:pause",
+    "nordic:tutorial:ack",
+    "nordic:nav:员工",
+    "nordic:panel:close",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:destination",
+    "nordic:full:marketing:flyer",
+    "nordic:tutorial:ack",
+    "nordic:time:pause",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:ack",
+    "nordic:tutorial:destination",
+    "nordic:tutorial:ack",
+    "nordic:panel:close",
+    "nordic:time:pause",
+    "nordic:nav:更多",
+    "nordic:full:open:跨国食肆",
+    "nordic:int:region:nordic",
+    "nordic:int:scene:toggle",
+    "nordic:int:scene:toggle",
+    "nordic:int:int_open:",
+    "nordic:int:scene:+",
+    "nordic:int:scene:fit",
+    "nordic:int:scene:fit",
+    "nordic:int:scene:fit",
+    "nordic:int:scene:fit",
+    "nordic:int:time:pause",
+    "nordic:int:time:pause",
+    "nordic:int:tab:来信",
+    "nordic:int:int_story:reserve",
+    "nordic:int:tab:菜单",
+    "nordic:int:int_prepare:nd_d01:q3",
+    "nordic:int:int_auto:nd_d01",
+    "nordic:int:tab:店铺",
+    "nordic:int:time:2",
+    "nordic:int:enter:nordic",
+    "nordic:scene:switch",
+    "nordic:scene:visit:main",
+    "nordic:scene:switch",
+    "nordic:scene:visit:nordic",
+    "nordic:scene:larger",
+    "nordic:scene:fit",
+    "nordic:scene:fit",
+    "nordic:nav:员工",
+    "nordic:panel:restaurant",
+    "nordic:time:pause",
+    "nordic:panel:close",
+    "nordic:time:pause",
+    "nordic:nav:员工",
+    "nordic:int:tab:伙伴",
+    "nordic:culture:employees:nd_01",
+    "nordic:culture:language:en",
+    "nordic:culture:back",
+    "nordic:int:tab:来信",
+    "nordic:panel:restaurant",
+    "nordic:nav:更多",
+    "nordic:full:open:系统",
+    "nordic:system:visual:reduced",
+    "nordic:system:save"
+  ],
+  "regions": [
+    {
+      "region": "nordic",
+      "served": 3
+    }
+  ],
+  "errors": [],
+  "emulation": "Chromium Android touch, DPR2; no physical device claim"
+}

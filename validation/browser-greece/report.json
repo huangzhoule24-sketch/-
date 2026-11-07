@@ -1,0 +1,228 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "greece completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "greece opens from the existing More/branch navigation"
+    },
+    {
+      "ok": true,
+      "label": "greece begins with an unopened formal cooperation"
+    },
+    {
+      "ok": true,
+      "label": "greece has a distinct full storefront"
+    },
+    {
+      "ok": true,
+      "label": "greece actual opening action succeeds"
+    },
+    {
+      "ok": true,
+      "label": "greece opening restores the top navigation and scene instead of keeping the invitation offset"
+    },
+    {
+      "ok": true,
+      "label": "greece scene zoom changes without shrinking the whole UI"
+    },
+    {
+      "ok": true,
+      "label": "greece scene has a recoverable fit action"
+    },
+    {
+      "ok": true,
+      "label": "greece map drag owns its gesture and releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "Two actual fingers zoom the map and release both contacts"
+    },
+    {
+      "ok": true,
+      "label": "Dragging beyond the map keeps ownership until the outside release"
+    },
+    {
+      "ok": true,
+      "label": "Manual pause freezes the actual fractional pose and walking frame"
+    },
+    {
+      "ok": true,
+      "label": "A paused scene avoids continuous decorative redraws"
+    },
+    {
+      "ok": true,
+      "label": "greece chosen reception policy is persistent"
+    },
+    {
+      "ok": true,
+      "label": "greece buying preparation does not fabricate sales"
+    },
+    {
+      "ok": true,
+      "label": "greece recurring purchases are explicitly enabled"
+    },
+    {
+      "ok": true,
+      "label": "greece replaces the primary game scene through the real entry"
+    },
+    {
+      "ok": true,
+      "label": "greece primary pause works"
+    },
+    {
+      "ok": true,
+      "label": "greece returns to main without a second opening charge"
+    },
+    {
+      "ok": true,
+      "label": "greece switching preserves the original main floor"
+    },
+    {
+      "ok": true,
+      "label": "greece primary zoom button targets the local scene"
+    },
+    {
+      "ok": true,
+      "label": "greece primary two-finger zoom releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "greece main staff button opens local partner management"
+    },
+    {
+      "ok": true,
+      "label": "greece three actual handovers produce shared campaign revenue"
+    },
+    {
+      "ok": true,
+      "label": "greece a letter follows fulfilled real orders"
+    },
+    {
+      "ok": true,
+      "label": "greece actual cashier history and working crew drive the primary scene"
+    },
+    {
+      "ok": true,
+      "label": "greece cultural entry shows the new pixel figure"
+    },
+    {
+      "ok": true,
+      "label": "greece cultural reading has a complete English version"
+    },
+    {
+      "ok": true,
+      "label": "greece culture Back restores the international parent"
+    },
+    {
+      "ok": true,
+      "label": "greece management and reading do not restart music"
+    },
+    {
+      "ok": true,
+      "label": "greece fixed return restores the normal restaurant"
+    },
+    {
+      "ok": true,
+      "label": "System reduced-effects switch changes the visual preference without spending cash"
+    },
+    {
+      "ok": true,
+      "label": "The save click preserves the selected visual preference"
+    },
+    {
+      "ok": true,
+      "label": "The actual IndexedDB save contains the active eatery and preference"
+    },
+    {
+      "ok": true,
+      "label": "greece real browser reload retains international progress"
+    },
+    {
+      "ok": true,
+      "label": "greece browser reload retains the active primary eatery"
+    },
+    {
+      "ok": true,
+      "label": "Reduced-effects preference also survives the browser reload"
+    }
+  ],
+  "actions": [
+    "greece:start:full",
+    "greece:time:pause",
+    "greece:tutorial:ack",
+    "greece:nav:员工",
+    "greece:panel:close",
+    "greece:tutorial:ack",
+    "greece:tutorial:destination",
+    "greece:full:marketing:flyer",
+    "greece:tutorial:ack",
+    "greece:time:pause",
+    "greece:tutorial:ack",
+    "greece:tutorial:ack",
+    "greece:tutorial:destination",
+    "greece:tutorial:ack",
+    "greece:panel:close",
+    "greece:time:pause",
+    "greece:nav:更多",
+    "greece:full:open:跨国食肆",
+    "greece:int:region:greece",
+    "greece:int:scene:toggle",
+    "greece:int:scene:toggle",
+    "greece:int:int_open:",
+    "greece:int:scene:+",
+    "greece:int:scene:fit",
+    "greece:int:scene:fit",
+    "greece:int:scene:fit",
+    "greece:int:scene:fit",
+    "greece:int:time:pause",
+    "greece:int:time:pause",
+    "greece:int:tab:来信",
+    "greece:int:int_story:separate",
+    "greece:int:tab:菜单",
+    "greece:int:int_prepare:gr_d01:q3",
+    "greece:int:int_auto:gr_d01",
+    "greece:int:tab:店铺",
+    "greece:int:time:2",
+    "greece:int:time:pause",
+    "greece:int:enter:greece",
+    "greece:time:pause",
+    "greece:scene:switch",
+    "greece:scene:visit:main",
+    "greece:scene:switch",
+    "greece:scene:visit:greece",
+    "greece:scene:larger",
+    "greece:scene:fit",
+    "greece:scene:fit",
+    "greece:nav:员工",
+    "greece:panel:restaurant",
+    "greece:time:pause",
+    "greece:time:pause",
+    "greece:nav:员工",
+    "greece:int:tab:伙伴",
+    "greece:culture:employees:gr_01",
+    "greece:culture:language:en",
+    "greece:culture:back",
+    "greece:int:tab:来信",
+    "greece:panel:restaurant",
+    "greece:nav:更多",
+    "greece:full:open:系统",
+    "greece:system:visual:reduced",
+    "greece:system:save"
+  ],
+  "regions": [
+    {
+      "region": "greece",
+      "served": 5
+    }
+  ],
+  "errors": [],
+  "emulation": "Chromium Android touch, DPR2; no physical device claim"
+}

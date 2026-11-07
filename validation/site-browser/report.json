@@ -1,0 +1,153 @@
+{
+  "checks": [
+    {
+      "label": "Homepage switches to English",
+      "ok": true
+    },
+    {
+      "label": "Phone homepage has no horizontal overflow",
+      "ok": true
+    },
+    {
+      "label": "Homepage language survives reload",
+      "ok": true
+    },
+    {
+      "label": "Play opens the full game page",
+      "ok": true
+    },
+    {
+      "label": "homepage: starts without cross-origin isolation",
+      "ok": true
+    },
+    {
+      "label": "Both game resources use compressed downloads",
+      "ok": true
+    },
+    {
+      "label": "no-decompression: starts without cross-origin isolation",
+      "ok": true
+    },
+    {
+      "label": "Older browser path loads both original resources",
+      "ok": true
+    },
+    {
+      "label": "missing-gzip: starts without cross-origin isolation",
+      "ok": true
+    },
+    {
+      "label": "Missing compressed files fall back to full original game",
+      "ok": true
+    }
+  ],
+  "transfers": {
+    "homepage": {
+      "isolated": false,
+      "transfer": {
+        "mode": "gzip-preferred",
+        "resources": [
+          {
+            "file": "index.wasm",
+            "transfer": "gzip",
+            "parts": 2
+          },
+          {
+            "file": "index.pck",
+            "transfer": "gzip",
+            "parts": 8
+          }
+        ]
+      },
+      "requests": [
+        "/game/parts/index.wasm.gzip.000.bin",
+        "/game/parts/index.wasm.gzip.001.bin",
+        "/game/parts/index.pck.gzip.000.bin",
+        "/game/parts/index.pck.gzip.001.bin",
+        "/game/parts/index.pck.gzip.002.bin",
+        "/game/parts/index.pck.gzip.003.bin",
+        "/game/parts/index.pck.gzip.004.bin",
+        "/game/parts/index.pck.gzip.005.bin",
+        "/game/parts/index.pck.gzip.006.bin",
+        "/game/parts/index.pck.gzip.007.bin"
+      ]
+    },
+    "no-decompression": {
+      "isolated": false,
+      "transfer": {
+        "mode": "original",
+        "resources": [
+          {
+            "file": "index.wasm",
+            "transfer": "original",
+            "parts": 5
+          },
+          {
+            "file": "index.pck",
+            "transfer": "original",
+            "parts": 8
+          }
+        ]
+      },
+      "requests": [
+        "/game/parts/index.wasm.raw.000.bin",
+        "/game/parts/index.wasm.raw.001.bin",
+        "/game/parts/index.wasm.raw.002.bin",
+        "/game/parts/index.wasm.raw.003.bin",
+        "/game/parts/index.wasm.raw.004.bin",
+        "/game/parts/index.pck.raw.000.bin",
+        "/game/parts/index.pck.raw.001.bin",
+        "/game/parts/index.pck.raw.002.bin",
+        "/game/parts/index.pck.raw.003.bin",
+        "/game/parts/index.pck.raw.004.bin",
+        "/game/parts/index.pck.raw.005.bin",
+        "/game/parts/index.pck.raw.006.bin",
+        "/game/parts/index.pck.raw.007.bin"
+      ]
+    },
+    "missing-gzip": {
+      "isolated": false,
+      "transfer": {
+        "mode": "gzip-preferred",
+        "resources": [
+          {
+            "file": "index.wasm",
+            "transfer": "original-fallback",
+            "parts": 5
+          },
+          {
+            "file": "index.pck",
+            "transfer": "original-fallback",
+            "parts": 8
+          }
+        ]
+      },
+      "requests": [
+        "/game/parts/index.wasm.gzip.000.bin",
+        "/game/parts/index.wasm.gzip.001.bin",
+        "/game/parts/index.pck.gzip.000.bin",
+        "/game/parts/index.pck.gzip.001.bin",
+        "/game/parts/index.pck.gzip.002.bin",
+        "/game/parts/index.pck.gzip.003.bin",
+        "/game/parts/index.pck.gzip.004.bin",
+        "/game/parts/index.pck.gzip.005.bin",
+        "/game/parts/index.pck.gzip.006.bin",
+        "/game/parts/index.pck.gzip.007.bin",
+        "/game/parts/index.wasm.raw.000.bin",
+        "/game/parts/index.wasm.raw.001.bin",
+        "/game/parts/index.wasm.raw.002.bin",
+        "/game/parts/index.wasm.raw.003.bin",
+        "/game/parts/index.wasm.raw.004.bin",
+        "/game/parts/index.pck.raw.000.bin",
+        "/game/parts/index.pck.raw.001.bin",
+        "/game/parts/index.pck.raw.002.bin",
+        "/game/parts/index.pck.raw.003.bin",
+        "/game/parts/index.pck.raw.004.bin",
+        "/game/parts/index.pck.raw.005.bin",
+        "/game/parts/index.pck.raw.006.bin",
+        "/game/parts/index.pck.raw.007.bin"
+      ]
+    }
+  },
+  "errors": []
+}

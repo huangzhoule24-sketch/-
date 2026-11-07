@@ -1,0 +1,395 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "390px native game viewport, not a shrunk 1440px desktop"
+    },
+    {
+      "ok": true,
+      "label": "Default phone uses native layout"
+    },
+    {
+      "ok": true,
+      "label": "Formal game keeps stage 0, two employees and cash 800"
+    },
+    {
+      "ok": true,
+      "label": "Welcome uses the phone height"
+    },
+    {
+      "ok": true,
+      "label": "Welcome fits 360×640"
+    },
+    {
+      "ok": true,
+      "label": "Welcome fits 375×667"
+    },
+    {
+      "ok": true,
+      "label": "Welcome fits 430×932"
+    },
+    {
+      "ok": true,
+      "label": "Welcome fits 390×700"
+    },
+    {
+      "ok": true,
+      "label": "Opening tutorial fully inside portrait"
+    },
+    {
+      "ok": true,
+      "label": "Staff tutorial fully inside portrait"
+    },
+    {
+      "ok": true,
+      "label": "Staff tutorial has a separate region below the modal"
+    },
+    {
+      "ok": true,
+      "label": "Promotion tutorial fully inside portrait"
+    },
+    {
+      "ok": true,
+      "label": "Real tutorial touch actions lead to a paid order"
+    },
+    {
+      "ok": true,
+      "label": "Paid order tutorial fully inside portrait"
+    },
+    {
+      "ok": true,
+      "label": "Bill tutorial fully inside portrait"
+    },
+    {
+      "ok": true,
+      "label": "Bill tutorial has a separate region below the modal"
+    },
+    {
+      "ok": true,
+      "label": "All six opening steps complete through real UI"
+    },
+    {
+      "ok": true,
+      "label": "HUD and five-tab navigation fit"
+    },
+    {
+      "ok": true,
+      "label": "Portrait restaurant receives a large viewport"
+    },
+    {
+      "ok": true,
+      "label": "Primary phone HUD stays within140 CSS pixels"
+    },
+    {
+      "ok": true,
+      "label": "Overview exposes the folded resource and work values"
+    },
+    {
+      "ok": true,
+      "label": "Overview displays the actual gem balance"
+    },
+    {
+      "ok": true,
+      "label": "Overview resource cards have readable width and height"
+    },
+    {
+      "ok": true,
+      "label": "Overview returns to the intact primary HUD"
+    },
+    {
+      "ok": true,
+      "label": "Inventory opens its own scrollable page"
+    },
+    {
+      "ok": true,
+      "label": "Opening inventory keeps the primary HUD mounted"
+    },
+    {
+      "ok": true,
+      "label": "Fixed inventory return fits 360×640"
+    },
+    {
+      "ok": true,
+      "label": "Fixed inventory return fits 390×844"
+    },
+    {
+      "ok": true,
+      "label": "Inventory cash retains the real account shortcut"
+    },
+    {
+      "ok": true,
+      "label": "Account Back returns to inventory"
+    },
+    {
+      "ok": true,
+      "label": "Return restores the normal HUD and an explicit pause"
+    },
+    {
+      "ok": true,
+      "label": "Repeated inventory close restores primary controls 0"
+    },
+    {
+      "ok": true,
+      "label": "Repeated inventory close restores primary controls 1"
+    },
+    {
+      "ok": true,
+      "label": "Inventory follows management and music pause"
+    },
+    {
+      "ok": true,
+      "label": "Inventory return resumes the running game without restarting music"
+    },
+    {
+      "ok": true,
+      "label": "Kitchen and dining buttons reposition the camera"
+    },
+    {
+      "ok": true,
+      "label": "Fit shows the complete restaurant"
+    },
+    {
+      "ok": true,
+      "label": "Map drag releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "Camera actions preserve campaign state"
+    },
+    {
+      "ok": true,
+      "label": "Staff list scrolls without accidental employee action"
+    },
+    {
+      "ok": true,
+      "label": "Furniture placement opens a bottom sheet and leaves the map usable"
+    },
+    {
+      "ok": true,
+      "label": "A real map touch moves existing furniture in portrait"
+    },
+    {
+      "ok": true,
+      "label": "Portrait decoration undo restores the original layout"
+    },
+    {
+      "ok": true,
+      "label": "Finishing placement returns to normal portrait play"
+    },
+    {
+      "ok": true,
+      "label": "Touch search filters More to matching features"
+    },
+    {
+      "ok": true,
+      "label": "Typing a space cannot toggle the game pause"
+    },
+    {
+      "ok": true,
+      "label": "Keyboard-height resize preserves portrait search"
+    },
+    {
+      "ok": true,
+      "label": "Global return remains visible above a keyboard-height viewport"
+    },
+    {
+      "ok": true,
+      "label": "Nested page explains its navigation route"
+    },
+    {
+      "ok": true,
+      "label": "Back restores the search query"
+    },
+    {
+      "ok": true,
+      "label": "Culture entry fits full phone width"
+    },
+    {
+      "ok": true,
+      "label": "Cultural English reading switches"
+    },
+    {
+      "ok": true,
+      "label": "Global return exits the complete culture route"
+    },
+    {
+      "ok": true,
+      "label": "Music controls do not restart the music source"
+    },
+    {
+      "ok": true,
+      "label": "Inventory return is translated into English"
+    },
+    {
+      "ok": true,
+      "label": "Landscape rotation keeps pause preference"
+    },
+    {
+      "ok": true,
+      "label": "Returning to portrait preserves progress and pause"
+    },
+    {
+      "ok": true,
+      "label": "Save remains available in portrait"
+    },
+    {
+      "ok": true,
+      "label": "Reload keeps actual campaign progress"
+    },
+    {
+      "ok": true,
+      "label": "DPR3 keeps 360 CSS-pixel layout"
+    }
+  ],
+  "actions": [
+    "start:full",
+    "time:pause",
+    "tutorial:ack",
+    "nav:员工",
+    "panel:close",
+    "tutorial:ack",
+    "tutorial:destination",
+    "full:marketing:flyer",
+    "tutorial:ack",
+    "time:pause",
+    "tutorial:ack",
+    "tutorial:ack",
+    "tutorial:destination",
+    "tutorial:ack",
+    "panel:close",
+    "time:pause",
+    "status:summary",
+    "panel:restaurant",
+    "inventory:toggle",
+    "inventory:cash",
+    "panel:back",
+    "inventory:return",
+    "inventory:toggle",
+    "panel:close",
+    "inventory:toggle",
+    "panel:close",
+    "time:pause",
+    "inventory:toggle",
+    "inventory:return",
+    "time:pause",
+    "scene:zone:kitchen",
+    "scene:zone:dining",
+    "scene:fit",
+    "scene:larger",
+    "nav:员工",
+    "panel:close",
+    "nav:装修",
+    "decor:move:0",
+    "scene:fit",
+    "decor:cancel",
+    "decor:move:1",
+    "scene:fit",
+    "decor:cancel",
+    "decor:move:2",
+    "scene:fit",
+    "decor:cancel",
+    "decor:move:3",
+    "scene:fit",
+    "decor:undo",
+    "decor:finish",
+    "nav:更多",
+    "full:open:库存供应",
+    "panel:back",
+    "more:clear",
+    "full:open:图鉴",
+    "culture:employees:xian_yang",
+    "culture:language:en",
+    "panel:restaurant",
+    "nav:更多",
+    "full:open:系统",
+    "system:audio:music",
+    "system:audio:music",
+    "locale:en",
+    "panel:close",
+    "inventory:toggle",
+    "inventory:return",
+    "nav:更多",
+    "full:open:系统",
+    "system:save"
+  ],
+  "layouts": [
+    {
+      "screen": {
+        "width": 360,
+        "height": 640
+      },
+      "viewport": {
+        "h": 640,
+        "w": 360
+      },
+      "modal": {
+        "h": 624,
+        "w": 352,
+        "x": 4,
+        "y": 8
+      }
+    },
+    {
+      "screen": {
+        "width": 375,
+        "height": 667
+      },
+      "viewport": {
+        "h": 667,
+        "w": 375
+      },
+      "modal": {
+        "h": 651,
+        "w": 367,
+        "x": 4,
+        "y": 8
+      }
+    },
+    {
+      "screen": {
+        "width": 430,
+        "height": 932
+      },
+      "viewport": {
+        "h": 932,
+        "w": 430
+      },
+      "modal": {
+        "h": 916,
+        "w": 422,
+        "x": 4,
+        "y": 8
+      }
+    },
+    {
+      "screen": {
+        "width": 390,
+        "height": 700
+      },
+      "viewport": {
+        "h": 700,
+        "w": 390
+      },
+      "modal": {
+        "h": 684,
+        "w": 382,
+        "x": 4,
+        "y": 8
+      }
+    }
+  ],
+  "errors": [],
+  "emulation": {
+    "engine": "Chromium",
+    "deviceScaleFactors": [
+      2,
+      3
+    ],
+    "real_phone_tested": false
+  }
+}

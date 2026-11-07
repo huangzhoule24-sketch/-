@@ -1,0 +1,44 @@
+{
+  "generator": "image_gen",
+  "current_assets": [
+    {
+      "path": "assets/art/BranchFloors/greece.png",
+      "bytes": 3191778,
+      "sha256": "9176a7d8df2b99f31cca1b257a514a4a3e490ec8a6b6ec7209b51b8b3347b118",
+      "method": "image_gen; original output bytes retained",
+      "role": "empty walkable regional floor; fixtures and people are dynamic"
+    },
+    {
+      "path": "assets/art/BranchFloors/india.png",
+      "bytes": 2823778,
+      "sha256": "749b515f34f7ed32aeb442de8b3e036c17d4f57fddede43c6af21222e4ffd769",
+      "method": "image_gen; original output bytes retained",
+      "role": "empty walkable regional floor; fixtures and people are dynamic"
+    },
+    {
+      "path": "assets/art/BranchFloors/nordic.png",
+      "bytes": 2876056,
+      "sha256": "334b5b2bdc55d8128120d15177eee6d96309dec93a1291866102f1bb62470758",
+      "method": "image_gen; original output bytes retained",
+      "role": "empty walkable regional floor; fixtures and people are dynamic"
+    },
+    {
+      "path": "assets/art/BranchFloors/stations.png",
+      "bytes": 1753828,
+      "sha256": "58cb88cd4eb5d7b9c552255a0c3807223e957b295b8784f21e2df156e72bdfa4",
+      "method": "image_gen; original output bytes retained",
+      "role": "4-column x 3-row equipment atlas; cleaned through image_gen"
+    },
+    {
+      "path": "assets/art/BranchFloors/tables.png",
+      "bytes": 1838484,
+      "sha256": "bb45cd7b6bcdf94be967f329293df5cb283ed3d633ceaada0361449a3d5093b2",
+      "method": "image_gen, final output retained byte-for-byte",
+      "role": "2-column x 3-row empty table/chair atlas; magenta key backdrop removed at runtime by size-constrained shader",
+      "true_alpha_background": false
+    }
+  ],
+  "rejected_intermediate": "Original stations atlas had colored specks; retained only in generation workspace, not shipped as final runtime asset. Two table atlas alpha-background attempts kept a brown backdrop; neither is shipped. Final image_gen edit replaces backdrop with a flat key colour.",
+  "pixel_editing": false,
+  "runtime_projection": "1120x640 shared functional coordinates; nearest-filtered textures and AtlasTexture; actual GridNavigation routes"
+}

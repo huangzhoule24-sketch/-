@@ -1,0 +1,74 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "cases": [
+    {
+      "case": "india",
+      "ok": true,
+      "exit": 0,
+      "checks": 35,
+      "actions": 62,
+      "report": "browser-india/report.json"
+    },
+    {
+      "case": "nordic",
+      "ok": true,
+      "exit": 0,
+      "checks": 37,
+      "actions": 60,
+      "report": "browser-nordic/report.json"
+    },
+    {
+      "case": "greece",
+      "ok": true,
+      "exit": 0,
+      "checks": 37,
+      "actions": 61,
+      "report": "browser-greece/report.json"
+    },
+    {
+      "case": "music",
+      "ok": true,
+      "exit": 0,
+      "checks": 29,
+      "actions": 34,
+      "report": "music-browser/report.json"
+    },
+    {
+      "case": "portrait",
+      "ok": true,
+      "exit": 0,
+      "checks": 60,
+      "actions": 69,
+      "report": "portrait-browser/report.json"
+    },
+    {
+      "case": "device",
+      "ok": true,
+      "exit": 0,
+      "checks": 36,
+      "actions": 0,
+      "report": "device-browser/report.json"
+    },
+    {
+      "case": "share",
+      "ok": true,
+      "exit": 0,
+      "checks": 10,
+      "actions": 0,
+      "report": "share-browser/report.json"
+    },
+    {
+      "case": "site",
+      "ok": true,
+      "exit": 0,
+      "checks": 10,
+      "actions": 0,
+      "report": "site-browser/report.json"
+    }
+  ],
+  "errors": []
+}

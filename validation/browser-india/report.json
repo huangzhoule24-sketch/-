@@ -1,0 +1,221 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "india completes actual opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "india opens from the existing More/branch navigation"
+    },
+    {
+      "ok": true,
+      "label": "india begins with an unopened formal cooperation"
+    },
+    {
+      "ok": true,
+      "label": "india has a distinct full storefront"
+    },
+    {
+      "ok": true,
+      "label": "india actual opening action succeeds"
+    },
+    {
+      "ok": true,
+      "label": "india opening restores the top navigation and scene instead of keeping the invitation offset"
+    },
+    {
+      "ok": true,
+      "label": "india scene zoom changes without shrinking the whole UI"
+    },
+    {
+      "ok": true,
+      "label": "india scene has a recoverable fit action"
+    },
+    {
+      "ok": true,
+      "label": "india map drag owns its gesture and releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "Two actual fingers zoom the map and release both contacts"
+    },
+    {
+      "ok": true,
+      "label": "Dragging beyond the map keeps ownership until the outside release"
+    },
+    {
+      "ok": true,
+      "label": "Manual pause freezes the actual fractional pose and walking frame"
+    },
+    {
+      "ok": true,
+      "label": "A paused scene avoids continuous decorative redraws"
+    },
+    {
+      "ok": true,
+      "label": "india chosen reception policy is persistent"
+    },
+    {
+      "ok": true,
+      "label": "india buying preparation does not fabricate sales"
+    },
+    {
+      "ok": true,
+      "label": "india recurring purchases are explicitly enabled"
+    },
+    {
+      "ok": true,
+      "label": "india replaces the primary game scene through the real entry"
+    },
+    {
+      "ok": true,
+      "label": "india primary pause works"
+    },
+    {
+      "ok": true,
+      "label": "india returns to main without a second opening charge"
+    },
+    {
+      "ok": true,
+      "label": "india switching preserves the original main floor"
+    },
+    {
+      "ok": true,
+      "label": "india primary zoom button targets the local scene"
+    },
+    {
+      "ok": true,
+      "label": "india primary two-finger zoom releases cleanly"
+    },
+    {
+      "ok": true,
+      "label": "india main staff button opens local partner management"
+    },
+    {
+      "ok": true,
+      "label": "india three actual handovers produce shared campaign revenue"
+    },
+    {
+      "ok": true,
+      "label": "india a letter follows fulfilled real orders"
+    },
+    {
+      "ok": true,
+      "label": "india actual cashier history and working crew drive the primary scene"
+    },
+    {
+      "ok": true,
+      "label": "india cultural entry shows the new pixel figure"
+    },
+    {
+      "ok": true,
+      "label": "india cultural reading has a complete English version"
+    },
+    {
+      "ok": true,
+      "label": "india culture Back restores the international parent"
+    },
+    {
+      "ok": true,
+      "label": "india management and reading do not restart music"
+    },
+    {
+      "ok": true,
+      "label": "india fixed return restores the normal restaurant"
+    },
+    {
+      "ok": true,
+      "label": "System reduced-effects switch changes the visual preference without spending cash"
+    },
+    {
+      "ok": true,
+      "label": "india real browser reload retains international progress"
+    },
+    {
+      "ok": true,
+      "label": "india browser reload retains the active primary eatery"
+    },
+    {
+      "ok": true,
+      "label": "Reduced-effects preference also survives the browser reload"
+    }
+  ],
+  "actions": [
+    "india:start:full",
+    "india:time:pause",
+    "india:tutorial:ack",
+    "india:nav:员工",
+    "india:panel:close",
+    "india:tutorial:ack",
+    "india:tutorial:destination",
+    "india:full:marketing:flyer",
+    "india:tutorial:ack",
+    "india:time:pause",
+    "india:tutorial:ack",
+    "india:tutorial:ack",
+    "india:tutorial:destination",
+    "india:tutorial:ack",
+    "india:panel:close",
+    "india:time:pause",
+    "india:nav:更多",
+    "india:full:open:跨国食肆",
+    "india:int:region:india",
+    "india:int:scene:toggle",
+    "india:int:scene:toggle",
+    "india:int:int_open:",
+    "india:int:scene:+",
+    "india:int:scene:fit",
+    "india:int:scene:fit",
+    "india:int:scene:fit",
+    "india:int:scene:fit",
+    "india:int:time:pause",
+    "india:int:time:pause",
+    "india:int:tab:来信",
+    "india:int:int_story:limited",
+    "india:int:tab:菜单",
+    "india:int:int_prepare:in_d01:q3",
+    "india:int:int_auto:in_d01",
+    "india:int:tab:店铺",
+    "india:int:time:2",
+    "india:int:time:pause",
+    "india:int:enter:india",
+    "india:panel:close",
+    "india:time:pause",
+    "india:scene:switch",
+    "india:scene:visit:main",
+    "india:scene:switch",
+    "india:scene:visit:india",
+    "india:scene:larger",
+    "india:scene:fit",
+    "india:scene:fit",
+    "india:nav:员工",
+    "india:panel:restaurant",
+    "india:time:pause",
+    "india:time:pause",
+    "india:nav:员工",
+    "india:int:tab:伙伴",
+    "india:culture:employees:in_01",
+    "india:culture:language:en",
+    "india:culture:back",
+    "india:int:tab:来信",
+    "india:panel:restaurant",
+    "india:nav:更多",
+    "india:full:open:系统",
+    "india:system:visual:reduced",
+    "india:system:save"
+  ],
+  "regions": [
+    {
+      "region": "india",
+      "served": 3
+    }
+  ],
+  "errors": [],
+  "emulation": "Chromium Android touch, DPR2; no physical device claim"
+}

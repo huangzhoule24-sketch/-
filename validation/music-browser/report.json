@@ -1,0 +1,4272 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "label": "Welcome and language selection keep paused music silent at the held cursor",
+      "ok": true
+    },
+    {
+      "label": "Actual WebAudio is silent on the paused welcome screen",
+      "ok": true
+    },
+    {
+      "label": "Real game start advances background music",
+      "ok": true
+    },
+    {
+      "label": "Long music uses the stream playback backend",
+      "ok": true
+    },
+    {
+      "label": "Actual running output contains music",
+      "ok": true
+    },
+    {
+      "label": "Staff operation 0 pauses without rewinding",
+      "ok": true
+    },
+    {
+      "label": "Entering management preserves accumulated playback 0",
+      "ok": true
+    },
+    {
+      "label": "Actual WebAudio becomes silent during management pause",
+      "ok": true
+    },
+    {
+      "label": "Closing management resumes the same recording 0",
+      "ok": true
+    },
+    {
+      "label": "Staff operation 1 pauses without rewinding",
+      "ok": true
+    },
+    {
+      "label": "Entering management preserves accumulated playback 1",
+      "ok": true
+    },
+    {
+      "label": "Closing management resumes the same recording 1",
+      "ok": true
+    },
+    {
+      "label": "Manual Pause freezes the decoder",
+      "ok": true
+    },
+    {
+      "label": "Manual Pause silences actual music output",
+      "ok": true
+    },
+    {
+      "label": "Manual Continue resumes rather than restarts",
+      "ok": true
+    },
+    {
+      "label": "Normal tutorial and an actual paid order still work",
+      "ok": true
+    },
+    {
+      "label": "Speed preserves the recording and follows any automatic event pause: time:1",
+      "ok": true
+    },
+    {
+      "label": "Speed preserves the recording and follows any automatic event pause: time:2",
+      "ok": true
+    },
+    {
+      "label": "Speed preserves the recording and follows any automatic event pause: time:3",
+      "ok": true
+    },
+    {
+      "label": "Speed preserves the recording and follows any automatic event pause: time:4",
+      "ok": true
+    },
+    {
+      "label": "Acknowledging the actual event keeps the current recording",
+      "ok": true
+    },
+    {
+      "label": "No browser sample source repeatedly restarts the long background track",
+      "ok": true
+    },
+    {
+      "label": "System settings preserve the manually paused game and music",
+      "ok": true
+    },
+    {
+      "label": "Music switch remains independent",
+      "ok": true
+    },
+    {
+      "label": "Re-enabling music while paused preserves position and stays silent",
+      "ok": true
+    },
+    {
+      "label": "Detailed audio page and language changes cannot unpause or reset music",
+      "ok": true
+    },
+    {
+      "label": "Volume slider remains functional",
+      "ok": true
+    },
+    {
+      "label": "Closing settings cannot override an explicit manual pause",
+      "ok": true
+    },
+    {
+      "label": "Continuing after settings resumes the existing stream",
+      "ok": true
+    }
+  ],
+  "actions": [
+    "locale:en",
+    "start:full",
+    "tutorial:ack",
+    "nav:员工",
+    "panel:close",
+    "nav:员工",
+    "panel:close",
+    "time:pause",
+    "time:pause",
+    "tutorial:ack",
+    "tutorial:destination",
+    "full:marketing:flyer",
+    "tutorial:ack",
+    "tutorial:ack",
+    "tutorial:destination",
+    "tutorial:ack",
+    "panel:close",
+    "time:1",
+    "time:2",
+    "time:3",
+    "time:4",
+    "panel:close",
+    "time:pause",
+    "nav:更多",
+    "full:open:系统",
+    "system:audio:music",
+    "system:audio:sfx",
+    "system:audio:music",
+    "locale:zh",
+    "system:audio",
+    "audio:enabled:sfx",
+    "panel:back",
+    "panel:close",
+    "time:pause"
+  ],
+  "samples": [
+    {
+      "label": "Welcome paused",
+      "taps": 2,
+      "peak": 0,
+      "rms": 0
+    },
+    {
+      "label": "Running game",
+      "taps": 2,
+      "peak": 0.0002635115815792233,
+      "rms": 0.0000620830781296046
+    },
+    {
+      "label": "Paused staff",
+      "taps": 2,
+      "peak": 0,
+      "rms": 0
+    },
+    {
+      "label": "Manual pause",
+      "taps": 2,
+      "peak": 0,
+      "rms": 0
+    }
+  ],
+  "long_music_sources": [],
+  "final": {
+    "actors": [
+      {
+        "action": "Order",
+        "id": "er_shu",
+        "target": {
+          "x": 469.25,
+          "y": 433.400024414062
+        },
+        "x": 685.669555664062,
+        "y": 641.234252929688
+      },
+      {
+        "action": "Idle",
+        "id": "xian_yang",
+        "target": {
+          "x": 721.75,
+          "y": 236.31999206543
+        },
+        "x": 898.392150878906,
+        "y": 475.201110839844
+      }
+    ],
+    "art_import": {},
+    "art_input_rect": {},
+    "art_probe": {
+      "available": false,
+      "builtin_path": "",
+      "custom_path": "",
+      "id": "Characters/qianyang_idle"
+    },
+    "art_slot_count": 0,
+    "art_slot_rect": {},
+    "audio": {
+      "active_ambience": "ambience.night",
+      "active_music": "music.night",
+      "ambience_paused": false,
+      "ambience_playing": true,
+      "ambience_position": 0.0719999969005585,
+      "cue_count": 35,
+      "duck_gain_db": 0,
+      "enabled": {
+        "music": true,
+        "sfx": true
+      },
+      "levels": {
+        "ambience": 0.4,
+        "master": 0.8,
+        "music": 0.4,
+        "sfx": 0.75
+      },
+      "music_paused": false,
+      "music_playback_type": 1,
+      "music_playing": true,
+      "music_position": 6.36266660690308,
+      "music_starts": 1,
+      "muted": false,
+      "played": {
+        "action.cashier": 2,
+        "action.clean": 5,
+        "action.cook": 5,
+        "action.order": 6,
+        "action.serve": 4,
+        "event.checkout": 4,
+        "event.random": 1,
+        "guest.eat": 7,
+        "guest.happy": 1,
+        "guest.sit": 12,
+        "guest.special": 1,
+        "guest.unhappy": 2,
+        "move.walk": 33,
+        "ui.back": 6,
+        "ui.click": 15
+      },
+      "preview_playing": false,
+      "requested_ambience": "ambience.night",
+      "requested_music": "music.night",
+      "unlocked": true,
+      "world_paused": false
+    },
+    "bonds": [],
+    "bottom_status": {
+      "info_open": false,
+      "inventory_open": false,
+      "position": "top",
+      "reminders": "经营概览",
+      "rows": 2,
+      "single_row": false,
+      "speed_open": false,
+      "status_rect": {
+        "h": 97,
+        "w": 1384,
+        "x": 28,
+        "y": 20
+      },
+      "top_hidden": false
+    },
+    "buttons": [
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "todo:primary",
+        "rect": {
+          "h": 44,
+          "w": 954,
+          "x": 28,
+          "y": 73
+        },
+        "text": "待办：招募第3名员工 2/3"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "todo:summary",
+        "rect": {
+          "h": 44,
+          "w": 44,
+          "x": 982,
+          "y": 73
+        },
+        "text": "▾"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "time:pause",
+        "rect": {
+          "h": 47,
+          "w": 54,
+          "x": 1118,
+          "y": 20
+        },
+        "text": "暂停"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "time:1",
+        "rect": {
+          "h": 47,
+          "w": 44,
+          "x": 1224,
+          "y": 20
+        },
+        "text": "1×"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "time:2",
+        "rect": {
+          "h": 47,
+          "w": 44,
+          "x": 1272,
+          "y": 20
+        },
+        "text": "2×"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "time:3",
+        "rect": {
+          "h": 47,
+          "w": 44,
+          "x": 1320,
+          "y": 20
+        },
+        "text": "3×"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "time:4",
+        "rect": {
+          "h": 47,
+          "w": 44,
+          "x": 1368,
+          "y": 20
+        },
+        "text": "4×"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "status:training",
+        "rect": {
+          "h": 44,
+          "w": 95,
+          "x": 1119,
+          "y": 73
+        },
+        "text": "培训×0"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "status:building",
+        "rect": {
+          "h": 44,
+          "w": 95,
+          "x": 1218,
+          "y": 73
+        },
+        "text": "装修×0"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "nav:员工",
+        "rect": {
+          "h": 48,
+          "w": 308,
+          "x": 48,
+          "y": 820
+        },
+        "text": "员工"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "nav:装修",
+        "rect": {
+          "h": 48,
+          "w": 308,
+          "x": 366,
+          "y": 820
+        },
+        "text": "装修"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "nav:宣传",
+        "rect": {
+          "h": 48,
+          "w": 308,
+          "x": 684,
+          "y": 820
+        },
+        "text": "宣传"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "nav:招聘",
+        "rect": {
+          "h": 48,
+          "w": 308,
+          "x": 1002,
+          "y": 820
+        },
+        "text": "招聘"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "nav:更多",
+        "rect": {
+          "h": 48,
+          "w": 72,
+          "x": 1320,
+          "y": 820
+        },
+        "text": "···"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "inventory:toggle",
+        "rect": {
+          "h": 47,
+          "w": 44,
+          "x": 1176,
+          "y": 20
+        },
+        "text": "物品"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "status:summary",
+        "rect": {
+          "h": 44,
+          "w": 95,
+          "x": 1317,
+          "y": 73
+        },
+        "text": "经营概览"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "scene:fit",
+        "rect": {
+          "h": 44,
+          "w": 52,
+          "x": 52,
+          "y": 217
+        },
+        "text": "全景"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "scene:smaller",
+        "rect": {
+          "h": 44,
+          "w": 44,
+          "x": 108,
+          "y": 217
+        },
+        "text": "−"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "scene:larger",
+        "rect": {
+          "h": 44,
+          "w": 44,
+          "x": 156,
+          "y": 217
+        },
+        "text": "+"
+      },
+      {
+        "disabled": false,
+        "icon_available": false,
+        "qa_id": "scene:switch",
+        "rect": {
+          "h": 44,
+          "w": 52,
+          "x": 204,
+          "y": 217
+        },
+        "text": "场景"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "pickup:3",
+        "rect": {
+          "h": 44,
+          "w": 44,
+          "x": 876.392150878906,
+          "y": 436.587646484375
+        },
+        "text": "￥5"
+      },
+      {
+        "disabled": false,
+        "icon_available": true,
+        "qa_id": "pickup:4",
+        "rect": {
+          "h": 44,
+          "w": 44,
+          "x": 570.577026367188,
+          "y": 504.321899414062
+        },
+        "text": "￥10"
+      }
+    ],
+    "culture_entry": {},
+    "culture_navigation": {
+      "catalog_tab": "员工",
+      "return_context": {},
+      "scroll_vertical": 0
+    },
+    "customers": [
+      {
+        "arrival_due": 530,
+        "arrival_minute": 527,
+        "arrival_motion": {
+          "action": "Idle",
+          "blocked": false,
+          "origin": {
+            "x": 42,
+            "y": 455
+          },
+          "path": [
+            {
+              "x": 469.25,
+              "y": 455
+            },
+            {
+              "x": 469.25,
+              "y": 377.400024414062
+            }
+          ],
+          "speed": 210,
+          "started": 527,
+          "target": {
+            "x": 469.25,
+            "y": 377.400024414062
+          },
+          "travel_minutes": 2.40404750279018,
+          "work_minutes": 0
+        },
+        "device_hook_fired": true,
+        "device_uid": "table_two@6,3",
+        "dish_effects": {
+          "batch_size": 1,
+          "complaint_mult": 1,
+          "conflict_chance": 0,
+          "cook_speed": 1,
+          "cook_speed_sources": {},
+          "eat_mult": 1,
+          "first_good_review": false,
+          "guaranteed_good_review": false,
+          "ingredient_mult": 1,
+          "mood_bonus": 0,
+          "patience_mult": 1,
+          "price_mult": 1,
+          "price_setting": 1,
+          "promotion_mult": 1,
+          "quality_mult": 1,
+          "quality_sources": {},
+          "regular_bonus": 0,
+          "repeat_chance": 0,
+          "review_bonus": 0,
+          "serve_mult": 1,
+          "tip_bonus": 0,
+          "traffic_mult": 1,
+          "warmth_bonus": 0
+        },
+        "dish_id": "fried_rice",
+        "due_minute": 607,
+        "effects_prepared": true,
+        "id": 12,
+        "ingredients_reserved": false,
+        "interaction_bubbles": 0,
+        "interaction_kinds": [],
+        "order_decided": true,
+        "paid": false,
+        "preference": "varied_food",
+        "preference_profile": {
+          "age": 69,
+          "age_group": "older",
+          "gender": "female",
+          "needs": [
+            "hearty"
+          ],
+          "tastes": [
+            "homestyle"
+          ]
+        },
+        "preference_reasons": [
+          "个人口味：家常主食"
+        ],
+        "price": 10,
+        "quality": 75,
+        "recommendation_done": true,
+        "remaining_minutes": 0,
+        "satisfaction": 50,
+        "seat": 7,
+        "service_arrival_recorded": true,
+        "stage": "ordering",
+        "task_motion": {
+          "action": "Order",
+          "blocked": false,
+          "ignore_obstacles": false,
+          "origin": {
+            "x": 661.25,
+            "y": 236.31999206543
+          },
+          "path": [
+            {
+              "x": 469.25,
+              "y": 236.31999206543
+            },
+            {
+              "x": 469.25,
+              "y": 433.400024414062
+            }
+          ],
+          "speed": 161.59248,
+          "started": 601,
+          "target": {
+            "x": 469.25,
+            "y": 433.400024414062
+          },
+          "teleport": false,
+          "travel_minutes": 2.40778551296838,
+          "work_minutes": 2.59913085064355
+        },
+        "task_started_minute": 601,
+        "tip_bonus": 0,
+        "type": "human",
+        "worker": "er_shu"
+      },
+      {
+        "arrival_due": 542,
+        "arrival_minute": 539,
+        "arrival_motion": {
+          "action": "Idle",
+          "blocked": false,
+          "origin": {
+            "x": 42,
+            "y": 455
+          },
+          "path": [
+            {
+              "x": 227.25,
+              "y": 455
+            },
+            {
+              "x": 227.25,
+              "y": 216.599990844727
+            }
+          ],
+          "speed": 210,
+          "started": 539,
+          "target": {
+            "x": 227.25,
+            "y": 216.599990844727
+          },
+          "travel_minutes": 2.01738099597749,
+          "work_minutes": 0
+        },
+        "dish_effects": {
+          "batch_size": 1,
+          "complaint_mult": 1,
+          "conflict_chance": 0,
+          "cook_speed": 1,
+          "cook_speed_sources": {},
+          "eat_mult": 1,
+          "first_good_review": false,
+          "guaranteed_good_review": false,
+          "ingredient_mult": 1,
+          "mood_bonus": 2,
+          "patience_mult": 1,
+          "price_mult": 1,
+          "price_setting": 1,
+          "promotion_mult": 1,
+          "quality_mult": 1,
+          "quality_sources": {},
+          "regular_bonus": 0,
+          "repeat_chance": 0,
+          "review_bonus": 0,
+          "serve_mult": 1,
+          "tip_bonus": 0,
+          "traffic_mult": 1,
+          "warmth_bonus": 0
+        },
+        "dish_id": "plum_juice",
+        "due_minute": -1,
+        "effects_prepared": true,
+        "id": 13,
+        "ingredients_reserved": false,
+        "interaction_bubbles": 0,
+        "interaction_kinds": [],
+        "order_decided": true,
+        "paid": false,
+        "preference": "varied_food",
+        "preference_profile": {
+          "age": 29,
+          "age_group": "young",
+          "gender": "male",
+          "needs": [
+            "health_focus"
+          ],
+          "tastes": [
+            "seafood"
+          ]
+        },
+        "preference_reasons": [
+          "菜单中的自由选择"
+        ],
+        "price": 6,
+        "quality": 75,
+        "recommendation_done": true,
+        "remaining_minutes": 0,
+        "satisfaction": 50,
+        "seat": 1,
+        "service_arrival_recorded": true,
+        "stage": "ordering",
+        "task_started_minute": 539,
+        "tip_bonus": 0,
+        "type": "human",
+        "worker": ""
+      }
+    ],
+    "dollhouse": {
+      "camera": {
+        "x": 0,
+        "y": 0
+      },
+      "chairs": [
+        {
+          "direction": "right",
+          "x": 127.25,
+          "y": 216.599990844727
+        },
+        {
+          "direction": "left",
+          "x": 227.25,
+          "y": 216.599990844727
+        },
+        {
+          "direction": "right",
+          "x": 369.25,
+          "y": 216.599990844727
+        },
+        {
+          "direction": "left",
+          "x": 469.25,
+          "y": 216.599990844727
+        },
+        {
+          "direction": "right",
+          "x": 127.25,
+          "y": 377.400024414062
+        },
+        {
+          "direction": "left",
+          "x": 227.25,
+          "y": 377.400024414062
+        },
+        {
+          "direction": "right",
+          "x": 369.25,
+          "y": 377.400024414062
+        },
+        {
+          "direction": "left",
+          "x": 469.25,
+          "y": 377.400024414062
+        }
+      ],
+      "content_rect": {
+        "h": 492,
+        "w": 1344,
+        "x": 0,
+        "y": 52
+      },
+      "devices": [
+        {
+          "id": "table_two@2,1",
+          "locked": false,
+          "type": "table"
+        },
+        {
+          "id": "table_two@6,1",
+          "locked": false,
+          "type": "table"
+        },
+        {
+          "id": "table_two@2,3",
+          "locked": false,
+          "type": "table"
+        },
+        {
+          "id": "table_two@6,3",
+          "locked": true,
+          "type": "table"
+        },
+        {
+          "id": "stove@11,0",
+          "locked": false,
+          "type": "stove"
+        },
+        {
+          "id": "stove@12,0",
+          "locked": false,
+          "type": "stove"
+        },
+        {
+          "id": "basic_pass@10,0",
+          "locked": false,
+          "type": "pass"
+        },
+        {
+          "id": "basic_cashier@14,1",
+          "locked": false,
+          "type": "cashier"
+        }
+      ],
+      "draw_order": [
+        {
+          "id": "",
+          "serial": 1,
+          "stage": "",
+          "type": "chair",
+          "y": 216.599990844727
+        },
+        {
+          "id": "",
+          "serial": 2,
+          "stage": "",
+          "type": "chair",
+          "y": 216.599990844727
+        },
+        {
+          "id": "",
+          "serial": 4,
+          "stage": "",
+          "type": "chair",
+          "y": 216.599990844727
+        },
+        {
+          "id": "",
+          "serial": 5,
+          "stage": "",
+          "type": "chair",
+          "y": 216.599990844727
+        },
+        {
+          "id": "",
+          "serial": 7,
+          "stage": "",
+          "type": "chair",
+          "y": 377.400024414062
+        },
+        {
+          "id": "",
+          "serial": 8,
+          "stage": "",
+          "type": "chair",
+          "y": 377.400024414062
+        },
+        {
+          "id": "",
+          "serial": 10,
+          "stage": "",
+          "type": "chair",
+          "y": 377.400024414062
+        },
+        {
+          "id": "",
+          "serial": 11,
+          "stage": "",
+          "type": "chair",
+          "y": 377.400024414062
+        },
+        {
+          "id": "stove",
+          "serial": 12,
+          "stage": "",
+          "type": "fixture",
+          "y": 136.199996948242
+        },
+        {
+          "id": "stove",
+          "serial": 13,
+          "stage": "",
+          "type": "fixture",
+          "y": 136.199996948242
+        },
+        {
+          "id": "basic_pass",
+          "serial": 14,
+          "stage": "",
+          "type": "fixture",
+          "y": 136.199996948242
+        },
+        {
+          "id": "table_two",
+          "serial": 0,
+          "stage": "",
+          "type": "fixture",
+          "y": 216.599990844727
+        },
+        {
+          "id": "table_two",
+          "serial": 3,
+          "stage": "",
+          "type": "fixture",
+          "y": 216.599990844727
+        },
+        {
+          "id": "basic_cashier",
+          "serial": 15,
+          "stage": "",
+          "type": "fixture",
+          "y": 216.599990844727
+        },
+        {
+          "id": "13",
+          "serial": 19,
+          "stage": "ordering",
+          "type": "guest",
+          "y": 216.599990844727
+        },
+        {
+          "id": "xian_yang",
+          "serial": 17,
+          "stage": "",
+          "type": "staff",
+          "y": 236.31999206543
+        },
+        {
+          "id": "table_two",
+          "serial": 6,
+          "stage": "",
+          "type": "fixture",
+          "y": 377.400024414062
+        },
+        {
+          "id": "table_two",
+          "serial": 9,
+          "stage": "",
+          "type": "fixture",
+          "y": 377.400024414062
+        },
+        {
+          "id": "12",
+          "serial": 18,
+          "stage": "ordering",
+          "type": "guest",
+          "y": 377.400024414062
+        },
+        {
+          "id": "er_shu",
+          "serial": 16,
+          "stage": "",
+          "type": "staff",
+          "y": 433.400024414062
+        }
+      ],
+      "grid_searches": 3,
+      "offset": {
+        "x": 242.342468261719,
+        "y": 62.1095886230469
+      },
+      "overview": false,
+      "people": [
+        {
+          "id": "13",
+          "type": "guest",
+          "x": 227.25,
+          "y": 216.599990844727
+        },
+        {
+          "id": "xian_yang",
+          "type": "staff",
+          "x": 721.75,
+          "y": 236.31999206543
+        },
+        {
+          "id": "12",
+          "type": "guest",
+          "x": 469.25,
+          "y": 377.400024414062
+        },
+        {
+          "id": "er_shu",
+          "type": "staff",
+          "x": 469.25,
+          "y": 433.400024414062
+        }
+      ],
+      "pinned_conflicts": 0,
+      "projection": "top_down",
+      "scale": 0.842465753424658,
+      "touches": 0,
+      "viewport": {
+        "h": 544,
+        "w": 1344,
+        "x": 48,
+        "y": 214
+      },
+      "world_bounds": {
+        "h": 584,
+        "w": 1044,
+        "x": -12,
+        "y": -12
+      },
+      "zoom": 1
+    },
+    "employees": [
+      {
+        "affinity": 1,
+        "attributes": {
+          "calculation": 0,
+          "charm": 1,
+          "cooking": 0,
+          "creativity": 0,
+          "eloquence": 0,
+          "endurance": 0,
+          "speed": 4
+        },
+        "awakened": false,
+        "awakening_count": 0,
+        "branch_id": "",
+        "busy_customer": 12,
+        "busy_until": 607,
+        "expansion_job_id": "",
+        "expansion_until": 0,
+        "fatigue_notified": false,
+        "icon": "鼠",
+        "id": "er_shu",
+        "level": 1,
+        "loyalty": 60,
+        "management_job_type": "",
+        "management_until": 0,
+        "mood": 100,
+        "motion": {
+          "action": "Order",
+          "blocked": false,
+          "ignore_obstacles": false,
+          "origin": {
+            "x": 661.25,
+            "y": 236.31999206543
+          },
+          "path": [
+            {
+              "x": 469.25,
+              "y": 236.31999206543
+            },
+            {
+              "x": 469.25,
+              "y": 433.400024414062
+            }
+          ],
+          "speed": 161.59248,
+          "started": 601,
+          "target": {
+            "x": 469.25,
+            "y": 433.400024414062
+          },
+          "teleport": false,
+          "travel_minutes": 2.40778551296838,
+          "work_minutes": 2.59913085064355
+        },
+        "name": "耳鼠",
+        "pending_resignation": false,
+        "phoenix_revived_day": -1,
+        "primary_role": "waiter",
+        "rarity": "N",
+        "research_until": 0,
+        "resting": false,
+        "role": "waiter",
+        "secondary_role": "",
+        "shift_enabled": false,
+        "shift_periods": [
+          "breakfast",
+          "rest",
+          "lunch",
+          "tea",
+          "dinner",
+          "night_market"
+        ],
+        "skill_description": "灵巧：传菜速度+10%，但容易受惊",
+        "skill_level": 1,
+        "stamina": 83.6000000000009,
+        "training_experience": 0,
+        "training_experience_by_attribute": {},
+        "training_history": {},
+        "training_until": 0,
+        "wage_extra": 0
+      },
+      {
+        "affinity": 1,
+        "attributes": {
+          "calculation": 0,
+          "charm": 0,
+          "cooking": 2,
+          "creativity": 0,
+          "eloquence": 0,
+          "endurance": 0,
+          "speed": 1
+        },
+        "awakened": false,
+        "awakening_count": 0,
+        "branch_id": "",
+        "busy_customer": 0,
+        "busy_until": 0,
+        "expansion_job_id": "",
+        "expansion_until": 0,
+        "fatigue_notified": false,
+        "icon": "羊",
+        "id": "xian_yang",
+        "level": 1,
+        "loyalty": 60,
+        "management_job_type": "",
+        "management_until": 0,
+        "mood": 100,
+        "motion": {
+          "action": "Idle",
+          "blocked": false,
+          "origin": {
+            "x": 721.75,
+            "y": 180.31999206543
+          },
+          "path": [
+            {
+              "x": 721.75,
+              "y": 236.31999206543
+            }
+          ],
+          "speed": 119.43792,
+          "started": 545.5844,
+          "target": {
+            "x": 721.75,
+            "y": 236.31999206543
+          },
+          "travel_minutes": 0.46886282011609,
+          "work_minutes": 0
+        },
+        "name": "羬羊",
+        "pending_resignation": false,
+        "phoenix_revived_day": -1,
+        "primary_role": "chef",
+        "rarity": "N",
+        "research_until": 0,
+        "resting": false,
+        "role": "chef",
+        "secondary_role": "",
+        "shift_enabled": false,
+        "shift_periods": [
+          "breakfast",
+          "rest",
+          "lunch",
+          "tea",
+          "dinner",
+          "night_market"
+        ],
+        "skill_description": "羊肉汤：汤类菜品品质+5%",
+        "skill_level": 1,
+        "stamina": 83.6000000000009,
+        "training_experience": 0,
+        "training_experience_by_attribute": {},
+        "training_history": {},
+        "training_until": 0,
+        "wage_extra": 0
+      }
+    ],
+    "experience": {
+      "bubble_art": {
+        "available": true,
+        "builtin_path": "res://assets/art/UI/thought_bubble.png",
+        "custom_path": "",
+        "id": "UI/thought_bubble"
+      },
+      "bubble_exclusion_rects": [
+        {
+          "h": 26,
+          "w": 78,
+          "x": 859,
+          "y": 365
+        },
+        {
+          "h": 28,
+          "w": 56,
+          "x": 529,
+          "y": 321
+        },
+        {
+          "h": 28,
+          "w": 40,
+          "x": 923,
+          "y": 321
+        },
+        {
+          "h": 28,
+          "w": 72,
+          "x": 412,
+          "y": 649
+        },
+        {
+          "h": 26,
+          "w": 84,
+          "x": 695,
+          "y": 656
+        },
+        {
+          "h": 26,
+          "w": 98,
+          "x": 1002,
+          "y": 454
+        },
+        {
+          "h": 109.095893859863,
+          "w": 83.8219146728516,
+          "x": 643.758605957031,
+          "y": 552.987701416016
+        },
+        {
+          "h": 109.095893859863,
+          "w": 83.8219146728516,
+          "x": 856.481201171875,
+          "y": 386.954528808594
+        },
+        {
+          "h": 109.095893859863,
+          "w": 83.8219146728516,
+          "x": 643.758605957031,
+          "y": 505.809600830078
+        },
+        {
+          "h": 109.095893859863,
+          "w": 83.8219146728516,
+          "x": 439.881866455078,
+          "y": 370.341094970703
+        }
+      ],
+      "bubbles": [
+        {
+          "id": "er_shu",
+          "left": 2.23026666666667,
+          "rect": {
+            "h": 26,
+            "w": 205,
+            "x": 735.669555664062,
+            "y": 511.234283447266
+          },
+          "state": "Move",
+          "text": "耳鼠：尾翼收稳，盘子就不会晃。",
+          "visible": true
+        }
+      ],
+      "decoration_active": false,
+      "more": [
+        {
+          "group": "经营准备",
+          "label": "训练与排班",
+          "panel": "员工培养",
+          "stage": 0
+        },
+        {
+          "group": "经营准备",
+          "label": "经营目标",
+          "panel": "经营升级",
+          "stage": 0
+        },
+        {
+          "group": "经营准备",
+          "label": "库存与采购",
+          "panel": "库存供应",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "主线故事",
+          "panel": "主线故事",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "顾客反馈",
+          "panel": "顾客反馈",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "图鉴",
+          "panel": "图鉴",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "事件图鉴",
+          "panel": "事件图鉴",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "账单与资金流水",
+          "panel": "账单",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "营业日志",
+          "panel": "营业日志",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "帮助与教学",
+          "panel": "说明",
+          "stage": 0
+        },
+        {
+          "group": "记录与设置",
+          "label": "系统与存档",
+          "panel": "系统",
+          "stage": 0
+        },
+        {
+          "group": "山海相遇",
+          "label": "山海驿路",
+          "panel": "山海驿路",
+          "stage": 0
+        },
+        {
+          "group": "山海相遇",
+          "label": "角色特征",
+          "panel": "角色特征",
+          "stage": 0
+        },
+        {
+          "group": "山海相遇",
+          "label": "菜牌说明",
+          "panel": "菜牌说明",
+          "stage": 0
+        },
+        {
+          "group": "山海相遇",
+          "label": "山海来信",
+          "panel": "山海来信",
+          "stage": 0
+        },
+        {
+          "group": "跨文化经营",
+          "label": "跨国食肆与当地伙伴",
+          "panel": "跨国食肆",
+          "stage": 0
+        }
+      ],
+      "move_index": -1,
+      "navigation": [
+        "员工",
+        "装修",
+        "宣传",
+        "招聘"
+      ],
+      "placement_cells": [],
+      "priority": {
+        "destination": "招聘",
+        "id": "stage_task:hire3",
+        "title": "招募第3名员工 2/3"
+      },
+      "real_time_rate": 12,
+      "undo_steps": 0
+    },
+    "final_transform": {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "d": 1,
+      "tx": 0,
+      "ty": 0
+    },
+    "interface_language": "zh",
+    "interface_texts": [
+      "1年1月1日  10:06",
+      "钞票",
+      "￥ 856.00",
+      "灵石",
+      "0",
+      "声望",
+      "18",
+      "暂停",
+      "物品",
+      "1×",
+      "2×",
+      "3×",
+      "4×",
+      "待办：招募第3名员工 2/3",
+      "▾",
+      "债￥1200",
+      "培训×0",
+      "装修×0",
+      "经营概览",
+      "有间小馆",
+      "2 / 8 座 · 舒适度 50",
+      "今日菜单   阳春面 ￥8  ·  蛋炒饭 ￥10  ·  酸梅汤 ￥6",
+      "￥5",
+      "￥10",
+      "全景",
+      "−",
+      "+",
+      "场景",
+      "拖动查看 · 滚轮缩放",
+      "灶台 0/2 · 收银 0/1",
+      "耳鼠：尾翼收稳，盘子就不会晃。",
+      "● 点单 → 制作 → 上菜 → 结账  /  更多中管理菜单",
+      "路边小馆 / 阶段 0",
+      "员工",
+      "装修",
+      "宣传",
+      "招聘",
+      "●2",
+      "···",
+      "●8",
+      "[color=#ffd700]● 白泽[/color]的故人：故人谈起[color=#ffd700]● 白泽[/color]走访山海的往事：[color=#ffd700]● 白泽[/color]好感+10，往事已记入山海志。"
+    ],
+    "international": {
+      "active_scene": "main",
+      "letters": [],
+      "regions": {
+        "greece": {
+          "accepting": true,
+          "active_menu": [
+            "gr_d01"
+          ],
+          "arrears": 0,
+          "auto_recipe": "",
+          "auto_service": true,
+          "costs": 0,
+          "floor": {
+            "fixtures": [
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table0",
+                "x": 220,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table1",
+                "x": 455,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table2",
+                "x": 220,
+                "y": 365
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table3",
+                "x": 455,
+                "y": 365
+              },
+              {
+                "kind": "stove",
+                "uid": "hot",
+                "x": 780,
+                "y": 180
+              },
+              {
+                "kind": "prep",
+                "uid": "cold",
+                "x": 940,
+                "y": 180
+              },
+              {
+                "kind": "pass",
+                "uid": "pass",
+                "x": 780,
+                "y": 320
+              },
+              {
+                "kind": "cashier",
+                "uid": "cashier",
+                "x": 950,
+                "y": 400
+              }
+            ],
+            "guests": [],
+            "history": [],
+            "version": 1,
+            "workers": {
+              "gr_01": {
+                "action": "Idle",
+                "id": "gr_01",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 810,
+                  "y": 235
+                },
+                "role": "chef"
+              },
+              "helper:builder": {
+                "action": "Idle",
+                "id": "helper:builder",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 1030,
+                  "y": 350
+                },
+                "role": "builder"
+              },
+              "helper:cashier": {
+                "action": "Idle",
+                "id": "helper:cashier",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 950,
+                  "y": 315
+                },
+                "role": "cashier"
+              },
+              "helper:chef": {
+                "action": "Idle",
+                "id": "helper:chef",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 810,
+                  "y": 235
+                },
+                "role": "chef"
+              },
+              "helper:host": {
+                "action": "Idle",
+                "id": "helper:host",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 620,
+                  "y": 390
+                },
+                "role": "host"
+              }
+            }
+          },
+          "jobs": [],
+          "layout": "balanced",
+          "level": 0,
+          "log": [],
+          "marketing_until": 0,
+          "mastery": {},
+          "missed": 0,
+          "next_order": 0,
+          "next_weather": "unverified",
+          "open": false,
+          "orders": [],
+          "partners": [
+            "gr_01"
+          ],
+          "rest": {},
+          "revenue": 0,
+          "rush": false,
+          "served": 0,
+          "started": 0,
+          "stock": [],
+          "story": {
+            "baseline": 0,
+            "choice": "",
+            "missed": 0,
+            "status": "available"
+          },
+          "training": {},
+          "verified_until": 0,
+          "weather": "clear"
+        },
+        "india": {
+          "accepting": true,
+          "active_menu": [
+            "in_d01"
+          ],
+          "arrears": 0,
+          "auto_recipe": "",
+          "auto_service": true,
+          "costs": 0,
+          "floor": {
+            "fixtures": [
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table0",
+                "x": 220,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table1",
+                "x": 455,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table2",
+                "x": 220,
+                "y": 365
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table3",
+                "x": 455,
+                "y": 365
+              },
+              {
+                "kind": "stove",
+                "uid": "hot",
+                "x": 780,
+                "y": 180
+              },
+              {
+                "kind": "prep",
+                "uid": "cold",
+                "x": 940,
+                "y": 180
+              },
+              {
+                "kind": "pass",
+                "uid": "pass",
+                "x": 780,
+                "y": 320
+              },
+              {
+                "kind": "cashier",
+                "uid": "cashier",
+                "x": 950,
+                "y": 400
+              }
+            ],
+            "guests": [],
+            "history": [],
+            "version": 1,
+            "workers": {
+              "helper:builder": {
+                "action": "Idle",
+                "id": "helper:builder",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 1030,
+                  "y": 350
+                },
+                "role": "builder"
+              },
+              "helper:cashier": {
+                "action": "Idle",
+                "id": "helper:cashier",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 950,
+                  "y": 315
+                },
+                "role": "cashier"
+              },
+              "helper:chef": {
+                "action": "Idle",
+                "id": "helper:chef",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 810,
+                  "y": 235
+                },
+                "role": "chef"
+              },
+              "helper:host": {
+                "action": "Idle",
+                "id": "helper:host",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 620,
+                  "y": 390
+                },
+                "role": "host"
+              },
+              "in_01": {
+                "action": "Idle",
+                "id": "in_01",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 620,
+                  "y": 390
+                },
+                "role": "host"
+              }
+            }
+          },
+          "jobs": [],
+          "layout": "balanced",
+          "level": 0,
+          "log": [],
+          "marketing_until": 0,
+          "mastery": {},
+          "missed": 0,
+          "next_order": 0,
+          "next_weather": "unverified",
+          "open": false,
+          "orders": [],
+          "partners": [
+            "in_01"
+          ],
+          "rest": {},
+          "revenue": 0,
+          "rush": false,
+          "served": 0,
+          "started": 0,
+          "stock": [],
+          "story": {
+            "baseline": 0,
+            "choice": "",
+            "missed": 0,
+            "status": "available"
+          },
+          "training": {},
+          "verified_until": 0,
+          "weather": "clear"
+        },
+        "nordic": {
+          "accepting": true,
+          "active_menu": [
+            "nd_d01"
+          ],
+          "arrears": 0,
+          "auto_recipe": "",
+          "auto_service": true,
+          "costs": 0,
+          "floor": {
+            "fixtures": [
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table0",
+                "x": 220,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table1",
+                "x": 455,
+                "y": 215
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table2",
+                "x": 220,
+                "y": 365
+              },
+              {
+                "kind": "table",
+                "shared": false,
+                "uid": "table3",
+                "x": 455,
+                "y": 365
+              },
+              {
+                "kind": "stove",
+                "uid": "hot",
+                "x": 780,
+                "y": 180
+              },
+              {
+                "kind": "prep",
+                "uid": "cold",
+                "x": 940,
+                "y": 180
+              },
+              {
+                "kind": "pass",
+                "uid": "pass",
+                "x": 780,
+                "y": 320
+              },
+              {
+                "kind": "cashier",
+                "uid": "cashier",
+                "x": 950,
+                "y": 400
+              }
+            ],
+            "guests": [],
+            "history": [],
+            "version": 1,
+            "workers": {
+              "helper:builder": {
+                "action": "Idle",
+                "id": "helper:builder",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 1030,
+                  "y": 350
+                },
+                "role": "builder"
+              },
+              "helper:cashier": {
+                "action": "Idle",
+                "id": "helper:cashier",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 950,
+                  "y": 315
+                },
+                "role": "cashier"
+              },
+              "helper:chef": {
+                "action": "Idle",
+                "id": "helper:chef",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 810,
+                  "y": 235
+                },
+                "role": "chef"
+              },
+              "helper:host": {
+                "action": "Idle",
+                "id": "helper:host",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 620,
+                  "y": 390
+                },
+                "role": "host"
+              },
+              "nd_01": {
+                "action": "Idle",
+                "id": "nd_01",
+                "job": 0,
+                "look": "down",
+                "motion": {},
+                "position": {
+                  "x": 620,
+                  "y": 390
+                },
+                "role": "host"
+              }
+            }
+          },
+          "jobs": [],
+          "layout": "balanced",
+          "level": 0,
+          "log": [],
+          "marketing_until": 0,
+          "mastery": {},
+          "missed": 0,
+          "next_order": 0,
+          "next_weather": "unverified",
+          "open": false,
+          "orders": [],
+          "partners": [
+            "nd_01"
+          ],
+          "rest": {},
+          "revenue": 0,
+          "rush": false,
+          "served": 0,
+          "started": 0,
+          "stock": [],
+          "story": {
+            "baseline": 0,
+            "choice": "",
+            "missed": 0,
+            "status": "available"
+          },
+          "training": {},
+          "verified_until": 0,
+          "weather": "rain"
+        }
+      },
+      "serial": 0,
+      "version": 1
+    },
+    "international_view": {
+      "pan_x": 0,
+      "pan_y": 0,
+      "preview": "",
+      "region": "india",
+      "scene_inside": true,
+      "scene_rect": {},
+      "tab": "店铺",
+      "touches": 0,
+      "zoom": 1
+    },
+    "last_saved_minute": 567,
+    "layout_grid": {
+      "cols": 16,
+      "h": 338.671234130859,
+      "rows": 5,
+      "w": 815.5068359375,
+      "x": 312.24658203125,
+      "y": 356.986297607422
+    },
+    "nav_art_probe": {
+      "available": true,
+      "builtin_path": "res://assets/art/UI/btn_employee.png",
+      "custom_path": "",
+      "id": "UI/btn_employee"
+    },
+    "navigation_context": {
+      "back_visible": false,
+      "return_rect": {
+        "h": 48,
+        "w": 726,
+        "x": 357,
+        "y": 767.5
+      },
+      "return_visible": false,
+      "trail": "餐厅"
+    },
+    "overview": {},
+    "panel": "",
+    "paused": false,
+    "pending_event": {
+      "auto": false,
+      "context": {},
+      "cooldown_key": "events.default_cooldown",
+      "description": "供应商为普通食材提供一天采购优惠。",
+      "id": "supplier_discount",
+      "options": [
+        {
+          "effects": [
+            {
+              "type": "bulk_purchase"
+            }
+          ],
+          "id": "discount",
+          "label": "大量囤货：按8折采购正常批量的3倍"
+        },
+        {
+          "effects": [
+            {
+              "type": "normal_purchase"
+            }
+          ],
+          "id": "normal",
+          "label": "正常采购：按原价购买正常批量"
+        }
+      ],
+      "priority": 1,
+      "probability_key": "events.supplier_probability",
+      "queued_minute": 540,
+      "serial": 2,
+      "title": "供应商折扣",
+      "trigger": {
+        "business_only": true,
+        "hooks": [
+          "random"
+        ]
+      },
+      "type": "decision"
+    },
+    "phone_ui": {
+      "active": false,
+      "body_width": 718,
+      "hud": {
+        "h": 30,
+        "w": 1,
+        "x": 28,
+        "y": 20
+      },
+      "navigation": {
+        "h": 0,
+        "w": 0,
+        "x": 28,
+        "y": 808
+      },
+      "status_controls": {
+        "building": {
+          "rect": {
+            "h": 44,
+            "w": 95,
+            "x": 1218,
+            "y": 73
+          },
+          "visible": true
+        },
+        "clock": {
+          "rect": {
+            "h": 23,
+            "w": 170,
+            "x": 28,
+            "y": 32
+          },
+          "visible": true
+        },
+        "debt": {
+          "rect": {
+            "h": 18,
+            "w": 85,
+            "x": 1030,
+            "y": 86
+          },
+          "visible": true
+        },
+        "summary": {
+          "rect": {
+            "h": 44,
+            "w": 95,
+            "x": 1317,
+            "y": 73
+          },
+          "visible": true
+        },
+        "training": {
+          "rect": {
+            "h": 44,
+            "w": 95,
+            "x": 1119,
+            "y": 73
+          },
+          "visible": true
+        }
+      }
+    },
+    "placement_id": "",
+    "portrait_preview": false,
+    "presentation": {
+      "cash_floats": 0,
+      "toast_left": 0.3625,
+      "toast_queue": 0,
+      "toast_text": "● 白泽的故人：故人谈起● 白泽走访山海的往事：● 白泽好感+10，往事已记入山海志。"
+    },
+    "quests": [
+      {
+        "cash": 100,
+        "claimed": false,
+        "complete": true,
+        "contract": "bi_fang",
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 2,
+        "id": "opening",
+        "progress": 7,
+        "reward_summary": "钞票100 · 灵石2",
+        "target": 1,
+        "title": "有间小馆，第一单",
+        "type": "served",
+        "unlocked": true
+      },
+      {
+        "cash": 100,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 1,
+        "id": "stock",
+        "progress": 0,
+        "reward_summary": "钞票100 · 灵石1",
+        "target": 1,
+        "title": "粮仓有余粮",
+        "type": "purchases",
+        "unlocked": true
+      },
+      {
+        "cash": 150,
+        "claimed": false,
+        "complete": false,
+        "contract": "jiu_wei_hu",
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 2,
+        "id": "research",
+        "progress": 0,
+        "reward_summary": "钞票150 · 灵石2",
+        "target": 1,
+        "title": "第一道山海招牌",
+        "type": "research_success",
+        "unlocked": true
+      },
+      {
+        "cash": 200,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 3,
+        "id": "regulars",
+        "progress": 7,
+        "reward_summary": "钞票200 · 灵石3",
+        "target": 20,
+        "title": "大荒市的新口碑",
+        "type": "served",
+        "unlocked": true
+      },
+      {
+        "cash": 250,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 5,
+        "id": "debt",
+        "progress": 0,
+        "reward_summary": "钞票250 · 灵石5",
+        "target": 1,
+        "title": "还清初始债务",
+        "type": "debt_free",
+        "unlocked": true
+      },
+      {
+        "cash": 1000,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 15,
+        "id": "collect12",
+        "progress": 2,
+        "reward_summary": "钞票1000 · 灵石15",
+        "target": 12,
+        "title": "十二神兽相聚",
+        "type": "collection",
+        "unlocked": true
+      },
+      {
+        "cash": 3000,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 30,
+        "id": "recipes",
+        "progress": 3,
+        "reward_summary": "钞票3000 · 灵石30",
+        "target": 23,
+        "title": "山海全席",
+        "type": "recipes",
+        "unlocked": true
+      },
+      {
+        "cash": 5000,
+        "claimed": false,
+        "complete": false,
+        "description": "完成经营目标后领取一次奖励",
+        "gems": 30,
+        "id": "group",
+        "progress": 0,
+        "reward_summary": "钞票5000 · 灵石30",
+        "target": 4,
+        "title": "三界食肆，正式启程",
+        "type": "stage",
+        "unlocked": true
+      }
+    ],
+    "research_projects": [],
+    "responsive": {
+      "compact": false,
+      "focus": false,
+      "modal": {
+        "h": 480,
+        "w": 750,
+        "x": 345,
+        "y": 227.5
+      },
+      "native_portrait": false,
+      "portrait": false,
+      "scroll": {
+        "h": 432,
+        "w": 726,
+        "x": 357,
+        "y": 325.5
+      }
+    },
+    "restaurant_scene": {
+      "active": "main"
+    },
+    "scene_texts": [
+      "羬羊·待命",
+      "耳鼠·点单",
+      "用餐区",
+      "后厨",
+      "有间小馆",
+      "庭院 · 店门",
+      "单口灶台 · 待用",
+      "单口灶台 · 待用",
+      "传菜口 · 待用",
+      "收银台 · 待用"
+    ],
+    "scene_viewport": {
+      "h": 544,
+      "w": 1344,
+      "x": 48,
+      "y": 214
+    },
+    "screen_transform": {
+      "a": 1,
+      "b": 0,
+      "c": 0,
+      "d": 1,
+      "tx": 0,
+      "ty": 0
+    },
+    "speed": 4,
+    "state": {
+      "campaign_claimed": [],
+      "cash": 856,
+      "comfort": 50,
+      "completed": false,
+      "consumption_history": [],
+      "contracts": [],
+      "cooking_speed_bonus": 0,
+      "culture_experience": {
+        "applied": [],
+        "batch_mode": "legacy",
+        "booking": {},
+        "branch_themes": {},
+        "counters": {
+          "paid:fried_rice": 2,
+          "paid:noodles": 1,
+          "paid:plum_juice": 4,
+          "warm_paid": 1
+        },
+        "events": {
+          "bifang": {
+            "choice": "",
+            "deferred_until": 0,
+            "due": 0,
+            "node": "start",
+            "progress": 0,
+            "status": "unseen",
+            "target": 0,
+            "training_until": 0
+          },
+          "harvest": {
+            "choice": "",
+            "deferred_until": 0,
+            "due": 0,
+            "node": "start",
+            "progress": 0,
+            "status": "unseen",
+            "target": 0,
+            "training_until": 0
+          },
+          "menu": {
+            "choice": "",
+            "deferred_until": 0,
+            "due": 0,
+            "node": "start",
+            "progress": 0,
+            "status": "offered",
+            "target": 0,
+            "training_until": 0
+          }
+        },
+        "evidence": [],
+        "guest_memories": {
+          "baize_friend": {
+            "last_day": 0,
+            "last_dish": "plum_juice",
+            "last_visit_serial": 1,
+            "orders": 1,
+            "promises": [],
+            "visits": 1
+          }
+        },
+        "introduced": [],
+        "last_served": 7,
+        "letters": [],
+        "menu_reviewed": false,
+        "menu_reviews": {},
+        "night": {},
+        "opening_inventory": 60,
+        "reduce_fx": false,
+        "route_completed": [],
+        "transactions": [],
+        "version": 1
+      },
+      "customer_service": {
+        "acknowledged_notice": 0,
+        "cooldowns": {},
+        "history": [],
+        "next_notice_id": 1,
+        "notices": [],
+        "today": {
+          "arrivals": 13,
+          "bad_reviews": 5,
+          "completed": 7,
+          "day": 0,
+          "dish_orders": {
+            "fried_rice": 2,
+            "noodles": 2,
+            "plum_juice": 6
+          },
+          "good_reviews": 7,
+          "orders": 10,
+          "preference_matches": 5,
+          "premium_orders": 0,
+          "reasons": {
+            "other": 0,
+            "quality": 0,
+            "stockout": 0,
+            "timeout": 5
+          },
+          "recommend_attempts": 0,
+          "recommend_success": 0,
+          "sales": 76,
+          "satisfaction_count": 12,
+          "satisfaction_sum": 608.5,
+          "stockouts": 0,
+          "timeouts": 5,
+          "wait_minutes": 695
+        },
+        "traffic_day": -1,
+        "traffic_multiplier": 1,
+        "version": 1
+      },
+      "daily_consumption": 0,
+      "daily_revenue": 76,
+      "day_reports": [],
+      "debt": 1200,
+      "decorations_purchased": 0,
+      "developer_mode": false,
+      "discount_until": 0,
+      "effect_resolution": {
+        "extra_income_total": 0,
+        "first_reviews": {},
+        "kitchen_chaos_count": 0,
+        "next_complaint_id": 6,
+        "pending_complaints": [
+          {
+            "context": {
+              "customer_id": 6,
+              "dish_id": "noodles"
+            },
+            "due": -1,
+            "handler_id": "",
+            "id": 1,
+            "last_tick": 606,
+            "remaining_work": 5,
+            "started": 530,
+            "total_work": 5
+          },
+          {
+            "context": {
+              "customer_id": 10,
+              "dish_id": "fried_rice"
+            },
+            "due": -1,
+            "handler_id": "",
+            "id": 4,
+            "last_tick": 606,
+            "remaining_work": 5,
+            "started": 583,
+            "total_work": 5
+          }
+        ],
+        "prevented_escapes": 0
+      },
+      "event_first_triggered": false,
+      "event_history": [],
+      "event_last_minute": 360,
+      "event_queue": [],
+      "expansion": {
+        "branches": {
+          "celestial": {
+            "missed": 0,
+            "next_order": 360,
+            "open": false,
+            "rent_arrears": 0,
+            "revenue": 0,
+            "served": 0,
+            "stock": {},
+            "stock_cost": {}
+          },
+          "demon": {
+            "missed": 0,
+            "next_order": 360,
+            "open": false,
+            "rent_arrears": 0,
+            "revenue": 0,
+            "served": 0,
+            "stock": {},
+            "stock_cost": {}
+          },
+          "human_east": {
+            "missed": 0,
+            "next_order": 360,
+            "open": false,
+            "rent_arrears": 0,
+            "revenue": 0,
+            "served": 0,
+            "stock": {},
+            "stock_cost": {}
+          },
+          "human_north": {
+            "missed": 0,
+            "next_order": 360,
+            "open": false,
+            "rent_arrears": 0,
+            "revenue": 0,
+            "served": 0,
+            "stock": {},
+            "stock_cost": {}
+          },
+          "human_west": {
+            "missed": 0,
+            "next_order": 360,
+            "open": false,
+            "rent_arrears": 0,
+            "revenue": 0,
+            "served": 0,
+            "stock": {},
+            "stock_cost": {}
+          }
+        },
+        "campaigns": [],
+        "central": {
+          "enabled": false,
+          "jobs": [],
+          "shipments": [],
+          "stock": {},
+          "stock_cost": {}
+        },
+        "competition": {
+          "active": {},
+          "attempts": 0,
+          "best_score": 0,
+          "first_reward_claimed": false,
+          "last_result": {},
+          "next_entry": 0,
+          "wins": 0
+        },
+        "costs": 0,
+        "delivery_completed": 0,
+        "delivery_enabled": false,
+        "delivery_next_offer": 360,
+        "delivery_offer": {},
+        "delivery_orders": [],
+        "delivery_revenue": 0,
+        "exploration_history": [],
+        "explorations": [],
+        "last_day": 0,
+        "league": {
+          "companies": {
+            "beiming": {
+              "branches": 1,
+              "cash": 7000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "changliu": {
+              "branches": 1,
+              "cash": 6000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "chishui": {
+              "branches": 2,
+              "cash": 8000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "dahuang": {
+              "branches": 2,
+              "cash": 7500,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "danshui": {
+              "branches": 1,
+              "cash": 4500,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "fushan": {
+              "branches": 2,
+              "cash": 12000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "kunlun": {
+              "branches": 4,
+              "cash": 20000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "lingqiu": {
+              "branches": 1,
+              "cash": 3500,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "qingqiu": {
+              "branches": 2,
+              "cash": 11000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "tianque": {
+              "branches": 3,
+              "cash": 16000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "yaochi": {
+              "branches": 3,
+              "cash": 14000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            },
+            "yunmeng": {
+              "branches": 3,
+              "cash": 15000,
+              "costs": 0,
+              "daily_profit": 0,
+              "daily_revenue": 0,
+              "reputation": 0,
+              "revenue": 0
+            }
+          },
+          "history": [],
+          "last_day": 0,
+          "player_baseline": {
+            "branches": 0,
+            "reputation": 20,
+            "revenue": 0,
+            "wins": 0
+          },
+          "season": 1,
+          "start_day": 0
+        },
+        "membership": {
+          "enabled": false,
+          "members": 0,
+          "observed_served": 7,
+          "points": 0,
+          "redeemed": 0,
+          "served_remainder": 0,
+          "voucher": false
+        },
+        "next_id": 1,
+        "revenue": 0,
+        "version": 1
+      },
+      "finance": {
+        "bills": [],
+        "daily_sales_recorded": 76,
+        "daily_tips": 0,
+        "flows": [
+          {
+            "amount": 10,
+            "balance": 810,
+            "balance_before": 800,
+            "day": 1,
+            "description": "菜品收入：蛋炒饭",
+            "id": 1,
+            "minute": 418,
+            "type": "sales"
+          },
+          {
+            "amount": 6,
+            "balance": 816,
+            "balance_before": 810,
+            "day": 1,
+            "description": "菜品收入：酸梅汤",
+            "id": 2,
+            "minute": 434,
+            "type": "sales"
+          },
+          {
+            "amount": -20,
+            "balance": 796,
+            "balance_before": 816,
+            "day": 1,
+            "description": "宣传：flyer",
+            "id": 3,
+            "minute": 459,
+            "type": "marketing"
+          },
+          {
+            "amount": 6,
+            "balance": 802,
+            "balance_before": 796,
+            "day": 1,
+            "description": "菜品收入：酸梅汤",
+            "id": 4,
+            "minute": 474,
+            "type": "sales"
+          },
+          {
+            "amount": 10,
+            "balance": 812,
+            "balance_before": 802,
+            "day": 1,
+            "description": "菜品收入：蛋炒饭",
+            "id": 5,
+            "minute": 489,
+            "type": "sales"
+          },
+          {
+            "amount": 8,
+            "balance": 820,
+            "balance_before": 812,
+            "day": 1,
+            "description": "菜品收入：阳春面",
+            "id": 6,
+            "minute": 502,
+            "type": "sales"
+          },
+          {
+            "amount": 6,
+            "balance": 826,
+            "balance_before": 820,
+            "day": 1,
+            "description": "菜品收入：酸梅汤",
+            "id": 7,
+            "minute": 565,
+            "type": "sales"
+          },
+          {
+            "amount": 30,
+            "balance": 856,
+            "balance_before": 826,
+            "day": 1,
+            "description": "菜品收入：酸梅汤",
+            "id": 8,
+            "minute": 582,
+            "type": "sales"
+          }
+        ],
+        "last_bill_day": 0,
+        "last_settled_day": 0,
+        "loan": {
+          "collection_pending": false,
+          "due_day": 0,
+          "fine_arrears": 0,
+          "interest_arrears": 0,
+          "opened_day": 0,
+          "original": 0,
+          "penalty_applied": false,
+          "principal": 0
+        },
+        "opening_cash": 800,
+        "opening_ledger": {
+          "capital": 0,
+          "cost_of_sales": 0,
+          "expenses": 0,
+          "financing": 0,
+          "other_income": 0,
+          "procurement": 0,
+          "sales": 0
+        },
+        "rescue": {
+          "day": 0,
+          "ever_triggered": false,
+          "pending": false,
+          "reason": "",
+          "resume_paused": false
+        },
+        "sequence": 8,
+        "summary_pending": false,
+        "unpaid_days": 0,
+        "version": 1
+      },
+      "fragments": {},
+      "freshness": 100,
+      "gems": 0,
+      "hire_counts": {
+        "advanced": 0,
+        "normal": 0
+      },
+      "hire_tickets": 0,
+      "ingredients": 13.3333333333333,
+      "interest_arrears": 0,
+      "international": {
+        "active_scene": "main",
+        "letters": [],
+        "regions": {
+          "greece": {
+            "accepting": true,
+            "active_menu": [
+              "gr_d01"
+            ],
+            "arrears": 0,
+            "auto_recipe": "",
+            "auto_service": true,
+            "costs": 0,
+            "floor": {
+              "fixtures": [
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table0",
+                  "x": 220,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table1",
+                  "x": 455,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table2",
+                  "x": 220,
+                  "y": 365
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table3",
+                  "x": 455,
+                  "y": 365
+                },
+                {
+                  "kind": "stove",
+                  "uid": "hot",
+                  "x": 780,
+                  "y": 180
+                },
+                {
+                  "kind": "prep",
+                  "uid": "cold",
+                  "x": 940,
+                  "y": 180
+                },
+                {
+                  "kind": "pass",
+                  "uid": "pass",
+                  "x": 780,
+                  "y": 320
+                },
+                {
+                  "kind": "cashier",
+                  "uid": "cashier",
+                  "x": 950,
+                  "y": 400
+                }
+              ],
+              "guests": [],
+              "history": [],
+              "version": 1,
+              "workers": {
+                "gr_01": {
+                  "action": "Idle",
+                  "id": "gr_01",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 810,
+                    "y": 235
+                  },
+                  "role": "chef"
+                },
+                "helper:builder": {
+                  "action": "Idle",
+                  "id": "helper:builder",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 1030,
+                    "y": 350
+                  },
+                  "role": "builder"
+                },
+                "helper:cashier": {
+                  "action": "Idle",
+                  "id": "helper:cashier",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 950,
+                    "y": 315
+                  },
+                  "role": "cashier"
+                },
+                "helper:chef": {
+                  "action": "Idle",
+                  "id": "helper:chef",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 810,
+                    "y": 235
+                  },
+                  "role": "chef"
+                },
+                "helper:host": {
+                  "action": "Idle",
+                  "id": "helper:host",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 620,
+                    "y": 390
+                  },
+                  "role": "host"
+                }
+              }
+            },
+            "jobs": [],
+            "layout": "balanced",
+            "level": 0,
+            "log": [],
+            "marketing_until": 0,
+            "mastery": {},
+            "missed": 0,
+            "next_order": 0,
+            "open": false,
+            "orders": [],
+            "partners": [
+              "gr_01"
+            ],
+            "rest": {},
+            "revenue": 0,
+            "rush": false,
+            "served": 0,
+            "started": 0,
+            "stock": [],
+            "story": {
+              "baseline": 0,
+              "choice": "",
+              "missed": 0,
+              "status": "available"
+            },
+            "training": {},
+            "verified_until": 0
+          },
+          "india": {
+            "accepting": true,
+            "active_menu": [
+              "in_d01"
+            ],
+            "arrears": 0,
+            "auto_recipe": "",
+            "auto_service": true,
+            "costs": 0,
+            "floor": {
+              "fixtures": [
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table0",
+                  "x": 220,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table1",
+                  "x": 455,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table2",
+                  "x": 220,
+                  "y": 365
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table3",
+                  "x": 455,
+                  "y": 365
+                },
+                {
+                  "kind": "stove",
+                  "uid": "hot",
+                  "x": 780,
+                  "y": 180
+                },
+                {
+                  "kind": "prep",
+                  "uid": "cold",
+                  "x": 940,
+                  "y": 180
+                },
+                {
+                  "kind": "pass",
+                  "uid": "pass",
+                  "x": 780,
+                  "y": 320
+                },
+                {
+                  "kind": "cashier",
+                  "uid": "cashier",
+                  "x": 950,
+                  "y": 400
+                }
+              ],
+              "guests": [],
+              "history": [],
+              "version": 1,
+              "workers": {
+                "helper:builder": {
+                  "action": "Idle",
+                  "id": "helper:builder",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 1030,
+                    "y": 350
+                  },
+                  "role": "builder"
+                },
+                "helper:cashier": {
+                  "action": "Idle",
+                  "id": "helper:cashier",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 950,
+                    "y": 315
+                  },
+                  "role": "cashier"
+                },
+                "helper:chef": {
+                  "action": "Idle",
+                  "id": "helper:chef",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 810,
+                    "y": 235
+                  },
+                  "role": "chef"
+                },
+                "helper:host": {
+                  "action": "Idle",
+                  "id": "helper:host",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 620,
+                    "y": 390
+                  },
+                  "role": "host"
+                },
+                "in_01": {
+                  "action": "Idle",
+                  "id": "in_01",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 620,
+                    "y": 390
+                  },
+                  "role": "host"
+                }
+              }
+            },
+            "jobs": [],
+            "layout": "balanced",
+            "level": 0,
+            "log": [],
+            "marketing_until": 0,
+            "mastery": {},
+            "missed": 0,
+            "next_order": 0,
+            "open": false,
+            "orders": [],
+            "partners": [
+              "in_01"
+            ],
+            "rest": {},
+            "revenue": 0,
+            "rush": false,
+            "served": 0,
+            "started": 0,
+            "stock": [],
+            "story": {
+              "baseline": 0,
+              "choice": "",
+              "missed": 0,
+              "status": "available"
+            },
+            "training": {},
+            "verified_until": 0
+          },
+          "nordic": {
+            "accepting": true,
+            "active_menu": [
+              "nd_d01"
+            ],
+            "arrears": 0,
+            "auto_recipe": "",
+            "auto_service": true,
+            "costs": 0,
+            "floor": {
+              "fixtures": [
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table0",
+                  "x": 220,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table1",
+                  "x": 455,
+                  "y": 215
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table2",
+                  "x": 220,
+                  "y": 365
+                },
+                {
+                  "kind": "table",
+                  "shared": false,
+                  "uid": "table3",
+                  "x": 455,
+                  "y": 365
+                },
+                {
+                  "kind": "stove",
+                  "uid": "hot",
+                  "x": 780,
+                  "y": 180
+                },
+                {
+                  "kind": "prep",
+                  "uid": "cold",
+                  "x": 940,
+                  "y": 180
+                },
+                {
+                  "kind": "pass",
+                  "uid": "pass",
+                  "x": 780,
+                  "y": 320
+                },
+                {
+                  "kind": "cashier",
+                  "uid": "cashier",
+                  "x": 950,
+                  "y": 400
+                }
+              ],
+              "guests": [],
+              "history": [],
+              "version": 1,
+              "workers": {
+                "helper:builder": {
+                  "action": "Idle",
+                  "id": "helper:builder",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 1030,
+                    "y": 350
+                  },
+                  "role": "builder"
+                },
+                "helper:cashier": {
+                  "action": "Idle",
+                  "id": "helper:cashier",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 950,
+                    "y": 315
+                  },
+                  "role": "cashier"
+                },
+                "helper:chef": {
+                  "action": "Idle",
+                  "id": "helper:chef",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 810,
+                    "y": 235
+                  },
+                  "role": "chef"
+                },
+                "helper:host": {
+                  "action": "Idle",
+                  "id": "helper:host",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 620,
+                    "y": 390
+                  },
+                  "role": "host"
+                },
+                "nd_01": {
+                  "action": "Idle",
+                  "id": "nd_01",
+                  "job": 0,
+                  "look": "down",
+                  "motion": {},
+                  "position": {
+                    "x": 620,
+                    "y": 390
+                  },
+                  "role": "host"
+                }
+              }
+            },
+            "jobs": [],
+            "layout": "balanced",
+            "level": 0,
+            "log": [],
+            "marketing_until": 0,
+            "mastery": {},
+            "missed": 0,
+            "next_order": 0,
+            "open": false,
+            "orders": [],
+            "partners": [
+              "nd_01"
+            ],
+            "rest": {},
+            "revenue": 0,
+            "rush": false,
+            "served": 0,
+            "started": 0,
+            "stock": [],
+            "story": {
+              "baseline": 0,
+              "choice": "",
+              "missed": 0,
+              "status": "available"
+            },
+            "training": {},
+            "verified_until": 0
+          }
+        },
+        "serial": 0,
+        "version": 1
+      },
+      "kitchen_pause_until": 0,
+      "last_promotion_kind": "flyer",
+      "last_report": {},
+      "layout": [
+        {
+          "h": 1,
+          "id": "table_two",
+          "w": 1,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "h": 1,
+          "id": "table_two",
+          "w": 1,
+          "x": 6,
+          "y": 1
+        },
+        {
+          "h": 1,
+          "id": "table_two",
+          "w": 1,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "h": 1,
+          "id": "table_two",
+          "w": 1,
+          "x": 6,
+          "y": 3
+        },
+        {
+          "h": 1,
+          "id": "stove",
+          "w": 1,
+          "x": 11,
+          "y": 0
+        },
+        {
+          "h": 1,
+          "id": "stove",
+          "w": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "h": 1,
+          "id": "basic_pass",
+          "w": 1,
+          "x": 10,
+          "y": 0
+        },
+        {
+          "h": 1,
+          "id": "basic_cashier",
+          "w": 1,
+          "x": 14,
+          "y": 1
+        }
+      ],
+      "ledger": {
+        "capital": 0,
+        "cost_of_sales": 16,
+        "expenses": 24,
+        "financing": 0,
+        "procurement": 0,
+        "records": [
+          {
+            "amount": 3,
+            "description": "蛋炒饭",
+            "minute": 418,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 10,
+            "description": "蛋炒饭",
+            "minute": 418,
+            "type": "sales"
+          },
+          {
+            "amount": 2,
+            "description": "酸梅汤",
+            "minute": 434,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 6,
+            "description": "酸梅汤",
+            "minute": 434,
+            "type": "sales"
+          },
+          {
+            "amount": 20,
+            "description": "marketing",
+            "minute": 459,
+            "type": "expenses"
+          },
+          {
+            "amount": 2,
+            "description": "酸梅汤",
+            "minute": 474,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 6,
+            "description": "酸梅汤",
+            "minute": 474,
+            "type": "sales"
+          },
+          {
+            "amount": 3,
+            "description": "蛋炒饭",
+            "minute": 489,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 10,
+            "description": "蛋炒饭",
+            "minute": 489,
+            "type": "sales"
+          },
+          {
+            "amount": 2,
+            "description": "阳春面",
+            "minute": 502,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 8,
+            "description": "阳春面",
+            "minute": 502,
+            "type": "sales"
+          },
+          {
+            "amount": 2,
+            "description": "超时订单食材报损",
+            "minute": 530,
+            "type": "expenses"
+          },
+          {
+            "amount": 2,
+            "description": "超时订单食材报损",
+            "minute": 545,
+            "type": "expenses"
+          },
+          {
+            "amount": 2,
+            "description": "酸梅汤",
+            "minute": 565,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 6,
+            "description": "酸梅汤",
+            "minute": 565,
+            "type": "sales"
+          },
+          {
+            "amount": 2,
+            "description": "酸梅汤",
+            "minute": 582,
+            "type": "cost_of_sales"
+          },
+          {
+            "amount": 30,
+            "description": "酸梅汤",
+            "minute": 582,
+            "type": "sales"
+          }
+        ],
+        "sales": 76
+      },
+      "lost": 5,
+      "management": {
+        "auto_procure": true,
+        "base_prices": {
+          "bifang_wings": 28,
+          "dangkang_rice": 16,
+          "dijiang_dumplings": 20,
+          "fox_milk": 22,
+          "fried_rice": 10,
+          "hundun_wonton": 18,
+          "jingwei_bibimbap": 22,
+          "jiuying_platter": 68,
+          "luwu_platter": 32,
+          "noodles": 8,
+          "phoenix_soup": 88,
+          "phoenix_true_soup": 72,
+          "plum_juice": 6,
+          "qianyang_soup": 18,
+          "qiongqi_hotpot": 52,
+          "ranyiyu_soup": 20,
+          "taotie_buffet": 58,
+          "taowu_barbecue": 36,
+          "tiangou_tempura": 26,
+          "xiezhi_set": 30,
+          "yinglong_hotpot": 48,
+          "yingzhao_salad": 20,
+          "zhulong_ramen": 34,
+          "zhuyu_salad": 24
+        },
+        "daily_cogs": 16,
+        "daily_development": 0,
+        "daily_procurement": 0,
+        "departed": [],
+        "fixed_quantities": {},
+        "hidden_effects": {},
+        "items": {
+          "danmu": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "dansu": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "generic": {
+            "consumption_today": 6.66666666666667,
+            "freshness": 100,
+            "history": [],
+            "quantity": 13.3333333333333,
+            "value": 40
+          },
+          "grain": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "meat": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "migu": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "mountain_pork": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "pincao": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "rare": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "seafood": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "shan_hai_fish": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "spice": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "wrapper": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          },
+          "zhuyu": {
+            "consumption_today": 0,
+            "freshness": 100,
+            "history": [],
+            "quantity": 0,
+            "value": 0
+          }
+        },
+        "last_day": {},
+        "pending_auto_purchases": [],
+        "price_overrides": {},
+        "procurement_prepared_day": 0,
+        "procurement_strategy": "auto",
+        "projects": [],
+        "skill_books": 0,
+        "suppliers": [],
+        "total_cogs": 16,
+        "total_procurement": 0,
+        "tutorial_trial_available": false,
+        "version": 1
+      },
+      "menu_enabled": [
+        "noodles",
+        "fried_rice",
+        "plum_juice"
+      ],
+      "mode": "full",
+      "monthly_count": 0,
+      "overdue_count": 0,
+      "price_bonus": 0,
+      "procurement_discount": 1,
+      "promotion_bonus": 0.1,
+      "promotion_until": 579,
+      "quests_claimed": [],
+      "rent_arrears": 0,
+      "reputation": 18,
+      "rescue171": {
+        "checked": 600,
+        "drops": 0,
+        "ended": false,
+        "final": {},
+        "last_cash": 856,
+        "loan": {
+          "due_day": 0,
+          "fine_arrears": 0,
+          "interest_arrears": 0,
+          "opened_day": 0,
+          "penalty_applied": false,
+          "principal": 0
+        },
+        "menu": false,
+        "used": false,
+        "version": 1,
+        "warning_day": -1,
+        "warning_pending": false
+      },
+      "research_experience": {},
+      "research_projects": [],
+      "revision171": {
+        "baize_bonus": 10,
+        "builds": [],
+        "completed_builds": 0,
+        "daily_auto": true,
+        "daily_pending": false,
+        "daily_seen": 0,
+        "dismissals": [],
+        "next_build": 1,
+        "notice_running": false,
+        "peak_reputation": 26,
+        "task_completed": [],
+        "version": 1
+      },
+      "revision18": {
+        "cleaning": {},
+        "closing_ids": [
+          "er_shu",
+          "xian_yang"
+        ],
+        "collected": [],
+        "kitchen_uses": 9,
+        "last_cutoff": 540,
+        "next_pickup": 5,
+        "period": "rest",
+        "pickups": [
+          {
+            "amount": 5,
+            "id": 3,
+            "kind": "cash",
+            "remaining": 3.52983333333334,
+            "x": 721.75,
+            "y": 216.599990844727
+          },
+          {
+            "amount": 10,
+            "id": 4,
+            "kind": "cash",
+            "remaining": 13.0082,
+            "x": 358.75,
+            "y": 297
+          }
+        ],
+        "review_streak": 7,
+        "states": [
+          {
+            "id": "word_of_mouth",
+            "started": 474,
+            "until": 1914
+          }
+        ],
+        "version": 1
+      },
+      "revision19": {
+        "auto_until": 0,
+        "version": 1
+      },
+      "revision191": {
+        "aux_jobs": {},
+        "cell_width": 60.5,
+        "departures": [],
+        "grid_height": 5,
+        "grid_width": 16,
+        "legacy_import": false,
+        "promotion_cycles": 0,
+        "version": 1
+      },
+      "seats": 8,
+      "served": 7,
+      "sidequests": {
+        "affinity_records": {
+          "er_shu": {
+            "care_day": -1,
+            "counter_day": -1,
+            "duty_minutes": 119,
+            "gift_day": -1,
+            "last_duty_day": 0,
+            "last_neglect_day": 0
+          },
+          "xian_yang": {
+            "care_day": -1,
+            "counter_day": -1,
+            "duty_minutes": 119,
+            "gift_day": -1,
+            "last_duty_day": 0,
+            "last_neglect_day": 0
+          }
+        },
+        "counters": {},
+        "event_counts": {
+          "word_of_mouth": 1,
+          "word_of_mouth:apply": 1
+        },
+        "last_minute": 606,
+        "legacy_baize_owned": false,
+        "lore_read": [],
+        "lore_unlocked": [],
+        "observed_events": [
+          "474:word_of_mouth:apply"
+        ],
+        "pages": [],
+        "quests": {
+          "baize_atlas": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "dijiang_names": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "fox_true_charm": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "jingwei_shore": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "jiuying_unison": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "phoenix_return": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "qiongqi_truce": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "xiezhi_balance": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "yinglong_rain": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          },
+          "zhulong_dawn": {
+            "choice": "",
+            "completed_minute": -1,
+            "ending": "",
+            "reward_claimed": false,
+            "stage": 0
+          }
+        },
+        "version": 1
+      },
+      "special_visitors": {
+        "achievement": false,
+        "adoptions": [],
+        "helped": false,
+        "history": [
+          {
+            "cash": 0,
+            "good": true,
+            "id": "baize_friend",
+            "minute": 582,
+            "reputation": 0,
+            "scores": [
+              77
+            ],
+            "serial": 1,
+            "text": "故人谈起白泽走访山海的往事：白泽好感+10，往事已记入山海志。"
+          }
+        ],
+        "interactions": [
+          {
+            "customer_id": 1,
+            "employee_id": "er_shu",
+            "minute": 375,
+            "response": "谢谢招待。",
+            "text": "欢迎光临，今日菜品请慢慢看。"
+          },
+          {
+            "customer_id": 2,
+            "employee_id": "er_shu",
+            "minute": 390,
+            "response": "谢谢招待。",
+            "text": "欢迎光临，今日菜品请慢慢看。"
+          },
+          {
+            "customer_id": 1,
+            "employee_id": "er_shu",
+            "minute": 398,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 3,
+            "employee_id": "er_shu",
+            "minute": 405,
+            "response": "谢谢招待。",
+            "text": "欢迎光临，今日菜品请慢慢看。"
+          },
+          {
+            "customer_id": 2,
+            "employee_id": "er_shu",
+            "minute": 412,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 3,
+            "employee_id": "er_shu",
+            "minute": 456,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 4,
+            "employee_id": "er_shu",
+            "minute": 469,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 5,
+            "employee_id": "er_shu",
+            "minute": 482,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 4,
+            "employee_id": "",
+            "minute": 489,
+            "response": "谢谢招待。",
+            "text": "谢谢光临，期待您再次到来。"
+          },
+          {
+            "customer_id": 5,
+            "employee_id": "",
+            "minute": 502,
+            "response": "谢谢招待。",
+            "text": "谢谢光临，期待您再次到来。"
+          },
+          {
+            "customer_id": 4,
+            "employee_id": "er_shu",
+            "minute": 532,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 8,
+            "employee_id": "er_shu",
+            "minute": 558,
+            "response": "谢谢招待。",
+            "text": "菜已上齐，请慢用。"
+          },
+          {
+            "customer_id": 4,
+            "employee_id": "",
+            "minute": 565,
+            "response": "谢谢招待。",
+            "text": "谢谢光临，期待您再次到来。"
+          },
+          {
+            "customer_id": 8,
+            "employee_id": "",
+            "minute": 582,
+            "response": "谢谢招待。",
+            "text": "谢谢光临，期待您再次到来。"
+          }
+        ],
+        "lore": [
+          "baize_old_friend"
+        ],
+        "next_visit": 2,
+        "records": {
+          "baize_friend": {
+            "best": "故人谈起白泽走访山海的往事：白泽好感+10，往事已记入山海志。",
+            "best_score": 1,
+            "last": "故人谈起白泽走访山海的往事：白泽好感+10，往事已记入山海志。",
+            "met": 1
+          }
+        },
+        "spy_risk_day": -1,
+        "version": 1
+      },
+      "stage": 0,
+      "stage_rewards": [],
+      "starter_contract": false,
+      "stats": {
+        "contracts": 0,
+        "decorations": 0,
+        "purchases": 0,
+        "recruits": 0,
+        "research_success": 0
+      },
+      "story": {
+        "baseline_day": 1,
+        "calendar_current": {
+          "day": 1,
+          "hosted": false,
+          "id": "opening_day"
+        },
+        "claimed": [],
+        "collected_ids": [
+          "er_shu",
+          "xian_yang"
+        ],
+        "completed": [],
+        "completion_minutes": {},
+        "debt_cleared": false,
+        "kunlun_resolved": false,
+        "last_day": 1,
+        "last_week": {},
+        "month_start_revenue": 0,
+        "month_start_served": 0,
+        "monthly_reports": [],
+        "v18_legacy_collection": false,
+        "version": 1,
+        "week_start_revenue": 0,
+        "week_start_served": 0
+      },
+      "synergies": {
+        "announced_pairs": [],
+        "version": 1
+      },
+      "total_minutes": 606,
+      "total_revenue": 76,
+      "traffic_bonus": 0,
+      "tutorial": {
+        "actions": [
+          "welcome_ack",
+          "marketing",
+          "income_ack",
+          "bill_view"
+        ],
+        "active_id": "",
+        "completed_steps": [
+          "welcome",
+          "first_order",
+          "staff",
+          "promotion",
+          "income",
+          "bill"
+        ],
+        "deferred": [],
+        "finished": true,
+        "panel_closed": [
+          "欢迎",
+          "员工",
+          "宣传营销",
+          "账单",
+          "事件",
+          "声音设置",
+          "系统"
+        ],
+        "panel_opened": [
+          "欢迎",
+          "员工",
+          "宣传营销",
+          "账单",
+          "事件",
+          "更多",
+          "系统",
+          "声音设置"
+        ],
+        "ready_to_ack": [],
+        "seen_stage": 0,
+        "skipped": false,
+        "stage_completed": [],
+        "version": 2
+      },
+      "tutorial_researched": false,
+      "ui_notifications": {
+        "enabled": true,
+        "ignored": {},
+        "read": {}
+      },
+      "unlocked_dishes": [
+        "noodles",
+        "fried_rice",
+        "plum_juice"
+      ],
+      "wage_arrears": 0,
+      "weekly_count": 0,
+      "world": {
+        "blockade": {
+          "active": false,
+          "community_support": false,
+          "resolved": false,
+          "responses": 0,
+          "service_orders": 0,
+          "service_secured": false,
+          "supply_secured": false
+        },
+        "cooldowns": {
+          "supplier_discount": 1440,
+          "word_of_mouth": 1440
+        },
+        "delayed": [],
+        "easter_eggs": [],
+        "event_days": {
+          "supplier_discount": 0,
+          "word_of_mouth": 0
+        },
+        "feedback": {
+          "after": {
+            "cash": 802,
+            "debt": 1200,
+            "employee.er_shu.loyalty": 60,
+            "employee.er_shu.mood": 100,
+            "employee.er_shu.stamina": 92.4000000000004,
+            "employee.xian_yang.loyalty": 60,
+            "employee.xian_yang.mood": 100,
+            "employee.xian_yang.stamina": 92.4000000000004,
+            "gems": 0,
+            "ingredients": 16,
+            "outstanding_receipts": 0,
+            "regulars": 0,
+            "reputation": 23,
+            "special_guests": 0,
+            "unlocked_dishes": 3,
+            "unpaid_fines": 0
+          },
+          "before": {
+            "cash": 802,
+            "debt": 1200,
+            "employee.er_shu.loyalty": 60,
+            "employee.er_shu.mood": 100,
+            "employee.er_shu.stamina": 92.4000000000004,
+            "employee.xian_yang.loyalty": 60,
+            "employee.xian_yang.mood": 100,
+            "employee.xian_yang.stamina": 92.4000000000004,
+            "gems": 0,
+            "ingredients": 16,
+            "outstanding_receipts": 0,
+            "regulars": 0,
+            "reputation": 23,
+            "special_guests": 0,
+            "unlocked_dishes": 3,
+            "unpaid_fines": 0
+          },
+          "changes": [],
+          "context": {
+            "streak": 3
+          },
+          "details": [
+            "客流 +15%，持续至第2天 07:54"
+          ],
+          "id": "word_of_mouth",
+          "label": "状态已开始",
+          "minute": 474,
+          "option": "apply",
+          "serial": 1,
+          "title": "口碑发酵",
+          "type": "state"
+        },
+        "festival": {
+          "dish_id": "",
+          "employee_id": "",
+          "last_result": {}
+        },
+        "festival_entries": 0,
+        "festival_wins": 0,
+        "flags": [],
+        "history": [
+          {
+            "after": {
+              "cash": 802,
+              "debt": 1200,
+              "employee.er_shu.loyalty": 60,
+              "employee.er_shu.mood": 100,
+              "employee.er_shu.stamina": 92.4000000000004,
+              "employee.xian_yang.loyalty": 60,
+              "employee.xian_yang.mood": 100,
+              "employee.xian_yang.stamina": 92.4000000000004,
+              "gems": 0,
+              "ingredients": 16,
+              "outstanding_receipts": 0,
+              "regulars": 0,
+              "reputation": 23,
+              "special_guests": 0,
+              "unlocked_dishes": 3,
+              "unpaid_fines": 0
+            },
+            "before": {
+              "cash": 802,
+              "debt": 1200,
+              "employee.er_shu.loyalty": 60,
+              "employee.er_shu.mood": 100,
+              "employee.er_shu.stamina": 92.4000000000004,
+              "employee.xian_yang.loyalty": 60,
+              "employee.xian_yang.mood": 100,
+              "employee.xian_yang.stamina": 92.4000000000004,
+              "gems": 0,
+              "ingredients": 16,
+              "outstanding_receipts": 0,
+              "regulars": 0,
+              "reputation": 23,
+              "special_guests": 0,
+              "unlocked_dishes": 3,
+              "unpaid_fines": 0
+            },
+            "changes": [],
+            "context": {
+              "streak": 3
+            },
+            "details": [
+              "客流 +15%，持续至第2天 07:54"
+            ],
+            "id": "word_of_mouth",
+            "label": "状态已开始",
+            "minute": 474,
+            "option": "apply",
+            "serial": 1,
+            "title": "口碑发酵",
+            "type": "state"
+          }
+        ],
+        "last_day": -1,
+        "last_random_minute": 540,
+        "legal_cases": 0,
+        "modifiers": [
+          {
+            "duration": 1440,
+            "identity": "traffic::::word_of_mouth",
+            "key": "traffic",
+            "source_tag": "word_of_mouth",
+            "type": "modifier",
+            "until": 1914,
+            "value": 0.15
+          }
+        ],
+        "next_event_id": 3,
+        "outstanding_receipts": 0,
+        "phoenix_day": -1,
+        "pixiu_receipts": {
+          "advanced": 0,
+          "bonus_rate": 0,
+          "day": -1,
+          "due": 0,
+          "principal": 0,
+          "settled": true,
+          "turnover": 0
+        },
+        "queue": [
+          {
+            "context": {},
+            "id": "supplier_discount",
+            "minute": 540,
+            "serial": 2
+          }
+        ],
+        "regulars": 0,
+        "season": "spring",
+        "seen_events": [
+          "word_of_mouth",
+          "supplier_discount"
+        ],
+        "special_guests": 0,
+        "unpaid_fines": 0,
+        "waiting_guests": [],
+        "weather": "clear",
+        "weather_until": 0,
+        "zhulong_day": -1,
+        "zhulong_period": ""
+      }
+    },
+    "text_rendering": {
+      "body_font": "NotoSansSC",
+      "scene_min_font_size": 14,
+      "scene_text_scales_with_map": false
+    },
+    "top_status": {
+      "info_open": false,
+      "inventory_open": false,
+      "position": "top",
+      "reminders": "经营概览",
+      "rows": 2,
+      "single_row": false,
+      "speed_open": false,
+      "status_rect": {
+        "h": 97,
+        "w": 1384,
+        "x": 28,
+        "y": 20
+      },
+      "top_hidden": false
+    },
+    "tutorial_reminder": {
+      "arrow": false,
+      "card_visible": false,
+      "elapsed": 38.9418,
+      "flashes": 0,
+      "mode": 0,
+      "portrait_available": true,
+      "portrait_character": "bai_ze",
+      "portrait_visible": false,
+      "rect": {
+        "h": 245,
+        "w": 344,
+        "x": 1088,
+        "y": 129
+      },
+      "scroll": {
+        "h": 174,
+        "w": 316,
+        "x": 1102,
+        "y": 139
+      },
+      "scroll_max": 174,
+      "scroll_page": 174,
+      "scroll_value": 0,
+      "visible": false
+    },
+    "v193_art": {
+      "Portraits/tutorial_bai_ze": false,
+      "Portraits/xian_yang": true,
+      "Sprites/xian_yang/walk_up_0": false
+    },
+    "viewport": {
+      "h": 900,
+      "w": 1440
+    },
+    "window_scale": {
+      "aspect": 1,
+      "content_height": 900,
+      "content_width": 1440,
+      "factor": 1,
+      "mode": 1,
+      "render_height": 900,
+      "render_width": 1440
+    }
+  },
+  "errors": [],
+  "real_audio_device_tested": false
+}

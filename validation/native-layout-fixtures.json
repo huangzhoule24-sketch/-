@@ -1,0 +1,71 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "method": "Official Godot4.6.3, Mesa compatibility renderer; explicitly completed-guide fixtures",
+  "physical_device": false,
+  "images": {
+    "greece-primary-phone-fit.png": {
+      "bytes": 274241,
+      "sha256": "7ddb52c7e6feefad425f0313c9d62beeb8699daa63222f22d326949521b20883"
+    },
+    "greece-primary-phone-kitchen.png": {
+      "bytes": 468852,
+      "sha256": "6d2657f3b8f6e3a192d130fc57729bdbec08e67da69d6fb731f9b0f8b9c6207e"
+    },
+    "india-phone-management.png": {
+      "bytes": 255060,
+      "sha256": "812e96bd5c22d79caf7d0686de831063fe0ae5c01ef4bf3384af6a064238170d"
+    },
+    "nordic-primary-phone-fit.png": {
+      "bytes": 249586,
+      "sha256": "d523805b4e55c6883a08dc69077db6f9c5d3f8fd6e74a81f39acbb1783ed636e"
+    },
+    "nordic-primary-desktop.png": {
+      "bytes": 872393,
+      "sha256": "f661bd310742d83c4b274559f9ac6b9b192f65ee82f6b8ebf658f23e88963632"
+    },
+    "nordic-primary-phone-kitchen.png": {
+      "bytes": 436118,
+      "sha256": "b97a1dd3a0aa46aa1b7c0de9bc77990bd0480508efd667b8d8ed528d892d51ed"
+    },
+    "india-primary-phone-hall.png": {
+      "bytes": 446264,
+      "sha256": "8364681bb3ecfd10ff1e43c144efb9e8d4377d47e0421d6a719ba16b1475843d"
+    },
+    "greece-primary-phone-hall.png": {
+      "bytes": 491780,
+      "sha256": "b33407a774fd81ea969807b5798891973f4e4e3f1998288ce5b6d50681583f70"
+    },
+    "india-primary-desktop.png": {
+      "bytes": 882126,
+      "sha256": "771150bf5a518ac1169c4f4bbc7802ee967f0d4eaf9d11f2881c506a6922f6c8"
+    },
+    "nordic-phone-management.png": {
+      "bytes": 256367,
+      "sha256": "3c36691b9b64109b0d318b5ecdd1adca8ac3f820c6cfe7ab0f162c3133bdb03e"
+    },
+    "greece-phone-management.png": {
+      "bytes": 274845,
+      "sha256": "d54028db61a62b9c7df8cd8fed017d3ad41a05226d6523ee8fd9606e8465ee32"
+    },
+    "greece-primary-desktop.png": {
+      "bytes": 958932,
+      "sha256": "2631a101740dc5714d5ad2c2539163d41e0bc36b8b546e8f02a1d4d9fda7d40c"
+    },
+    "india-primary-phone-fit.png": {
+      "bytes": 251468,
+      "sha256": "5c6f4a83f4ebfad6abc0bc241cb4a8f41b75877f358f31a51902ddd8b9fd05c9"
+    },
+    "nordic-primary-phone-hall.png": {
+      "bytes": 439627,
+      "sha256": "4fa8dd306c1f48cb2b16bf2392445dfd01c5bc7fa90dd3774d8f881a7cc6b3a0"
+    },
+    "india-primary-phone-kitchen.png": {
+      "bytes": 436046,
+      "sha256": "def409d0eb90c043d87d417910a33c55228887b8361dcaee8b5b4c768825ccfb"
+    }
+  }
+}

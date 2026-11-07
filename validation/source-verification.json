@@ -1,0 +1,32 @@
+{
+  "game_source": {
+    "sha256": "612e9a9c30ce6e4c876e132df780b13ddf3e3195a4db493d29d0722b4a3d5cc2",
+    "files": 897,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "files_checked": 1296,
+  "archive_crc_valid": true,
+  "manifest_sha256_verified": true,
+  "source_fingerprint_after_import_matches": true,
+  "checks": [
+    {
+      "check": "clean-import",
+      "ok": true,
+      "exit": 0,
+      "last_line": "\u001b[0m"
+    },
+    {
+      "check": "branch_floor_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "Branch floor: {\"checks\":2396,\"failures\":[]}"
+    },
+    {
+      "check": "branch_scene_ui_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "Branch scene UI: {\"checks\":96,\"failures\":[]}"
+    }
+  ],
+  "failures": []
+}
