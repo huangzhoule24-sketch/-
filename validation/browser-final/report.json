@@ -1,0 +1,173 @@
+{
+  "game_source": {
+    "sha256": "ffafc15a0b9dae34e164ebad0b2f6dbf48f05096672e2ed4c416a1d49672ae08",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "desktop completes real opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "desktop actual main-eatery checkout records a separate tax payment"
+    },
+    {
+      "ok": true,
+      "label": "desktop normal new campaign initializes main legal state"
+    },
+    {
+      "ok": true,
+      "label": "desktop legal page renders actual cleanliness"
+    },
+    {
+      "ok": true,
+      "label": "desktop legal page fits viewport width"
+    },
+    {
+      "ok": true,
+      "label": "desktop fixed return remains reachable after scrolling"
+    },
+    {
+      "ok": true,
+      "label": "desktop legal return restores restaurant"
+    },
+    {
+      "ok": true,
+      "label": "desktop administrative page identifies the main-shop scope"
+    },
+    {
+      "ok": true,
+      "label": "desktop ordinary legal navigation does not restart music"
+    },
+    {
+      "ok": true,
+      "label": "desktop actual English legal page renders translated figures"
+    },
+    {
+      "ok": true,
+      "label": "desktop actual IndexedDB saves legal and administrative state"
+    },
+    {
+      "ok": true,
+      "label": "desktop reload preserves real business and legal state"
+    },
+    {
+      "ok": true,
+      "label": "phone completes real opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "phone actual main-eatery checkout records a separate tax payment"
+    },
+    {
+      "ok": true,
+      "label": "phone normal new campaign initializes main legal state"
+    },
+    {
+      "ok": true,
+      "label": "phone legal page renders actual cleanliness"
+    },
+    {
+      "ok": true,
+      "label": "phone legal page fits viewport width"
+    },
+    {
+      "ok": true,
+      "label": "phone fixed return remains reachable after scrolling"
+    },
+    {
+      "ok": true,
+      "label": "phone legal return restores restaurant"
+    },
+    {
+      "ok": true,
+      "label": "phone administrative page identifies the main-shop scope"
+    },
+    {
+      "ok": true,
+      "label": "phone ordinary legal navigation does not restart music"
+    },
+    {
+      "ok": true,
+      "label": "phone actual English legal page renders translated figures"
+    },
+    {
+      "ok": true,
+      "label": "phone actual IndexedDB saves legal and administrative state"
+    },
+    {
+      "ok": true,
+      "label": "phone reload preserves real business and legal state"
+    }
+  ],
+  "actions": [
+    "desktop:start:full",
+    "desktop:time:pause",
+    "desktop:tutorial:ack",
+    "desktop:nav:员工",
+    "desktop:panel:close",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:destination",
+    "desktop:full:marketing:flyer",
+    "desktop:tutorial:ack",
+    "desktop:time:pause",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:destination",
+    "desktop:tutorial:ack",
+    "desktop:panel:close",
+    "desktop:time:pause",
+    "desktop:nav:更多",
+    "desktop:full:open:法务",
+    "desktop:panel:restaurant",
+    "desktop:nav:更多",
+    "desktop:full:open:行政",
+    "desktop:panel:restaurant",
+    "desktop:nav:更多",
+    "desktop:full:open:系统",
+    "desktop:locale:en",
+    "desktop:panel:restaurant",
+    "desktop:nav:更多",
+    "desktop:full:open:法务",
+    "desktop:panel:restaurant",
+    "desktop:nav:更多",
+    "desktop:full:open:系统",
+    "desktop:system:save",
+    "phone:start:full",
+    "phone:time:pause",
+    "phone:tutorial:ack",
+    "phone:nav:员工",
+    "phone:panel:close",
+    "phone:tutorial:ack",
+    "phone:tutorial:destination",
+    "phone:full:marketing:flyer",
+    "phone:tutorial:ack",
+    "phone:time:pause",
+    "phone:tutorial:ack",
+    "phone:tutorial:ack",
+    "phone:tutorial:destination",
+    "phone:tutorial:ack",
+    "phone:panel:close",
+    "phone:time:pause",
+    "phone:nav:更多",
+    "phone:full:open:法务",
+    "phone:panel:restaurant",
+    "phone:nav:更多",
+    "phone:full:open:行政",
+    "phone:panel:restaurant",
+    "phone:nav:更多",
+    "phone:full:open:系统",
+    "phone:locale:en",
+    "phone:panel:restaurant",
+    "phone:nav:更多",
+    "phone:full:open:法务",
+    "phone:panel:restaurant",
+    "phone:nav:更多",
+    "phone:full:open:系统",
+    "phone:system:save"
+  ],
+  "errors": [],
+  "scope": "Normal new campaigns on Chromium desktop and Android touch emulation; no day-14 natural-play or physical-device claim."
+}

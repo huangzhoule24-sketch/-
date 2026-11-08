@@ -1,0 +1,47 @@
+{
+  "inputs": [
+    {
+      "file": "01-核心规则脚本.zip",
+      "bytes": 173351,
+      "sha256": "82e52fa8dbebd0177eabe5df8ab43c416d516bbb1a07bc7babd39f008269a61a"
+    },
+    {
+      "file": "山海食肆物语-v1.9.6-GPT分卷文本.zip",
+      "bytes": 3218374,
+      "sha256": "a52fb743112d70546e05e8173326330c1833ca07fc3707f3f7030953232fc3a3"
+    },
+    {
+      "file": "山海食肆物语-v1.9.6-GPT源码包.zip",
+      "bytes": 1857638,
+      "sha256": "18fcefefd58dd3bf77f818c035cb1d666e5210ef585c3c5fa3f62f76da7e479a"
+    }
+  ],
+  "baseline_commit": "412d435b2e3997b2d0974b2f98637a07dd264e89",
+  "baseline_version": "SH-WEB-BRANCH-R2",
+  "incoming_runtime_binary_used": false,
+  "incoming_source_reference": "source_tree/source",
+  "imported_modules": [
+    "civil claims and cleanliness",
+    "administrative levy and tax",
+    "criminal-risk case"
+  ],
+  "latest_user_scope": "main restaurant only",
+  "engine": "Godot4.6.3; current project/export presets retained",
+  "assets": "All current images, fonts and audio retained; no new binary dependencies",
+  "adaptations": [
+    "main-only UI/event scope",
+    "main-only dining tax; regional/branch/delivery tax bypass",
+    "main-only seven-day closure without skipping shared time",
+    "current mobile UI, recruitment, seating, culture and music retained",
+    "partial legacy fields migrated and validated"
+  ],
+  "incidental_compatibility_fixes": [
+    "Expansion inventory helper tolerates a Rules stub without the optional international property",
+    "Tutorial helper tolerates an older FakeModel without sandbox; FakeHost gains existing UI properties",
+    "Legacy startup/event/culture tests updated for actual current content counts"
+  ],
+  "input_consistency": {
+    "text_sections_compared": 154,
+    "mismatches": 0
+  }
+}

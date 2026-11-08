@@ -1,0 +1,44 @@
+{
+  "game_source": {
+    "sha256": "ffafc15a0b9dae34e164ebad0b2f6dbf48f05096672e2ed4c416a1d49672ae08",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "files_checked": 1321,
+  "archive_crc_valid": true,
+  "manifest_sha256_verified": true,
+  "source_fingerprint_after_import_matches": true,
+  "checks": [
+    {
+      "check": "clean-import",
+      "ok": true,
+      "exit": 0,
+      "last_line": "\u001b[0m"
+    },
+    {
+      "check": "legal_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "LEGAL CHECKS: 57 passed, 0 failed"
+    },
+    {
+      "check": "admin_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "ADMIN CHECKS: 63 passed, 0 failed"
+    },
+    {
+      "check": "legal_merge_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "Legal merge: {\"checks\":200,\"failures\":[]}"
+    },
+    {
+      "check": "branch_r2_tests",
+      "ok": true,
+      "exit": 0,
+      "last_line": "Branch R2: {\"checks\":744,\"failures\":[]}"
+    }
+  ],
+  "failures": []
+}

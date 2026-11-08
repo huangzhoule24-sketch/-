@@ -1,0 +1,541 @@
+{
+  "game_source": {
+    "sha256": "ffafc15a0b9dae34e164ebad0b2f6dbf48f05096672e2ed4c416a1d49672ae08",
+    "files": 898,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "suites": [
+    {
+      "suite": "run_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.02,
+      "errors": [],
+      "last_line": "FOUNDATION CHECKS: 67 passed, 0 failed"
+    },
+    {
+      "suite": "campaign_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.12,
+      "errors": [],
+      "last_line": "CAMPAIGN CHECKS: 200 passed, 0 failed"
+    },
+    {
+      "suite": "management_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.26,
+      "errors": [],
+      "last_line": "management_tests: 166 checks passed"
+    },
+    {
+      "suite": "v13_management_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.42,
+      "errors": [],
+      "last_line": "v13_management_tests: 160 checks passed"
+    },
+    {
+      "suite": "expansion_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.37,
+      "errors": [],
+      "last_line": "Expansion tests: 128 checks, 0 failures"
+    },
+    {
+      "suite": "event_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 9.29,
+      "errors": [],
+      "last_line": "World event checks passed: 482, failed: 0"
+    },
+    {
+      "suite": "skill_coverage_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 4.38,
+      "errors": [],
+      "last_line": "Skill and dish coverage: 168 checks, 0 failures; 26 employees / 23 dishes"
+    },
+    {
+      "suite": "animation_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.69,
+      "errors": [],
+      "last_line": "ANIMATION CHECKS: 84 passed, 0 failed"
+    },
+    {
+      "suite": "asset_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.26,
+      "errors": [],
+      "last_line": "ASSET TESTS: 79 checks, 0 failures"
+    },
+    {
+      "suite": "tutorial_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.37,
+      "errors": [],
+      "last_line": "Tutorial checks: 37; failures: 0",
+      "verification_note": "Repeated after adding the production portrait-layout field to the legacy tutorial FakeHost."
+    },
+    {
+      "suite": "ui_smoke",
+      "exit": 0,
+      "ok": true,
+      "seconds": 22.43,
+      "errors": [],
+      "last_line": "v1.3 UI checks: 217; failures: 0; panels: 99; clicked buttons: 28"
+    },
+    {
+      "suite": "save_migration_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.67,
+      "errors": [],
+      "last_line": "SAVE MIGRATION CHECKS: 82 passed, 0 failed"
+    },
+    {
+      "suite": "balance_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.67,
+      "errors": [],
+      "last_line": "balance_tests: 1289 checks passed"
+    },
+    {
+      "suite": "navigation_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.87,
+      "errors": [],
+      "last_line": "NAVIGATION CHECKS: 40 passed, 0 failed"
+    },
+    {
+      "suite": "story_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 3.52,
+      "errors": [],
+      "last_line": "STORY CHECKS: 95 passed, 0 failed"
+    },
+    {
+      "suite": "world_completion_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.42,
+      "errors": [],
+      "last_line": "World completion checks passed: 72, failed: 0"
+    },
+    {
+      "suite": "ui_requirements_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 8.8,
+      "errors": [],
+      "last_line": "UI requirement checks: 73; failures: 0"
+    },
+    {
+      "suite": "core_completion_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.57,
+      "errors": [],
+      "last_line": "CORE COMPLETION CHECKS: 29 passed, 0 failed"
+    },
+    {
+      "suite": "customer_preference_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.62,
+      "errors": [],
+      "last_line": "customer_preference_tests: 47 checks passed"
+    },
+    {
+      "suite": "culture_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.26,
+      "errors": [],
+      "last_line": "CULTURE CHECKS: 20 passed, 0 failed"
+    },
+    {
+      "suite": "culture_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 45.72,
+      "errors": [],
+      "last_line": "Culture UI checks: 927; failures: 0"
+    },
+    {
+      "suite": "v15_customer_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.47,
+      "errors": [],
+      "last_line": "V1.5 CUSTOMER CHECKS: 75 passed, 0 failed"
+    },
+    {
+      "suite": "v15_finance_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.22,
+      "errors": [],
+      "last_line": "V1.5 FINANCE CHECKS: 77 passed, 0 failed"
+    },
+    {
+      "suite": "v15_event_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.03,
+      "errors": [],
+      "last_line": "v1.5 event checks passed: 88, failed: 0"
+    },
+    {
+      "suite": "v15_story_synergy_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.36,
+      "errors": [],
+      "last_line": "V15 story/synergy: 99 checks, 0 failures"
+    },
+    {
+      "suite": "v15_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 4.81,
+      "errors": [],
+      "last_line": "V1.5 UI checks: 77; failures: 0"
+    },
+    {
+      "suite": "v15_integration_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 6.78,
+      "errors": [],
+      "last_line": "V15 INTEGRATION CHECKS: 50 passed, 0 failed"
+    },
+    {
+      "suite": "more_navigation_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 20.79,
+      "errors": [],
+      "last_line": "More navigation checks: 332; failures: 0"
+    },
+    {
+      "suite": "v16_experience_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 7.13,
+      "errors": [],
+      "last_line": "V1.6 experience checks: 581; failures: 0"
+    },
+    {
+      "suite": "v171_rules_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.32,
+      "errors": [],
+      "last_line": "V1.7.1 rules: 38 checks; 0 failures"
+    },
+    {
+      "suite": "v171_guest_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.77,
+      "errors": [],
+      "last_line": "V1.7.1 guests and finance: 29 checks; 0 failures"
+    },
+    {
+      "suite": "v171_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 3.53,
+      "errors": [],
+      "last_line": "V1.7.1 actual UI: 29 checks; 0 failures"
+    },
+    {
+      "suite": "v18_rules_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 7.79,
+      "errors": [],
+      "last_line": "V1.8 rules: 76 checks; 0 failures"
+    },
+    {
+      "suite": "v18_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 3.72,
+      "errors": [],
+      "last_line": "V1.8 UI: 34 checks; 0 failures"
+    },
+    {
+      "suite": "v19_rules_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 6.58,
+      "errors": [],
+      "last_line": "V1.9 rules: 56 checks; 0 failures"
+    },
+    {
+      "suite": "v19_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 3.08,
+      "errors": [],
+      "last_line": "V1.9 UI: 42 checks; 0 failures"
+    },
+    {
+      "suite": "v191_rules_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 12.75,
+      "errors": [],
+      "last_line": "V1.9.1 rules: 41 checks; 0 failures"
+    },
+    {
+      "suite": "v191_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.98,
+      "errors": [],
+      "last_line": "V1.9.1 UI: 25 checks; 0 failures"
+    },
+    {
+      "suite": "v191_stress_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 5.68,
+      "errors": [],
+      "last_line": "V1.9.1 stress: 4 checks; 0 failures"
+    },
+    {
+      "suite": "v193_rules_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 15.25,
+      "errors": [],
+      "last_line": "V1.9.3 rules: 81 checks; 0 failures"
+    },
+    {
+      "suite": "v193_assets_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.82,
+      "errors": [],
+      "last_line": "V1.9.3 assets: 1107 checks; 0 failures; 1451 new import targets"
+    },
+    {
+      "suite": "v193_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.52,
+      "errors": [],
+      "last_line": "V1.9.3 UI: 31 checks; 0 failures"
+    },
+    {
+      "suite": "v195_interaction_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.42,
+      "errors": [],
+      "last_line": "V1.9.5 interactions: 33 checks, 0 failures"
+    },
+    {
+      "suite": "art_pack_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.67,
+      "errors": [],
+      "last_line": "Art pack: {\"awakened\":9,\"checks\":11739,\"customers\":15,\"employees\":30,\"failures\":0,\"frames\":14400,\"groups\":1800,\"png_files\":274}"
+    },
+    {
+      "suite": "seat_layer_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 0.92,
+      "errors": [],
+      "last_line": "Seat layer: {\"boundary_offsets\":3,\"checks\":438,\"failures\":0,\"seats\":12,\"states\":6}"
+    },
+    {
+      "suite": "cultural_experience_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.22,
+      "errors": [],
+      "last_line": "Cultural experience: 63 checks, 0 failures"
+    },
+    {
+      "suite": "cultural_experience_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.97,
+      "errors": [],
+      "last_line": "Cultural interface: 135 checks, 0 failures"
+    },
+    {
+      "suite": "cultural_advanced_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.67,
+      "errors": [],
+      "last_line": "Advanced culture: 46 checks, 0 failures"
+    },
+    {
+      "suite": "audio_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.42,
+      "errors": [],
+      "last_line": "Audio foundation: {\"checks\":135,\"failures\":0,\"fixture_audio_shipped\":false,\"slots\":35}"
+    },
+    {
+      "suite": "culture_refresh_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 56.16,
+      "errors": [],
+      "last_line": "Culture refresh: {\"checks\":703,\"dishes\":40,\"failures\":0,\"languages\":2,\"staff\":45,\"visitors\":6}"
+    },
+    {
+      "suite": "free_sfx_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.97,
+      "errors": [],
+      "last_line": "Free sound effects: {\"checks\":176,\"failures\":0,\"files\":42,\"fixture_results_not_natural_campaign\":true,\"music_cues\":5,\"non_music_cues\":30,\"ready_cues\":35}"
+    },
+    {
+      "suite": "pixel_interaction_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.67,
+      "errors": [],
+      "last_line": "Pixel interaction: {\"checks\":12,\"failures\":0}"
+    },
+    {
+      "suite": "startup_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.87,
+      "errors": [],
+      "last_line": "Startup checks: 14; failures: []",
+      "verification_note": "Repeated after adding the production portrait-layout field to the legacy tutorial FakeHost."
+    },
+    {
+      "suite": "music_settings_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.17,
+      "errors": [],
+      "last_line": "Music settings: {\"checks\":32,\"failures\":[]}"
+    },
+    {
+      "suite": "menu_review_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.32,
+      "errors": [],
+      "last_line": "Menu review: {\"checks\":107,\"failures\":[]}"
+    },
+    {
+      "suite": "portrait_framing_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 6.03,
+      "errors": [],
+      "last_line": "Portrait framing: {\"checks\":558,\"employees\":30,\"failures\":0,\"sizes_per_employee\":5}"
+    },
+    {
+      "suite": "mobile_touch_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.77,
+      "errors": [],
+      "last_line": "Mobile touch: {\"checks\":53,\"failures\":0}"
+    },
+    {
+      "suite": "inventory_return_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 3.43,
+      "errors": [],
+      "last_line": "Inventory return: {\"checks\":51,\"failures\":[]}"
+    },
+    {
+      "suite": "international_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 2.32,
+      "errors": [],
+      "last_line": "International: {\"checks\":251,\"failures\":[]}"
+    },
+    {
+      "suite": "international_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 8.39,
+      "errors": [],
+      "last_line": "International UI: {\"checks\":37,\"failures\":[]}"
+    },
+    {
+      "suite": "branch_floor_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 4.18,
+      "errors": [],
+      "last_line": "Branch floor: {\"checks\":2385,\"failures\":[]}"
+    },
+    {
+      "suite": "branch_scene_ui_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 12.85,
+      "errors": [],
+      "last_line": "Branch scene UI: {\"checks\":99,\"failures\":[]}"
+    },
+    {
+      "suite": "branch_r2_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.87,
+      "errors": [],
+      "last_line": "Branch R2: {\"checks\":744,\"failures\":[]}"
+    },
+    {
+      "suite": "legal_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.57,
+      "errors": [],
+      "last_line": "LEGAL CHECKS: 57 passed, 0 failed"
+    },
+    {
+      "suite": "admin_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 1.97,
+      "errors": [],
+      "last_line": "ADMIN CHECKS: 63 passed, 0 failed"
+    },
+    {
+      "suite": "legal_merge_tests",
+      "exit": 0,
+      "ok": true,
+      "seconds": 6.03,
+      "errors": [],
+      "last_line": "Legal merge: {\"checks\":200,\"failures\":[]}"
+    }
+  ],
+  "failures": [],
+  "language_scope": "New legal copy and actual main-only legal UI are covered by legal_merge_tests. The older global candidate audit also scans already-bilingual regional source literals; its initial diagnostic is retained separately, not reported as passing."
+}

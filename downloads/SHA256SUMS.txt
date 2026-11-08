@@ -1,0 +1,2 @@
+50dac8029c234e472576dd9b97c83fc309e368bf8a5cf823a0cedc7c8fc62732  shanhai-legal-r1-complete-game.zip
+c5c4867a49ca04790d11bff62f5806d26048074c8d9ed614c96d7284cf7e4133  shanhai-legal-r1-editable-source.zip
