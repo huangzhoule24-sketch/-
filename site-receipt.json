@@ -1,8 +1,8 @@
 {
   "version": "SH-WEB-LEGAL-R1",
-  "created_utc": "2026-11-08T04:27:51+00:00",
+  "created_utc": "2026-11-08T04:40:53+00:00",
   "game_source": {
-    "sha256": "ffafc15a0b9dae34e164ebad0b2f6dbf48f05096672e2ed4c416a1d49672ae08",
+    "sha256": "889034dbea6513eb187354211eb9eeca7bb63a619273367c062c9cf2f51d91f6",
     "files": 898,
     "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
   },
@@ -14,10 +14,10 @@
       "gzip_sha256": "3b333697dc10cd6c0dc3e7b04f406fc7a808d3a8840dedd1e246b4cdcb411408"
     },
     "index.pck": {
-      "original_bytes": 65548320,
-      "gzip_bytes": 62398702,
-      "sha256": "48351375f50a875d08839befe38221f0bac07054aa4fdcb1b668842463489139",
-      "gzip_sha256": "a2685d8c46abe71a0a8f0aa04d0cb771f8fc293fd32697f436f91e7cac6ce324"
+      "original_bytes": 65548368,
+      "gzip_bytes": 62398725,
+      "sha256": "913f1198eafdd266c11da422c999341cf3b467e86a798c48f5d3171f4b08909f",
+      "gzip_sha256": "1220d49d3b4f6c8404098d1d00a25e5fa686280eed2bf8e41d9199f33d0474c7"
     }
   },
   "resource_map": {
@@ -69,13 +69,13 @@
       },
       "index.pck": {
         "mime": "application/octet-stream",
-        "bytes": 65548320,
-        "sha256": "48351375f50a875d08839befe38221f0bac07054aa4fdcb1b668842463489139",
+        "bytes": 65548368,
+        "sha256": "913f1198eafdd266c11da422c999341cf3b467e86a798c48f5d3171f4b08909f",
         "raw": [
           {
             "path": "parts/index.pck.raw.000.bin",
             "bytes": 8388608,
-            "sha256": "d55b1cb8e624d14aba92143703faf91104a8d1451ea3fa33590e80d3b9876c03"
+            "sha256": "e56cff925ff4ed6a773bbe7d918563bef70f4adc2e01eec9dce5390195d5c029"
           },
           {
             "path": "parts/index.pck.raw.001.bin",
@@ -109,15 +109,15 @@
           },
           {
             "path": "parts/index.pck.raw.007.bin",
-            "bytes": 6828064,
-            "sha256": "3b24a84c2befc3879a7fefe4aa1e947b018787cd61a4c8ee7364b63f3916fd1a"
+            "bytes": 6828112,
+            "sha256": "da59534395d238205eeb87460dbb187041d465c35dca2daa6320821def036c96"
           }
         ],
         "gzip": [
           {
             "path": "parts/index.pck.gzip.000.bin",
             "bytes": 8388608,
-            "sha256": "75537a9a93a270b1f96d2a1ba0c4eaaa6329d1dddc8190b3752ceee7d5d62234"
+            "sha256": "0ea99d01deb10c57edf26022bfd1d1d3ccfcce84702afe86d4c258d3d2a5a163"
           },
           {
             "path": "parts/index.pck.gzip.001.bin",
@@ -151,8 +151,8 @@
           },
           {
             "path": "parts/index.pck.gzip.007.bin",
-            "bytes": 3678446,
-            "sha256": "d076cb48378a7e5aeadc99398a0354aeca442985edd759ae17580d5ac5818681"
+            "bytes": 3678469,
+            "sha256": "1e39d5f1a7e9a7311ad652c02bdf2053d0b8fe82f13fd9028404744895229be5"
           }
         ]
       }
@@ -178,8 +178,8 @@
       "sha256": "c0201ab558f437ca77c0debb20ee4cd38077587b311fd59c0b0c430043687b81"
     },
     "README.md": {
-      "bytes": 4906,
-      "sha256": "c8af98970d9abe61298e31b199c8b9a2f5301f6b8924f4342e8fd7dab4d38988"
+      "bytes": 5047,
+      "sha256": "805113006f45bb27dce27125423c56e42d3ac576536880383d6c8db0e0d66aaa"
     },
     "site.js": {
       "bytes": 1673,
@@ -247,7 +247,7 @@
     },
     "game/resource-map.json": {
       "bytes": 4750,
-      "sha256": "a81fd167fde59a60de3502e5ea35d5900ad87c8d293f33f591a0dec0a5907c17"
+      "sha256": "469bcdad579472ffcfd2cd22580e2f3bed32858dd913c0e589757fd14af00bea"
     },
     "game/Menu-Review-Guide.md": {
       "bytes": 2094,
@@ -299,7 +299,7 @@
     },
     "game/export-receipt.json": {
       "bytes": 14017,
-      "sha256": "82901e9728020afe0902d6ffaf78c394e6601542be0348c5c8bda65d29c482bf"
+      "sha256": "2b1a8a64dee7848fe4b7c68868243de7b0cda02d698b16c4e899b608fea21570"
     },
     "game/translation-sources.json": {
       "bytes": 2532,
@@ -351,7 +351,7 @@
     },
     "game/index.html": {
       "bytes": 11677,
-      "sha256": "4798a09c6179b2cce193b6c7b726df39b1735b70d4cf2a48fb008f64b29b0989"
+      "sha256": "fb441eae272ba500a01a9ab14b098d870bc50ced5539d08e7f72357daf5eb805"
     },
     "vendor/qrcode-README.md": {
       "bytes": 3711,
@@ -450,12 +450,12 @@
       "sha256": "cf91b1640f8e1913f2fa3fb030a3d5fdb546dd6842dbbdcd7e79689991bcc91d"
     },
     "game/parts/index.pck.raw.007.bin": {
-      "bytes": 6828064,
-      "sha256": "3b24a84c2befc3879a7fefe4aa1e947b018787cd61a4c8ee7364b63f3916fd1a"
+      "bytes": 6828112,
+      "sha256": "da59534395d238205eeb87460dbb187041d465c35dca2daa6320821def036c96"
     },
     "game/parts/index.pck.raw.000.bin": {
       "bytes": 8388608,
-      "sha256": "d55b1cb8e624d14aba92143703faf91104a8d1451ea3fa33590e80d3b9876c03"
+      "sha256": "e56cff925ff4ed6a773bbe7d918563bef70f4adc2e01eec9dce5390195d5c029"
     },
     "game/parts/index.wasm.raw.001.bin": {
       "bytes": 8388608,
@@ -466,8 +466,8 @@
       "sha256": "6cb099a062def27b5101258bcc29948f1d84cb15de8077dc6c3bfce4ba10e859"
     },
     "game/parts/index.pck.gzip.007.bin": {
-      "bytes": 3678446,
-      "sha256": "d076cb48378a7e5aeadc99398a0354aeca442985edd759ae17580d5ac5818681"
+      "bytes": 3678469,
+      "sha256": "1e39d5f1a7e9a7311ad652c02bdf2053d0b8fe82f13fd9028404744895229be5"
     },
     "game/parts/index.wasm.gzip.000.bin": {
       "bytes": 8388608,
@@ -495,7 +495,7 @@
     },
     "game/parts/index.pck.gzip.000.bin": {
       "bytes": 8388608,
-      "sha256": "75537a9a93a270b1f96d2a1ba0c4eaaa6329d1dddc8190b3752ceee7d5d62234"
+      "sha256": "0ea99d01deb10c57edf26022bfd1d1d3ccfcce84702afe86d4c258d3d2a5a163"
     },
     "game/parts/index.pck.raw.005.bin": {
       "bytes": 8388608,
