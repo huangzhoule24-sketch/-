@@ -1,0 +1,150 @@
+{
+  "url": "http://127.0.0.1:8073/portrait/",
+  "version": "SH-WEB-LEGAL-R2",
+  "game_source": {
+    "sha256": "cfd23f85f99c2b0558b4deb179fb62ed23ec1b61445e96ae35c9ffe3a48fb417",
+    "files": 903,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "file": "",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "file": "site-receipt.json",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "file": "game/index.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "file": "game/fast-loader.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "file": "game/parts/index.wasm.raw.000.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.raw.001.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.raw.002.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.raw.003.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.raw.004.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.gzip.000.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.wasm.gzip.001.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.000.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.001.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.002.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.003.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.004.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.005.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.006.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.raw.007.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.000.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.001.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.002.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.003.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.004.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.005.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.006.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    },
+    {
+      "file": "game/parts/index.pck.gzip.007.bin",
+      "status": 200,
+      "content_type": "application/octet-stream"
+    }
+  ],
+  "gzip_sha_and_roundtrip_verified": true,
+  "https_address": false,
+  "mainland_network_tested": false,
+  "note": "Static deployment verification only. Open the game from the actual classroom network to verify browser play and mainland reachability."
+}

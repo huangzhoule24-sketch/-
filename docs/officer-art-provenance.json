@@ -1,0 +1,28 @@
+{
+  "method": "image_gen original design followed by image_gen edge/transparency refinement",
+  "final_asset": "assets/art/Characters/tax_officer_idle.png",
+  "sha256": "902be419d696181edec48c3435f13f4860753721069ff52b17d19703b8240b91",
+  "original_generated_bytes_preserved": true,
+  "canvas": [
+    926,
+    1698
+  ],
+  "crop": [
+    51,
+    60,
+    830,
+    1612
+  ],
+  "opaque_core_bounds": [
+    61,
+    70,
+    870,
+    1660
+  ],
+  "crop_contains_hat_face_ledger_and_shoes": true,
+  "initial_draft_sha256": "2070cc7b19bfadb31a5ed2ade48977b4562863154a4723b2ba8280df24615d73",
+  "initial_draft_issue": "Soft surrounding haze; refined with image generation before integration.",
+  "pixel_editing_outside_image_generation": false,
+  "reused_customer_sprite": false,
+  "scope": "One stationary main-restaurant tax-officer sprite; no new animation claim."
+}

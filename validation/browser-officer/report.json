@@ -1,0 +1,145 @@
+{
+  "game_source": {
+    "sha256": "cfd23f85f99c2b0558b4deb179fb62ed23ec1b61445e96ae35c9ffe3a48fb417",
+    "files": 903,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "desktop completes real opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "desktop actual main-eatery checkout records a separate tax payment"
+    },
+    {
+      "ok": true,
+      "label": "desktop normal new campaign initializes main legal state"
+    },
+    {
+      "ok": true,
+      "label": "desktop loads an independent tax-officer sprite"
+    },
+    {
+      "ok": true,
+      "label": "desktop tax officer has a finger-sized horizontal target"
+    },
+    {
+      "ok": true,
+      "label": "desktop selecting the cap/head opens administration"
+    },
+    {
+      "ok": true,
+      "label": "desktop selecting the robe/ledger after camera change opens administration"
+    },
+    {
+      "ok": true,
+      "label": "desktop NPC selection preserves music continuity"
+    },
+    {
+      "ok": true,
+      "label": "desktop saving preserves the existing main-shop progress"
+    },
+    {
+      "ok": true,
+      "label": "desktop reload retains progress and the independent built-in sprite"
+    },
+    {
+      "ok": true,
+      "label": "phone completes real opening guidance"
+    },
+    {
+      "ok": true,
+      "label": "phone actual main-eatery checkout records a separate tax payment"
+    },
+    {
+      "ok": true,
+      "label": "phone normal new campaign initializes main legal state"
+    },
+    {
+      "ok": true,
+      "label": "phone loads an independent tax-officer sprite"
+    },
+    {
+      "ok": true,
+      "label": "phone tax officer has a finger-sized horizontal target"
+    },
+    {
+      "ok": true,
+      "label": "phone selecting the cap/head opens administration"
+    },
+    {
+      "ok": true,
+      "label": "phone selecting the robe/ledger after camera change opens administration"
+    },
+    {
+      "ok": true,
+      "label": "phone NPC selection preserves music continuity"
+    },
+    {
+      "ok": true,
+      "label": "phone saving preserves the existing main-shop progress"
+    },
+    {
+      "ok": true,
+      "label": "phone reload retains progress and the independent built-in sprite"
+    }
+  ],
+  "actions": [
+    "desktop:start:full",
+    "desktop:time:pause",
+    "desktop:tutorial:ack",
+    "desktop:nav:员工",
+    "desktop:panel:close",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:destination",
+    "desktop:full:marketing:flyer",
+    "desktop:tutorial:ack",
+    "desktop:time:pause",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:ack",
+    "desktop:tutorial:destination",
+    "desktop:tutorial:ack",
+    "desktop:panel:close",
+    "desktop:time:pause",
+    "desktop:scene:fit",
+    "desktop:officer:head",
+    "desktop:panel:restaurant",
+    "desktop:scene:larger",
+    "desktop:scene:fit",
+    "desktop:officer:body",
+    "desktop:panel:restaurant",
+    "desktop:nav:更多",
+    "desktop:full:open:系统",
+    "desktop:system:save",
+    "phone:start:full",
+    "phone:time:pause",
+    "phone:tutorial:ack",
+    "phone:nav:员工",
+    "phone:panel:close",
+    "phone:tutorial:ack",
+    "phone:tutorial:destination",
+    "phone:full:marketing:flyer",
+    "phone:tutorial:ack",
+    "phone:time:pause",
+    "phone:tutorial:ack",
+    "phone:tutorial:ack",
+    "phone:tutorial:destination",
+    "phone:tutorial:ack",
+    "phone:panel:close",
+    "phone:time:pause",
+    "phone:scene:fit",
+    "phone:officer:head",
+    "phone:panel:restaurant",
+    "phone:scene:zone:yard",
+    "phone:scene:fit",
+    "phone:officer:body",
+    "phone:panel:restaurant",
+    "phone:nav:更多",
+    "phone:full:open:系统",
+    "phone:system:save"
+  ],
+  "errors": [],
+  "scope": "Normal new campaigns on Chromium desktop and Android touch emulation; no day-14 natural-play or physical-device claim."
+}

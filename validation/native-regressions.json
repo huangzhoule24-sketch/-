@@ -1,0 +1,44 @@
+[
+  {
+    "suite": "legal_merge_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "Legal merge: {\"checks\":202,\"failures\":[]}"
+  },
+  {
+    "suite": "legal_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "LEGAL CHECKS: 57 passed, 0 failed"
+  },
+  {
+    "suite": "admin_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "ADMIN CHECKS: 63 passed, 0 failed"
+  },
+  {
+    "suite": "branch_scene_ui_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "Branch scene UI: {\"checks\":99,\"failures\":[]}"
+  },
+  {
+    "suite": "mobile_touch_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "Mobile touch: {\"checks\":53,\"failures\":0}"
+  },
+  {
+    "suite": "asset_tests",
+    "exit": 0,
+    "ok": true,
+    "errors": [],
+    "last_line": "ASSET TESTS: 79 checks, 0 failures"
+  }
+]

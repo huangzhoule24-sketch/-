@@ -1,0 +1,51 @@
+{
+  "game_source": {
+    "sha256": "cfd23f85f99c2b0558b4deb179fb62ed23ec1b61445e96ae35c9ffe3a48fb417",
+    "files": 903,
+    "algorithm": "sha256(path-length + utf8-path + file-sha256), sorted paths"
+  },
+  "checks": [
+    {
+      "ok": true,
+      "label": "ZIP bundles compressed resources without duplicate raw payloads"
+    },
+    {
+      "ok": true,
+      "label": "Offline reconstruction exactly matches the fully tested standalone site"
+    },
+    {
+      "ok": true,
+      "label": "Existing supported desktop/mobile combined site is recognised"
+    },
+    {
+      "ok": true,
+      "label": "all game files and routing receipts match the new combined export"
+    },
+    {
+      "ok": true,
+      "label": "portrait/all game files and routing receipts match the new combined export"
+    },
+    {
+      "ok": true,
+      "label": "Applying the update again preserves a valid playable site"
+    },
+    {
+      "ok": true,
+      "label": "The officer-art package supports the actual legal R1 source"
+    },
+    {
+      "ok": true,
+      "label": "Standalone migration preserves a custom WorkBuddy introduction"
+    },
+    {
+      "ok": true,
+      "label": "Interrupted update restores every original file and removes every newly written file"
+    },
+    {
+      "ok": true,
+      "label": "Unknown builds are refused before overwriting or creating a backup"
+    }
+  ],
+  "network_required": false,
+  "errors": []
+}
